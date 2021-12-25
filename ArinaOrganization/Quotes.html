@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S3J891FKK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0S3J891FKK');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width">
+    <title>有奈教箴言(Arina's Quotes)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+</head>
+<body>
+    <script src="Arina.js"></script>
+    <h3 style="text-align:center">有奈教箴言(Arina's Quotes)</h3>
+
+    <article style="margin:50px;" id="main"></article>
+    <script>
+        var data;
+        var article = document.getElementById("main");
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                data = this.response;
+                var section, p, br;
+                for (var i = 0; i < data.length; i++) {
+                    section = document.createElement("section");
+
+                    p = document.createElement("p");
+                    p.innerHTML = ChangeDateToArDate(data[i].Date);
+                    section.appendChild(p);
+
+                    if (data[i].UpdateDate != null) {
+                        p = document.createElement("p")
+                        p.innerHTML += `(${ChangeDateToArDate(data[i].UpdateDate)})`;
+                        section.appendChild(p);
+                    }
+
+                    p = document.createElement("p");
+                    p.innerText = data[i].Chinese;
+                    section.appendChild(p);
+
+                    p = document.createElement("p");
+                    p.innerText = data[i].English;
+                    section.appendChild(p);
+
+                    br = document.createElement("br");
+                    section.append(br);
+                    article.appendChild(section);
+                }
+            }
+        };
+        xhttp.responseType = 'json';
+        xhttp.open("GET", "Quotes.json?v=" + Math.random(), true);
+        xhttp.send();
+    </script>
+</body>
+
+</html>

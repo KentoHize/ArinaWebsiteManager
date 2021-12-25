@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S3J891FKK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0S3J891FKK');
+    </script>
+    <meta charset="utf-8" />
+    <title>人物明細(Personal Information)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+</head>
+<body>
+    <script src="Arina.js"></script>
+    <h3 style="text-align:center">人物明細(Personal Information)</h3>
+    <div style="text-align:center; width:752px; height:30px; margin:auto">
+        <div style="width:100px; text-align:left; float:left"><a id="previous_page" href="#">←</a></div>
+        <div style="width:550px; float:left"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
+        <div style="width:100px; text-align:right; float:left"><a id="next_page" href="#">→</a></div>
+        <div>&nbsp;</div>
+    </div>
+
+    <div style="text-align:center">
+        <table id="personTable" border="1" style="margin-left:auto; margin-right:auto; text-align:center">
+            <tr>
+                <td width="350px" height="320px" style="padding:20px" colspan="2" rowspan="2">
+                    <img id="imgPerson" src="" style="max-width:100%; max-height:100%;" />
+                </td>
+                <th width="400px">簡介</th>
+            </tr>
+            <tr><td id="tdDescription" rowspan="13" width="400px" style="text-align:left; vertical-align:top; padding:5px"></td></tr>
+            <tr>
+                <td id="tdName" colspan="2" style="height:2.5em;"></td>
+
+            </tr>
+            <tr>
+                <td width="180px">品階</td>
+                <td id="tdMoralRank"></td>
+            </tr>
+            <tr>
+                <td>性別</td>
+                <td id="tdGender"></td>
+            </tr>
+            <tr>
+                <td>作品名/來源</td>
+                <td id="tdFrom"></td>
+            </tr>
+            <tr>
+                <td>虛構人物</td>
+                <td id="tdFiction"></td>
+            </tr>
+            <tr>
+                <td>緝拿中</td>
+                <td id="tdWanted"></td>
+            </tr>
+            <tr>
+                <td>保護中</td>
+                <td id="tdProtected"></td>
+            </tr>
+            <tr>
+                <td>類型</td>
+                <td id="tdGroup"></td>
+            </tr>
+            <tr>
+                <td>教籍</td>
+                <td id="tdIsAOMember"></td>
+            </tr>
+            <!--<tr>
+                <td>有名人</td>
+                <td id="tdIsCelebrity"></td>
+            </tr>-->
+            <tr>
+                <td>Twitter帳號</td>
+                <td id="tdTwitter"></td>
+            </tr>
+            <tr>
+                <td>Facebook帳號</td>
+                <td id="tdFacebook"></td>
+            </tr>
+            <tr>
+                <td>Instagram帳號</td>
+                <td id="tdInstagram"></td>
+            </tr>
+        </table>
+        <br />
+        <table id="recordTable" border="1" style="margin-left:auto; margin-right:auto; text-align:center">
+        </table>
+    </div>
+    <br />
+    <div style="text-align:center">
+        <a href="MoralRank.html">回一覽表</a>
+    </div>
+
+    <script>
+        function refresh_page() {
+            localStorage.clear();
+            location.reload(true);
+        }
+
+        function get_full_name(name, surname, othername, surnamefirst, yomikata, split_by = " ") {
+            var result = "";
+            if (surnamefirst == "y")
+                result = `${surname}${split_by}${name}`;
+            else
+                result = `${name}.${surname}`;
+            if (othername != "")
+                result += `/${othername}`;
+            if (yomikata != "")
+                result += `<br />(${yomikata})`;
+            return result;
+        }
+
+        var PData, BRData;
+        var divMain = document.getElementById("main");
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+
+                PData = this.response;
+                xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        BRData = this.response;
+
+                        var index = location.search.split('index=')[1]
+                        var a, tr, td;
+
+                        if (index != 0)
+                            document.getElementById("previous_page").href = `PersonalInfo.html?index=${(parseInt(index) - 1)}`;
+                        else
+                            document.getElementById("previous_page").parentNode.innerText = "　";
+                        if (index < PData.length - 1)
+                            document.getElementById("next_page").href = `PersonalInfo.html?index=${(parseInt(index) + 1)}`;
+                        else
+                            document.getElementById("next_page").parentNode.innerText = "　";
+
+                        if (PData[index].PicturePath != "")
+                            document.getElementById("imgPerson").src = `Pictures/${PData[index].PicturePath}`;
+                        else
+                            document.getElementById("imgPerson").src = `Pictures/X.png`;
+
+                        document.getElementById("tdName").innerHTML = get_full_name(PData[index].Name, PData[index].Surname, PData[index].OtherName, PData[index].SurnameFirst, PData[index].Yomikata);
+                        document.getElementById("tdMoralRank").innerText = PData[index].MoralRank;
+                        if (PData[index].Gender == "f")
+                            document.getElementById("tdGender").innerText = "女";
+                        else if (PData[index].Gender == "m")
+                            document.getElementById("tdGender").innerText = "男";
+                        else
+                            document.getElementById("tdGender").innerText = "-";
+
+                        document.getElementById("tdFrom").innerText = PData[index].From;
+                        document.getElementById("tdFiction").innerText = PData[index].Fiction == "y" ? "○" : "╳";
+                        document.getElementById("tdWanted").innerText = PData[index].Wanted == "y" ? "○" : "╳";
+                        document.getElementById("tdProtected").innerText = PData[index].Protected == "y" ? "○" : "╳";
+                        document.getElementById("tdGroup").innerText = PData[index].Group == "g" ? "群體" : "個人";
+                        document.getElementById("tdIsAOMember").innerText = PData[index].IsAOMember == "y" ? "○" : "╳";
+
+                        if (PData[index].TwitterAccount != "") {
+                            a = document.createElement("a");
+                            a.target = "_blank";
+                            a.href = `https://twitter.com/${PData[index].TwitterAccount}`;
+                            a.innerText = PData[index].TwitterAccount;
+                            document.getElementById("tdTwitter").appendChild(a);
+                        }
+                        else
+                            document.getElementById("tdTwitter").innerText = "-"
+
+                        if (PData[index].FacebookAccount != "") {
+                            a = document.createElement("a");
+                            a.target = "_blank";
+                            a.href = `https://facebook.com/${PData[index].FacebookAccount}`;
+                            a.innerText = PData[index].FacebookAccount;
+                            document.getElementById("tdFacebook").appendChild(a);
+                        }
+                        else
+                            document.getElementById("tdFacebook").innerText = "-"
+
+                        if (PData[index].InstagramAccount != "") {
+                            a = document.createElement("a");
+                            a.target = "_blank";
+                            a.href = `https://www.instagram.com/${PData[index].InstagramAccount}`;
+                            a.innerText = PData[index].InstagramAccount;
+                            document.getElementById("tdInstagram").appendChild(a);
+                        }
+                        else
+                            document.getElementById("tdInstagram").innerText = "-"
+
+                        document.getElementById("tdDescription").innerText = PData[index].Description == "" ? "-" : PData[index].Description;
+
+                        var rTable = document.getElementById("recordTable");
+
+                        rTable.innerText = "";
+
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        td.style = "width:300px";
+                        td.innerText = "時間";
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        td.style = "width:50px";
+                        td.innerText = "階級";
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        td.style = "width:150px";
+                        td.innerText = "贈階者";
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        td.style = "width:300px";
+                        td.innerText = "理由";
+                        tr.appendChild(td);
+
+                        rTable.appendChild(tr);
+
+                        for (var i = 0; i < BRData.length; i++) {
+                            if (BRData[i].PersonID == PData[index].ID) {
+                                tr = document.createElement("tr");
+
+                                td = document.createElement("td");
+                                td.innerHTML = ChangeDateTimeToArDate(BRData[i].BestowDateTime);
+                                tr.appendChild(td);
+
+                                td = document.createElement("td");
+                                td.innerText = BRData[i].MoralRank;
+                                tr.appendChild(td);
+
+                                td = document.createElement("td");
+                                a = document.createElement("a")
+                                for (var j = 0; j < PData.length; j++) {
+                                    if (PData[j].ID == BRData[i].BestowerID) {
+                                        a.innerText = get_full_name(PData[j].Name, PData[j].Surname, PData[j].OtherName, PData[j].SurnameFirst, "", "");
+                                        a.href = `PersonalInfo.html?index=${j}`;
+                                        break;
+                                    }
+                                }
+                                td.appendChild(a);
+                                tr.appendChild(td);
+
+                                td = document.createElement("td");
+                                td.innerText = BRData[i].Reason;
+                                tr.appendChild(td);
+
+                                rTable.appendChild(tr);
+                            }
+                        }
+
+
+                    }
+                }
+                xhttp.responseType = 'json';
+                xhttp.open("GET", "BestowRecords.json?v=" + Math.random(), true);
+                xhttp.send();
+            }
+
+        }
+        xhttp.responseType = 'json';
+        xhttp.open("GET", "Persons.json?v=" + Math.random(), true);
+        xhttp.send();
+
+        localStorage.clear();
+
+        //Person
+
+        //Record
+        var rTable = document.getElementById("recordTable");
+
+
+    </script>
+</body>
+</html>

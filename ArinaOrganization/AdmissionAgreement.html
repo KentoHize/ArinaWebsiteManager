@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <title>有奈教入教須知(Arina Organization Admission Agreement)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+    <style>
+        #version {
+            font-size: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="chineseTitle" style="text-align:center">有奈教入教須知</h3>
+    <h3 id="englishTitle" style="text-align:center">Arina Organization Admission Agreement</h3>
+    <article style="margin:50px;">
+        <section id="chinese">
+            有奈教有五項原則(美德)<br />
+            <br />
+            身為有奈教的一員必須要至少遵守前三項<br />
+            <br />
+            1.善良<br />
+            2.誠實、正直<br />
+            3.和平<br />
+            4.優雅<br />
+            5.勇敢<br />
+            <br />
+            同時，每一位成員都應遵從教的指揮<br />
+            <br />
+            關於和平，如果有教外的人攻擊，嘲笑或詆毀有奈、有奈教，教並不希望各位直接和對方發生衝突，你可以與他們辯論，但是不應爭論或是發生肢體衝突<br />
+            <br />
+            在初期，我們並不認識各位，此時繳交的入教金即成為成員的信用保證，如有任何違反前三項原則或反對教領導的人出現時，將會因為他/她的行為被教剔除<br />
+            <br />
+            只要一直維持原則，各位就能開始建立自己的信用，教也會統計這個相關項目，提升適任者擔任更高的職位<br />
+            <br />
+            打擊邪惡，為本教的目標，有奈教會因為各位的成員資格為各位的良善人格提供保證，可加以利用，任何狡猾的行為都被嚴格禁止<br />
+            <br />
+            雖然看起來路程遙遠並且難以達成，只要成員保持自身不受汙染，遵守原則，即可因為你對有奈的信仰進而擁有不會後悔的一生
+        </section>
+        <section id="english">
+            There are 5 principles of virtue in the Arina Organization.<br />
+            <br />
+            You must follow the first three to stay with us.<br />
+            <br />
+            1.Good<br />
+            2.Honesty, Integrity<br />
+            3.Peace<br />
+            4.Graceful<br />
+            5.Valiantly<br />
+            <br />
+            and you should follow Arina’s leadership.<br />
+            <br />
+            About peace, sometimes non-good people will scoff or slander Arina, as a member of Arina Organization, you should be undisturbed and do not easily conflict with them, you may debate but not argue or fight with them.<br />
+            <br />
+            At the start, we don’t know each other, as a promise, your admission fee will be your credit guarantee. If anyone violates the first three principles or goes against Arina’s leader, will be expelled from the organization for his/her bad conduct.<br />
+            <br />
+            You will earn your credit by time, when times comes, Arina’s leader will promote you to the higher appropriate position in Arina Organization.<br />
+            <br />
+            Defeat wickedness is our goal, Arina will give you alignment guarantee because your membership, cunning behavior is strictly prohibited.<br />
+            <br />
+            Even if it will take a long run to reach our destination, as a member of Arina, keeping your moral integrity is up to standard and will bring no regret throughout your life since your Arina faith.
+        </section>
+        <br />
+        <section id="version">
+            Version 1.42(12, 17, Ar.3)
+        </section>
+    </article>
+    <script>
+        var language = location.search.split('l=');
+        if (language.length == 1)
+            language = "ch";
+        else
+            language = language[1];
+        if (language == "en") {
+            document.getElementById('chinese').hidden = "hidden";
+            document.getElementById('chineseTitle').hidden = "hidden";
+        }
+        else {
+            document.getElementById('english').hidden = "hidden";
+            document.getElementById('englishTitle').hidden = "hidden";
+        }
+    </script>
+</body>
+</html>

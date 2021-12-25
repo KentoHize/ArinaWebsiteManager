@@ -1,0 +1,233 @@
+[
+  {
+    "ID": 0,
+    "FormID": 0,
+    "Type": "Message",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "針對想要加入有奈教的人的申請表單，歡迎填寫",
+    "English": "For who want to join Arina organization, welcome to fill in this application form.",
+    "Japanese": ""
+  },
+  {
+    "ID": 1,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請先詳閱入教須知\n\nhttps://docs.google.com/document/d/1HAX7TL9B6BMRV2-U67BZxjqPE63Avsn0Ymrmh8dli9g/",
+    "English": "Please read Arina Organization Admission Agreement\n\nhttps://docs.google.com/document/d/1npeq4rgFdzARRvtx1siacTY3o7O1dfktSx9Z-8T79-A/",
+    "Japanese": ""
+  },
+  {
+    "ID": 2,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "入教需年滿15歲",
+    "English": "You must be older than 15 years old.",
+    "Japanese": ""
+  },
+  {
+    "ID": 3,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "入教須繳交定額，新台幣10000元，或個人總財產1%(較高者)做為教的活動資金",
+    "English": "Admission must be paid in a fixed amount of 10,000 TWD or 1% of your total assets(which is higher) as funds for organization activities.",
+    "Japanese": ""
+  },
+  {
+    "ID": 4,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "有奈教是反駭客、反基督的組織",
+    "English": "Arina organization is an anti-hacker and anti-Christian religious-related organization.",
+    "Japanese": ""
+  },
+  {
+    "ID": 5,
+    "FormID": 0,
+    "Type": "One Line Text",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你的真實姓名",
+    "English": "Your real name",
+    "Japanese": ""
+  },
+  {
+    "ID": 6,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你的性別",
+    "English": "Your gender",
+    "Japanese": ""
+  },
+  {
+    "ID": 7,
+    "FormID": 0,
+    "Type": "Number",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你的出生年(西元)",
+    "English": "Your birth year",
+    "Japanese": ""
+  },
+  {
+    "ID": 8,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你的國籍(優先)、所在地區",
+    "English": "Your country(high priority) or region",
+    "Japanese": ""
+  },
+  {
+    "ID": 9,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你的婚姻狀況",
+    "English": "Your marital status",
+    "Japanese": ""
+  },
+  {
+    "ID": 10,
+    "FormID": 0,
+    "Type": "Multi Choices",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你入教的原因",
+    "English": "Why you want to join Arina organization",
+    "Japanese": ""
+  },
+  {
+    "ID": 11,
+    "FormID": 0,
+    "Type": "Single Choice",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你的知名程度為何",
+    "English": "Your popularity",
+    "Japanese": ""
+  },
+  {
+    "ID": 12,
+    "FormID": 0,
+    "Type": "Multi Choices",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請問你所會的語言(中等以上)",
+    "English": "Your language ability(at least average or better)",
+    "Japanese": ""
+  },
+  {
+    "ID": 13,
+    "FormID": 0,
+    "Type": "Multi Choices",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "請說明你會的工作技能(中等以上)",
+    "English": "Your working skills(average or better)",
+    "Japanese": ""
+  },
+  {
+    "ID": 14,
+    "FormID": 0,
+    "Type": "Multi Choices",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "教內職位相關問題(可複選)",
+    "English": "Internal position adaptability check(multi-choice)",
+    "Japanese": ""
+  },
+  {
+    "ID": 15,
+    "FormID": 0,
+    "Type": "One Line Text",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "你的電子郵件信箱",
+    "English": "Your Email",
+    "Japanese": ""
+  },
+  {
+    "ID": 16,
+    "FormID": 0,
+    "Type": "One Line Text",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "你的Twitter帳號",
+    "English": "Your Twitter ID",
+    "Japanese": ""
+  },
+  {
+    "ID": 17,
+    "FormID": 0,
+    "Type": "One Line Text",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "你的Line帳號",
+    "English": "Your Line ID",
+    "Japanese": ""
+  },
+  {
+    "ID": 18,
+    "FormID": 0,
+    "Type": "One Line Text",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "你的手機號碼",
+    "English": "Your cell phone number",
+    "Japanese": ""
+  },
+  {
+    "ID": 19,
+    "FormID": 0,
+    "Type": "Text",
+    "Title": "",
+    "EnglishTitle": "",
+    "JapaneseTitle": "",
+    "Default": "對有奈教的建議",
+    "English": "Suggestion",
+    "Japanese": ""
+  },
+  {
+    "ID": 20,
+    "FormID": 0,
+    "Type": "End Question",
+    "Title": "最後提示",
+    "EnglishTitle": "Last hint",
+    "JapaneseTitle": "",
+    "Default": "通過教的審核後(可能有面試階段)，到指定帳戶捐款才能加入有奈教，請耐心等待，感謝您完成表單。",
+    "English": "Admission permission will release after Arina's verify(may have an interview), and you have to pay the admission fee to the designated account to complete all formalities. Please be patient and thanks for completing the form.",
+    "Japanese": ""
+  }
+]

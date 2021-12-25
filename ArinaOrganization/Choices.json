@@ -1,0 +1,839 @@
+[
+  {
+    "ID": 1,
+    "QuestionsID": 1,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我已閱讀 「有奈教入教須知」並同意其內容",
+    "English": "I have read \"Arina Organization Admission Agreement\" and agree.",
+    "Japanese": ""
+  },
+  {
+    "ID": 2,
+    "QuestionsID": 2,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "已年滿15歲",
+    "English": "I have already 16 years old.",
+    "Japanese": ""
+  },
+  {
+    "ID": 3,
+    "QuestionsID": 2,
+    "GoNext": "n",
+    "Type": "Normal",
+    "Default": "尚未年滿15歲(結束)",
+    "English": "I'm under or just 15 years old. (exit)",
+    "Japanese": ""
+  },
+  {
+    "ID": 4,
+    "QuestionsID": 3,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "沒有問題",
+    "English": "No problem.",
+    "Japanese": ""
+  },
+  {
+    "ID": 5,
+    "QuestionsID": 3,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "女學生(16~24歲)只需繳交新台幣6000元",
+    "English": "Female student (16-24 years old) pay only 6000 TWD.",
+    "Japanese": ""
+  },
+  {
+    "ID": 6,
+    "QuestionsID": 3,
+    "GoNext": "n",
+    "Type": "Normal",
+    "Default": "未能支付(結束)",
+    "English": "No.(exit)",
+    "Japanese": ""
+  },
+  {
+    "ID": 7,
+    "QuestionsID": 4,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我不是駭客，非基督徒，目前未有其他信仰",
+    "English": "I'm not the hacker neither Christian. I'm not in any other religious group recently.",
+    "Japanese": ""
+  },
+  {
+    "ID": 8,
+    "QuestionsID": 4,
+    "GoNext": "n",
+    "Type": "Normal",
+    "Default": "我已經有其他信仰(結束)",
+    "English": "I have attended another religious group. (exit)",
+    "Japanese": ""
+  },
+  {
+    "ID": 9,
+    "QuestionsID": 4,
+    "GoNext": "n",
+    "Type": "Normal",
+    "Default": "無法同意(結束)",
+    "English": "Not agree. (exit)",
+    "Japanese": ""
+  },
+  {
+    "ID": 10,
+    "QuestionsID": 6,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "女",
+    "English": "Female",
+    "Japanese": ""
+  },
+  {
+    "ID": 11,
+    "QuestionsID": 6,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "男",
+    "English": "Male",
+    "Japanese": ""
+  },
+  {
+    "ID": 12,
+    "QuestionsID": 6,
+    "GoNext": "y",
+    "Type": "Others",
+    "Default": "其他",
+    "English": "Other",
+    "Japanese": ""
+  },
+  {
+    "ID": 13,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "中國(不包含台灣)",
+    "English": "China(Not include taiwan)",
+    "Japanese": ""
+  },
+  {
+    "ID": 14,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "台灣",
+    "English": "Taiwan",
+    "Japanese": ""
+  },
+  {
+    "ID": 15,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "日本",
+    "English": "Japan",
+    "Japanese": ""
+  },
+  {
+    "ID": 16,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "南韓",
+    "English": "South Korea",
+    "Japanese": ""
+  },
+  {
+    "ID": 17,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "北韓",
+    "English": "NorthKorea",
+    "Japanese": ""
+  },
+  {
+    "ID": 18,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "印度",
+    "English": "India",
+    "Japanese": ""
+  },
+  {
+    "ID": 19,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "俄羅斯",
+    "English": "Russia",
+    "Japanese": ""
+  },
+  {
+    "ID": 20,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "菲律賓",
+    "English": "Philippines",
+    "Japanese": ""
+  },
+  {
+    "ID": 21,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "印尼",
+    "English": "Indonesia",
+    "Japanese": ""
+  },
+  {
+    "ID": 22,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "新加坡",
+    "English": "Singapore",
+    "Japanese": ""
+  },
+  {
+    "ID": 23,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "越南",
+    "English": "Vietnam",
+    "Japanese": ""
+  },
+  {
+    "ID": 24,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "馬來西亞",
+    "English": "Malaysia",
+    "Japanese": ""
+  },
+  {
+    "ID": 25,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "緬甸",
+    "English": "Myanmar",
+    "Japanese": ""
+  },
+  {
+    "ID": 26,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "沙烏地阿拉伯",
+    "English": "Saudi Arabia",
+    "Japanese": ""
+  },
+  {
+    "ID": 27,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "澳大利亞",
+    "English": "Australia",
+    "Japanese": ""
+  },
+  {
+    "ID": 28,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "紐西蘭",
+    "English": "New Zealand",
+    "Japanese": ""
+  },
+  {
+    "ID": 29,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "英國",
+    "English": "England",
+    "Japanese": ""
+  },
+  {
+    "ID": 30,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "法國",
+    "English": "France",
+    "Japanese": ""
+  },
+  {
+    "ID": 31,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "德國",
+    "English": "Germany",
+    "Japanese": ""
+  },
+  {
+    "ID": 32,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "葡萄牙",
+    "English": "Portugal",
+    "Japanese": ""
+  },
+  {
+    "ID": 33,
+    "QuestionsID": 8,
+    "GoNext": "y",
+    "Type": "Others",
+    "Default": "其他",
+    "English": "Other",
+    "Japanese": ""
+  },
+  {
+    "ID": 34,
+    "QuestionsID": 9,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "單身",
+    "English": "Single",
+    "Japanese": ""
+  },
+  {
+    "ID": 35,
+    "QuestionsID": 9,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "已婚",
+    "English": "Married",
+    "Japanese": ""
+  },
+  {
+    "ID": 36,
+    "QuestionsID": 9,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "離婚",
+    "English": "Divorced",
+    "Japanese": ""
+  },
+  {
+    "ID": 37,
+    "QuestionsID": 9,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "喪偶",
+    "English": "Spouse deceased",
+    "Japanese": ""
+  },
+  {
+    "ID": 38,
+    "QuestionsID": 10,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "駭客相關，因為駭客行為看了不該看的東西，希望能求得原諒",
+    "English": "Hack-related, I had made mistakes by taking information from hack-related behavior,  I should make atonement for my mistake.",
+    "Japanese": ""
+  },
+  {
+    "ID": 39,
+    "QuestionsID": 10,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "謊言相關，說了沒有辦法善後的謊，希望能得到救贖",
+    "English": "Lie-related, I deceived somebody/everybody than regret for it, I hope to get redemption.",
+    "Japanese": ""
+  },
+  {
+    "ID": 40,
+    "QuestionsID": 10,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "惡事相關，做了不應該做的事(不含殺人)，希望能得到解救",
+    "English": "Wickedness-related, I have done something not good(not include killing), I want to destroy my evil ego to get a rescue.",
+    "Japanese": ""
+  },
+  {
+    "ID": 41,
+    "QuestionsID": 10,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "嘲笑、霸凌相關，以前曾經欺負過別人，希望能得到對方的諒解",
+    "English": "Scoff, bully-related, I used to bully others and hope to get others forgiveness.",
+    "Japanese": ""
+  },
+  {
+    "ID": 42,
+    "QuestionsID": 10,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我完全是一個好人，希望能得到有奈教的庇護和保證",
+    "English": "I'm a completely good man/woman, I join for Arina's guarantee of my good deed.",
+    "Japanese": ""
+  },
+  {
+    "ID": 43,
+    "QuestionsID": 10,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我不是很確定什麼是對的，有奈教給我方向和安全感(學生)",
+    "English": "I didn't have any idea, and Arina gave me idea and safety. (student)",
+    "Japanese": ""
+  },
+  {
+    "ID": 44,
+    "QuestionsID": 10,
+    "GoNext": "y",
+    "Type": "Others",
+    "Default": "其他",
+    "English": "Other",
+    "Japanese": ""
+  },
+  {
+    "ID": 45,
+    "QuestionsID": 11,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "非常有名，明星、常上電視",
+    "English": "Very famous. Superstar, celebrity, often appear on TV shows.",
+    "Japanese": ""
+  },
+  {
+    "ID": 46,
+    "QuestionsID": 11,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "小有名氣，網紅、Youtuber、企業家、名師",
+    "English": "Famous. Internet celebrity, youtuber, politican, entrepreneur, famous teacher.",
+    "Japanese": ""
+  },
+  {
+    "ID": 47,
+    "QuestionsID": 11,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "普通人，有一些朋友、上班族、學生",
+    "English": "Not famous. Normal people, have friends, office worker, student.",
+    "Japanese": ""
+  },
+  {
+    "ID": 48,
+    "QuestionsID": 11,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "沒名氣，宅男、宅女、除了家人以外沒人重視我的存在",
+    "English": "Lonely person.  No friends or few friends, not going out often, only the family care about you.",
+    "Japanese": ""
+  },
+  {
+    "ID": 49,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "中文 - 简体",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 50,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "中文 - 繁體",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 51,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "English",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 52,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "日本語",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 53,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "한국어",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 54,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "Русский",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 55,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "Deutsch",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 56,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "Español",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 57,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "Português",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 58,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "हिन्दी",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 59,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "لغة عالمية",
+    "English": "",
+    "Japanese": ""
+  },
+  {
+    "ID": 60,
+    "QuestionsID": 12,
+    "GoNext": "y",
+    "Type": "Others",
+    "Default": "其他",
+    "English": "Other",
+    "Japanese": ""
+  },
+  {
+    "ID": 61,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "電機",
+    "English": "electrical engineering",
+    "Japanese": ""
+  },
+  {
+    "ID": 62,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "機械",
+    "English": "mechanical engineering",
+    "Japanese": ""
+  },
+  {
+    "ID": 63,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "建築",
+    "English": "architecture",
+    "Japanese": ""
+  },
+  {
+    "ID": 64,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "醫學",
+    "English": "medical science",
+    "Japanese": ""
+  },
+  {
+    "ID": 65,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "程式",
+    "English": "programing",
+    "Japanese": ""
+  },
+  {
+    "ID": 66,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "繪圖",
+    "English": "drawing",
+    "Japanese": ""
+  },
+  {
+    "ID": 67,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "音樂",
+    "English": "music",
+    "Japanese": ""
+  },
+  {
+    "ID": 68,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "企劃、設計",
+    "English": "planning & design",
+    "Japanese": ""
+  },
+  {
+    "ID": 69,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "文書",
+    "English": "document processing",
+    "Japanese": ""
+  },
+  {
+    "ID": 70,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "烹飪",
+    "English": "culinary",
+    "Japanese": ""
+  },
+  {
+    "ID": 71,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "歷史",
+    "English": "history",
+    "Japanese": ""
+  },
+  {
+    "ID": 72,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "哲學",
+    "English": "philosophy",
+    "Japanese": ""
+  },
+  {
+    "ID": 73,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "法律",
+    "English": "law",
+    "Japanese": ""
+  },
+  {
+    "ID": 74,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "護理",
+    "English": "nurse",
+    "Japanese": ""
+  },
+  {
+    "ID": 75,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "數學",
+    "English": "mathematic",
+    "Japanese": ""
+  },
+  {
+    "ID": 76,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "物理",
+    "English": "physics",
+    "Japanese": ""
+  },
+  {
+    "ID": 77,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "化學",
+    "English": "chemistry",
+    "Japanese": ""
+  },
+  {
+    "ID": 78,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "農業",
+    "English": "agriculture",
+    "Japanese": ""
+  },
+  {
+    "ID": 79,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "畜牧",
+    "English": "animal husbandry",
+    "Japanese": ""
+  },
+  {
+    "ID": 80,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "養殖",
+    "English": "breeding",
+    "Japanese": ""
+  },
+  {
+    "ID": 81,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "食品加工",
+    "English": "food science",
+    "Japanese": ""
+  },
+  {
+    "ID": 82,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "戰鬥技巧",
+    "English": "fighting",
+    "Japanese": ""
+  },
+  {
+    "ID": 83,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "游泳",
+    "English": "swimming",
+    "Japanese": ""
+  },
+  {
+    "ID": 84,
+    "QuestionsID": 13,
+    "GoNext": "y",
+    "Type": "Others",
+    "Default": "其他",
+    "English": "Other",
+    "Japanese": ""
+  },
+  {
+    "ID": 85,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我有清廉的節操，適合成為人的模範",
+    "English": "I have good moral integrity, adapt to be a model for others.",
+    "Japanese": ""
+  },
+  {
+    "ID": 86,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我有強韌的意志，適合挑戰困難",
+    "English": "I have a strong will, adapt to do the hard challenge.",
+    "Japanese": ""
+  },
+  {
+    "ID": 87,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我懂得順服與服從，適合待人處事",
+    "English": "I know obedience and follow, adapt to serve other people.",
+    "Japanese": ""
+  },
+  {
+    "ID": 88,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我有漂亮的外表，適合令人賞心悅目",
+    "English": "I have a pretty face and good appearance, adapt to please others.",
+    "Japanese": ""
+  },
+  {
+    "ID": 89,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我有優異的工作技能，適合幫助他人",
+    "English": "I have many useful working skills, adapt to help the organization.",
+    "Japanese": ""
+  },
+  {
+    "ID": 90,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我有清廉的節操，適合成為人的模範",
+    "English": "I have good moral integrity, adapt to be a model for others.",
+    "Japanese": ""
+  },
+  {
+    "ID": 91,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我擅長格鬥、近距離擊倒對手，適合打擊壞蛋",
+    "English": "I'm a professional fighter, adapt to knock down the bad guys in hand-to-hand.",
+    "Japanese": ""
+  },
+  {
+    "ID": 92,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Normal",
+    "Default": "我沒有特別有自信的項目",
+    "English": "I don't have any prominent feature allow me to be confident.",
+    "Japanese": ""
+  },
+  {
+    "ID": 93,
+    "QuestionsID": 14,
+    "GoNext": "y",
+    "Type": "Others",
+    "Default": "其他",
+    "English": "Other",
+    "Japanese": ""
+  }
+]

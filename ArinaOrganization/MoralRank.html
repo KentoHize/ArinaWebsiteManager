@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S3J891FKK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0S3J891FKK');
+    </script>
+    <meta charset="utf-8">
+    <title>品階一覽表(Index of Moral Ranking)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <script id="js3" src="Const.js"></script>
+    <div id="divTitle">
+        <h3 style="text-align:center">品階一覽表(Index of Moral Ranking)</h3>
+
+        <div style="text-align:center">
+            <a href="javascript:refresh_page()">更新(Refresh)</a>
+            <br id="rbr" />
+            <a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>
+        </div>
+    </div>
+    <div id="main" style="margin:20px">
+
+    </div>
+    <div style="text-align:center"><a href="javascript:getDatatable(false)">下載資料表(Download)</a></div>
+    <div style="text-align:center"><a href="javascript:getDatatable(true)">下載完整資料表(Download with detail)</a></div>
+    <div style="margin:50px"><p id="iLastUpdate" style="text-align-last:right; font-size:10px"></p></div>
+    <script>
+        var window_size;
+
+        function display_all() {
+            redraw(true);
+        }
+
+        function refresh_page() {
+            localStorage.clear();
+            location.reload(true);
+        }
+
+        function get_full_name(name, surname, othername, surnamefirst, split_by = " ") {
+            var result = "";
+            if (surnamefirst == "y")
+                result = `${surname}${split_by}${name}`;
+            else
+                result = `${name}.${surname}`;
+            if (othername != "")
+                result += `/${othername}`;
+            return result;
+        }
+
+        function draw_table() {
+
+            var data;
+            var divMain = document.getElementById("main");
+            var xhttp = new XMLHttpRequest();
+            document.getElementById("main").innerText = "";
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    data = this.response;
+                    var table = document.createElement("table");
+                    var lastrank = 5;
+
+                    var tr, td, text;
+                    var a;
+
+                    tr = document.createElement("tr");
+                    td = document.createElement("td");
+                    text = document.createTextNode("品階(Rank)");
+                    td.width = "100px";
+                    td.appendChild(text);
+                    tr.appendChild(td);
+
+                    td = document.createElement("td");
+                    text = document.createTextNode("名字(Name)");
+                    td.width = "300px";
+                    td.appendChild(text);
+                    tr.appendChild(td);
+
+                    if (window_size != "s") {
+
+                        td = document.createElement("td");
+                        text = document.createTextNode("性別(Gender)");
+                        td.width = "100px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        text = document.createTextNode("虛構人物(Fictional)");
+                        td.width = "100px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        if (window_size == "l") {
+                            td = document.createElement("td");
+                            text = document.createTextNode("緝拿中(Wanted)");
+                            td.width = "100px";
+                            td.appendChild(text);
+                            tr.appendChild(td);
+
+                            td = document.createElement("td");
+                            text = document.createTextNode("保護中(Protected)");
+                            td.width = "100px";
+                            td.appendChild(text);
+                            tr.appendChild(td);
+
+                            td = document.createElement("td");
+                            text = document.createTextNode("作品名/來源(From)");
+                            td.width = "300px";
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                        }
+                    }
+
+                    table.appendChild(tr);
+
+                    for (var i = 0; i < data.length; i++) {
+                        if (lastrank != data[i].MoralRank) {
+                            lastrank = data[i].MoralRank;
+                            tr = document.createElement("tr");
+                            td = document.createElement("td");
+                            text = document.createTextNode("　");
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            table.appendChild(tr);
+                        }
+                        tr = document.createElement("tr");
+
+                        td = document.createElement("td");
+                        td.style = "text-align:center";
+                        text = document.createTextNode(data[i].MoralRank);
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        a = document.createElement("a");
+                        a.href = `PersonalInfo.html?index=${i}`;
+                        text = document.createTextNode(get_full_name(data[i].Name, data[i].Surname, data[i].OtherName, data[i].SurnameFirst, ""));
+                        a.appendChild(text);
+                        td.appendChild(a);
+                        tr.appendChild(td);
+
+                        if (window_size != "s") {
+                            td = document.createElement("td");
+                            if (data[i].Gender == "f")
+                                text = document.createTextNode("女");
+                            else if (data[i].Gender == "m")
+                                text = document.createTextNode("男");
+                            else
+                                text = document.createTextNode("-");
+                            td.appendChild(text);
+                            tr.appendChild(td);
+
+                            td = document.createElement("td");
+                            if (data[i].Fiction == "y")
+                                text = document.createTextNode("○");
+                            else
+                                text = document.createTextNode("╳");
+                            td.appendChild(text);
+                            tr.appendChild(td);
+
+                            if (window_size == "l") {
+                                td = document.createElement("td");
+                                if (data[i].MoralRank > 0 || data[i].Fiction == "y")
+                                    text = document.createTextNode("-");
+                                else if (data[i].Wanted == "y")
+                                    text = document.createTextNode("○");
+                                else
+                                    text = document.createTextNode("╳");
+                                td.appendChild(text);
+                                tr.appendChild(td);
+
+                                td = document.createElement("td");
+                                if (data[i].MoralRank > 0 || data[i].Fiction == "y")
+                                    text = document.createTextNode("-");
+                                else if (data[i].Protected == "y")
+                                    text = document.createTextNode("○");
+                                else
+                                    text = document.createTextNode("╳");
+                                td.appendChild(text);
+                                tr.appendChild(td);
+
+                                td = document.createElement("td");
+                                text = document.createTextNode(data[i].From);
+                                td.appendChild(text);
+                                tr.appendChild(td);
+                            }
+                        }
+                        table.appendChild(tr);
+                    }
+
+                    divMain.appendChild(table);
+                }
+            };
+            xhttp.responseType = 'json';
+            xhttp.open("GET", "Persons.json?v=" + Math.random(), true);
+            xhttp.send();
+
+            xhttp = new XMLHttpRequest();
+            xhttp.responseType = 'json';
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    data = this.response;
+                    document.getElementById("iLastUpdate").innerText = `Last Update: ${data[0].LastUpdate}`;
+                }
+            }
+            xhttp.open("GET", "LastUpdate.json?v=" + Math.random(), true);
+            xhttp.send();
+        }
+
+        function redraw(display_all = false) {
+            if (window.innerWidth < 800)
+                window_size = "s";
+            else if (window.innerWidth < 1300)
+                window_size = "m";
+            else
+                window_size = "l";
+
+            if (display_all) {
+                window_size = "l";
+                document.getElementById("divTitle").style = `width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
+                document.getElementsByTagName('meta')['viewport'].content = "";
+            }
+
+            if (window_size == "l") {
+                document.getElementById("rbr").style = "visibility:hidden";
+                document.getElementById("display_all").style = "visibility:hidden";
+                document.getElementById("main").style = "margin:20px; width:1100px";
+            }
+            else {
+                document.getElementById("rbr").style = "visibility:visible";
+                document.getElementById("display_all").style = "visibility:visible";
+                document.getElementById("main").style = "margin:20px";
+            }
+            draw_table();
+        }
+
+        redraw();
+
+        function getDatatable(withDetail) {
+            let persons, bestowRecords;
+            let xhttp = new XMLHttpRequest();
+            xhttp.responseType = 'json';
+            xhttp.open("GET", "Persons.json?v=" + Math.random(), true);
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    persons = this.response;
+                    if (withDetail)
+                        xhttp2.send();
+                    else {
+                        const s = JSON.stringify(persons, null, 2);
+                        let a = document.createElement('a');
+                        a.href = "data:application/json;charset=utf-8," + encodeURIComponent(s);
+                        a.download = "MoralRanking.json";
+                        a.click();
+                    }
+                }
+            }
+
+            if (!withDetail) {
+                xhttp.send();
+                return;
+            }
+
+            let xhttp2 = new XMLHttpRequest();
+            xhttp2.responseType = 'json';
+            xhttp2.open("GET", "BestowRecords.json?v=" + Math.random(), true);
+            xhttp2.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    bestowRecords = this.response;
+
+                    if (persons != null && bestowRecords != null) {
+                        for (let i = 0; i < persons.length; i++) {
+                            let records = [];
+                            delete persons[i].LastBestowDate;
+                            delete persons[i].MoralRank;
+                            for (let j = 0; j < bestowRecords.length; j++) {
+                                if (bestowRecords[j].PersonID == persons[i].ID) {
+                                    delete bestowRecords[j].ID;
+                                    delete bestowRecords[j].PersonID;
+                                    records.push(bestowRecords[j]);
+                                }
+                            }
+                            persons[i].BestowRecords = records;
+                        }
+
+                        const s = JSON.stringify(persons, null, 2);
+                        //var url = window.URL.createObjectURL(new Blob([s], { type: 'application/json' }));
+                        let a = document.createElement('a');
+                        a.href = "data:application/json;charset=utf-8," + encodeURIComponent(s);
+                        a.download = "MoralRankingWithDetail.json";
+                        a.click();
+                        /*window.URL.revokeObjectURL(url);*/
+                    }
+                }
+            }
+            xhttp.send();
+        }
+    </script>
+</body>
+
+</html>
