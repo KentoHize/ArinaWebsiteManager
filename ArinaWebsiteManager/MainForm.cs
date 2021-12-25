@@ -10,7 +10,7 @@ namespace ArinaWebsiteManager
 {
     public partial class MainForm : Form
     {
-        public string WebsitePath = @"C:\WebSite\ArinaOrganization\";
+        public string WebsitePath = @"C:\Programs\WinForm\ArinaWebsiteManager\ArinaOrganization\";
         public string WebsiteUrl = @"http://www.arinawebsite.org";
         public string BackupPath = @"E:\Backup\WebSite\ArinaOrganization\";
         public string CurrentModule = "";
