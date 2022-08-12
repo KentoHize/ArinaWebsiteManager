@@ -979,5 +979,23 @@
     "BestowDateTime": "0005/03/13 17:43:09",
     "Reason": "信用度調整",
     "Memo": ""
+  },
+  {
+    "ID": 109,
+    "PersonID": "ebed806b-7540-4ebd-9967-9227e8ad9231",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": -3,
+    "BestowDateTime": "0005/08/12 19:00:27",
+    "Reason": "詐欺行為",
+    "Memo": ""
+  },
+  {
+    "ID": 110,
+    "PersonID": "73ed77aa-bc27-4747-9c8a-e5a148af0504",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": 1,
+    "BestowDateTime": "0005/08/12 19:19:01",
+    "Reason": "不正行為",
+    "Memo": ""
   }
 ]
