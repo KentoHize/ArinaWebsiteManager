@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArinaWebsiteManager", "ArinaWebsiteManager\ArinaWebsiteManager.csproj", "{3308FCB6-3B23-4D61-90BC-0B32DDDE62B3}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ArinaOrganization(1)", "ArinaOrganization\", "{3CCB78E8-6EFE-45F5-BC4F-046EEAE89054}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ArinaOrganization", "ArinaOrganization\", "{3CCB78E8-6EFE-45F5-BC4F-046EEAE89054}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_55161"
 		Debug.AspNetCompiler.PhysicalPath = "ArinaOrganization\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55161\"
@@ -23,6 +23,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ArinaOrganization(1)", "Ari
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55161"
+		SlnRelativePath = "ArinaOrganization\"
 	EndProjectSection
 EndProject
 Global

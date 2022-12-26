@@ -997,5 +997,14 @@
     "BestowDateTime": "0005/08/12 19:19:01",
     "Reason": "不正行為",
     "Memo": ""
+  },
+  {
+    "ID": 111,
+    "PersonID": "fce9037b-9b24-422a-be8f-d6d3f10b1da7",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": 3,
+    "BestowDateTime": "0005/12/26 19:04:04",
+    "Reason": "初評定",
+    "Memo": ""
   }
 ]
