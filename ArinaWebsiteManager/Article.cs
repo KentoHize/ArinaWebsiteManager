@@ -10,6 +10,7 @@ namespace ArinaWebsiteManager
     {
         public int No { get; set; }
         public string Date { get; set; }
+        public string UpdateDate { get; set; }
         public string Chinese { get; set; }
         public string English { get; set; }
         public string Japanese { get; set; }
