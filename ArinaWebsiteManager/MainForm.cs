@@ -155,7 +155,7 @@ namespace ArinaWebsiteManager
                 return;
             PropertyInfo[] pis = Type.GetType(CurrentModule).GetProperties();
             foreach (PropertyInfo pi in pis)
-            {
+            {   
                 TextBox tb = pnlEditArea.Controls.Find(string.Concat("txt", pi.Name), false)[0] as TextBox;
                 if (tb == null)
                 {
@@ -330,6 +330,7 @@ namespace ArinaWebsiteManager
 
         private void RefreshEditArea()
         {
+            int extraHeight = 0;
             pnlEditArea.Controls.Clear();
             PropertyInfo[] pis = Type.GetType(CurrentModule).GetProperties();
             for (int i = 0; i < pis.Count(); i++)
@@ -338,7 +339,7 @@ namespace ArinaWebsiteManager
                 lblLabel.Name = string.Concat("lbl", pis[i].Name);
                 lblLabel.Text = pis[i].Name;
                 lblLabel.Left = 10;
-                lblLabel.Top = 30 * i;
+                lblLabel.Top = 30 * i + extraHeight;
                 pnlEditArea.Controls.Add(lblLabel);
 
                 TextBox txtText = new TextBox();
@@ -346,10 +347,17 @@ namespace ArinaWebsiteManager
                     pis[i].Name == "PersonID")
                     txtText.Enabled = false;
                 if (pis[i].Name == "MoralRank" && CurrentModule == typeof(Person).ToString())
-                    txtText.Enabled = false;
+                    txtText.Enabled = false;                
                 txtText.Name = string.Concat("txt", pis[i].Name);
                 txtText.Left = 200;
-                txtText.Top = 30 * i;
+                txtText.Top = 30 * i + extraHeight;
+                if (pis[i].Name == "Description")
+                {
+                    txtText.Multiline = true;
+                    txtText.Width = 140;
+                    txtText.Height = 80;
+                    extraHeight += txtText.Height - 20;
+                }
                 pnlEditArea.Controls.Add(txtText);
             }
         }
