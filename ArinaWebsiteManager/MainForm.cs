@@ -492,10 +492,13 @@ namespace ArinaWebsiteManager
                         StreamWriter sw = new StreamWriter(outputFile);
                         foreach (Article ar in articles)
                         {
+                            
                             if (ar.Date != null)
                                 sw.WriteLine(DateTime.Parse(ar.Date).ToString("M, d, Ar.y"));
                             else
                                 sw.WriteLine("-");
+                            if (ar.UpdateDate != null)
+                                sw.WriteLine(DateTime.Parse(ar.UpdateDate).ToString("(M, d, Ar.y)"));                            
                             sw.Write(ar.Chinese);
                             sw.WriteLine();
                             sw.Write(ar.English);

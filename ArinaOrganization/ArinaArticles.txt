@@ -93,12 +93,13 @@ For example, if you never criticize others, and others criticize you, so you are
 Which one is right? The Arina Organization will tell you that people can criticize others, as long as the speaker really thinks so.
 
 10, 3, Ar.3
-要升為4階，必須要不畏死亡，要升為5階，必須要有受辱、遭苦難也不改其志的意志力
+(12, 27, Ar.5)
+要升為4階，必須要能獨立，並且完全不畏死亡，要升為5階，必須要有受辱、遭苦難也不改其志的意志力
 
 有些角色我們看不出來他/她是否能勝任，那教主可能就不會賜與那麼高的階級
-To be promoted to rank 4, one must not fear death. To be promoted to rank 5, one must have a strong will to suffer humiliation and torments without changing one's mind.
+To be promoted to rank 4, one must be independent and absolutely not fear death. To be promoted to rank 5, one must have a strong will to suffer humiliation and torments without changing one's mind.
 
-Sometimes we cannot see if he/she is competent. Master may not be able to give a character with the high ranks.
+Sometimes we cannot see if he/she is competent. Master may not be able to give a character with high ranks.
 
 10, 3, Ar.3
 除了4、5階的人比較難掉階以外，3階以下的人都有機會掉階，這就是為什麼教主說某人是好人之後呢，他/她後來會變成壞人的原因
@@ -159,6 +160,7 @@ Good people hunt animals, bad people should be hunted by animals.
 Deceive hackers are the right thing.
 
 5, 25, Ar.3
+(4, 5, Ar.5)
 織田信長雖然是一名令教主尊敬的武士，但離君子還是有些差距 如果教主是信長的話就會懷疑秀吉的動機，從而解決不必要的問題，不過當時資訊如此不發達，要在沒人教習的情況下悟出君子學說也太困難
 
 所以信長是令人尊敬的武士，教主是知全部道理並去實踐的人 並不相同=v=
