@@ -1006,5 +1006,23 @@
     "BestowDateTime": "0005/12/26 19:04:04",
     "Reason": "初評定",
     "Memo": ""
+  },
+  {
+    "ID": 112,
+    "PersonID": "511f3c50-437a-4a6f-be04-360beba60218",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": 4,
+    "BestowDateTime": "0006/04/16 10:36:32",
+    "Reason": "信用度調整",
+    "Memo": ""
+  },
+  {
+    "ID": 113,
+    "PersonID": "dee46c24-85ad-40d9-97b6-b067c7fe3c4a",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": -4,
+    "BestowDateTime": "0006/05/24 12:33:34",
+    "Reason": "初評定",
+    "Memo": ""
   }
 ]
