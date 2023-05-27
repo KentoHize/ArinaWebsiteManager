@@ -1024,5 +1024,14 @@
     "BestowDateTime": "0006/05/24 12:33:34",
     "Reason": "初評定",
     "Memo": ""
+  },
+  {
+    "ID": 114,
+    "PersonID": "4f2eebb9-dea2-4a14-9124-7ec33267c458",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": -3,
+    "BestowDateTime": "0006/05/26 19:50:18",
+    "Reason": "信用度調整",
+    "Memo": ""
   }
 ]
