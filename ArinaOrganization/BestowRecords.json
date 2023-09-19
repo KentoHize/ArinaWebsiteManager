@@ -837,15 +837,6 @@
     "Memo": ""
   },
   {
-    "ID": 93,
-    "PersonID": "04a46718-65f9-40bb-a559-9f7f8a8c527f",
-    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
-    "MoralRank": -3,
-    "BestowDateTime": "0003/10/25 20:23:03",
-    "Reason": "初評定",
-    "Memo": ""
-  },
-  {
     "ID": 94,
     "PersonID": "a9538176-6bd9-4c7c-a278-05a3cb075d7e",
     "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",

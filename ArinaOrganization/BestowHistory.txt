@@ -70,7 +70,6 @@
 馬英九(8, 12, Ar.5)
 陳其邁(10, 25, Ar.3)
 陳水扁(5, 26, Ar.6)
-Donald.J.Trump(10, 25, Ar.3)
 Papa.Francesco(11, 27, Ar.3)
 ランス(10, 25, Ar.3)
 吳心緹(10, 25, Ar.3)
@@ -109,4 +108,4 @@ Hillary.Clinton(12, 21, Ar.3)
 普遍美國人(10, 25, Ar.3)
 台灣惡質老人(11, 15, Ar.3)
 
-Created at 5, 26, Ar.6
+Created at 9, 20, Ar.6
