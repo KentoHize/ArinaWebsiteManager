@@ -18,36 +18,15 @@
 </head>
 <body>
     <script src="Arina.js"></script>
-    <h3 style="text-align:center">徵人啟事(Recruit)</h3>
-
-    <article style="margin: 50px; width:1000px " id="main">
-
-    </article>
-    <!--<div style="text-align:center; margin:50px; width:1000px;">
-        <div style="width:500px; float:left">
-            <table>
-                <tr>
-                    <td>
-                        職務名稱
-                    </td>
-                    <td>
-                        助理
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        工作待遇
-                    </td>
-                    <td>
-
-                    </td>
-                </tr>
-            </table>
-            助理
-        </div>
-        <div style="width:500px; float:left">美術</div>
-    </div>-->
-
+    <h3 style="text-align:center">徵人啟事(Recruits)</h3>
+    <div style="margin:auto; width:1000px" id="divMain">
+        <article style="margin: 50px;" id="main">
+        </article>
+    </div>
+    <div style="text-align:center; margin:10px">
+        聯絡我們(Contact us): <a href="mailto:KentoHize@gmail.com">KentoHize@gmail.com</a><br />
+        Twitter: <a href="https://twitter.com/KentoHize">https://twitter.com/KentoHize</a>
+    </div>
     <script>
         function draw_table() {
             var data;
@@ -58,180 +37,140 @@
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.response;
                     var table = document.createElement("table");
-                    //var lastrank = 5;
+                    var tr, td, text;                  
 
-                    var tr, td, text;
-                    var a;
+                    for (var i = 0; i < data.length; i++) {
+                        if (!data[i].Publish)
+                            continue;
 
-                    tr = document.createElement("tr");
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("職務名稱(Title)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        text = document.createTextNode(`${data[i].Name}`);                        
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    td = document.createElement("td");
-                    text = document.createTextNode("職務名稱(Title)");
-                    td.width = "300px";
-                    td.appendChild(text);
-                    tr.appendChild(td);
+                         tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("薪資(Salary)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        text = document.createTextNode(`${data[i].Salary}`);                        
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    td = document.createElement("td");
-                    text = document.createTextNode("a");
-                    td.width = "300px";
-                    td.appendChild(text);
-                    tr.appendChild(td);
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("類型(Type)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        text = document.createTextNode(`${data[i].Type}`);                        
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    table.appendChild(tr);
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("地點(Location)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        text = document.createTextNode(`${data[i].Location}`);                        
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    tr = document.createElement("tr");
-                    td = document.createElement("td");
-                    text = document.createTextNode("薪資(Salary)");
-                    td.width = "300px";
-                    td.appendChild(text);
-                    tr.appendChild(td);
-                    table.appendChild(tr);
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("工作時間(Working Time)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        text = document.createTextNode(`${data[i].WorkTime}`);                        
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    tr = document.createElement("tr");
-                    td = document.createElement("td");
-                    text = document.createTextNode("類型(Type)");
-                    td.width = "300px";
-                    td.appendChild(text);
-                    tr.appendChild(td);
-                    table.appendChild(tr);
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("工作可開始(Start At)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        text = document.createTextNode(`${data[i].StartAt}`);                        
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    //for (var i = 0; i < data.length; i++) {
-                    //    if (lastrank != data[i].MoralRank) {
-                    //        lastrank = data[i].MoralRank;
-                    //        tr = document.createElement("tr");
-                    //        td = document.createElement("td");
-                    //        text = document.createTextNode("　");
-                    //        td.appendChild(text);
-                    //        tr.appendChild(td);
-                    //        table.appendChild(tr);
-                    //    }
-                    //    tr = document.createElement("tr");
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("工作需求(Requirement)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        td.innerHTML = `${ChangeLFtoBRLabel(data[i].Requirement)}`;
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    //    td = document.createElement("td");
-                    //    td.style = "text-align:center";
-                    //    text = document.createTextNode(data[i].MoralRank);
-                    //    td.appendChild(text);
-                    //    tr.appendChild(td);
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        text = document.createTextNode("詳細說明(Description)");
+                        td.width = "300px";
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = document.createElement("td");
+                        td.innerHTML = `${ChangeLFtoBRLabel(data[i].Description)}`;
+                        tr.appendChild(td);
+                        table.appendChild(tr);
 
-                    //    td = document.createElement("td");
-                    //    a = document.createElement("a");
-                    //    a.href = `PersonalInfo.html?index=${i}`;
-                    //    text = document.createTextNode(get_full_name(data[i].Name, data[i].Surname, data[i].OtherName, data[i].SurnameFirst, ""));
-                    //    a.appendChild(text);
-                    //    td.appendChild(a);
-                    //    tr.appendChild(td);
+                        tr = document.createElement("tr");
+                        td = document.createElement("td");
+                        td.height = "30px";
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+                    }
 
-                    //    if (window_size != "s") {
-                    //        td = document.createElement("td");
-                    //        if (data[i].Gender == "f")
-                    //            text = document.createTextNode("女");
-                    //        else if (data[i].Gender == "m")
-                    //            text = document.createTextNode("男");
-                    //        else
-                    //            text = document.createTextNode("-");
-                    //        td.appendChild(text);
-                    //        tr.appendChild(td);
-
-                    //        td = document.createElement("td");
-                    //        if (data[i].Fiction == "y")
-                    //            text = document.createTextNode("○");
-                    //        else
-                    //            text = document.createTextNode("╳");
-                    //        td.appendChild(text);
-                    //        tr.appendChild(td);
-
-                    //        if (window_size == "l") {
-                    //            td = document.createElement("td");
-                    //            if (data[i].MoralRank > 0 || data[i].Fiction == "y")
-                    //                text = document.createTextNode("-");
-                    //            else if (data[i].Wanted == "y")
-                    //                text = document.createTextNode("○");
-                    //            else
-                    //                text = document.createTextNode("╳");
-                    //            td.appendChild(text);
-                    //            tr.appendChild(td);
-
-                    //            td = document.createElement("td");
-                    //            if (data[i].MoralRank > 0 || data[i].Fiction == "y")
-                    //                text = document.createTextNode("-");
-                    //            else if (data[i].Protected == "y")
-                    //                text = document.createTextNode("○");
-                    //            else
-                    //                text = document.createTextNode("╳");
-                    //            td.appendChild(text);
-                    //            tr.appendChild(td);
-
-                    //            td = document.createElement("td");
-                    //            text = document.createTextNode(data[i].From);
-                    //            td.appendChild(text);
-                    //            tr.appendChild(td);
-                    //        }
-                    //    }
-                    //    table.appendChild(tr);
-                    //}
-
+                    table.removeChild(table.lastChild);
                     divMain.appendChild(table);
                 }
             };
             xhttp.responseType = 'json';
-            xhttp.open("GET", "Persons.json?v=" + Math.random(), true);
+            xhttp.open("GET", "Jobs.json?v=" + Math.random(), true);
             xhttp.send();
 
-            xhttp = new XMLHttpRequest();
-            xhttp.responseType = 'json';
-            xhttp.onreadystatechange = function () {
-                if (this.readyState == 4 && this.status == 200) {
-                    data = this.response;
-                    document.getElementById("iLastUpdate").innerText = `Last Update: ${data[0].LastUpdate}`;
-                }
-            }
-            xhttp.open("GET", "LastUpdate.json?v=" + Math.random(), true);
-            xhttp.send();
+            
+            //xhttp = new XMLHttpRequest();
+            //xhttp.responseType = 'json';
+            //xhttp.onreadystatechange = function () {
+            //    if (this.readyState == 4 && this.status == 200) {
+            //        data = this.response;
+            //        /*document.getElementById("iLastUpdate").innerText = `Last Update: ${data[0].LastUpdate}`;*/
+            //    }
+            //}
+            //xhttp.open("GET", "LastUpdate.json?v=" + Math.random(), true);
+            //xhttp.send();
         }
 
-    </script>
+        function redraw(display_all = false) {
+            //divMain.width = window.innerWidth;
+            draw_table();
+        }
 
-
-
-    <!--<script>
-        var data;
-        var article = document.getElementById("main");
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                data = this.response;
-                var section, p, br;
-                for (var i = 0; i < data.length; i++) {
-                    section = document.createElement("section");
-
-                    p = document.createElement("p");
-                    p.innerHTML = ChangeDateToArDate(data[i].Date);
-                    section.appendChild(p);
-
-                    if (data[i].UpdateDate != null) {
-                        p = document.createElement("p")
-                        p.innerHTML += `(${ChangeDateToArDate(data[i].UpdateDate)})`;
-                        section.appendChild(p);
-                    }
-
-                    p = document.createElement("p");
-                    p.innerText = data[i].Chinese;
-                    section.appendChild(p);
-
-                    p = document.createElement("p");
-                    p.innerText = data[i].English;
-                    section.appendChild(p);
-
-                    br = document.createElement("br");
-                    section.append(br);
-                    article.appendChild(section);
-                }
-            }
-        };
-        xhttp.responseType = 'json';
-        xhttp.open("GET", "Quotes.json?v=" + Math.random(), true);
-        xhttp.send();
-    </script>-->
+        redraw();
+    </script>    
 </body>
-
 </html>

@@ -5,9 +5,22 @@
     "Publish": true,
     "Salary": "可議/單月小於一萬元",
     "Type": "兼職/全職",
-    "Location": "在家工作",
-    "WorkTime": "任意",
-    "WorkStartAt": "一星期內",
-    "Description": ""
+    "Location": "在家工作/可議",
+    "WorkTime": "任意，需約時間見面",
+    "StartAt": "一星期內",
+    "Requirement": "文書處理能力",
+    "Description": "年輕女性佳\n見面時穿著有要求，能配合教主，行禮得宜"
+  },
+  {
+    "ID": 2,
+    "Name": "美術",
+    "Publish": false,
+    "Salary": "論件計酬/可議",
+    "Type": "兼職/全職",
+    "Location": "在家工作/可議",
+    "WorkTime": "任意，需約時間見面",
+    "StartAt": "一個月內",
+    "Requirement": "美術能力",
+    "Description": "主要需求日式ACG畫風\n\n製作可愛角色，以及其他美工作業"
   }
 ]

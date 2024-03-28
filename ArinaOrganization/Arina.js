@@ -18,3 +18,8 @@ function ChangeDateToArDate(date)
     var data = date.split("/");
     return `${parseInt(data[1])},&nbsp;${parseInt(data[2])},&nbsp;Ar.${parseInt(data[0])}`;
 }
+
+function ChangeLFtoBRLabel(s) {
+    
+    return s.replace("\n", "<br />");
+}
