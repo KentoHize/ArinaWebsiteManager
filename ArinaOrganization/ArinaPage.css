@@ -81,3 +81,9 @@ p {
     .c5:active {
         background-color: #aaaaff;
     }
+.c6 {
+    background-color: #ffddff;
+}
+    .c6:active {
+        background-color: #ffaaff;
+    }

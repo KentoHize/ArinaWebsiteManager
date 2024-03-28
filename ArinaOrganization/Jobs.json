@@ -1,0 +1,13 @@
+[
+  {
+    "ID": 1,
+    "Name": "助理",
+    "Publish": true,
+    "Salary": "可議/單月小於一萬元",
+    "Type": "兼職/全職",
+    "Location": "在家工作",
+    "WorkTime": "任意",
+    "WorkStartAt": "一星期內",
+    "Description": ""
+  }
+]
