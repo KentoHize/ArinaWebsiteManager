@@ -1033,5 +1033,23 @@
     "BestowDateTime": "0007/01/19 7:19:00",
     "Reason": "妨礙個人自由",
     "Memo": ""
+  },
+  {
+    "ID": 115,
+    "PersonID": "d8021c78-e6f8-4db3-aaf1-b2f451eb428c",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": 3,
+    "BestowDateTime": "0006/01/16 16:49:00",
+    "Reason": "初評定",
+    "Memo": ""
+  },
+  {
+    "ID": 116,
+    "PersonID": "f524aa44-c740-40bb-8873-5c8da8695d2a",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": 3,
+    "BestowDateTime": "0006/01/16 16:49:00",
+    "Reason": "初評定",
+    "Memo": ""
   }
 ]
