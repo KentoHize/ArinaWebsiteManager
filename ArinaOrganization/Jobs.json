@@ -3,7 +3,7 @@
     "ID": 1,
     "Name": "助理",
     "Publish": true,
-    "Salary": "可議/單月小於一萬元",
+    "Salary": "面議/無太多工作時，單月不超過一萬元",
     "Type": "兼職/全職",
     "Location": "在家工作/可議",
     "WorkTime": "任意，需約時間見面",
@@ -14,7 +14,7 @@
   {
     "ID": 2,
     "Name": "美術",
-    "Publish": false,
+    "Publish": true,
     "Salary": "論件計酬/可議",
     "Type": "兼職/全職",
     "Location": "在家工作/可議",
@@ -22,5 +22,29 @@
     "StartAt": "一個月內",
     "Requirement": "美術能力",
     "Description": "主要需求日式ACG畫風\n\n製作可愛角色，以及其他美工作業"
+  },
+  {
+    "ID": 3,
+    "Name": "翻譯",
+    "Publish": false,
+    "Salary": "論件計酬",
+    "Type": "兼職",
+    "Location": "在家工作",
+    "WorkTime": "任意",
+    "StartAt": "隨時",
+    "Requirement": "中翻英能力\n\n需具備高級英語的使用能力(能使用艱難字)",
+    "Description": "一字3元可"
+  },
+  {
+    "ID": 4,
+    "Name": "巫女代",
+    "Publish": true,
+    "Salary": "根據生存情況/面議",
+    "Type": "兼職/全職",
+    "Location": "參與宣傳活動",
+    "WorkTime": "早上8:00到下午5:00",
+    "StartAt": "一個月內",
+    "Requirement": "年輕女性，品格良好，需有接近白色的膚色",
+    "Description": "認為自身適合者歡迎洽談"
   }
 ]

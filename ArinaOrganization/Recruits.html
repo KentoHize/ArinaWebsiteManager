@@ -23,12 +23,23 @@
         <div id="main">
         </div>
     </div>
+    <br />
     <div style="text-align:center; margin:10px">
         聯絡我們(Contact us): <a href="mailto:KentoHize@gmail.com">KentoHize@gmail.com</a><br />
         Twitter: <a href="https://twitter.com/KentoHize">https://twitter.com/KentoHize</a>
     </div>
     <script>
         var window_size;
+
+        function createSpecTrTd(isTr) {
+            let result;
+            if (isTr)
+                result = document.createElement("tr");
+            else
+                result = document.createElement("td");
+            result.style = "border:none";
+            return result;
+        }
 
         function draw_table() {
             var data;
@@ -39,137 +50,126 @@
                 if (this.readyState == 4 && this.status == 200) {
                     
                     data = this.response;
-                    var table = document.createElement("table");
+                    var table;
                     var tr, td, text;
-                    var lw;
-                    if (window_size == "m" || window_size == "l")
+                    var lw, lw2;
+                    if (window_size == "m" || window_size == "l") {
                         lw = "200px";
-                    else
+                        lw2 = "600px";
+                    }
+                    else {
                         lw = "130px";
+                        lw2 = "230px";
+                    }
+                        
                     for (var i = 0; i < data.length; i++) {                        
                         if (!data[i].Publish)
                             continue;
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        table = document.createElement("table");
+                        table.border = 1;
+                        table.style = `padding:4px; margin-top:10px`;
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
+                        
                         text = document.createTextNode("職務名稱(Title)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false);
+                        td.width = lw2;
                         text = document.createTextNode(`${data[i].Name}`);                        
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
                         
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);        
                         text = document.createTextNode("薪資(Salary)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false);
                         text = document.createTextNode(`${data[i].Salary}`);                        
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);                        
                         text = document.createTextNode("類型(Type)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false); 
                         text = document.createTextNode(`${data[i].Type}`);                        
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
                         text = document.createTextNode("地點(Location)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false);
                         text = document.createTextNode(`${data[i].Location}`);                        
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);                        
                         text = document.createTextNode("工作時間(Working Time)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false);
                         text = document.createTextNode(`${data[i].WorkTime}`);                        
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
                         text = document.createTextNode("工作可開始(Start At)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false);
                         text = document.createTextNode(`${data[i].StartAt}`);                        
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);                        
                         text = document.createTextNode("工作需求(Requirement)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false);
                         td.innerHTML = `${ChangeLFtoBRLabel(data[i].Requirement)}`;
                         tr.appendChild(td);
                         table.appendChild(tr);
 
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
                         text = document.createTextNode("詳細說明(Description)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = document.createElement("td");
+                        td = createSpecTrTd(false);
                         td.innerHTML = `${ChangeLFtoBRLabel(data[i].Description)}`;
                         tr.appendChild(td);
                         table.appendChild(tr);
-
-                        tr = document.createElement("tr");
-                        td = document.createElement("td");
-                        td.height = "30px";
-                        tr.appendChild(td);
-                        table.appendChild(tr);                        
-                    }
-                    
-                    table.removeChild(table.lastChild);
-                    divMain.appendChild(table);
-                    
+                        divMain.appendChild(table);
+                    }                    
                 }
             };
             xhttp.responseType = 'json';
             xhttp.open("GET", "Jobs.json?v=" + Math.random(), true);
-            xhttp.send();
-
-            
-            //xhttp = new XMLHttpRequest();
-            //xhttp.responseType = 'json';
-            //xhttp.onreadystatechange = function () {
-            //    if (this.readyState == 4 && this.status == 200) {
-            //        data = this.response;
-            //        /*document.getElementById("iLastUpdate").innerText = `Last Update: ${data[0].LastUpdate}`;*/
-            //    }
-            //}
-            //xhttp.open("GET", "LastUpdate.json?v=" + Math.random(), true);
-            //xhttp.send();
+            xhttp.send();          
         }
 
         function redraw(display_all = false) {
@@ -188,9 +188,9 @@
             }
 
             if (window_size == "s")
-                document.getElementById("main").style = `margin:auto; width:360px`;
+                document.getElementById("main").style = `margin:auto; width:360px;`;
             else if (window_size == "m" || window_size == "l")
-                document.getElementById("main").style = `margin:auto; width:800px`; 
+                document.getElementById("main").style = `margin:auto; width:800px;`; 
             
             draw_table();
         }
