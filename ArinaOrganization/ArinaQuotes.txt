@@ -1,6 +1,6 @@
 4, 6, Ar.3
 法律是下策，從君是上策
-Law is bad policy, obeying Junzi is good policy.
+Law is bad policy, complying to Junzi is good policy.
 
 9, 7, Ar.2
 未經過君子的認同而處在君子之上的人即為惡者
@@ -40,8 +40,9 @@ When others' rumor will put Junzi in danger, he will clarify, if it won't, he ca
 If people respect Junzi, Junzi will not lie to people and worth what he said.
 
 12, 20, Ar.1
-如果你是一個女生，你應該服從君子
-If you are a female, you should obey Junzi.
+(4, 18, Ar.7)
+女性服從君子
+Female humans obey Junzi.
 
 12, 20, Ar.1
 善惡判斷在親子關係之上
