@@ -10,7 +10,7 @@
     "ID": 2,
     "Chinese": "邪經",
     "English": "Bible",
-    "Meaning": "來自於基督教，原稱聖經。\n\n因為散播邪惡，在有奈教以邪經代替。",
+    "Meaning": "來自於基督教，原翻聖經。\n\n因為散播邪惡，在有奈教以邪經代替。",
     "EMeaning": ""
   },
   {
@@ -37,15 +37,22 @@
   {
     "ID": 6,
     "Chinese": "靈魂能量",
-    "English": "Spirit Energy",
+    "English": "Spiritual Energy",
     "Meaning": "[有奈教]\n靈魂可以被分割，也可以合併，當它們被移轉的時候，就是靈魂能量。",
     "EMeaning": ""
   },
   {
     "ID": 7,
     "Chinese": "靈力",
-    "English": "Spirit Power",
+    "English": "Spiritual Power",
     "Meaning": "一人的靈魂能量，加上其他任何幫助的靈魂所產生的等值的力量總和\n\n魔力上限",
+    "EMeaning": ""
+  },
+  {
+    "ID": 34,
+    "Chinese": "靈界/精神世界",
+    "English": "Spiritual World",
+    "Meaning": "除了物理世界，還有另外一個世界的存在，在那個地方靈魂可以交流，能量可以有所轉移",
     "EMeaning": ""
   },
   {
@@ -72,22 +79,22 @@
   {
     "ID": 11,
     "Chinese": "正靈",
-    "English": "",
+    "English": "Good Spirit",
     "Meaning": "崇尚正義的靈魂，帶來正義的力量。",
     "EMeaning": ""
   },
   {
     "ID": 12,
     "Chinese": "邪靈",
-    "English": "",
+    "English": "Evil Spirit",
     "Meaning": "崇拜邪惡的靈魂，帶來為褻瀆的力量。",
     "EMeaning": ""
   },
   {
     "ID": 13,
     "Chinese": "靈魂等級",
-    "English": "Spirit Level",
-    "Meaning": "靈魂能量的儲存上限，隨著靈魂的歷練增加",
+    "English": "Spiritual Level",
+    "Meaning": "關係到靈魂能量的儲存上限，隨著靈魂的歷練增加",
     "EMeaning": ""
   },
   {
@@ -128,7 +135,7 @@
   {
     "ID": 19,
     "Chinese": "侍女",
-    "English": "",
+    "English": "Maid",
     "Meaning": "一種階級，低於品女，願意服侍君子",
     "EMeaning": ""
   },
@@ -165,6 +172,13 @@
     "Chinese": "羊",
     "English": "Sheep",
     "Meaning": "[有奈教]\n本來指一種溫馴的動物\n\n在這邊指沒有特殊能力的人",
+    "EMeaning": ""
+  },
+  {
+    "ID": 35,
+    "Chinese": "狐狸",
+    "English": "Fox",
+    "Meaning": "[有奈教]\n本來指一種肉食動物\n\n這邊指四處騙人但是不具備狼襲能力的族群\n\n主要為女生",
     "EMeaning": ""
   },
   {
@@ -214,6 +228,48 @@
     "Chinese": "H-Game",
     "English": "H-Game",
     "Meaning": "普通指帶有裸露、色情成分的美少女遊戲。\n\n廣泛地來說，女性向的男同性戀小說遊戲也算在內。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 32,
+    "Chinese": "巫女代",
+    "English": "",
+    "Meaning": "可以代表巫女的人\n\n因巫女是女生的最高階級，巫女代一般指品女以下的女生",
+    "EMeaning": ""
+  },
+  {
+    "ID": 33,
+    "Chinese": "精神攻擊",
+    "English": "Spiritual Attack",
+    "Meaning": "從靈界而來的攻擊\n\n有幾種不一樣的情況\n\n邪靈可以透過釋放邪惡來使人難以抵抗誘惑\n\n正靈可以透過闡釋真理，打擊他人的自信心\n\n只要是透過靈界來造成對受害者的影響，都可以叫作精神攻擊",
+    "EMeaning": ""
+  },
+  {
+    "ID": 36,
+    "Chinese": "邪教",
+    "English": "Cult",
+    "Meaning": "有惡意的宗教組織\n\n[有奈教]\n基督教的簡稱",
+    "EMeaning": ""
+  },
+  {
+    "ID": 37,
+    "Chinese": "猶太人",
+    "English": "Jewish",
+    "Meaning": "[有奈教]\n信猶太教的人",
+    "EMeaning": ""
+  },
+  {
+    "ID": 38,
+    "Chinese": "人狼遊戲",
+    "English": "Werewolf",
+    "Meaning": "模擬現實世界生存遊戲的一種社交遊戲\n\n每個玩家被設置能力和陣營，互相廝殺",
+    "EMeaning": ""
+  },
+  {
+    "ID": 39,
+    "Chinese": "惡魔/魔鬼",
+    "English": "Devil",
+    "Meaning": "[有奈教]\n一種能夠使人具有力量的生物\n\n喜愛作惡",
     "EMeaning": ""
   }
 ]
