@@ -9,8 +9,127 @@
   {
     "ID": 2,
     "Chinese": "邪經",
-    "English": "Evil Bible",
+    "English": "Bible",
     "Meaning": "來自於基督教，原稱聖經。\n\n因為散播邪惡，在有奈教以邪經代替。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 3,
+    "Chinese": "銃",
+    "English": "Gun",
+    "Meaning": "現代的手槍、步槍等等射擊武器\n\n銃是比較能和長槍的槍分別的說法",
+    "EMeaning": ""
+  },
+  {
+    "ID": 4,
+    "Chinese": "靈魂",
+    "English": "Spirit",
+    "Meaning": "除了物理存在的身體以外，寄宿在身體之內，真正感受到痛苦/快樂/悲傷/喜悅的存在。\n\n在有奈教信仰部分動物沒有靈魂，以及不會寄宿在嬰兒時期",
+    "EMeaning": ""
+  },
+  {
+    "ID": 5,
+    "Chinese": "精神",
+    "English": "Psychic",
+    "Meaning": "相對於身體物理的存在\n\n精神泛指靈魂上的意志",
+    "EMeaning": ""
+  },
+  {
+    "ID": 6,
+    "Chinese": "靈魂能量",
+    "English": "Spirit Energy",
+    "Meaning": "[有奈教]\n靈魂可以被分割，也可以合併，當它們被移轉的時候，就是靈魂能量。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 7,
+    "Chinese": "靈力",
+    "English": "Spirit Power",
+    "Meaning": "一人的靈魂能量，加上其他任何幫助的靈魂所產生的等值的力量總和\n\n魔力上限",
+    "EMeaning": ""
+  },
+  {
+    "ID": 8,
+    "Chinese": "魔力",
+    "English": "Mana",
+    "Meaning": "高靈魂能量能產生較高的魔力",
+    "EMeaning": ""
+  },
+  {
+    "ID": 9,
+    "Chinese": "靈戰",
+    "English": "Spirit War",
+    "Meaning": "靈魂與靈魂之間互相搶奪能量的情況\n\n一般難以看到，但是擁有靈魂的生物都能察覺",
+    "EMeaning": ""
+  },
+  {
+    "ID": 10,
+    "Chinese": "防禦術",
+    "English": "Defensive Art",
+    "Meaning": "靈戰的時候使用的防禦技巧。\n\n阻擋有惡意的靈竊取自己的靈魂能量。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 11,
+    "Chinese": "正靈",
+    "English": "",
+    "Meaning": "崇尚正義的靈魂，帶來正義的力量。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 12,
+    "Chinese": "邪靈",
+    "English": "",
+    "Meaning": "崇拜邪惡的靈魂，帶來為褻瀆的力量。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 13,
+    "Chinese": "靈魂等級",
+    "English": "Spirit Level",
+    "Meaning": "靈魂能量的儲存上限，隨著靈魂的歷練增加",
+    "EMeaning": ""
+  },
+  {
+    "ID": 14,
+    "Chinese": "英靈",
+    "English": "Hero Spirit",
+    "Meaning": "高靈魂等級者，不一定有正邪之分。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 15,
+    "Chinese": "聖靈",
+    "English": "Saint Spirit",
+    "Meaning": "一出生即具備高品格者。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 16,
+    "Chinese": "巫女",
+    "English": "Miko",
+    "Meaning": "一種階級，擁有至高品格的女子。\n\n相對於君子稍低。",
+    "EMeaning": ""
+  },
+  {
+    "ID": 17,
+    "Chinese": "品女",
+    "English": "Girl of Virtue",
+    "Meaning": "一種階級，擁有極高品格的女生，雖然低於巫女，但是高於侍女",
+    "EMeaning": ""
+  },
+  {
+    "ID": 18,
+    "Chinese": "士",
+    "English": "Shi",
+    "Meaning": "一種階級，一般指男生\n\n指人有毫不畏死的良好品格，\n低於君子",
+    "EMeaning": ""
+  },
+  {
+    "ID": 19,
+    "Chinese": "侍女",
+    "English": "",
+    "Meaning": "一種階級，低於品女，願意服侍君子",
     "EMeaning": ""
   }
 ]
