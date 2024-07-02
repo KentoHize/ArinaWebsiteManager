@@ -131,5 +131,89 @@
     "English": "",
     "Meaning": "一種階級，低於品女，願意服侍君子",
     "EMeaning": ""
+  },
+  {
+    "ID": 20,
+    "Chinese": "品格階級",
+    "English": "Moral Ranking",
+    "Meaning": "用品格區分人的制度\n\n[有奈教]\n正階分為5階，負階分4階\n\n從-4~+5含0共有10個階級",
+    "EMeaning": ""
+  },
+  {
+    "ID": 21,
+    "Chinese": "有奈君主制",
+    "English": "Arina's Monarchy",
+    "Meaning": "有奈教設置的理想制度\n\n君子存在時定君子成為君主，行君主制\n\n君子不存在時，實行類似共和制",
+    "EMeaning": ""
+  },
+  {
+    "ID": 22,
+    "Chinese": "評估主義",
+    "English": "Evaluationism",
+    "Meaning": "認為事物的價值可以被計算和認定\n\n由國家統一制定事物的價格的經濟制度",
+    "EMeaning": ""
+  },
+  {
+    "ID": 23,
+    "Chinese": "狼",
+    "English": "Wolf",
+    "Meaning": "[有奈教]\n本來指一種肉食動物\n\n我們指擁有狼襲能力的人，普通被認為是鬼/神等",
+    "EMeaning": ""
+  },
+  {
+    "ID": 24,
+    "Chinese": "羊",
+    "English": "Sheep",
+    "Meaning": "[有奈教]\n本來指一種溫馴的動物\n\n在這邊指沒有特殊能力的人",
+    "EMeaning": ""
+  },
+  {
+    "ID": 25,
+    "Chinese": "占卜",
+    "English": "Divination",
+    "Meaning": "本來是指人狼遊戲中擁有判斷狼能力之人\n\n[有奈教]\n指能夠使用感知能力判斷善惡能力之人",
+    "EMeaning": ""
+  },
+  {
+    "ID": 26,
+    "Chinese": "魔法",
+    "English": "Magic",
+    "Meaning": "利用靈的存在，產生超自然現象的一種統稱",
+    "EMeaning": ""
+  },
+  {
+    "ID": 27,
+    "Chinese": "上帝單位",
+    "English": "God Unit",
+    "Meaning": "潛伏在這個世界中的魔法師，暗中組織統治世界的機構",
+    "EMeaning": ""
+  },
+  {
+    "ID": 28,
+    "Chinese": "魔女",
+    "English": "Witch",
+    "Meaning": "女魔法師，但一般指邪惡受到汙染的人",
+    "EMeaning": ""
+  },
+  {
+    "ID": 29,
+    "Chinese": "魔法少女",
+    "English": "Magical Girl",
+    "Meaning": "年輕的女魔法師，在有奈教指受騙成為魔法師的女性",
+    "EMeaning": ""
+  },
+  {
+    "ID": 30,
+    "Chinese": "H",
+    "English": "H",
+    "Meaning": "原字是Hentai，從日文變態的讀音而來，指輕微性虐待\n\n因為有很多事情可以聯想到性虐待的概念，相關的行動也可以被稱為變態\n\n另外進行性行為，也可以說是H",
+    "EMeaning": ""
+  },
+  {
+    "ID": 31,
+    "Chinese": "H-Game",
+    "English": "H-Game",
+    "Meaning": "普通指帶有裸露、色情成分的美少女遊戲。\n\n廣泛地來說，女性向的男同性戀小說遊戲也算在內。",
+    "EMeaning": ""
   }
 ]
