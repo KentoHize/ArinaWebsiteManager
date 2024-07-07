@@ -718,6 +718,65 @@
       ]
     },
     {
+      "Name": "Languages",
+      "Columns": [
+        {
+          "Name": "Name",
+          "IsKey": true,
+          "IsNullable": false,
+          "Type": "String",
+          "Choices": [],
+          "FKTable": null,
+          "FKColumn": null,
+          "NumberOfRows": 1,
+          "Display": true,
+          "RegularExpression": "",
+          "Description": "",
+          "MinValue": "",
+          "MaxValue": "",
+          "MaxLength": 0,
+          "AutoGenerateKey": false,
+          "IsUnique": false
+        },
+        {
+          "Name": "EName",
+          "IsKey": false,
+          "IsNullable": false,
+          "Type": "String",
+          "Choices": [],
+          "FKTable": null,
+          "FKColumn": null,
+          "NumberOfRows": 1,
+          "Display": true,
+          "RegularExpression": null,
+          "Description": null,
+          "MinValue": null,
+          "MaxValue": null,
+          "MaxLength": 0,
+          "AutoGenerateKey": false,
+          "IsUnique": false
+        },
+        {
+          "Name": "CName",
+          "IsKey": false,
+          "IsNullable": false,
+          "Type": "String",
+          "Choices": [],
+          "FKTable": null,
+          "FKColumn": null,
+          "NumberOfRows": 1,
+          "Display": true,
+          "RegularExpression": null,
+          "Description": null,
+          "MinValue": null,
+          "MaxValue": null,
+          "MaxLength": 0,
+          "AutoGenerateKey": false,
+          "IsUnique": false
+        }
+      ]
+    },
+    {
       "Name": "LastUpdate",
       "Columns": [
         {
@@ -1603,65 +1662,6 @@
           "Description": "",
           "MinValue": "",
           "MaxValue": "",
-          "MaxLength": 0,
-          "AutoGenerateKey": false,
-          "IsUnique": false
-        }
-      ]
-    },
-    {
-      "Name": "Languages",
-      "Columns": [
-        {
-          "Name": "Name",
-          "IsKey": true,
-          "IsNullable": false,
-          "Type": "String",
-          "Choices": [],
-          "FKTable": null,
-          "FKColumn": null,
-          "NumberOfRows": 1,
-          "Display": true,
-          "RegularExpression": "",
-          "Description": "",
-          "MinValue": "",
-          "MaxValue": "",
-          "MaxLength": 0,
-          "AutoGenerateKey": false,
-          "IsUnique": false
-        },
-        {
-          "Name": "EName",
-          "IsKey": false,
-          "IsNullable": false,
-          "Type": "String",
-          "Choices": [],
-          "FKTable": null,
-          "FKColumn": null,
-          "NumberOfRows": 1,
-          "Display": true,
-          "RegularExpression": null,
-          "Description": null,
-          "MinValue": null,
-          "MaxValue": null,
-          "MaxLength": 0,
-          "AutoGenerateKey": false,
-          "IsUnique": false
-        },
-        {
-          "Name": "CName",
-          "IsKey": false,
-          "IsNullable": false,
-          "Type": "String",
-          "Choices": [],
-          "FKTable": null,
-          "FKColumn": null,
-          "NumberOfRows": 1,
-          "Display": true,
-          "RegularExpression": null,
-          "Description": null,
-          "MinValue": null,
-          "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
           "IsUnique": false

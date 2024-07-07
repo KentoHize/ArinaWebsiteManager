@@ -271,5 +271,33 @@
     "English": "Devil",
     "Meaning": "[有奈教]\n一種能夠使人具有力量的生物\n\n喜愛作惡",
     "EMeaning": ""
+  },
+  {
+    "ID": 40,
+    "Chinese": "禮",
+    "English": "",
+    "Meaning": "",
+    "EMeaning": ""
+  },
+  {
+    "ID": 41,
+    "Chinese": "尊君",
+    "English": "",
+    "Meaning": "",
+    "EMeaning": ""
+  },
+  {
+    "ID": 42,
+    "Chinese": "偽狼",
+    "English": "",
+    "Meaning": "沒有狼能力但是假裝是狼的人",
+    "EMeaning": ""
+  },
+  {
+    "ID": 43,
+    "Chinese": "君子世界/真理世界",
+    "English": "Junzi's World",
+    "Meaning": "根據真理，由君子統一世界的世界",
+    "EMeaning": ""
   }
 ]

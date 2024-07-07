@@ -46,5 +46,17 @@
     "StartAt": "一個月內",
     "Requirement": "年輕女性，品格良好，需要有接近白色的膚色",
     "Description": "認為自身適合者歡迎洽談"
+  },
+  {
+    "ID": 5,
+    "Name": "程式設計師",
+    "Publish": false,
+    "Salary": "面議",
+    "Type": "兼職/全職",
+    "Location": "在家/辦公室",
+    "WorkTime": "",
+    "StartAt": "",
+    "Requirement": "",
+    "Description": ""
   }
 ]
