@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S3J891FKK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0S3J891FKK');
+    </script>
+    <title>用語解釋(Explanation of Terms)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <script id="js3" src="Const.js"></script>
+
+    <div id="divTitle">
+        <h3 style="text-align:center">用語解釋(Explanation of Terms)</h3>
+        <div style="text-align:center">
+            <a href="javascript:refresh_page()">更新(Refresh)</a>
+            <br id="rbr" />
+            <!--<a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>-->
+        </div>
+
+    </div>
+    <div id="main" style="margin:20px">
+    </div>
+    <script>
+
+        function refresh_page() {
+            localStorage.clear();
+            location.reload(true);
+        }
+
+
+        //function display_all() {
+        //    redraw(true);
+        //}
+
+        function draw_table() {
+            var data;
+            var divMain = document.getElementById("main");
+            var xhttp = new XMLHttpRequest();
+            document.getElementById("main").innerText = "";
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    data = this.response;
+                    var table = document.createElement("table");
+
+                    var tr, td, text;
+                    var a;
+
+                    tr = document.createElement("tr");
+                    td = document.createElement("td");
+                    text = document.createTextNode("中文(Chinese)");
+                    td.width = "200px";
+                    td.appendChild(text);
+                    tr.appendChild(td);
+
+                    td = document.createElement("td");
+                    text = document.createTextNode("英文(English)");
+                    td.width = "300px";
+                    td.appendChild(text);
+                    tr.appendChild(td);
+
+                    td = document.createElement("td");
+                    text = document.createTextNode("基本意思(Meaning)");
+                    td.width = "600px";
+                    td.appendChild(text);
+                    tr.appendChild(td);
+
+                    td = document.createElement("td");
+                    text = document.createTextNode("建立時間(Date)");
+                    td.width = "200px";
+                    td.appendChild(text);
+                    tr.appendChild(td);
+
+                    td = document.createElement("td");
+                    text = document.createTextNode("更新時間(Update Date)");
+                    td.width = "200px";
+                    td.appendChild(text);
+                    tr.appendChild(td);
+
+
+                    table.appendChild(tr);
+
+                    for (var i = 0; i < data.length; i++) {
+
+                       
+                        tr = document.createElement("tr");
+
+                        td = document.createElement("td");                        
+                        text = document.createTextNode(data[i].Chinese);
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        //td = document.createElement("td");
+                        //a = document.createElement("a");
+                        //a.href = `PersonalInfo.html?index=${i}`;
+                        //text = document.createTextNode(get_full_name(data[i].Name, data[i].Surname, data[i].OtherName, data[i].SurnameFirst, ""));
+                        //a.appendChild(text);
+                        //td.appendChild(a);
+                        //tr.appendChild(td);
+
+                        td = document.createElement("td");                        
+                        text = document.createTextNode(data[i].English);
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        text = document.createTextNode(data[i].Meaning);
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        if (data[i].CreatedDate != null)
+                            text = document.createTextNode(data[i].CreatedDate);
+                        else
+                            text = document.createTextNode(`-`);                       
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        td = document.createElement("td");
+                        if (data[i].ModifiedDate != null)
+                            text = document.createTextNode(data[i].ModifiedDate);
+                        else
+                            text = document.createTextNode(`-`);
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        table.appendChild(tr);
+                    }
+
+                    divMain.appendChild(table);
+                }
+            };
+            xhttp.responseType = 'json';
+            xhttp.open("GET", "Terms.json?v=" + Math.random(), true);
+            xhttp.send();
+
+            //xhttp = new XMLHttpRequest();
+            //xhttp.responseType = 'json';
+            //xhttp.onreadystatechange = function () {
+            //    if (this.readyState == 4 && this.status == 200) {
+            //        data = this.response;
+            //        document.getElementById("iLastUpdate").innerText = `Last Update: ${data[0].LastUpdate}`;
+            //    }
+            //}
+            //xhttp.open("GET", "LastUpdate.json?v=" + Math.random(), true);
+            //xhttp.send();
+
+        }
+
+        function redraw() {
+            draw_table();
+        }
+
+        redraw();
+    </script>
+</body>
+</html>
