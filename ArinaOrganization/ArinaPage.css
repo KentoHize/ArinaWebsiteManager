@@ -87,3 +87,10 @@ p {
     .c6:active {
         background-color: #ffaaff;
     }
+
+.c7 {
+    background-color: #ffffff;
+}
+    .c7:active {
+        background-color: #eeeeee;
+    }

@@ -1631,6 +1631,24 @@
           "IsUnique": false
         },
         {
+          "Name": "Hide",
+          "IsKey": false,
+          "IsNullable": false,
+          "Type": "Boolean",
+          "Choices": [],
+          "FKTable": null,
+          "FKColumn": null,
+          "NumberOfRows": 1,
+          "Display": true,
+          "RegularExpression": "",
+          "Description": "",
+          "MinValue": "",
+          "MaxValue": "",
+          "MaxLength": 0,
+          "AutoGenerateKey": false,
+          "IsUnique": false
+        },
+        {
           "Name": "Meaning",
           "IsKey": false,
           "IsNullable": false,
@@ -1693,7 +1711,7 @@
           "FKTable": null,
           "FKColumn": null,
           "NumberOfRows": 1,
-          "Display": false,
+          "Display": true,
           "RegularExpression": "",
           "Description": "",
           "MinValue": "",
