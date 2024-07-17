@@ -10,7 +10,7 @@
         gtag('config', 'G-0S3J891FKK');
     </script>
     <meta charset="utf-8" />
-    <title>有奈教臨時首頁(Arina's hompage in short-term)</title>
+    <title>有奈教(Arina Organization)</title>
     <link rel="stylesheet" href="ArinaPage.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width">
@@ -22,12 +22,12 @@
     </div>
     <br />
     <div class="indexMain">
-        <div style="height:98px">
-            <a class="choiceBlock c1" style="width:330px; height:70px; float:left;" href="https://docs.google.com/forms/d/e/1FAIpQLSd6tQn93Ti1dcxB60P27CE3xfTQgkS9tmT4puO0CqZBu-hWQA/viewform" target="_blank">
-                入教申請書(Arina Organization Admission Application Form)
+        <div id="c1Div">
+            <a id ="c1" class="choiceBlock c1" href="https://docs.google.com/forms/d/e/1FAIpQLSd6tQn93Ti1dcxB60P27CE3xfTQgkS9tmT4puO0CqZBu-hWQA/viewform" target="_blank">
+                入教申請書<br />(Arina Organization Admission Application Form)
             </a>
-            <a class="choiceBlock c1" style="width:105px; height:70px; float:left;" href="https://drive.google.com/file/d/1EPk05kzW0qdtKYxkqjqToRJO5s05-6a9/view?usp=drive_link"  target="_blank">
-                書面版本(Document Version)
+            <a id ="c1a" class="choiceBlock c1" href="https://drive.google.com/file/d/1EPk05kzW0qdtKYxkqjqToRJO5s05-6a9/view?usp=drive_link"  target="_blank">
+                書面版本<br />(Document Version)
             </a>
         </div>
         <a class="choiceBlock c2" href="MoralRank.html" target="_blank">品階一覽表(Index of Moral Ranking)</a>
@@ -53,10 +53,40 @@
         Twitter: <a href="https://twitter.com/KentoHize">https://twitter.com/KentoHize</a>
     </div>
     <script>
+        var window_size;
+
         function refresh_page() {
             localStorage.clear();
             location.reload(true);
         }
+
+        function fixStyle() {
+            if (window.innerWidth < 600)
+                window_size = "s";
+            else if (window.innerWidth < 1300)
+                window_size = "m";
+            else
+                window_size = "l";
+
+            if (window_size == "s") {
+                document.getElementById("c1Div").style = "height:117px; ";
+                document.getElementById("c1").style = "width:155px; height:90px; float:left;";
+                document.getElementById("c1a").style = "width:81px; height:90px; float:left;";
+            }
+            else {
+                document.getElementById("c1Div").style = "height:98px;";
+                document.getElementById("c1").style = "width:330px; height:70px; float:left;";
+                document.getElementById("c1a").style = "width:105px; height:70px; float:left;";
+            }
+            
+        }
+
+        fixStyle();
+
+        window.addEventListener(`resize`, function () {
+            fixStyle();
+        })
+
     </script>
 </body>
 </html>
