@@ -1,6 +1,11 @@
 4, 6, Ar.3
-法律是下策，從君是上策
-Law is bad policy, complying to Junzi is good policy.
+(5, 25, Ar.7)
+從君為上策，法律為下策
+Complying to Junzi is good policy, keeping the law is  bad policy.
+
+11, 30, Ar.1
+君子指的是人有至上美德
+Junzi means a man has supreme virtue.
 
 9, 7, Ar.2
 未經過君子的認同而處在君子之上的人即為惡者
@@ -51,10 +56,6 @@ Good and evil judgment is above the parent-child relationship.
 12, 11, Ar.1
 在階級制度中，上位的人強要下位的人發生性關係不能算有罪，反過來的話有罪
 In a class system, upper-class people may have sexual relations with lower class people as he/she wishes, it's not guilty. If the opposite, it's guilty.
-
-11, 30, Ar.1
-君子指的是人有至上美德
-Junzi means a man has supreme virtue.
 
 -
 信有奈得真理
