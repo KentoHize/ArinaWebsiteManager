@@ -26,11 +26,11 @@
     "Chinese": "士",
     "English": "Shi",
     "Hide": false,
-    "Meaning": "一種階級，指人有毫不畏死的良好品格，低於君子。",
+    "Meaning": "一種階級，指人有毫不畏死的良好品格，品階4。",
     "Explanation": "一種階級，一般指男生\n\n指人有毫不畏死的良好品格，\n低於君子",
     "EExplanation": "",
     "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": "0007/07/14"
   },
   {
     "ID": 16,
@@ -202,11 +202,11 @@
     "Chinese": "英靈",
     "English": "Hero Spirit",
     "Hide": false,
-    "Meaning": "高靈魂等級者。",
+    "Meaning": "高靈魂等級者，普通來說指支持正義一方的人。",
     "Explanation": "高靈魂等級者，不一定有正邪之分。",
     "EExplanation": "",
     "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": "0007/07/14"
   },
   {
     "ID": 15,
@@ -257,66 +257,22 @@
     "Chinese": "評估主義",
     "English": "Evaluationism",
     "Hide": false,
-    "Meaning": "透過評估與計算，由國家統一制定事物的價格的經濟制度。",
+    "Meaning": "透過評估與計算，由國家統一制定事物價格的經濟制度。",
     "Explanation": "認為事物的價值可以被計算和認定\n\n由國家統一制定事物的價格的經濟制度",
     "EExplanation": "",
     "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
-  },
-  {
-    "ID": 38,
-    "Chinese": "人狼遊戲",
-    "English": "Werewolf(Game)",
-    "Hide": false,
-    "Meaning": "模擬現實世界生存遊戲的一種社交遊戲，可用來說明每個人代表的角色。",
-    "Explanation": "模擬現實世界生存遊戲的一種社交遊戲\n\n每個玩家被設置能力和陣營，互相廝殺",
-    "EExplanation": "",
-    "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
-  },
-  {
-    "ID": 23,
-    "Chinese": "狼",
-    "English": "Wolf",
-    "Hide": false,
-    "Meaning": "[有奈教]指具有憑空使他人受傷或死亡能力的人，俗稱鬼或神，受某種規則限制。",
-    "Explanation": "[有奈教]\n本來指一種肉食動物\n\n我們指擁有狼襲能力的人，普通被認為是鬼/神等",
-    "EExplanation": "",
-    "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
-  },
-  {
-    "ID": 24,
-    "Chinese": "羊",
-    "English": "Sheep",
-    "Hide": false,
-    "Meaning": "[有奈教]不具備狼能力的人。",
-    "Explanation": "[有奈教]\n本來指一種溫馴的動物\n\n在這邊指沒有特殊能力的人",
-    "EExplanation": "",
-    "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
-  },
-  {
-    "ID": 35,
-    "Chinese": "狐狸",
-    "English": "Fox",
-    "Hide": false,
-    "Meaning": "[有奈教]不具備狼能力但是有興趣加入邪惡的一股勢力，常見女性。",
-    "Explanation": "[有奈教]\n本來指一種肉食動物\n\n這邊指四處騙人但是不具備狼襲能力的族群\n\n主要為女生",
-    "EExplanation": "",
-    "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": "0007/07/14"
   },
   {
     "ID": 25,
     "Chinese": "占卜",
     "English": "Divination",
     "Hide": false,
-    "Meaning": "[有奈教]能夠使用感知能力判斷善惡能力之人。",
+    "Meaning": "[有奈教]能夠使用感知能力判斷善惡之人。",
     "Explanation": "本來是指人狼遊戲中擁有判斷狼能力之人\n\n[有奈教]\n指能夠使用感知能力判斷善惡能力之人",
     "EExplanation": "",
     "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": "0007/07/14"
   },
   {
     "ID": 26,
@@ -363,12 +319,56 @@
     "ModifiedDate": null
   },
   {
+    "ID": 38,
+    "Chinese": "人狼遊戲",
+    "English": "Werewolf(Game)",
+    "Hide": false,
+    "Meaning": "模擬現實世界生存遊戲的一種社交遊戲，可用來說明每個人代表的角色。",
+    "Explanation": "模擬現實世界生存遊戲的一種社交遊戲\n\n每個玩家被設置能力和陣營，互相廝殺",
+    "EExplanation": "",
+    "CreatedDate": "0007/07/14",
+    "ModifiedDate": null
+  },
+  {
     "ID": 27,
     "Chinese": "上帝單位",
     "English": "Organization of God",
     "Hide": false,
     "Meaning": "潛伏在這個世界中的魔法師，暗中組織統治世界的機構。",
     "Explanation": "潛伏在這個世界中的魔法師，暗中組織統治世界的機構",
+    "EExplanation": "",
+    "CreatedDate": "0007/07/14",
+    "ModifiedDate": null
+  },
+  {
+    "ID": 23,
+    "Chinese": "狼",
+    "English": "Wolf",
+    "Hide": false,
+    "Meaning": "[有奈教]指具有憑空使他人受傷或死亡能力的人，俗稱鬼或神，受某種規則限制。",
+    "Explanation": "[有奈教]\n本來指一種肉食動物\n\n我們指擁有狼襲能力的人，普通被認為是鬼/神等",
+    "EExplanation": "",
+    "CreatedDate": "0007/07/14",
+    "ModifiedDate": null
+  },
+  {
+    "ID": 24,
+    "Chinese": "羊",
+    "English": "Sheep",
+    "Hide": false,
+    "Meaning": "[有奈教]不具備狼能力的人，受害者身分，同時也不會是魔法師。",
+    "Explanation": "[有奈教]\n本來指一種溫馴的動物\n\n在這邊指沒有特殊能力的人",
+    "EExplanation": "",
+    "CreatedDate": "0007/07/14",
+    "ModifiedDate": "0007/07/14"
+  },
+  {
+    "ID": 35,
+    "Chinese": "狐狸",
+    "English": "Fox",
+    "Hide": false,
+    "Meaning": "[有奈教]不具備狼能力但是有興趣加入邪惡的一股勢力，常見女性。",
+    "Explanation": "[有奈教]\n本來指一種肉食動物\n\n這邊指四處騙人但是不具備狼襲能力的族群\n\n主要為女生",
     "EExplanation": "",
     "CreatedDate": "0007/07/14",
     "ModifiedDate": null
