@@ -125,15 +125,15 @@
                     if (this.readyState == 4 && this.status == 200) {
                         BRData = this.response;
 
-                        var index = location.search.split('index=')[1]
+                        var index = location.search.split('index=')[1].split('&')[0];
                         var a, tr, td;
 
                         if (index != 0)
-                            document.getElementById("previous_page").href = `PersonalInfo.html?index=${(parseInt(index) - 1)}`;
+                            document.getElementById("previous_page").href = `PersonalInfo.html?index=${(parseInt(index) - 1)}&v=` + Math.random();
                         else
                             document.getElementById("previous_page").parentNode.innerText = "　";
                         if (index < PData.length - 1)
-                            document.getElementById("next_page").href = `PersonalInfo.html?index=${(parseInt(index) + 1)}`;
+                            document.getElementById("next_page").href = `PersonalInfo.html?index=${(parseInt(index) + 1)}&v=` + Math.random();
                         else
                             document.getElementById("next_page").parentNode.innerText = "　";
 
@@ -234,7 +234,7 @@
                                 for (var j = 0; j < PData.length; j++) {
                                     if (PData[j].ID == BRData[i].BestowerID) {
                                         a.innerText = get_full_name(PData[j].Name, PData[j].Surname, PData[j].OtherName, PData[j].SurnameFirst, "", "");
-                                        a.href = `PersonalInfo.html?index=${j}`;
+                                        a.href = `PersonalInfo.html?index=${j}&v=` + Math.random();
                                         break;
                                     }
                                 }
@@ -264,11 +264,7 @@
 
         localStorage.clear();
 
-        //Person
-
-        //Record
-        var rTable = document.getElementById("recordTable");
-
+       /* var rTable = document.getElementById("recordTable");*/
 
     </script>
 </body>

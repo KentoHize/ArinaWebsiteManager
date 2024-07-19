@@ -140,7 +140,7 @@
 
                         td = document.createElement("td");
                         a = document.createElement("a");
-                        a.href = `PersonalInfo.html?index=${i}`;
+                        a.href = `PersonalInfo.html?index=${i}&v=` + Math.random();
                         text = document.createTextNode(get_full_name(data[i].Name, data[i].Surname, data[i].OtherName, data[i].SurnameFirst, ""));
                         a.appendChild(text);
                         td.appendChild(a);
