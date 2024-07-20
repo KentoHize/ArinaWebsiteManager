@@ -3,13 +3,13 @@
     "ID": 1,
     "Name": "助理",
     "Publish": true,
-    "Salary": "面議/無太多工作時，單月不超過一萬元",
+    "Salary": "論件計酬/面議",
     "Type": "兼職/全職",
-    "Location": "在家工作/可議",
+    "Location": "遠端/台北市",
     "WorkTime": "任意，需約時間見面",
     "StartAt": "一星期內",
     "Requirement": "文書處理能力",
-    "Description": "年輕女性佳\n見面時穿著有要求，能配合教主，行禮得宜"
+    "Description": "年輕女性佳\n助理工作、文書作業\n見面時穿著有要求，能配合教主，行禮得宜"
   },
   {
     "ID": 2,
@@ -17,7 +17,7 @@
     "Publish": true,
     "Salary": "論件計酬/面議",
     "Type": "兼職/全職",
-    "Location": "在家工作/可議",
+    "Location": "遠端/可議",
     "WorkTime": "任意，需約時間見面",
     "StartAt": "一個月內",
     "Requirement": "美術能力",
@@ -29,7 +29,7 @@
     "Publish": false,
     "Salary": "論件計酬",
     "Type": "兼職",
-    "Location": "在家工作",
+    "Location": "遠端",
     "WorkTime": "任意",
     "StartAt": "隨時",
     "Requirement": "中翻英能力\n\n需具備高級英語的使用能力(能使用艱難字)",
@@ -58,5 +58,17 @@
     "StartAt": "",
     "Requirement": "",
     "Description": ""
+  },
+  {
+    "ID": 6,
+    "Name": "保全",
+    "Publish": true,
+    "Salary": "契約型 6000/月或面議",
+    "Type": "兼職",
+    "Location": "台北市",
+    "WorkTime": "需約時間",
+    "StartAt": "一星期內",
+    "Requirement": "武裝時能對付大多數非武裝人員",
+    "Description": "品格良好，主要幫忙看守貨物，只需要教主出門時幫忙看守即可"
   }
 ]
