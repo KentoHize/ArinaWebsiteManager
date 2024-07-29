@@ -51,13 +51,13 @@
     "ID": 5,
     "Name": "程式設計師",
     "Publish": false,
-    "Salary": "面議",
-    "Type": "兼職/全職",
-    "Location": "在家/辦公室",
-    "WorkTime": "",
-    "StartAt": "",
-    "Requirement": "",
-    "Description": ""
+    "Salary": "30000以上/面議",
+    "Type": "全職",
+    "Location": "遠端/台北市",
+    "WorkTime": "任意",
+    "StartAt": "一個月內",
+    "Requirement": "熟悉物件導向程式設計\n了解基本資料結構和演算法\n熟悉JSON的使用\n擅長C#/C++/Javascript(至少一項)\n擅長程式繪圖佳",
+    "Description": "主要採用菁英族群，幫忙擴建程式\n\n大多數工作較為困難，需要強力的幫手"
   },
   {
     "ID": 6,
