@@ -21,5 +21,5 @@ function ChangeDateToArDate(date)
 
 function ChangeLFtoBRLabel(s) {
     
-    return s.replace("\n", "<br />");
+    return s.replaceAll("\n", "<br />");
 }

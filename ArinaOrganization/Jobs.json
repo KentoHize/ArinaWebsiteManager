@@ -3,13 +3,13 @@
     "ID": 1,
     "Name": "助理",
     "Publish": true,
-    "Salary": "論件計酬/面議",
+    "Salary": "論件計酬或200/小時",
     "Type": "兼職/全職",
     "Location": "遠端/台北市",
     "WorkTime": "任意，需約時間見面",
     "StartAt": "一星期內",
     "Requirement": "文書處理能力",
-    "Description": "年輕女性佳\n助理工作、文書作業\n見面時穿著有要求，能配合教主，行禮得宜"
+    "Description": "助理工作、文書作業\n年輕女性佳\n見面時穿著有要求，能配合教主，行禮得宜\n採用時薪無法遠端作業"
   },
   {
     "ID": 2,
@@ -21,7 +21,7 @@
     "WorkTime": "任意，需約時間見面",
     "StartAt": "一個月內",
     "Requirement": "美術能力",
-    "Description": "主要需求日式ACG畫風\n\n製作可愛角色，以及其他美工作業"
+    "Description": "主要需求日式ACG畫風\n製作可愛角色，以及其他美工作業"
   },
   {
     "ID": 3,
@@ -63,12 +63,24 @@
     "ID": 6,
     "Name": "保全",
     "Publish": true,
-    "Salary": "契約型 6000/月或面議",
+    "Salary": "契約型 6000~8000/月或面議",
     "Type": "兼職",
     "Location": "台北市",
     "WorkTime": "需約時間",
     "StartAt": "一星期內",
     "Requirement": "武裝時能對付大多數非武裝人員",
-    "Description": "品格良好，主要幫忙看守貨物，只需要教主出門時幫忙看守即可"
+    "Description": "品格良好\n主要幫忙看守貨物\n只需要教主出門時幫忙看守即可"
+  },
+  {
+    "ID": 7,
+    "Name": "3D模型設計師",
+    "Publish": false,
+    "Salary": "面議",
+    "Type": "兼職/全職",
+    "Location": "遠端",
+    "WorkTime": "任意",
+    "StartAt": "一星期內",
+    "Requirement": "建設3D模型\n相關軟體版權",
+    "Description": "3D模型能建即可，由應徵者決定使用什麼軟體(可以用免費軟體)"
   }
 ]

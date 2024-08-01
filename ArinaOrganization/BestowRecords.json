@@ -837,6 +837,15 @@
     "Memo": ""
   },
   {
+    "ID": 93,
+    "PersonID": "4f2eebb9-dea2-4a14-9124-7ec33267c458",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": -3,
+    "BestowDateTime": "0006/05/26 19:50:18",
+    "Reason": "信用度調整",
+    "Memo": ""
+  },
+  {
     "ID": 94,
     "PersonID": "a9538176-6bd9-4c7c-a278-05a3cb075d7e",
     "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
@@ -1017,15 +1026,6 @@
     "Memo": ""
   },
   {
-    "ID": 93,
-    "PersonID": "4f2eebb9-dea2-4a14-9124-7ec33267c458",
-    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
-    "MoralRank": -3,
-    "BestowDateTime": "0006/05/26 19:50:18",
-    "Reason": "信用度調整",
-    "Memo": ""
-  },
-  {
     "ID": 114,
     "PersonID": "bceec643-f0a0-4b90-bc1d-233e381dc5b5",
     "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
@@ -1085,6 +1085,15 @@
     "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
     "MoralRank": 4,
     "BestowDateTime": "0007/07/18 7:09:05",
+    "Reason": "初評定",
+    "Memo": ""
+  },
+  {
+    "ID": 121,
+    "PersonID": "3b1230f0-3afd-4cee-9485-dea81b179e2f",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": -4,
+    "BestowDateTime": "0007/07/31 13:33:33",
     "Reason": "初評定",
     "Memo": ""
   }
