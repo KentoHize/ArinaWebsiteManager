@@ -17,8 +17,11 @@
     <link rel="stylesheet" href="ArinaPage.css">
 </head>
 <body>
-    <script src="Arina.js?r=1"></script>
-    <h3 style="text-align:center">徵人啟事(Recruits)</h3>    
+    <script src="Arina.js"></script>
+    <h3 style="text-align:center">徵人啟事(Recruits)</h3>
+    <div style="text-align:center; margin:10px">
+        <a href="InterviewInstructions.html">面試須知(Interview Instructions)</a>
+    </div>
     <div style="margin:auto" id="divMain">
         <div id="main">
         </div>
@@ -26,7 +29,8 @@
     <br />
     <div style="text-align:center; margin:10px">
         聯絡我們(Contact us): <a href="mailto:KentoHize@gmail.com">KentoHize@gmail.com</a><br />
-        收信地址:臺北市大安區信義路四段210號11樓<br />
+        Line： <a href="https://lin.ee/RNdAT49">https://lin.ee/RNdAT49</a><br />
+        收信地址(Address for Receiving Mail):臺北市大安區信義路四段210號11樓<br />
         Twitter: <a href="https://twitter.com/KentoHize">https://twitter.com/KentoHize</a>
     </div>
     <script>
@@ -49,7 +53,7 @@
             divMain.innerText = "";
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    
+
                     data = this.response;
                     var table;
                     var tr, td, text;
@@ -62,8 +66,8 @@
                         lw = "130px";
                         lw2 = "230px";
                     }
-                        
-                    for (var i = 0; i < data.length; i++) {                        
+
+                    for (var i = 0; i < data.length; i++) {
                         if (!data[i].Publish)
                             continue;
                         table = document.createElement("table");
@@ -71,38 +75,38 @@
                         table.style = `padding:4px; margin-top:10px`;
                         tr = createSpecTrTd(true);
                         td = createSpecTrTd(false);
-                        
+
                         text = document.createTextNode("職務名稱(Title)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
                         td = createSpecTrTd(false);
                         td.width = lw2;
-                        text = document.createTextNode(`${data[i].Name}`);                        
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        table.appendChild(tr);
-                        
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);        
-                        text = document.createTextNode("薪資(Salary)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].Salary}`);                        
+                        text = document.createTextNode(`${data[i].Name}`);
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
                         tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);                        
+                        td = createSpecTrTd(false);
+                        text = document.createTextNode("薪資(Salary)");
+                        td.width = lw;
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        td = createSpecTrTd(false);
+                        text = document.createTextNode(`${data[i].Salary}`);
+                        td.appendChild(text);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
                         text = document.createTextNode("類型(Type)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
-                        td = createSpecTrTd(false); 
-                        text = document.createTextNode(`${data[i].Type}`);                        
+                        td = createSpecTrTd(false);
+                        text = document.createTextNode(`${data[i].Type}`);
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
@@ -114,19 +118,19 @@
                         td.appendChild(text);
                         tr.appendChild(td);
                         td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].Location}`);                        
+                        text = document.createTextNode(`${data[i].Location}`);
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
                         tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);                        
+                        td = createSpecTrTd(false);
                         text = document.createTextNode("工作時間(Working Time)");
                         td.width = lw;
                         td.appendChild(text);
                         tr.appendChild(td);
                         td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].WorkTime}`);                        
+                        text = document.createTextNode(`${data[i].WorkTime}`);
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
@@ -138,13 +142,13 @@
                         td.appendChild(text);
                         tr.appendChild(td);
                         td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].StartAt}`);                        
+                        text = document.createTextNode(`${data[i].StartAt}`);
                         td.appendChild(text);
                         tr.appendChild(td);
                         table.appendChild(tr);
 
                         tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);                        
+                        td = createSpecTrTd(false);
                         text = document.createTextNode("工作需求(Requirement)");
                         td.width = lw;
                         td.appendChild(text);
@@ -165,12 +169,12 @@
                         tr.appendChild(td);
                         table.appendChild(tr);
                         divMain.appendChild(table);
-                    }                    
+                    }
                 }
             };
             xhttp.responseType = 'json';
             xhttp.open("GET", "Jobs.json?v=" + Math.random(), true);
-            xhttp.send();          
+            xhttp.send();
         }
 
         function redraw(display_all = false) {
@@ -191,12 +195,12 @@
             if (window_size == "s")
                 document.getElementById("main").style = `margin:auto; width:360px;`;
             else if (window_size == "m" || window_size == "l")
-                document.getElementById("main").style = `margin:auto; width:800px;`; 
-            
+                document.getElementById("main").style = `margin:auto; width:800px;`;
+
             draw_table();
         }
 
         redraw();
-    </script>    
+    </script>
 </body>
 </html>
