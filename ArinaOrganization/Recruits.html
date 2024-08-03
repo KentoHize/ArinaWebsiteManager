@@ -31,7 +31,7 @@
         聯絡我們(Contact us): <a href="mailto:KentoHize@gmail.com">KentoHize@gmail.com</a><br />
         Line: <a href="https://lin.ee/RNdAT49">https://lin.ee/RNdAT49</a> @Htp9215K<br />
         Twitter: <a href="https://twitter.com/KentoHize">https://twitter.com/KentoHize</a><br />
-        收信地址(Address for Receiving Mail): 106049 臺北市大安區義安里002鄰信義路四段210號11樓
+        收信地址(Address for Receiving Mail): 106049 臺北市大安區義安里2鄰信義路四段210號11樓
     </div>
     <script>
         var window_size;
@@ -58,6 +58,7 @@
                     var table;
                     var tr, td, text;
                     var lw, lw2;
+                    var category = "Normal";
                     if (window_size == "m" || window_size == "l") {
                         lw = "200px";
                         lw2 = "600px";
@@ -66,109 +67,128 @@
                         lw = "130px";
                         lw2 = "230px";
                     }
+                    for (var j = 0; j < 2; j++) {
+                        var h4 = document.createElement("h4");
+                        if (j == 0) {
+                            h4.innerText = "普通職務(適合學生)";
+                            divMain.appendChild(h4);
+                        }
+                        else
+                        {
+                            h4.innerText = "專業職務(適合專業人士)";
+                            divMain.appendChild(h4);
+                        }
 
-                    for (var i = 0; i < data.length; i++) {
-                        if (!data[i].Publish)
-                            continue;
-                        table = document.createElement("table");
-                        table.border = 1;
-                        table.style = `padding:4px; margin-top:10px`;
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
+                      /*  divMain.appendChild(document.createElement("hr"));*/
+                        for (var i = 0; i < data.length; i++) {
+                            if (!data[i].Publish)
+                                continue;
+                            if (data[i].Category != category) 
+                                continue;
 
-                        text = document.createTextNode("職務名稱(Title)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        td.width = lw2;
-                        text = document.createTextNode(`${data[i].Name}`);
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        table.appendChild(tr);
+                            
 
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode("薪資(Salary)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].Salary}`);
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        table.appendChild(tr);
+                            table = document.createElement("table");
+                            table.border = 1;
+                            table.style = `padding:4px; margin-top:10px`;
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
 
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode("類型(Type)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].Type}`);
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        table.appendChild(tr);
+                            text = document.createTextNode("職務名稱(Title)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            td.width = lw2;
+                            text = document.createTextNode(`${data[i].Name}`);
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            table.appendChild(tr);
 
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode("地點(Location)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].Location}`);
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        table.appendChild(tr);
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode("薪資(Salary)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode(`${data[i].Salary}`);
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            table.appendChild(tr);
 
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode("工作時間(Working Time)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].WorkTime}`);
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        table.appendChild(tr);
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode("類型(Type)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode(`${data[i].Type}`);
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            table.appendChild(tr);
 
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode("工作可開始(Start At)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode(`${data[i].StartAt}`);
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        table.appendChild(tr);
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode("地點(Location)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode(`${data[i].Location}`);
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            table.appendChild(tr);
 
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode("工作需求(Requirement)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        td.innerHTML = `${ChangeLFtoBRLabel(data[i].Requirement)}`;
-                        tr.appendChild(td);
-                        table.appendChild(tr);
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode("工作時間(Working Time)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode(`${data[i].WorkTime}`);
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            table.appendChild(tr);
 
-                        tr = createSpecTrTd(true);
-                        td = createSpecTrTd(false);
-                        text = document.createTextNode("詳細說明(Description)");
-                        td.width = lw;
-                        td.appendChild(text);
-                        tr.appendChild(td);
-                        td = createSpecTrTd(false);
-                        td.innerHTML = `${ChangeLFtoBRLabel(data[i].Description)}`;
-                        tr.appendChild(td);
-                        table.appendChild(tr);
-                        divMain.appendChild(table);
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode("工作可開始(Start At)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode(`${data[i].StartAt}`);
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            table.appendChild(tr);
+
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode("工作需求(Requirement)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            td.innerHTML = `${ChangeLFtoBRLabel(data[i].Requirement)}`;
+                            tr.appendChild(td);
+                            table.appendChild(tr);
+
+                            tr = createSpecTrTd(true);
+                            td = createSpecTrTd(false);
+                            text = document.createTextNode("詳細說明(Description)");
+                            td.width = lw;
+                            td.appendChild(text);
+                            tr.appendChild(td);
+                            td = createSpecTrTd(false);
+                            td.innerHTML = `${ChangeLFtoBRLabel(data[i].Description)}`;
+                            tr.appendChild(td);
+                            table.appendChild(tr);
+                            divMain.appendChild(table);
+                        }
+                        category = "Professional";
                     }
                 }
             };
