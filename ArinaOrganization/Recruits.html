@@ -70,7 +70,7 @@
                     for (var j = 0; j < 2; j++) {
                         var h4 = document.createElement("h4");
                         if (j == 0) {
-                            h4.innerText = "普通職務(適合學生)";
+                            h4.innerText = "普通職務(適合學生與非專業人士)";
                             divMain.appendChild(h4);
                         }
                         else
@@ -79,14 +79,11 @@
                             divMain.appendChild(h4);
                         }
 
-                      /*  divMain.appendChild(document.createElement("hr"));*/
                         for (var i = 0; i < data.length; i++) {
                             if (!data[i].Publish)
                                 continue;
                             if (data[i].Category != category) 
-                                continue;
-
-                            
+                                continue;                            
 
                             table = document.createElement("table");
                             table.border = 1;
