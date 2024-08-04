@@ -105,6 +105,7 @@ yami(11, 13, Ar.3)
 陳時中(10, 25, Ar.3)
 蘇貞昌(11, 25, Ar.3)
 習近平(9, 2, Ar.4)
+侯友宜(7, 31, Ar.7)
 管中閔(5, 24, Ar.6)
 Mark.Zuckerberg(10, 25, Ar.3)
 Barack.Obama(11, 26, Ar.3)
@@ -112,8 +113,7 @@ Bill.Gates(1, 1, Ar.4)
 蔡英文(10, 25, Ar.3)
 華春瑩(12, 13, Ar.3)
 Hillary.Clinton(12, 21, Ar.3)
-侯友宜(7, 31, Ar.7)
 普遍美國人(10, 25, Ar.3)
 台灣惡質老人(11, 15, Ar.3)
 
-Created at 7, 31, Ar.7
+Created at 8, 4, Ar.7
