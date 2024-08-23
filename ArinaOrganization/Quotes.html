@@ -33,7 +33,12 @@
                     section = document.createElement("section");
 
                     p = document.createElement("p");
-                    p.innerHTML = ChangeDateToArDate(data[i].Date);
+                    if (data[i].Date != null)
+                        p.innerHTML = ChangeDateToArDate(data[i].Date);
+                    else
+                        p.innerHTML = "-";
+
+                    
                     section.appendChild(p);
 
                     if (data[i].UpdateDate != null) {
