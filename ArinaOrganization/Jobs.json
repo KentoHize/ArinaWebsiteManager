@@ -67,7 +67,7 @@
   {
     "ID": 6,
     "Name": "保全",
-    "Publish": true,
+    "Publish": false,
     "Category": "Normal",
     "Salary": "契約型 6000~8000/月或面議",
     "Type": "兼職",
@@ -89,5 +89,18 @@
     "StartAt": "一個月內",
     "Requirement": "建設3D模型\n相關軟體版權",
     "Description": "3D模型能建即可，由應徵者決定使用什麼軟體(可以用免費軟體)\n主要製作遊戲模型與角色，可攜帶作品參考"
+  },
+  {
+    "ID": 8,
+    "Name": "護衛",
+    "Publish": false,
+    "Category": "Professional",
+    "Salary": "",
+    "Type": "兼職",
+    "Location": "台北市",
+    "WorkTime": "需約時間",
+    "StartAt": "一星期內",
+    "Requirement": "武裝時能對付大多數非武裝人員",
+    "Description": "品格良好\n主要幫忙看守貨物\n只需要教主出門時幫忙看守即可"
   }
 ]
