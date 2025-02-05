@@ -253,6 +253,17 @@
     "ModifiedDate": null
   },
   {
+    "ID": 45,
+    "Chinese": "有奈物資點",
+    "English": "Arina Supply Point",
+    "Hide": false,
+    "Meaning": "在有奈教用來兌換普通物資的點數。250點兌換1美元(Ar.8)",
+    "Explanation": "",
+    "EExplanation": "",
+    "CreatedDate": "0008/01/15",
+    "ModifiedDate": null
+  },
+  {
     "ID": 22,
     "Chinese": "評估主義",
     "English": "Evaluationism",
@@ -420,13 +431,13 @@
   {
     "ID": 37,
     "Chinese": "猶太人",
-    "English": "Jewish",
+    "English": "Jews",
     "Hide": false,
     "Meaning": "[有奈教]信猶太教的人。",
     "Explanation": "[有奈教]\n信猶太教的人",
     "EExplanation": "",
     "CreatedDate": "0007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": "0008/02/01"
   },
   {
     "ID": 39,
