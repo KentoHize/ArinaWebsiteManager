@@ -23,6 +23,10 @@ Junzi has neither anxiety and nor fear when faces rumors and threats.
 好人在壞人的上位
 The rank of a good person is upper than a non-good one.
 
+10, 17, Ar.7
+邪不勝正
+Evil cannot prevail over good.
+
 5, 28, Ar.2
 唯有君子和品女是正途
 Junzi or a girl of virtue is the only and right way to go.
