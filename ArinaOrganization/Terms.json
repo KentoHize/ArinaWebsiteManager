@@ -242,6 +242,17 @@
     "ModifiedDate": null
   },
   {
+    "ID": 46,
+    "Chinese": "有奈主義",
+    "English": "Arinaism",
+    "Hide": false,
+    "Meaning": "泛指由有奈教提及並實行的制度或哲學理念",
+    "Explanation": "",
+    "EExplanation": "",
+    "CreatedDate": "0008/02/16",
+    "ModifiedDate": null
+  },
+  {
     "ID": 21,
     "Chinese": "有奈君主制",
     "English": "Arina's Monarchy",
@@ -437,7 +448,7 @@
     "Explanation": "[有奈教]\n信猶太教的人",
     "EExplanation": "",
     "CreatedDate": "0007/07/14",
-    "ModifiedDate": "0008/02/01"
+    "ModifiedDate": "0008/02/06"
   },
   {
     "ID": 39,
