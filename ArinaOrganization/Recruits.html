@@ -87,7 +87,11 @@
 
                             table = document.createElement("table");
                             table.border = 1;
-                            table.style = `padding:4px; margin-top:10px`;
+                            table.style = `padding:4px; margin-top:10px`;                            
+                            if(j == 0)
+                                table.id = `J${i}`;
+                            else
+                                table.id = `P${i}`;
                             tr = createSpecTrTd(true);
                             td = createSpecTrTd(false);
 
@@ -187,6 +191,10 @@
                         }
                         category = "Professional";
                     }
+
+                    var id = location.search.split('id=')[1];
+                    if (id != null)
+                        document.getElementById(id).scrollIntoView();
                 }
             };
             xhttp.responseType = 'json';
