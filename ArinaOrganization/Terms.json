@@ -121,6 +121,17 @@
     "ModifiedDate": null
   },
   {
+    "ID": 47,
+    "Chinese": "靈氣",
+    "English": "Spiritual Aura",
+    "Hide": false,
+    "Meaning": "靈力高的人，在身旁自帶類似結界的氣場",
+    "Explanation": "一人的靈魂能量，加上其他任何幫助的靈魂所產生的等值的力量總和\n\n魔力上限",
+    "EExplanation": "",
+    "CreatedDate": "0007/07/14",
+    "ModifiedDate": null
+  },
+  {
     "ID": 13,
     "Chinese": "靈魂等級",
     "English": "Spiritual Level",

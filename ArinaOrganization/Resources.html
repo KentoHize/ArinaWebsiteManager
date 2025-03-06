@@ -17,11 +17,150 @@
 <body>
     <script src="Arina.js"></script>
     <h3 style="text-align:center">免費資源(Resources)</h3>
-    <article style="margin:50px">
+    <article style="margin:20px;">
         <section>
-            <p>提供免費資源</p>
+            <p style="text-align:center">商用請來信告知</p>
         </section>
     </article>
-    <a href="https://github.com/KentoHize/JsonEditorV2">Json資料檔案編輯器</a>
-    <br />   
+    <div style="margin:auto" id="divMain">
+        <div id="main">
+        </div>
+    </div>
+    <div style="text-align:center; margin:10px">
+        聯絡我們(Contact us): <a href="mailto:service@arinaorganization.org">service@arinaorganization.org</a><br />
+    </div>
+    <script>
+        var window_size;
+
+        function createSpecTrTd(isTr) {
+            let result;
+            if (isTr)
+                result = document.createElement("tr");
+            else
+                result = document.createElement("td");
+            result.style = "border:none";
+            return result;
+        }
+
+        function draw_table() {
+
+            var data;
+            var divMain = document.getElementById("main");
+            var xhttp = new XMLHttpRequest();
+            divMain.innerText = "";
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    data = this.response;
+                    var table;
+                    var a, img, tr, td, text;
+                    var lw, lw2;
+
+                    if (window_size == "m" || window_size == "l") {
+                        lw = "200px";
+                        lw2 = "600px";
+                    }
+                    else {
+                        lw = "130px";
+                        lw2 = "230px";
+                    }
+
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].Hide)
+                            continue;
+
+                        table = document.createElement("table");
+                        table.border = 1;
+                        table.style = `padding:4px; margin-top:10px; text-align:center`;
+                        table.id = `R${i}`;
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
+                        text = document.createTextNode(`${i + 1}.`);
+                        td.rowSpan = 3;
+                        td.appendChild(text);
+                        tr.appendChild(td);
+
+                        td = createSpecTrTd(false);
+                        text = document.createTextNode(data[i].CName);
+                        a = document.createElement("a");
+                        a.href = data[i].Link;
+                        a.target = "_blank";
+                        a.appendChild(text);
+                        td.appendChild(a);
+                        tr.appendChild(td);
+
+                        td = createSpecTrTd(false);
+                        td.rowSpan = 3;
+                        td.style = "border:none; text-align:left;padding:4px";
+                        td.innerHTML = ChangeLFtoBRLabel(data[i].Instruction);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
+
+                        a = document.createElement("a");
+                        a.href = data[i].Link;
+                        a.target = "_blank";
+
+                        img = document.createElement("img");
+                        img.style = "width: 200px";
+                        img.src = data[i].Picture;
+
+                        a.appendChild(img);
+                        td.appendChild(a);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+
+                        tr = createSpecTrTd(true);
+                        td = createSpecTrTd(false);
+
+                        if (data[i].Link2 != null) {
+                            text = document.createTextNode(data[i].CName2);
+                            a = document.createElement("a");
+                            a.href = data[i].Link2;
+                            a.target = "_blank";
+                            a.appendChild(text);
+                            td.appendChild(a);
+                        }
+
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+                        divMain.appendChild(table);
+                    }
+
+                    var id = location.search.split('id=')[1];
+                    if (id != null)
+                        document.getElementById(id).scrollIntoView();
+                }
+            };
+            xhttp.responseType = 'json';
+            xhttp.open("GET", "Resources.json?v=" + Math.random(), true);
+            xhttp.send();
+        }
+
+        function redraw(display_all = false) {
+
+            if (window.innerWidth < 800)
+                window_size = "s";
+            else if (window.innerWidth < 1300)
+                window_size = "m";
+            else
+                window_size = "l";
+
+            if (display_all) {
+                window_size = "l";
+                document.getElementById("main").style = `margin:auto; width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
+                document.getElementsByTagName('meta')['viewport'].content = "";
+            }
+
+            if (window_size == "s")
+                document.getElementById("main").style = `margin:auto; width:360px;`;
+            else if (window_size == "m" || window_size == "l")
+                document.getElementById("main").style = `margin:auto; width:800px;`;
+
+            draw_table();
+        }
+
+        redraw();
+    </script>
 </body>
