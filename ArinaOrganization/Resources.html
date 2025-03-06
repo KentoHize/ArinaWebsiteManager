@@ -80,7 +80,11 @@
                         tr.appendChild(td);
 
                         td = createSpecTrTd(false);
-                        text = document.createTextNode(data[i].CName);
+                        td.width = lw;
+                        if (data[i].EName != null)
+                            text = document.createTextNode(`${data[i].CName}(${data[i].EName})`);
+                        else
+                            text = document.createTextNode(data[i].CName);
                         a = document.createElement("a");
                         a.href = data[i].Link;
                         a.target = "_blank";
@@ -115,7 +119,10 @@
                         td = createSpecTrTd(false);
 
                         if (data[i].Link2 != null) {
-                            text = document.createTextNode(data[i].CName2);
+                            if (data[i].EName2 != null)
+                                text = document.createTextNode(`${data[i].CName2}(${data[i].EName2})`);
+                            else
+                                text = document.createTextNode(data[i].CName2);                            
                             a = document.createElement("a");
                             a.href = data[i].Link2;
                             a.target = "_blank";
