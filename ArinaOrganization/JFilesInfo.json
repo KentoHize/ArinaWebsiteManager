@@ -1863,7 +1863,7 @@
           "FKTable": null,
           "FKColumn": null,
           "NumberOfRows": 3,
-          "Display": false,
+          "Display": true,
           "RegularExpression": "",
           "Description": "",
           "MinValue": "",
