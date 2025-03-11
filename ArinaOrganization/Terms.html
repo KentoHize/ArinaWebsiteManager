@@ -45,9 +45,10 @@
             var data;
             var divMain = document.getElementById("main");
             var xhttp = new XMLHttpRequest();
-            document.getElementById("main").innerText = "";
+            document.getElementById("main").innerText = "讀取Terms.JSON....";
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("main").innerText = "";
                     data = this.response;
                     var table = document.createElement("table");
 
@@ -90,23 +91,15 @@
                     for (var i = 0; i < data.length; i++) {
                         if (data[i].Hide)
                             continue;
-                       
+
                         tr = document.createElement("tr");
 
-                        td = document.createElement("td");                        
+                        td = document.createElement("td");
                         text = document.createTextNode(data[i].Chinese);
                         td.appendChild(text);
                         tr.appendChild(td);
 
-                        //td = document.createElement("td");
-                        //a = document.createElement("a");
-                        //a.href = `PersonalInfo.html?index=${i}`;
-                        //text = document.createTextNode(get_full_name(data[i].Name, data[i].Surname, data[i].OtherName, data[i].SurnameFirst, ""));
-                        //a.appendChild(text);
-                        //td.appendChild(a);
-                        //tr.appendChild(td);
-
-                        td = document.createElement("td");                        
+                        td = document.createElement("td");
                         text = document.createTextNode(data[i].English);
                         td.appendChild(text);
                         tr.appendChild(td);
@@ -139,6 +132,7 @@
 
                     divMain.appendChild(table);
                 }
+                
             };
             xhttp.responseType = 'json';
             xhttp.open("GET", "Terms.json?v=" + Math.random(), true);
