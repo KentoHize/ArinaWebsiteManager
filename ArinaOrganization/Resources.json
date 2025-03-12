@@ -13,8 +13,8 @@
   },
   {
     "ID": 2,
-    "CName": "Json資料檔案編輯器V2",
-    "EName": "Json Editor V2",
+    "CName": "Json資料檔案編輯器",
+    "EName": "Json Files Editor",
     "Picture": "Downloads/JsonEditorPreview.png",
     "Link": "Downloads/JsonEditorV2.zip",
     "Instruction": "Json資料檔案編輯器，可用作資料庫軟體，普通使用免費。\n低機率發生程式錯誤。\n可能被誤認為病毒。",
