@@ -45,7 +45,7 @@
         </a>
         <ul class="dropdownList" id="s3" hidden="hidden">
             <li class="liBlock"><a href="Terms.html" target="_blank">用語解釋(Explanation of Terms)<br />(可能失聯 Maybe Broken)</a></li>
-            <!--<li class="liBlock"><a href="Terms.html" target="_blank">常見問答()<br /></a></li>-->
+            <li class="liBlock"><a href="FAQ.html" target="_blank">常見問答(Frequently Asked Questions)</a></li>
         </ul>
         <!--<a class="choiceBlock c5" href=".html" target="_blank">
     公告頁面
@@ -93,18 +93,7 @@
             else if (window.innerWidth < 1300)
                 window_size = "m";
             else
-                window_size = "l";
-
-            //if (window_size == "s") {
-            //    document.getElementById("c1Div").style = "height:112px;";
-            //    document.getElementById("c1").style = "width:155px; height:90px; float:left; margin-top:0px; margin-bottom:0px";
-            //    document.getElementById("c1a").style = "width:81px; height:90px; float:left; margin-top:0px; margin-bottom:0px";
-            //}
-            //else {
-            //    document.getElementById("c1Div").style = "height:93px;";
-            //    document.getElementById("c1").style = "width:330px; height:70px; float:left; margin-top:0px; margin-bottom:0px";
-            //    document.getElementById("c1a").style = "width:105px; height:70px; float:left; margin-top:0px; margin-bottom:0px";
-            //}            
+                window_size = "l";         
         }
 
         fixStyle();
@@ -115,29 +104,6 @@
 
         for (let i = 1; i < 6; i++)
             $(`#m${i}`).click(function () { $(`#s${i}`).slideToggle(); });
-        
-        
-
-        //function ShowList(id) {
-        //    //var ddls = document.getElementsByClassName("dropdownList");            
-        //    //for (let i = 0; i < ddls.length; i++) {
-        //    //    ddls[i].classList.add(`displayNone`);
-        //    //    ddls[i].classList.remove(`animationShow`);
-        //    //}
-                
-        //    //document.getElementById(id).
-
-        //    //document.getElementById(id).setAttribute("disabled", "false");
-        //    //document.getElementById(id).removeAttribute("disabled");
-        //    //document.getElementById(id).style = `display:initial; animation-name:h0100; animation-duration:1s;`;
-        //    //document.getElementById(id).style.webkitAnimationPlayState = "paused";
-        //    //document.getElementById(id).style.webkitAnimationPlayState = "running";
-            
-        //    //document.getElementById(id).classList.remove(`displayNone`);
-        //    //document.getElementById(id).classList.add(`animationShow`);
-            
-        //    //document.getElementById(id).classList.remove(`animationShow`);
-        //}
 
     </script>
 </body>

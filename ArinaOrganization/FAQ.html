@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S3J891FKK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0S3J891FKK');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>常見問答(Frequently Asked Questions)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+    <style>
+        td {
+            vertical-align:top;
+        }
+    </style>
+</head>
+<body>
+    <script src="Arina.js"></script>
+    <h3 style="text-align:center">常見問答(Frequently Asked Questions)</h3>
+    <div style="margin:50px;" id="main">
+    </div>
+    <script>
+        var data;
+        var div = document.getElementById("main");
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                data = this.response;
+                var br, tr, td, table;                
+                
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].Hide)
+                        continue;
+                    table = document.createElement(`table`);
+
+                    tr = document.createElement(`tr`);
+                    td = document.createElement(`td`);
+                    td.innerText = `問：`;
+                    tr.appendChild(td);
+
+                    td = document.createElement(`td`);
+                    td.innerHTML = ChangeLFtoBRLabel(data[i].Question);
+                    tr.appendChild(td);
+                    table.appendChild(tr);
+
+                    if (data[i].EQuestion != null) {
+                        tr = document.createElement(`tr`);
+                        td = document.createElement(`td`);
+                        td.innerText = `Q：`;
+                        tr.appendChild(td);
+
+                        td = document.createElement(`td`);
+                        td.innerHTML = ChangeLFtoBRLabel(data[i].EQuestion);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+                    }
+
+                    tr = document.createElement(`tr`);
+                    td = document.createElement(`td`);
+                    td.innerText = `答：`;
+                    tr.appendChild(td);
+
+                    td = document.createElement(`td`);
+                    td.innerHTML = ChangeLFtoBRLabel(data[i].Answer);
+                    tr.appendChild(td);
+                    table.appendChild(tr);
+
+                    if (data[i].EQuestion != null) {
+                        tr = document.createElement(`tr`);
+                        td = document.createElement(`td`);
+                        td.innerText = `A：`;
+                        tr.appendChild(td);
+
+                        td = document.createElement(`td`);
+                        td.innerHTML = ChangeLFtoBRLabel(data[i].EAnswer);
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+                    }
+
+                    br = document.createElement(`br`);
+                    div.appendChild(br);
+                    div.appendChild(table);
+                }
+            }
+        };
+        xhttp.responseType = 'json';
+        xhttp.open("GET", "FAQ.json?v=" + Math.random(), true);
+        xhttp.send();
+    </script>
+</body>
+
+</html>

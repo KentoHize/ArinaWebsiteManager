@@ -17,17 +17,6 @@ p {
     width: 300px;
 }
 
-
-/*@keyframes h0100 {
-    0% {
-        height:0px;
-    }
-    100% {
-        height:100px;
-    }
-}
-*/
-
 @media screen and (min-width: 600px) {
     .indexMain {
         width: 500px;
@@ -56,8 +45,9 @@ p {
 .dropdownList {
 }
 
-ul{
-    padding:0px;
+ul {
+    padding: 0px;
+    
 }
 
 li{
