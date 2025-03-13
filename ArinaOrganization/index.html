@@ -13,6 +13,7 @@
     <title>有奈教(Arina Organization)</title>
     <link rel="stylesheet" href="ArinaPage.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width">
 </head>
 <body>    
@@ -21,37 +22,53 @@
         <h3>有奈教(Arina Organization)</h3>        
     </div>
     <br />
+    
     <div class="indexMain">
-        <a class="choiceBlock c3" href="Values.html" target="_blank">
-            有奈教的價值觀與五項原則(美德)<br />(Arina's Values and 5 Principles of Virtue.)
+
+        <a class="choiceBlock c3" href="#" id="m1">
+            有奈教價值(Arina's Value)
         </a>
-        <a class="choiceBlock c4" href="Quotes.html" target="_blank">
-            有奈教箴言(Arina's Quotes)
+        <ul class="dropdownList" id="s1" hidden="hidden">
+            <li class="liBlock"><a href="Values.html" target="_blank">有奈教的價值觀與五項原則(美德)<br />(Arina's Values and 5 Principles of Virtue.)</a></li>
+            <li class="liBlock"><a href="Quotes.html" target="_blank">有奈教箴言(Arina's Quotes)</a></li>
+            <li class="liBlock"><a href="Articles.html" target="_blank">有奈教文章(Arina's Articles)</a></li>
+        </ul>
+        <a class="choiceBlock c4" href="#" id="m2">
+            品格階級(Moral Ranking)
         </a>
-        <a class="choiceBlock c5" href="Articles.html" target="_blank">
-            有奈教文章(Arina's Articles)
+        <ul class="dropdownList" id="s2" hidden="hidden">
+            <li class="liBlock"><a href="MoralRank.html" target="_blank">品階一覽表(Index of Moral Ranking)</a></li>
+            <li class="liBlock"><a href="MRGuide.html" target="_blank">說明頁(Guide Page of Moral Ranking)</a></li>
+        </ul>
+        <a class="choiceBlock c6" href="#" id="m3">
+            用語解釋(Explanation of Terms)
         </a>
-        <a class="choiceBlock c2" href="MoralRank.html" target="_blank">品階一覽表(Index of Moral Ranking)</a>
-        <a class="choiceBlock c6" href="Terms.html" target="_blank">
-            用語解釋(Explanation of Terms)<br />(可能失聯 Maybe it's Broken)
+        <ul class="dropdownList" id="s3" hidden="hidden">
+            <li class="liBlock"><a href="Terms.html" target="_blank">用語解釋(Explanation of Terms)<br />(可能失聯 Maybe Broken)</a></li>
+            <!--<li class="liBlock"><a href="Terms.html" target="_blank">常見問答()<br /></a></li>-->
+        </ul>
+        <!--<a class="choiceBlock c5" href=".html" target="_blank">
+    公告頁面
+    </a>-->
+        <a class="choiceBlock c1" href="#" id="m4">入教申請(Arina Organization Admission)</a>
+        <ul class="dropdownList" id="s4" hidden="hidden">
+            <li class="liBlock"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd6tQn93Ti1dcxB60P27CE3xfTQgkS9tmT4puO0CqZBu-hWQA/viewform" target="_blank">入教申請書<br />(Arina Organization Admission Application Form)</a></li>
+            <li class="liBlock"><a href="https://drive.google.com/file/d/1EPk05kzW0qdtKYxkqjqToRJO5s05-6a9/view?usp=drive_link" target="_blank">書面版本<br />(Document Version)</a></li>
+        </ul>
+        <a class="choiceBlock c2" href="#" id="m5">
+            人才招募(Recruits)
         </a>
-        <div id="c1Div">
-            <a id="c1" class="choiceBlock c1" href="https://docs.google.com/forms/d/e/1FAIpQLSd6tQn93Ti1dcxB60P27CE3xfTQgkS9tmT4puO0CqZBu-hWQA/viewform" target="_blank">
-                入教申請書<br />(Arina Organization Admission Application Form)
-            </a>
-            <a id="c1a" class="choiceBlock c1" href="https://drive.google.com/file/d/1EPk05kzW0qdtKYxkqjqToRJO5s05-6a9/view?usp=drive_link" target="_blank">
-                書面版本<br />(Document Version)
-            </a>
-        </div>
+        <ul class="dropdownList" id="s5" hidden="hidden">
+            <li class="liBlock"><a href="Recruits.html" target="_blank">人才招募(Recruits)</a></li>
+            <li class="liBlock"><a href="InterviewInstructions.html" target="_blank">面試須知(Interview Instructions)</a></li>
+        </ul>
         <a class="choiceBlock c7" href="Registration.html" target="_blank">
             國家/跨國公司/跨國團體登記(Registration for Country/International Companies/International Group)
         </a>
         <a class="choiceBlock c7" href="Resources.html" target="_blank">
             免費資源(Free Resources)
         </a>
-        <a class="choiceBlock c7" href="Recruits.html" target="_blank">
-            人才招募(Recruits)
-        </a>
+
         <a class="choiceBlock c7" href="DTInfo.html" target="_blank">
             捐款/付款資訊(Donate/Transfer Information)
         </a>
@@ -78,24 +95,49 @@
             else
                 window_size = "l";
 
-            if (window_size == "s") {
-                document.getElementById("c1Div").style = "height:112px;";
-                document.getElementById("c1").style = "width:155px; height:90px; float:left; margin-top:0px; margin-bottom:0px";
-                document.getElementById("c1a").style = "width:81px; height:90px; float:left; margin-top:0px; margin-bottom:0px";
-            }
-            else {
-                document.getElementById("c1Div").style = "height:93px;";
-                document.getElementById("c1").style = "width:330px; height:70px; float:left; margin-top:0px; margin-bottom:0px";
-                document.getElementById("c1a").style = "width:105px; height:70px; float:left; margin-top:0px; margin-bottom:0px";
-            }
-            
+            //if (window_size == "s") {
+            //    document.getElementById("c1Div").style = "height:112px;";
+            //    document.getElementById("c1").style = "width:155px; height:90px; float:left; margin-top:0px; margin-bottom:0px";
+            //    document.getElementById("c1a").style = "width:81px; height:90px; float:left; margin-top:0px; margin-bottom:0px";
+            //}
+            //else {
+            //    document.getElementById("c1Div").style = "height:93px;";
+            //    document.getElementById("c1").style = "width:330px; height:70px; float:left; margin-top:0px; margin-bottom:0px";
+            //    document.getElementById("c1a").style = "width:105px; height:70px; float:left; margin-top:0px; margin-bottom:0px";
+            //}            
         }
 
         fixStyle();
 
         window.addEventListener(`resize`, function () {
             fixStyle();
-        })
+        })         
+
+        for (let i = 1; i < 6; i++)
+            $(`#m${i}`).click(function () { $(`#s${i}`).slideToggle(); });
+        
+        
+
+        //function ShowList(id) {
+        //    //var ddls = document.getElementsByClassName("dropdownList");            
+        //    //for (let i = 0; i < ddls.length; i++) {
+        //    //    ddls[i].classList.add(`displayNone`);
+        //    //    ddls[i].classList.remove(`animationShow`);
+        //    //}
+                
+        //    //document.getElementById(id).
+
+        //    //document.getElementById(id).setAttribute("disabled", "false");
+        //    //document.getElementById(id).removeAttribute("disabled");
+        //    //document.getElementById(id).style = `display:initial; animation-name:h0100; animation-duration:1s;`;
+        //    //document.getElementById(id).style.webkitAnimationPlayState = "paused";
+        //    //document.getElementById(id).style.webkitAnimationPlayState = "running";
+            
+        //    //document.getElementById(id).classList.remove(`displayNone`);
+        //    //document.getElementById(id).classList.add(`animationShow`);
+            
+        //    //document.getElementById(id).classList.remove(`animationShow`);
+        //}
 
     </script>
 </body>

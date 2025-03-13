@@ -1,0 +1,62 @@
+﻿ 
+ 有奈教價值
+ 價值與五美德
+ 箴言
+ 文章
+ 
+ 品格階級
+ 品格階級表
+ 說明
+
+ 用語解釋
+ 
+ 公告
+ 
+ 入教申請 
+
+ 免費資源 
+
+ 人才招募
+ 人才招募
+ 面試須知
+
+ 捐款
+ 
+ 
+ <a class="choiceBlock c3" href="#" id="m1">
+            有奈教的價值觀與五項原則(美德)<br />(Arina's Values and 5 Principles of Virtue.)
+        </a>
+        <ul class="dropdownList" id="s1">
+            <li><a href="#">有奈教a1</a></li>
+            <li><a href="#">有奈教a2</a></li>
+        </ul>
+        <a class="choiceBlock c4" href="Quotes.html" target="_blank">
+            有奈教箴言(Arina's Quotes)
+        </a>
+        <a class="choiceBlock c5" href="Articles.html" target="_blank">
+            有奈教文章(Arina's Articles)
+        </a>
+        <a class="choiceBlock c2" href="MoralRank.html" target="_blank">品階一覽表(Index of Moral Ranking)</a>
+        <a class="choiceBlock c6" href="Terms.html" target="_blank">
+            用語解釋(Explanation of Terms)<br />(可能失聯 Maybe Broken)
+        </a>
+        <div id="c1Div">
+            <a id="c1" class="choiceBlock c1" href="https://docs.google.com/forms/d/e/1FAIpQLSd6tQn93Ti1dcxB60P27CE3xfTQgkS9tmT4puO0CqZBu-hWQA/viewform" target="_blank">
+                入教申請書<br />(Arina Organization Admission Application Form)
+            </a>
+            <a id="c1a" class="choiceBlock c1" href="https://drive.google.com/file/d/1EPk05kzW0qdtKYxkqjqToRJO5s05-6a9/view?usp=drive_link" target="_blank">
+                書面版本<br />(Document Version)
+            </a>
+        </div>
+        <a class="choiceBlock c7" href="Registration.html" target="_blank">
+            國家/跨國公司/跨國團體登記(Registration for Country/International Companies/International Group)
+        </a>
+        <a class="choiceBlock c7" href="Resources.html" target="_blank">
+            免費資源(Free Resources)
+        </a>
+        <a class="choiceBlock c7" href="Recruits.html" target="_blank">
+            人才招募(Recruits)
+        </a>
+        <a class="choiceBlock c7" href="DTInfo.html" target="_blank">
+            捐款/付款資訊(Donate/Transfer Information)
+        </a>
