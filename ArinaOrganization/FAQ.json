@@ -41,10 +41,34 @@
   },
   {
     "No": 6,
-    "Question": "教主是否曾經強暴過女性？",
-    "EQuestion": null,
+    "Question": "有奈教教主是否曾經強暴過女性？",
+    "EQuestion": "Has the Master of the Arina Organization ever raped women?",
     "Answer": "日瀬健人，無。(3, 13, Ar.8)",
-    "EAnswer": null,
+    "EAnswer": "Kento Hize, Nope. (3, 13, Ar.8)",
+    "Hide": false
+  },
+  {
+    "No": 8,
+    "Question": "有奈教教主是不是天使？\n",
+    "EQuestion": "Is Master an angel?",
+    "Answer": "教主是君子，君子當然是人類。要說是天使的話指的是靈魂很乾淨的意思，天真無暇的小朋友都很像天使，但是容易受到汙染，教主的強項就是不會受汙染。\n",
+    "EAnswer": "Master is a Junzi. A Junzi is, of course, a human. If they said Master is an angel, it may represent the Master's soul is very clean.\nInnocent and flawless children are very much like angels, but children are easy to be polluted, Master's strength is not to be polluted.",
+    "Hide": false
+  },
+  {
+    "No": 7,
+    "Question": "有奈教成立的時間？",
+    "EQuestion": "When was Arina Organization established?",
+    "Answer": "有奈教的正式成立時間是2017年的5月11日，該年為有奈0年。",
+    "EAnswer": "The official establishment time of Arina Organization is 5, 11, 2017/Ar. 0.",
+    "Hide": false
+  },
+  {
+    "No": 9,
+    "Question": "有奈教教主有沒有任期限制？",
+    "EQuestion": "Is there a term limit for the Master of the Arina Organization?",
+    "Answer": "教主無任期限制。",
+    "EAnswer": "Master of the Arina Organization has no term limit.",
     "Hide": false
   }
 ]
