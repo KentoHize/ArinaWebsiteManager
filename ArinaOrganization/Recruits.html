@@ -30,8 +30,6 @@
         收信地址(Address for receiving mail): 106049 臺北市大安區義安里2鄰信義路四段210號11樓
     </div>
     <script>
-        var window_size;
-
         function createSpecTrTd(isTr) {
             let result;
             if (isTr)
@@ -200,12 +198,7 @@
 
         function redraw(display_all = false) {
 
-            if (window.innerWidth < 800)
-                window_size = "s";
-            else if (window.innerWidth < 1300)
-                window_size = "m";
-            else
-                window_size = "l";
+            GetWindowSize();
 
             if (display_all) {
                 window_size = "l";

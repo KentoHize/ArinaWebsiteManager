@@ -12,8 +12,9 @@
     <meta charset="utf-8" />
     <title>有奈教(Arina Organization)</title>
     <link rel="stylesheet" href="ArinaPage.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />    
     <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script src="Arina.js"></script>
     <meta name="viewport" content="width=device-width">
 </head>
 <body>    
@@ -41,10 +42,10 @@
             <li class="liBlock"><a href="MRGuide.html" target="_blank">說明頁(Guide Page of Moral Ranking)</a></li>
         </ul>
         <a class="choiceBlock c6" href="javascript:;" id="m3">
-            用語解釋與常見問答(Explanation of Terms & FAQ)
+            用語解釋及常見問答(Explanation of Terms & FAQ)
         </a>
         <ul class="dropdownList" id="s3" hidden="hidden">
-            <li class="liBlock"><a href="Terms.html" target="_blank">用語解釋(Explanation of Terms)<br />(可能失聯 Maybe Broken)</a></li>
+            <li class="liBlock"><a href="Terms.html" target="_blank">用語解釋(Explanation of Terms)<!--<br />(可能失聯 Maybe Broken)--></a></li>
             <li class="liBlock"><a href="FAQ.html" target="_blank">常見問答(Frequently Asked Questions)</a></li>
         </ul>
         <a class="choiceBlock c5" href="javascript:;" id="m4">
@@ -85,27 +86,11 @@
         收信地址(Address for receiving mail): 106049 臺北市大安區義安里2鄰信義路四段210號11樓
     </div>
     <script>
-        var window_size;
 
         function refresh_page() {
             localStorage.clear();
             location.reload(true);
-        }
-
-        function fixStyle() {
-            if (window.innerWidth < 600)
-                window_size = "s";
-            else if (window.innerWidth < 1300)
-                window_size = "m";
-            else
-                window_size = "l";         
-        }
-
-        fixStyle();
-
-        window.addEventListener(`resize`, function () {
-            fixStyle();
-        })         
+        }       
 
         for (let i = 1; i < 7; i++)
             $(`#m${i}`).click(function () { $(`#s${i}`).slideToggle(); });

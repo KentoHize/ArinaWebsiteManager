@@ -31,7 +31,6 @@
     <div style="text-align:center"><a href="javascript:getDatatable(true)">下載完整資料表(Download with detail)</a></div>
     <div style="margin:50px"><p id="iLastUpdate" style="text-align-last:right; font-size:10px"></p></div>
     <script>
-        var window_size;
 
         function display_all() {
             redraw(true);
@@ -214,13 +213,7 @@
         }
 
         function redraw(display_all = false) {
-            if (window.innerWidth < 800)
-                window_size = "s";
-            else if (window.innerWidth < 1300)
-                window_size = "m";
-            else
-                window_size = "l";
-
+            GetWindowSize();
             if (display_all) {
                 window_size = "l";
                 document.getElementById("divTitle").style = `width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;

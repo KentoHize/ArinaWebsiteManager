@@ -33,8 +33,6 @@
         聯絡我們(Contact us): <a href="mailto:service@arinaorganization.org">service@arinaorganization.org</a><br />
     </div>
     <script>
-        var window_size;
-
         function createSpecTrTd(isTr) {
             let result;
             if (isTr)
@@ -149,14 +147,7 @@
         }
 
         function redraw(display_all = false) {
-
-            if (window.innerWidth < 800)
-                window_size = "s";
-            else if (window.innerWidth < 1300)
-                window_size = "m";
-            else
-                window_size = "l";
-
+            GetWindowSize();
             if (display_all) {
                 window_size = "l";
                 document.getElementById("main").style = `margin:auto; width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;

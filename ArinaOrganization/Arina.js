@@ -39,7 +39,6 @@ function GetTodayArDate() {
     return `${String(today.getFullYear() - 2017).padStart(4, `0`)}-${String(today.getMonth() + 1).padStart(2, `0`)}-${String(today.getDate()).padStart(2, `0`)}`;
 }
 
-
 function GetURLParameter() {
     if (!location.search.includes(`?`))
         return null;
@@ -47,7 +46,17 @@ function GetURLParameter() {
     var result = {};
     for (let i = 0; i < ps.length; i++) {
         let a = ps[i].split(`=`);
-        result[a[0]] = a[1];
+        result[decodeURI(a[0])] = decodeURI(a[1]);
     }
     return result;
+}
+
+var window_size;
+function GetWindowSize() {
+    if (window.innerWidth < 800)
+        window_size = "s";
+    else if (window.innerWidth < 1300)
+        window_size = "m";
+    else
+        window_size = "l";
 }

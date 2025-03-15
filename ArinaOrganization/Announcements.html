@@ -38,18 +38,18 @@
             <table>
                 <tr>
                     <td><label>標題名稱(Title)</label></td>
-                    <td colspan="4"><input type="text" name="Title" value="" style="width:500px" /></td>
+                    <td colspan="4"><input type="text" name="Title" style="width:500px" /></td>
                 </tr>
                 <tr>
                     <td><label>日期(Date)</label></td>
                     <td>自(From)</td>
-                    <td style="text-align:right;"><input id="dateFrom" type="date" name="DateFrom" value="" /></td>
+                    <td style="text-align:right;"><input id="dateFrom" type="date" name="DateFrom" /></td>
                     <td>至(To)</td>
-                    <td style="text-align:right;"><input id="dateTo" type="date" name="DateTo" value="" /></td>
+                    <td style="text-align:right;"><input id="dateTo" type="date" name="DateTo" /></td>
                 </tr>
                 <tr>
                     <td><label>內容(Content)</label></td>
-                    <td colspan="4"><input type="text" name="Content" value="" style="width:500px;" /></td>
+                    <td colspan="4"><input type="text" name="Content" style="width:500px;" /></td>
                 </tr>
                 <tr style="text-align:center">
                     <td colspan="5"><input type="submit" value="搜索(Search)" /></td>
@@ -74,6 +74,12 @@
 
         var linePerPage = 30;
         var ulp = GetURLParameter();
+        if (ulp != null) {            
+            document.getElementsByName(`Title`)[0].value = ulp.Title;
+            document.getElementsByName(`DateFrom`)[0].value = ulp.DateFrom;
+            document.getElementsByName(`DateTo`)[0].value = ulp.DateTo;
+            document.getElementsByName(`Content`)[0].value = ulp.Content;
+        }
 
         var df = document.getElementById(`dateFrom`);
         var dt = document.getElementById(`dateTo`);
@@ -101,10 +107,36 @@
             th.innerText = `內容(Content)`;
             tr.appendChild(th);
             table.appendChild(tr);
+            div.appendChild(table);
+
+            if (ulp.DateTo < ulp.DateFrom) {
+                alert(`結束日期小於起始日期`);                
+                return;
+            }
 
             for (let i = 0; i < data.length; i++) {
                 if (data[i].Hide)
                     continue;
+                if (ulp != null) {
+                    if (ulp.Title != null && ulp.Title != ``) {
+                        if (!String(data[i].Title).includes(ulp.Title))
+                            continue;
+                    }
+                    if (ulp.DateFrom != null && ulp.DateFrom != ``) {
+                        if (String(data[i].Date).replaceAll(`/`,`-`) < ulp.DateFrom)
+                            continue;
+                    }
+                    if (ulp.DateTo != null && ulp.DateTo != ``) {
+                        if (String(data[i].Date).replaceAll(`/`, `-`) > ulp.DateTo)
+                            continue;
+                    }
+                    if (ulp.Content != null && ulp.Content != ``) {
+                        if (!String(data[i].Chinese).includes(ulp.Content) &&
+                            !String(data[i].OtherLanguage).includes(ulp.Content))
+                            continue;
+                    }
+                }
+
                 tr = document.createElement(`tr`);
 
                 td = document.createElement(`td`);
@@ -122,11 +154,8 @@
                 td = document.createElement(`td`);
                 td.innerText = getContentPart(data[i].Chinese);
                 tr.appendChild(td);
-
-                table.appendChild(tr);
-                
-            }            
-            div.appendChild(table);
+                table.appendChild(tr);                
+            }
         });
     </script>
 </body>

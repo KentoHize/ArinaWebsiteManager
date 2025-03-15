@@ -30,8 +30,6 @@
     </div>
     <script>
 
-        var window_size;
-
         function refresh_page() {
             localStorage.clear();
             location.reload(true);
@@ -141,12 +139,7 @@
         }
 
         function redraw(display_all) {
-            if (window.innerWidth < 800)
-                window_size = "s";
-            else if (window.innerWidth < 1300)
-                window_size = "m";
-            else
-                window_size = "l";
+            GetWindowSize();
 
             if (display_all) {
                 window_size = "l";

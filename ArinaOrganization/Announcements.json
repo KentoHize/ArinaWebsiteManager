@@ -2,6 +2,7 @@
   {
     "ID": 1,
     "Title": "有奈教制度特價中",
+    "Type": "Compensation",
     "Date": "0008/03/16",
     "Chinese": "有奈教制度對美國販賣價格特價3000億美金至3月底止。\n之後改升為5000億美金。",
     "OtherLanguage": null,
@@ -11,6 +12,7 @@
   {
     "ID": 2,
     "Title": "日本賠償",
+    "Type": "Compensation",
     "Date": "0008/03/16",
     "Chinese": "日本須賠償有奈教550億有奈物資點。\n並將橋本環奈、浜辺美波、伊織もえ等人交付有奈教處置。",
     "OtherLanguage": null,
@@ -20,6 +22,7 @@
   {
     "ID": 3,
     "Title": "人才招募",
+    "Type": "None",
     "Date": "0008/01/01",
     "Chinese": "歡迎加入有奈教。詳見人才招募頁。",
     "OtherLanguage": null,
@@ -29,6 +32,7 @@
   {
     "ID": 4,
     "Title": "長字Test",
+    "Type": "None",
     "Date": "0008/03/16",
     "Chinese": "天天天天天天天天天一天天天天天天天天天二天天天天天天天天天三天天天天天天天天天四\n",
     "OtherLanguage": null,
