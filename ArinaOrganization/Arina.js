@@ -23,3 +23,8 @@ function ChangeLFtoBRLabel(s) {
     
     return s.replaceAll("\n", "<br />");
 }
+
+function GetTodayArDate() {
+    var today = new Date(Date.now());    
+    return `${String(today.getFullYear() - 2017).padStart(4, `0`)}-${String(today.getMonth() + 1).padStart(2, `0`)}-${String(today.getDate()).padStart(2, `0`)}`;
+}

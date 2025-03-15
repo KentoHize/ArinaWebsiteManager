@@ -19,42 +19,22 @@
 <body>
     <script src="Arina.js"></script>
     <h3 style="text-align:center">內容頁(Contents Page)</h3>
-    <article style="margin:50px;" id="main">
-    </article>
+    <div style="text-align:center; width:752px; height:30px; margin:auto">
+        <div style="width:100px; text-align:left; float:left"><a id="previous_page" href="#">←</a></div>
+        <div style="width:550px; float:left"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
+        <div style="width:100px; text-align:right; float:left"><a id="next_page" href="#">→</a></div>
+        <div>&nbsp;</div>
+    </div>
+
+    <div style="text-align:center">
+        <table id="personTable" border="1" style="margin-left:auto; margin-right:auto; text-align:center">
+        </table>
+    </div>
+
     <script>
-        var article = document.getElementById("main");
+
         fetch(`Articles.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-            var section, p;
-            for (var i = 0; i < data.length; i++) {
-                section = document.createElement("section");
-
-                p = document.createElement("p");
-                if (data[i].Date != null)
-                    p.innerHTML = ChangeDateToArDate(data[i].Date);
-                else
-                    p.innerHTML = "-";
-                section.appendChild(p);
-
-                if (data[i].UpdateDate != null) {
-                    p = document.createElement("p")
-                    p.innerHTML += `(${ChangeDateToArDate(data[i].UpdateDate)})`;
-                    section.appendChild(p);
-                }
-
-                p = document.createElement("p");
-                p.innerText = data[i].Chinese;
-                section.appendChild(p);
-
-                p = document.createElement("p");
-                p.innerText = data[i].English;
-                section.appendChild(p);
-
-                br = document.createElement("br");
-                section.appendChild(br);
-                article.appendChild(section);
-            }
-
-        });
+         
     </script>
 </body>
 </html>
