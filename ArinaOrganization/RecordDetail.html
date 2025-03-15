@@ -27,14 +27,85 @@
     </div>
 
     <div style="text-align:center">
-        <table id="personTable" border="1" style="margin-left:auto; margin-right:auto; text-align:center">
+        <table id="main" border="1" width="750px" style="margin-left:auto; margin-right:auto; text-align:center">
         </table>
     </div>
 
+    <!--<div style="text-align:center; margin:10px">
+        <a href="javascript:history.back()">回上頁(Back)</a>
+    </div>-->
     <script>
+        function refresh_page() {
+            localStorage.clear();
+            location.reload(true);
+        }
 
-        fetch(`Articles.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-         
+        async function main() {
+            var data;
+            var ulp = GetURLParameter();
+
+            if (ulp == null)
+                return;
+            if (ulp.Parent == `ACS`)
+                data = await fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json());
+            else
+                return;
+
+            if (ulp.index != 0)
+                document.getElementById("previous_page").href = `RecordDetail.html?Parent=${ulp.Parent}&index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
+            else
+                document.getElementById("previous_page").parentNode.innerText = "　";
+            if (ulp.index < data.length - 1)
+                document.getElementById("next_page").href = `RecordDetail.html?Parent=${ulp.Parent}&index=${(parseInt(ulp.index) + 1)}&v=` + Math.random();
+            else
+                document.getElementById("next_page").parentNode.innerText = "　";
+
+            var table = document.getElementById(`main`);
+            var th, td, tr;
+            if (ulp.Parent == `ACS`) {
+                if (data[ulp.index].Hide) {
+                    tr = document.createElement(`tr`);
+                    th = document.createElement(`th`);
+                    th.innerText = `隱藏內容`;
+                    tr.appendChild(th);
+                    table.appendChild(tr);                    
+                    return;
+                }
+
+                tr = document.createElement(`tr`);
+                th = document.createElement(`th`);
+                th.innerHTML = ChangeLFtoBRLabel(data[ulp.index].Title)
+                tr.appendChild(th);
+                table.appendChild(tr);
+
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+                td.innerHTML = ChangeDateToArDate(data[ulp.index].Date);
+                tr.appendChild(td);
+                table.appendChild(tr);
+
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+                td.style = `text-align:left;`;
+                td.innerHTML = ApplyLeadingSpaceAndBRLabel(data[ulp.index].Chinese);
+                tr.appendChild(td);
+                table.appendChild(tr);
+
+                if (data[ulp.index].English != null) {
+                    tr = document.createElement(`tr`);
+                    td = document.createElement(`td`);
+                    td.style = `text-align:left;`;
+                    td.innerHTML = ApplyLeadingSpaceAndBRLabel(data[ulp.index].OtherLanguage);
+                    tr.appendChild(td);
+                    table.appendChild(tr);
+                }
+            }
+            else {
+
+            }
+        }
+
+        main();
     </script>
 </body>
 </html>

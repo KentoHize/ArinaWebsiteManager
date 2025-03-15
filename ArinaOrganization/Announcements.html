@@ -27,68 +27,107 @@
 <body>
     <script src="Arina.js"></script>
     <h3 style="text-align:center">公告(Announcements)</h3>
-    <div style="text-align:center">
+    <!--<div style="text-align:center">
         <a href="javascript:refresh_page()">更新(Refresh)</a>
-        <br id="rbr" />
+        <br id="rbr" />-->
         <!--<a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>-->
-    </div>
-    <div style="margin:auto; width:750px; text-align:center">
+    <!--</div>-->
+    <div style="margin:auto; width:750px;">
         <form action="Announcements.html" target="_self" method="get">
-            <div class="lf">
-                <label>標題名稱(Title)</label>&nbsp;<input type="text" name="Title" value="" />&nbsp;<!--<label>發表人(Author)</label>&nbsp;<input type="text" name="Author" value="" />--><br />
-            </div>
-            <div class="lf">
-                <label>日期(Date)</label>&nbsp;<label>自(From)</label><input id="dateFrom" type="date" name="DateFrom" value="" />&nbsp;至(To)<input id="dateTo" type="date" name="DateTo" value="" /><br />
-            </div>
-            <div class="lf">
-                <label>內容(Content)</label>&nbsp;<input type="text" name="Content" value="" style="width:500px; height:40px;" /><br />
-            </div>
-            <div class="lf">
-                <input type="submit" value="搜索(Search)" />
-            </div>
+            <input type="hidden" name="Page" value="1" />
+            <table>
+                <tr>
+                    <td><label>標題名稱(Title)</label></td>
+                    <td colspan="4"><input type="text" name="Title" value="" style="width:500px" /></td>
+                </tr>
+                <tr>
+                    <td><label>日期(Date)</label></td>
+                    <td>自(From)</td>
+                    <td style="text-align:right;"><input id="dateFrom" type="date" name="DateFrom" value="" /></td>
+                    <td>至(To)</td>
+                    <td style="text-align:right;"><input id="dateTo" type="date" name="DateTo" value="" /></td>
+                </tr>
+                <tr>
+                    <td><label>內容(Content)</label></td>
+                    <td colspan="4"><input type="text" name="Content" value="" style="width:500px;" /></td>
+                </tr>
+                <tr style="text-align:center">
+                    <td colspan="5"><input type="submit" value="搜索(Search)" /></td>
+                </tr>
+            </table>
         </form>
     </div>
+    <hr />
+    <div id="main">
+
+    </div>
     <script>
+        function getContentPart(s, maxWords = 30) {            
+            var nl = s.indexOf(`\n`);
+            if (s.length < maxWords && nl == -1)
+                return nl == -1 ? s : s.substring(0, nl);            
+            else if (nl == -1 || nl > 30)
+                return `${s.substring(0, maxWords)}...`;
+            else
+                return `${s.substring(0, nl)}...`;
+        }
+
+        var linePerPage = 30;
+        var ulp = GetURLParameter();
+
         var df = document.getElementById(`dateFrom`);
         var dt = document.getElementById(`dateTo`);
 
-        df.addEventListener("focus", m => { if (m.target.value == "") m.target.value = GetTodayArDate(); });
-        dt.addEventListener("focus", m => { if (m.target.value == "") m.target.value = GetTodayArDate(); });
+        df.addEventListener(`focus`, m => { if (m.target.value == "") m.target.value = GetTodayArDate(); });
+        dt.addEventListener(`focus`, m => { if (m.target.value == "") m.target.value = GetTodayArDate(); });
 
+        fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+            var div = document.getElementById(`main`);
+            var table, th, tr, td, a;
+            table = document.createElement(`table`);
+            table.style = "margin-left:auto; margin-right:auto; width:1000px;";
+            table.border = 1;
+            tr = document.createElement(`tr`);
 
-        //var article = document.getElementById("main");
-        //fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-        //    var section, p;
-        //    for (var i = 0; i < data.length; i++) {
-        //        section = document.createElement("section");
+            th = document.createElement(`th`);
+            th.innerText = `標題(Title)`;
+            tr.appendChild(th);
 
-        //        p = document.createElement("p");
-        //        if (data[i].Date != null)
-        //            p.innerHTML = ChangeDateToArDate(data[i].Date);
-        //        else
-        //            p.innerHTML = "-";
-        //        section.appendChild(p);
+            th = document.createElement(`th`);
+            th.innerText = `日期(Date)`;
+            tr.appendChild(th);
 
-        //        if (data[i].UpdateDate != null) {
-        //            p = document.createElement("p")
-        //            p.innerHTML += `(${ChangeDateToArDate(data[i].UpdateDate)})`;
-        //            section.appendChild(p);
-        //        }
+            th = document.createElement(`th`);
+            th.innerText = `內容(Content)`;
+            tr.appendChild(th);
+            table.appendChild(tr);
 
-        //        p = document.createElement("p");
-        //        p.innerText = data[i].Title;
-        //        section.appendChild(p);
+            for (let i = 0; i < data.length; i++) {
+                if (data[i].Hide)
+                    continue;
+                tr = document.createElement(`tr`);
 
-        //        p = document.createElement("p");
-        //        p.innerText = data[i].Content;
-        //        section.appendChild(p);
+                td = document.createElement(`td`);
+                a = document.createElement(`a`);
+                a.href = `RecordDetail.html?Parent=ACS&index=${i}`;
+                a.target = "_blank";
+                a.innerText = getContentPart(data[i].Title, 20);
+                td.appendChild(a);
+                tr.appendChild(td);
 
-        //        br = document.createElement("br");
-        //        section.appendChild(br);
-        //        article.appendChild(section);
-        //    }
+                td = document.createElement(`td`);
+                td.innerHTML = ChangeDateToArDate(data[i].Date);
+                tr.appendChild(td);  
 
-        //});
+                td = document.createElement(`td`);
+                td.innerText = getContentPart(data[i].Chinese);
+                tr.appendChild(td);
+
+                table.appendChild(tr);
+                
+            }            
+            div.appendChild(table);
+        });
     </script>
 </body>
 </html>

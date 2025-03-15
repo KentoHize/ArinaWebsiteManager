@@ -19,12 +19,35 @@ function ChangeDateToArDate(date)
     return `${parseInt(data[1])},&nbsp;${parseInt(data[2])},&nbsp;Ar.${parseInt(data[0])}`;
 }
 
-function ChangeLFtoBRLabel(s) {
-    
+function ChangeLFtoBRLabel(s) {    
     return s.replaceAll("\n", "<br />");
+}
+
+function ApplyLeadingSpaceAndBRLabel(s) {
+    var ss = s.split(`\n`);
+    var result = ``;
+    for (let i = 0; i < ss.length; i++)
+        if (i != ss.length - 1)
+            result += `&emsp;&emsp;${ss[i]}<br />`;
+        else
+            result += `&emsp;&emsp;${ss[i]}`;
+    return result;
 }
 
 function GetTodayArDate() {
     var today = new Date(Date.now());    
     return `${String(today.getFullYear() - 2017).padStart(4, `0`)}-${String(today.getMonth() + 1).padStart(2, `0`)}-${String(today.getDate()).padStart(2, `0`)}`;
+}
+
+
+function GetURLParameter() {
+    if (!location.search.includes(`?`))
+        return null;
+    var ps = location.search.split(`?`)[1].split(`&`);
+    var result = {};
+    for (let i = 0; i < ps.length; i++) {
+        let a = ps[i].split(`=`);
+        result[a[0]] = a[1];
+    }
+    return result;
 }
