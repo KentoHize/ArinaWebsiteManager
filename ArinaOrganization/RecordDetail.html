@@ -13,17 +13,17 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
-    <title>公告(Announcements)</title>
+    <title>內容頁(Contents Page)</title>
     <link rel="stylesheet" href="ArinaPage.css">
 </head>
 <body>
     <script src="Arina.js"></script>
-    <h3 style="text-align:center">公告(Announcements)</h3>
+    <h3 style="text-align:center">內容頁(Contents Page)</h3>
     <article style="margin:50px;" id="main">
     </article>
     <script>
         var article = document.getElementById("main");
-        fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+        fetch(`Articles.json?v=${Math.random()}`).then(m => m.json()).then(data => {
             var section, p;
             for (var i = 0; i < data.length; i++) {
                 section = document.createElement("section");

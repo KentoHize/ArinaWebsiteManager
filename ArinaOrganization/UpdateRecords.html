@@ -15,6 +15,14 @@
     <meta name="viewport" content="width=device-width">
     <title>更新紀錄(Update Records)</title>
     <link rel="stylesheet" href="ArinaPage.css">
+    <style>
+        section{
+            border-width:1px;
+            border-style:solid;
+            width:500px;
+            padding:4px;
+        }
+    </style>
 </head>
 <body>
     <script src="Arina.js"></script>
@@ -23,30 +31,23 @@
     </article>
     <script>
         var article = document.getElementById("main");
-        fetch(`Articles.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+        fetch(`UpdateRecords.json?v=${Math.random()}`).then(m => m.json()).then(data => {
             var section, p;
             for (var i = 0; i < data.length; i++) {
-                section = document.createElement("section");
-
+                section = document.createElement("section");                
                 p = document.createElement("p");
-                if (data[i].Date != null)
-                    p.innerHTML = ChangeDateToArDate(data[i].Date);
+                if (data[i].DateTime != null)
+                    p.innerHTML = ChangeDateTimeToArDate(data[i].DateTime);
                 else
-                    p.innerHTML = "-";
-                section.appendChild(p);
-
-                if (data[i].UpdateDate != null) {
-                    p = document.createElement("p")
-                    p.innerHTML += `(${ChangeDateToArDate(data[i].UpdateDate)})`;
-                    section.appendChild(p);
-                }
-
-                p = document.createElement("p");
-                p.innerText = data[i].Chinese;
+                    p.innerHTML = `-`;
                 section.appendChild(p);
 
                 p = document.createElement("p");
-                p.innerText = data[i].English;
+                p.innerText = data[i].Name;
+                section.appendChild(p);
+
+                p = document.createElement("p");
+                p.innerText = data[i].Content;
                 section.appendChild(p);
 
                 br = document.createElement("br");

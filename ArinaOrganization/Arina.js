@@ -8,7 +8,7 @@
     data[1] = data[1].length == 1 ? `&nbsp;${data[1]}` : data[1]; //Month
     data[2] = data[2].length == 1 ? `&nbsp;${data[2]}` : data[2];
     data[0] = "&nbsp;".repeat(3 - y.toString().length) + y; // Year
-    return `${data[3]}&nbsp;&nbsp;${data[1]},&nbsp;${data[2]},&nbsp;Ar.${data[0]}(${y + 2017})`;
+    return `${data[1]},&nbsp;${data[2]},&nbsp;Ar.${data[0]}(${y + 2017})&nbsp;&nbsp;${data[3]}`;
 }
 
 function ChangeDateToArDate(date)
