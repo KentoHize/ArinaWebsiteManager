@@ -13,6 +13,7 @@
     <title>品階一覽表(Index of Moral Ranking)</title>
     <link rel="stylesheet" href="ArinaPage.css">
     <meta name="viewport" content="width=device-width">
+    <script src="Arina.js"></script>
 </head>
 
 <body>
@@ -70,8 +71,8 @@
                     tr = document.createElement("tr");
                     td = document.createElement("td");
                     text = document.createTextNode("品格階級(Moral Rank)");
-                    td.style = "width:100px";
-                    //td.width = "100px";
+                    //td.style = "width:100px";
+                    td.width = "100px";
                     td.appendChild(text);
                     tr.appendChild(td);
 
@@ -212,10 +213,10 @@
             xhttp.send();
         }
 
-        function redraw(display_all = false) {
-            GetWindowSize();
+        function redraw(display_all = false)
+        {
+            GetWindowSize(display_all);
             if (display_all) {
-                window_size = "l";
                 document.getElementById("divTitle").style = `width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
                 document.getElementsByTagName('meta')['viewport'].content = "";
             }
@@ -232,7 +233,7 @@
             }
             draw_table();
         }
-
+        
         redraw();
 
         function getDatatable(withDetail) {

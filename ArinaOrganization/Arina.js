@@ -51,12 +51,26 @@ function GetURLParameter() {
     return result;
 }
 
-var window_size;
-function GetWindowSize() {
-    if (window.innerWidth < 800)
+var window_size, window_size_width;
+function GetWindowSize(max = false) {
+    if (window.innerWidth < 800) {
         window_size = "s";
-    else if (window.innerWidth < 1300)
+        window_size_width = 500;
+    }
+    else if (window.innerWidth < 1300) {
         window_size = "m";
-    else
+        window_size_width = 750;
+    }
+    else {
         window_size = "l";
+        window_size_width = 1250;
+    }
+    if (max) {
+        window_size = "l";
+        window_size_width = 1250;
+    }
+}
+
+function Initialize() {
+    GetWindowSize();
 }
