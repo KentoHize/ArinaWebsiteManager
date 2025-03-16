@@ -53,6 +53,11 @@ function GetURLParameter() {
 
 var window_size, window_size_width;
 function GetWindowSize(max = false) {
+
+    //if (window.innerWidth < 600) {
+    //    window_size = 'mi';
+    //    window_size_width = 400;
+    //}
     if (window.innerWidth < 800) {
         window_size = "s";
         window_size_width = 500;

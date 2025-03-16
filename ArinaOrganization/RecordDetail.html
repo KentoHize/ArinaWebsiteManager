@@ -19,15 +19,15 @@
 <body>
     <script src="Arina.js"></script>
     <h3 style="text-align:center">內容頁(Contents Page)</h3>
-    <div style="text-align:center; width:752px; height:30px; margin:auto">
-        <div style="width:100px; text-align:left; float:left"><a id="previous_page" href="#">←</a></div>
-        <div style="width:550px; float:left"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
-        <div style="width:100px; text-align:right; float:left"><a id="next_page" href="#">→</a></div>
+    <div id="tp">
+        <div style="padding-left:10px; width:15%; text-align:left; float:left"><a id="previous_page" href="#">←</a></div>
+        <div style="width:65%; float:left"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
+        <div style="padding-right:10px; width: 15%; text-align: right; float: left"><a id="next_page" href="#">→</a></div>
         <div>&nbsp;</div>
     </div>
 
     <div style="text-align:center">
-        <table id="main" border="1" width="750px" style="margin-left:auto; margin-right:auto; text-align:center">
+        <table id="main" border="1">
         </table>
     </div>
     <div style="text-align:center; margin:10px;">
@@ -39,7 +39,11 @@
             location.reload(true);
         }
 
-        async function main() {
+        function main() {
+            redraw();
+        }
+
+        async function draw() {
             var data, dt;
             var dtName;
             var ulp = GetURLParameter();
@@ -143,6 +147,13 @@
             else {
                 alert(`錯誤：類型未傳入`);
             }
+        }
+
+        function redraw() {
+            GetWindowSize();
+            document.getElementById(`main`).style = `margin-left:auto; margin-right:auto; text-align:center; width:${window_size_width}px`;
+            document.getElementById(`tp`).style = `text-align:center; width:${window_size_width}px; height:30px; margin:auto`;
+            draw();
         }
 
         main();
