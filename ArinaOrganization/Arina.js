@@ -59,11 +59,11 @@ function GetWindowSize(max = false) {
     }
     else if (window.innerWidth < 800) {
         window_size = "s";
-        window_size_width = 550;
+        window_size_width = 450;
     }
     else if (window.innerWidth < 1300) {
         window_size = "m";
-        window_size_width = 850;
+        window_size_width = 750;
     }
     else {
         window_size = "l";

@@ -22,12 +22,14 @@
     <h3 style="text-align:center">求職信範例(Cover Letter Example)</h3>
     <article style="margin-top:20px">
         <section style="text-align:center">
-            此處提供求職信範例，特別針對學生族群適合參考使用。<br />
-            有奈教 或 有奈有限公司 可擇一填寫。
+            <p>
+                此處提供求職信範例，<br id="br1" />特別針對學生族群適合參考使用。<br />
+                有奈教 或 有奈有限公司 可擇一填寫。
+            </p>
         </section>
     </article>
     <br />
-    <div style="width:500px; margin:auto; padding:20px; border-style:solid; border-width:1px">
+    <div id="a1">
         <p>
             有奈教/有奈有限公司，您好<br />
             &emsp;&emsp;我是OOO，在OOOO網站上看到你們正在招募OO，寄信來應徵。<br />
@@ -43,7 +45,7 @@
                 履歷表格式不拘，應該要有以下項目。
             </p>            
         </section>
-        <section style="width:500px; margin:auto;">
+        <section id="a2">
             <ul>
                 <li>1.個人照片</li>
                 <li>2.姓名</li>
@@ -59,4 +61,14 @@
             </ul>
         </section>
     </article>
+    <script>
+        GetWindowSize();
+
+        if (window_size != `mi`) {
+            document.getElementById(`br1`).style = "display:none";
+        }        
+        document.getElementById(`a1`).style = `width:${window_size_width - 90}px; margin:auto; padding:20px; border-style:solid; border-width:1px`;
+        document.getElementById(`a2`).style = `width:${window_size_width - 40}px; margin:auto`;
+    </script>
 </body>
+</html>
