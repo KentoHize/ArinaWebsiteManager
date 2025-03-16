@@ -75,6 +75,7 @@ function GetWindowSize(max = false) {
     }
 }
 
-function Initialize() {
+function Initialize() {  
+
     GetWindowSize();
 }
