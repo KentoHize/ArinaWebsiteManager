@@ -43,6 +43,10 @@
                     <td style="text-align:right;"><input id="dateTo" type="date" name="DateTo" /></td>
                 </tr>
                 <tr>
+                    <td><label>類型(Type)</label></td>
+                    <td colspan="4"><input type="text" name="Type" /></td>
+                </tr>
+                <tr>
                     <td><label>內容(Content)</label></td>
                     <td colspan="4"><input type="text" name="Content" /></td>
                 </tr>
@@ -52,7 +56,7 @@
             </table>
         </form>
     </div>
-    
+    <div id="dhr"></div>
     <div style="text-align:center">        
         <a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>
     </div>
@@ -79,26 +83,34 @@
                 return `${s.substring(0, nl)}...`;
         }
 
-        function draw() {
+        async function draw() {
             var linePerPage = 30;
+            var dt;
             var ulp = GetURLParameter();
             if (ulp != null) {
                 document.getElementsByName(`Title`)[0].value = ulp.Title;
                 document.getElementsByName(`DateFrom`)[0].value = ulp.DateFrom;
                 document.getElementsByName(`DateTo`)[0].value = ulp.DateTo;
-                document.getElementsByName(`Content`)[0].value = ulp.Content;
+                document.getElementsByName(`Type`)[0].value = ulp.Type;
+                document.getElementsByName(`Content`)[0].value = ulp.Content;                
 
-                if (ulp.DateTo < ulp.DateFrom) {
+                if (ulp.DateTo != `` && ulp.DateFrom != `` && ulp.DateTo < ulp.DateFrom) {
                     alert(`結束日期小於起始日期`);
                     return;
                 }
             }
 
+            if (window_size == `l`)
+                dt = await fetch(`AnnouncementType.json?v=${Math.random()}`).then(m => m.json());
+
             fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-                var div = document.getElementById(`main`);
+                var div = document.getElementById(`main`);                
                 var table, th, tr, td, a;
-                div.innerHTML = `<hr width=${window_size_width}/>`;
+
+                document.getElementById(`dhr`).innerHTML = `<hr width=${window_size_width}/>`;
+                div.innerHTML = ``;
                 div.style = `width:${window_size_width}px; margin:auto`;
+
                 table = document.createElement(`table`);
                 table.style = `margin-left:auto; margin-right:auto; width:${window_size_width}px`;
                 table.border = 1;
@@ -112,7 +124,14 @@
                 th = document.createElement(`th`);
                 th.width = `100px`;
                 th.innerText = `日期(Date)`;
-                tr.appendChild(th);
+                tr.appendChild(th);                
+
+                if (window_size == `l`) {
+                    th = document.createElement(`th`);
+                    th.width = `100px`;
+                    th.innerText = `類型(Type)`;
+                    tr.appendChild(th);
+                }
 
                 if (window_size != `s`) {
                     th = document.createElement(`th`);
@@ -139,6 +158,10 @@
                             if (String(data[i].Date).replaceAll(`/`, `-`) > ulp.DateTo)
                                 continue;
                         }
+                        if (ulp.Type != null && ulp.Type != ``) {
+                            if (!String(data[i].Type).includes(ulp.Type))
+                                continue;
+                        }
                         if (ulp.Content != null && ulp.Content != ``) {
                             if (!String(data[i].Chinese).includes(ulp.Content) &&
                                 !String(data[i].OtherLanguage).includes(ulp.Content))
@@ -156,8 +179,21 @@
                     tr.appendChild(td);
 
                     td = document.createElement(`td`);
+                    td.style = `text-align:center`;
                     td.innerHTML = ChangeDateToArDate(data[i].Date);
                     tr.appendChild(td);
+
+                    if (window_size == `l`) {
+                        td = document.createElement(`td`);
+                        td.style = `text-align:center`;
+                        for (let j = 0; j < dt.length; j++) {
+                            if (dt[j].Name == data[i].Type) {
+                                td.innerText = dt[j].Chinese;
+                                break;
+                            }   
+                        }
+                        tr.appendChild(td);
+                    }
 
                     if (window_size != `s`) {
                         td = document.createElement(`td`);
@@ -188,18 +224,21 @@
                 document.getElementById(`qf`).style = `width:500px; margin:auto`;
                 document.getElementById(`qft`).style = `width:500px`;
                 document.getElementsByName(`Title`)[0].style = `width:372px`;
+                document.getElementsByName(`Type`)[0].style = `width:372px`;
                 document.getElementsByName(`Content`)[0].style = `width:372px`;
             }
             else if (window_size == 'm') {
                 document.getElementById(`qf`).style = `width:700px; margin:auto`;
                 document.getElementById(`qft`).style = `width:700px`;
                 document.getElementsByName(`Title`)[0].style = `width:572px`;
+                document.getElementsByName(`Type`)[0].style = `width:572px`;
                 document.getElementsByName(`Content`)[0].style = `width:572px`;
             }
             else {
                 document.getElementById(`qf`).style = `width:1000px; margin:auto`;
                 document.getElementById(`qft`).style = `width:1000px`;
                 document.getElementsByName(`Title`)[0].style = `width:872px`;
+                document.getElementsByName(`Type`)[0].style = `width:872px`;
                 document.getElementsByName(`Content`)[0].style = `width:872px`;
             }
             if (display_all)

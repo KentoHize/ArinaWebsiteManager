@@ -40,13 +40,19 @@
         }
 
         async function main() {
-            var data;
+            var data, dt;
+            var dtName;
             var ulp = GetURLParameter();
 
             if (ulp == null)
                 return;
-            if (ulp.Parent == `ACS`)
+            if (ulp.Parent == `ACS`) {
                 data = await fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json());
+                dt = await fetch(`AnnouncementType.json?v=${Math.random()}`).then(m => m.json());
+            }
+            else if (ulp.Parent == `UR`) {
+                data = await fetch(`UpdateRecords.json?v=${Math.random()}`).then(m => m.json());                
+            }
             else
                 return;
 
@@ -78,8 +84,17 @@
                 table.appendChild(tr);
 
                 tr = document.createElement(`tr`);
-                td = document.createElement(`td`);
+                td = document.createElement(`td`);                
                 td.innerHTML = ChangeDateToArDate(data[ulp.index].Date);
+                tr.appendChild(td);
+                table.appendChild(tr);
+
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);                
+                for (let i = 0; i < dt.length; i++)
+                    if (dt[i].Name == data[ulp.index].Type)
+                        dtName = dt[i].Chinese;
+                td.innerText = dtName;
                 tr.appendChild(td);
                 table.appendChild(tr);
 
@@ -90,7 +105,7 @@
                 tr.appendChild(td);
                 table.appendChild(tr);
 
-                if (data[ulp.index].English != null) {
+                if (data[ulp.index].OtherLanguage != null) {
                     tr = document.createElement(`tr`);
                     td = document.createElement(`td`);
                     td.style = `text-align:left;`;
@@ -99,8 +114,34 @@
                     table.appendChild(tr);
                 }
             }
-            else {
+            else if (ulp.Parent == `UR`) {
+                tr = document.createElement(`tr`);
+                th = document.createElement(`th`);
+                th.innerHTML = ChangeLFtoBRLabel(data[ulp.index].Title)
+                tr.appendChild(th);
+                table.appendChild(tr);
 
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+                td.innerHTML = ChangeDateTimeToArDate(data[ulp.index].DateTime);
+                tr.appendChild(td);
+                table.appendChild(tr);
+
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+                td.innerText = data[ulp.index].Type;                                
+                tr.appendChild(td);
+                table.appendChild(tr);
+
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+                td.style = `text-align:left;`;
+                td.innerHTML = ApplyLeadingSpaceAndBRLabel(data[ulp.index].Content);
+                tr.appendChild(td);
+                table.appendChild(tr);
+            }
+            else {
+                alert(`錯誤：類型未傳入`);
             }
         }
 

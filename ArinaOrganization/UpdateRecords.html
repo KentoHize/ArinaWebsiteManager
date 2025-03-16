@@ -16,46 +16,245 @@
     <title>更新紀錄(Update Records)</title>
     <link rel="stylesheet" href="ArinaPage.css">
     <style>
-        section{
-            border-width:1px;
-            border-style:solid;
-            width:500px;
-            padding:4px;
+        .lf {
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 2px;
+            margin-bottom: 2px;
         }
     </style>
 </head>
 <body>
     <script src="Arina.js"></script>
     <h3 style="text-align:center">更新紀錄(Update Records)</h3>
-    <article style="margin:50px;" id="main">
-    </article>
+    <div id="qf">
+        <form action="UpdateRecords.html" target="_self" method="get">
+            <input type="hidden" name="Page" value="1" />
+            <table id="qft">
+                <tr>
+                    <td><label>標題(Title)</label></td>
+                    <td colspan="4"><input type="text" name="Title" /></td>
+                </tr>
+                <tr>
+                    <td><label>日期(Date)</label></td>
+                    <td>自(From)</td>
+                    <td style="text-align:right;"><input id="dateFrom" type="date" name="DateFrom" /></td>
+                    <td>至(To)</td>
+                    <td style="text-align:right;"><input id="dateTo" type="date" name="DateTo" /></td>
+                </tr>
+                <tr>
+                    <td><label>類型(Type)</label></td>
+                    <td colspan="4"><input type="text" name="Type" /></td>
+                </tr>
+                <tr>
+                    <td><label>內容(Content)</label></td>
+                    <td colspan="4"><input type="text" name="Content" /></td>
+                </tr>
+                <tr style="text-align:center">
+                    <td colspan="5"><input type="submit" value="搜索(Search)" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="dhr"></div>
+    <div style="text-align:center">
+        <a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>
+    </div>
+    <div id="main">
+
+    </div>
     <script>
-        var article = document.getElementById("main");
-        fetch(`UpdateRecords.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-            var section, p;
-            for (var i = 0; i < data.length; i++) {
-                section = document.createElement("section");                
-                p = document.createElement("p");
-                if (data[i].DateTime != null)
-                    p.innerHTML = ChangeDateTimeToArDate(data[i].DateTime);
-                else
-                    p.innerHTML = `-`;
-                section.appendChild(p);
+        function display_all() {
+            redraw(true);
+        }
 
-                p = document.createElement("p");
-                p.innerText = data[i].Name;
-                section.appendChild(p);
+        function refresh_page() {
+            localStorage.clear();
+            location.reload(true);
+        }
 
-                p = document.createElement("p");
-                p.innerText = data[i].Content;
-                section.appendChild(p);
+        function getContentPart(s, maxWords) {
+            var nl = s.indexOf(`\n`);
+            if (s.length < maxWords && nl == -1)
+                return nl == -1 ? s : s.substring(0, nl);
+            else if (nl == -1 || nl > maxWords)
+                return `${s.substring(0, maxWords)}...`;
+            else
+                return `${s.substring(0, nl)}...`;
+        }
 
-                br = document.createElement("br");
-                section.appendChild(br);
-                article.appendChild(section);
+        async function draw() {
+            var linePerPage = 30;
+            var dt;
+            var ulp = GetURLParameter();
+            if (ulp != null) {
+                document.getElementsByName(`Title`)[0].value = ulp.Title;
+                document.getElementsByName(`DateFrom`)[0].value = ulp.DateFrom;
+                document.getElementsByName(`DateTo`)[0].value = ulp.DateTo;
+                document.getElementsByName(`Type`)[0].value = ulp.Type;
+                document.getElementsByName(`Content`)[0].value = ulp.Content;
+
+                if (ulp.DateTo != `` && ulp.DateFrom != `` && ulp.DateTo < ulp.DateFrom) {
+                    alert(`結束日期小於起始日期`);
+                    return;
+                }
             }
 
-        });
+            //if (window_size == `l`)
+            //    dt = await fetch(`AnnouncementType.json?v=${Math.random()}`).then(m => m.json());
+
+            fetch(`UpdateRecords.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+                var div = document.getElementById(`main`);
+                var table, th, tr, td, a;
+
+                document.getElementById(`dhr`).innerHTML = `<hr width=${window_size_width}/>`;
+                div.innerHTML = ``;
+                div.style = `width:${window_size_width}px; margin:auto`;
+
+                table = document.createElement(`table`);
+                table.style = `margin-left:auto; margin-right:auto; width:${window_size_width}px`;
+                table.border = 1;
+                tr = document.createElement(`tr`);
+
+                th = document.createElement(`th`);
+                th.width = `300px`;
+                th.innerText = `標題(Title)`;
+                tr.appendChild(th);
+
+                th = document.createElement(`th`);
+                th.width = `250px`;
+                th.innerText = `日期時間(DateTime)`;
+                tr.appendChild(th);
+
+                if (window_size == `l`) {
+                    th = document.createElement(`th`);
+                    th.width = `120px`;
+                    th.innerText = `類型(Type)`;
+                    tr.appendChild(th);
+                }
+
+                if (window_size != `s`) {
+                    th = document.createElement(`th`);
+                    th.width = `1000px`;
+                    th.innerText = `內容(Content)`;
+                    tr.appendChild(th);
+                }
+                table.appendChild(tr);
+                div.appendChild(table);
+
+                for (let i = 0; i < data.length; i++) {
+                    if (data[i].Hide)
+                        continue;
+                    if (ulp != null) {
+                        if (ulp.Title != null && ulp.Title != ``) {
+                            if (!String(data[i].Title).includes(ulp.Title))
+                                continue;
+                        }
+                        if (ulp.DateFrom != null && ulp.DateFrom != ``) {
+                            if (String(data[i].DateTime.split(` `)[0]).replaceAll(`/`, `-`) < ulp.DateFrom)
+                                continue;
+                        }
+                        if (ulp.DateTo != null && ulp.DateTo != ``) {
+                            if (String(data[i].DateTime.split(` `)[0]).replaceAll(`/`, `-`) > ulp.DateTo)
+                                continue;
+                        }
+                        if (ulp.Type != null && ulp.Type != ``) {
+                            if (!String(data[i].Type).includes(ulp.Type))
+                                continue;
+                        }
+                        if (ulp.Content != null && ulp.Content != ``) {
+                            if (!String(data[i].Content).includes(ulp.Content))
+                                continue;
+                        }
+                    }
+
+                    tr = document.createElement(`tr`);
+                    td = document.createElement(`td`);
+                    a = document.createElement(`a`);
+                    a.href = `RecordDetail.html?Parent=UR&index=${i}`;
+                    a.target = "_blank";
+                    a.innerText = getContentPart(data[i].Title, 20);
+                    td.appendChild(a);
+                    tr.appendChild(td);
+
+                    td = document.createElement(`td`);
+                    td.style = `text-align:center`;
+                    td.innerHTML = ChangeDateTimeToArDate(data[i].DateTime);
+                    tr.appendChild(td);
+
+                    if (window_size == `l`) {
+                        td = document.createElement(`td`);
+                        td.style = `text-align:center`;
+                        //for (let j = 0; j < dt.length; j++) {
+                        //    if (dt[j].Name == data[i].Type) {
+                        //        td.innerText = dt[j].Chinese;
+                        //        break;
+                        //    }
+                        //}
+                        td.innerText = data[i].Type;
+                        tr.appendChild(td);
+                    }
+
+                    if (window_size != `s`) {
+                        td = document.createElement(`td`);
+                        if (window_size == `l`)
+                            td.innerText = getContentPart(data[i].Content, 50);
+                        else
+                            td.innerText = getContentPart(data[i].Content, 25);
+                        tr.appendChild(td);
+                    }
+                    table.appendChild(tr);
+                }
+            });
+        }
+
+        function main() {
+            var df = document.getElementById(`dateFrom`);
+            var dt = document.getElementById(`dateTo`);
+
+            df.addEventListener(`focus`, m => { if (m.target.value == "") m.target.value = GetTodayArDate(); });
+            dt.addEventListener(`focus`, m => { if (m.target.value == "") m.target.value = GetTodayArDate(); });
+
+            redraw();
+        }
+
+        function redraw(display_all = false) {
+            GetWindowSize(false);
+            if (window_size == 's') {
+                document.getElementById(`qf`).style = `width:500px; margin:auto`;
+                document.getElementById(`qft`).style = `width:500px`;
+                document.getElementsByName(`Title`)[0].style = `width:372px`;
+                document.getElementsByName(`Type`)[0].style = `width:372px`;
+                document.getElementsByName(`Content`)[0].style = `width:372px`;
+            }
+            else if (window_size == 'm') {
+                document.getElementById(`qf`).style = `width:700px; margin:auto`;
+                document.getElementById(`qft`).style = `width:700px`;
+                document.getElementsByName(`Title`)[0].style = `width:572px`;
+                document.getElementsByName(`Type`)[0].style = `width:572px`;
+                document.getElementsByName(`Content`)[0].style = `width:572px`;
+            }
+            else {
+                document.getElementById(`qf`).style = `width:1000px; margin:auto`;
+                document.getElementById(`qft`).style = `width:1000px`;
+                document.getElementsByName(`Title`)[0].style = `width:872px`;
+                document.getElementsByName(`Type`)[0].style = `width:872px`;
+                document.getElementsByName(`Content`)[0].style = `width:872px`;
+            }
+            if (display_all)
+                GetWindowSize(display_all);
+            if (window_size == `l` || window_size == 'm') {
+                document.getElementById("display_all").style = "display:none;";
+                document.getElementById("main").style = "margin:20px; width:1100px";
+            }
+            else {
+                document.getElementById("display_all").style = "display:inline";
+                document.getElementById("main").style = "margin:20px";
+            }
+            draw();
+        }
+
+        main();
     </script>
 </body>
 </html>

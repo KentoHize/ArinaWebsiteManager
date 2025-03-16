@@ -47,7 +47,7 @@
           "IsNullable": false,
           "Type": "String",
           "Choices": [],
-          "FKTable": "AnnoucementType",
+          "FKTable": "AnnouncementType",
           "FKColumn": "Name",
           "NumberOfRows": 1,
           "Display": false,
@@ -2230,7 +2230,7 @@
           "IsUnique": false
         },
         {
-          "Name": "Name",
+          "Name": "Title",
           "IsKey": false,
           "IsNullable": false,
           "Type": "String",
@@ -2326,7 +2326,7 @@
       ]
     },
     {
-      "Name": "AnnoucementType",
+      "Name": "AnnouncementType",
       "Columns": [
         {
           "Name": "Name",
