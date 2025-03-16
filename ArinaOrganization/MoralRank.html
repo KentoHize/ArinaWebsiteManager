@@ -82,7 +82,7 @@
                     td.appendChild(text);
                     tr.appendChild(td);
 
-                    if (window_size != "s") {
+                    if (window_size != `mi` && window_size != `mi`) {
 
                         td = document.createElement("td");
                         text = document.createTextNode("性別(Gender)");
@@ -145,7 +145,7 @@
                         td.appendChild(a);
                         tr.appendChild(td);
 
-                        if (window_size != "s") {
+                        if (window_size != "s" && window_size != `mi`) {
                             td = document.createElement("td");
                             if (data[i].Gender == "f")
                                 text = document.createTextNode("女");

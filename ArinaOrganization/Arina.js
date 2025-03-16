@@ -53,18 +53,17 @@ function GetURLParameter() {
 
 var window_size, window_size_width;
 function GetWindowSize(max = false) {
-
-    //if (window.innerWidth < 600) {
-    //    window_size = 'mi';
-    //    window_size_width = 400;
-    //}
-    if (window.innerWidth < 800) {
+    if (window.innerWidth < 500) {
+        window_size = 'mi';
+        window_size_width = 350;
+    }
+    else if (window.innerWidth < 800) {
         window_size = "s";
-        window_size_width = 500;
+        window_size_width = 550;
     }
     else if (window.innerWidth < 1300) {
         window_size = "m";
-        window_size_width = 750;
+        window_size_width = 850;
     }
     else {
         window_size = "l";

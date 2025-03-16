@@ -36,11 +36,13 @@
                     <td colspan="4"><input type="text" name="Title" /></td>
                 </tr>
                 <tr>
-                    <td><label>日期(Date)</label></td>
+                    <td rowspan="2"><label>日期(Date)</label></td>
                     <td>自(From)</td>
-                    <td style="text-align:right;"><input id="dateFrom" type="date" name="DateFrom" /></td>
+                    <td style=""><input id="dateFrom" type="date" name="DateFrom" /></td>                    
+                </tr>
+                <tr>
                     <td>至(To)</td>
-                    <td style="text-align:right;"><input id="dateTo" type="date" name="DateTo" /></td>
+                    <td style=""><input id="dateTo" type="date" name="DateTo" /></td>
                 </tr>
                 <tr>
                     <td><label>類型(Type)</label></td>
@@ -133,7 +135,7 @@
                     tr.appendChild(th);
                 }
 
-                if (window_size != `s`) {
+                if (window_size != `s` && window_size != `mi`) {
                     th = document.createElement(`th`);
                     th.width = `1000px`;
                     th.innerText = `內容(Content)`;
@@ -172,7 +174,7 @@
                     tr = document.createElement(`tr`);
                     td = document.createElement(`td`);
                     a = document.createElement(`a`);
-                    a.href = `RecordDetail.html?Parent=ACS&index=${i}`;
+                    a.href = `RecordDetail.html?Parent=ACS&index=${i}&v=${Math.random()}`;
                     a.target = "_blank";
                     a.innerText = getContentPart(data[i].Title, 20);
                     td.appendChild(a);
@@ -195,7 +197,7 @@
                         tr.appendChild(td);
                     }
 
-                    if (window_size != `s`) {
+                    if (window_size != `s` && window_size != `mi`) {
                         td = document.createElement(`td`);
                         if (window_size == `l`)
                             td.innerText = getContentPart(data[i].Chinese, 50);
@@ -220,27 +222,12 @@
 
         function redraw(display_all = false) {
             GetWindowSize(false);
-            if (window_size == 's') {
-                document.getElementById(`qf`).style = `width:500px; margin:auto`;
-                document.getElementById(`qft`).style = `width:500px`;
-                document.getElementsByName(`Title`)[0].style = `width:372px`;
-                document.getElementsByName(`Type`)[0].style = `width:372px`;
-                document.getElementsByName(`Content`)[0].style = `width:372px`;
-            }
-            else if (window_size == 'm') {
-                document.getElementById(`qf`).style = `width:700px; margin:auto`;
-                document.getElementById(`qft`).style = `width:700px`;
-                document.getElementsByName(`Title`)[0].style = `width:572px`;
-                document.getElementsByName(`Type`)[0].style = `width:572px`;
-                document.getElementsByName(`Content`)[0].style = `width:572px`;
-            }
-            else {
-                document.getElementById(`qf`).style = `width:1000px; margin:auto`;
-                document.getElementById(`qft`).style = `width:1000px`;
-                document.getElementsByName(`Title`)[0].style = `width:872px`;
-                document.getElementsByName(`Type`)[0].style = `width:872px`;
-                document.getElementsByName(`Content`)[0].style = `width:872px`;
-            }
+            document.getElementById(`qf`).style = `width:${window_size_width}px; margin:auto`;
+            document.getElementById(`qft`).style = `width:${window_size_width}px; margin:auto`;
+            document.getElementsByName(`Title`)[0].style = `width:${window_size_width - 188}px; margin:auto`;
+            document.getElementsByName(`Type`)[0].style = `width:${window_size_width - 188}px; margin:auto`;
+            document.getElementsByName(`Content`)[0].style = `width:${window_size_width - 188}px; margin:auto`;
+           
             if (display_all)
                 GetWindowSize(display_all);
             if (window_size == `l` || window_size == 'm') {                
