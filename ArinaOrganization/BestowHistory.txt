@@ -94,6 +94,7 @@ Papa.Francesco(11, 27, Ar.3)
 三上悠亜(8, 19, Ar.4)
 Emma.Charlotte.Duerre.Watson(10, 25, Ar.3)
 Ivanka.Trump(10, 25, Ar.3)
+Taylor.Swift(3, 17, Ar.8)
 yami(11, 13, Ar.3)
 結城明日奈(10, 25, Ar.3)
 普遍地球人(10, 25, Ar.3)
@@ -116,4 +117,4 @@ Hillary.Clinton(12, 21, Ar.3)
 普遍美國人(10, 25, Ar.3)
 台灣惡質老人(11, 15, Ar.3)
 
-Created at 2, 10, Ar.8
+Created at 3, 17, Ar.8

@@ -128,3 +128,26 @@ li{
     .c7:active {
         background-color: #eeeeee;
     }
+
+.c8 {
+    background-color: #99ffff;
+}
+    .c8:active {
+        background-color: #66ffff;
+    }
+
+.c9 {
+    background-color: #ff99ff;
+}
+
+    .c9:active {
+        background-color: #ff66ff;
+    }
+
+.c10 {
+    background-color: #ff9999;
+}
+
+    .c10:active {
+        background-color: #ff6666;
+    }

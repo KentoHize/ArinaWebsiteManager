@@ -1105,5 +1105,14 @@
     "BestowDateTime": "0008/02/10 17:08:06",
     "Reason": "妨礙個人自由",
     "Memo": ""
+  },
+  {
+    "ID": 123,
+    "PersonID": "5b18c93b-c817-4cc6-8692-4ace88d9b3ff",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": -3,
+    "BestowDateTime": "0008/03/17 16:29:36",
+    "Reason": "初評定",
+    "Memo": ""
   }
 ]

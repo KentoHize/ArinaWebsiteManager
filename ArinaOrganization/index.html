@@ -20,13 +20,13 @@
     <script src="Arina.js"></script>
     <meta name="viewport" content="width=device-width">
 </head>
-<body>    
+<body>
     <div style="text-align:center">
         <a href="javascript:refresh_page()"> <img src="ArinaIcon.jpg" alt="Arina Icon" width="100" height="100" /></a>
-        <h3>有奈教(Arina Organization)</h3>        
+        <h3>有奈教(Arina Organization)</h3>
     </div>
     <br />
-    
+
     <div class="indexMain">
 
         <a class="choiceBlock c3" href="javascript:;" id="m1">
@@ -53,7 +53,7 @@
             <li class="liBlock"><a href="FAQ.html" target="_blank">常見問答(Frequently Asked Questions)</a></li>
         </ul>
         <a class="choiceBlock c5" href="javascript:;" id="m4">
-            公告頁(Announcement Page)<br />            
+            公告頁(Announcement Page)<br />
         </a>
         <ul class="dropdownList" id="s4" hidden="hidden">
             <li class="liBlock"><a href="Announcements.html" target="_blank">公告(Announcements)</a></li>
@@ -70,21 +70,45 @@
         <ul class="dropdownList" id="s6" hidden="hidden">
             <li class="liBlock"><a href="Recruits.html" target="_blank">人才招募(Recruits)</a></li>
             <li class="liBlock"><a href="CoverLetterExample.html" target="_blank">求職信範例(Cover Letter Example)</a></li>
-            <li class="liBlock"><a href="InterviewInstructions.html" target="_blank">面試須知(Interview Instructions)</a></li>            
+            <li class="liBlock"><a href="InterviewInstructions.html" target="_blank">面試須知(Interview Instructions)</a></li>
         </ul>
-        <a class="choiceBlock c7" href="Registration.html" target="_blank">
-            國家/跨國公司/跨國團體登記(Registration for Country/International Companies/International Group)
+        <a class="choiceBlock c8" href="javascript:;" id="m7">
+            國際事務(International Affairs)
         </a>
-        <a class="choiceBlock c7" href="Resources.html" target="_blank">
-            免費資源(Free Resources)
-        </a>
-
-        <a class="choiceBlock c7" href="DTInfo.html" target="_blank">
-            捐款/付款資訊(Donate/Transfer Information)
-        </a>
+        <ul class="dropdownList" id="s7" hidden="hidden">
+            <li class="liBlock">
+                <a href="Registration.html" target="_blank">
+                    國家/跨國公司/跨國團體登記<br />
+                    (Registration for Country/International Companies/International Group)
+                </a>
+            </li>
+            <li class="liBlock">
+                <a href="Arbitration.html" target="_blank">
+                    國際糾紛仲裁(International Dispute Arbitration)
+                </a>
+            </li>
+        </ul>
+        <a class="choiceBlock c10" href="javascript:;" id="m8">捐款及請願(Donate & Reflecting Wish)</a>
+        <ul class="dropdownList" id="s8" hidden="hidden">
+            <li class="liBlock">
+                <a href="" target="_blank">捐款(Donate)</a>
+            </li>
+            <li class="liBlock">
+                <a href="" target="_blank">請願(Reflecting Wish)</a>
+            </li>
+            <li class="liBlock">
+                <a href="DTInfo.html" target="_blank">捐款/付款資訊(Donate/Transfer Information)</a>
+            </li>
+        </ul>
+        <a class="choiceBlock c7" href="javascript:;" id="m9">免費資源(Free Resources)</a>
+        <ul class="dropdownList" id="s9" hidden="hidden">
+            <li class="liBlock">
+                <a href="Resources.html" target="_blank">免費資源(Free Resources)</a>
+            </li>
+        </ul>
     </div>
     <div style="text-align:center; margin:10px">
-        聯絡我們(Contact us): <a href="mailto:service@arinaorganization.org">service@arinaorganization.org</a><br />        
+        聯絡我們(Contact us): <a href="mailto:service@arinaorganization.org">service@arinaorganization.org</a><br />
         Line: <a href="https://lin.ee/ZJZ9vY0" target="_blank">https://lin.ee/ZJZ9vY0</a> @237izrgb<br />
         Twitter(X): <a href="https://twitter.com/KentoHize" target="_blank">https://twitter.com/KentoHize</a><br />
         收信地址(Address for receiving mail): 106049 臺北市大安區義安里2鄰信義路四段210號11樓
@@ -94,9 +118,9 @@
         function refresh_page() {
             localStorage.clear();
             location.reload(true);
-        }       
+        }
 
-        for (let i = 1; i < 7; i++)
+        for (let i = 1; i < 10; i++)
             $(`#m${i}`).click(function () { $(`#s${i}`).slideToggle(); });
 
     </script>
