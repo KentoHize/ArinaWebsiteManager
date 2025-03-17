@@ -30,6 +30,9 @@
         <div id="main">
         </div>
     </div>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
     <div style="text-align:center; margin:10px">
         聯絡我們(Contact us): <a href="mailto:service@arinaorganization.org">service@arinaorganization.org</a><br />
     </div>
@@ -124,7 +127,7 @@
                             if (data[i].EName2 != null)
                                 text = document.createTextNode(`${data[i].CName2}(${data[i].EName2})`);
                             else
-                                text = document.createTextNode(data[i].CName2);                            
+                                text = document.createTextNode(data[i].CName2);
                             a = document.createElement("a");
                             a.href = data[i].Link2;
                             a.target = "_blank";

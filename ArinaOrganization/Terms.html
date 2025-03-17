@@ -21,13 +21,16 @@
         <h3 style="text-align:center">用語解釋(Explanation of Terms)</h3>
         <div style="text-align:center">
             <a href="javascript:refresh_page()">更新(Refresh)</a>
-            <br id="rbr" />            
+            <br id="rbr" />
             <a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>
-            
+
         </div>
 
     </div>
     <div id="main" style="margin:20px">
+    </div>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
     </div>
     <script>
 
@@ -131,7 +134,7 @@
 
                     divMain.appendChild(table);
                 }
-                
+
             };
             xhttp.responseType = 'json';
             xhttp.open("GET", "Terms.json?v=" + Math.random(), true);
@@ -157,7 +160,7 @@
                 document.getElementById("rbr").style = "visibility:visible";
                 document.getElementById("display_all").style = "visibility:visible";
                 document.getElementById("main").style = "margin:20px";
-            }           
+            }
             draw_table();
         }
 

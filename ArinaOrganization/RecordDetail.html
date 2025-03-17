@@ -20,7 +20,7 @@
 <body>
     <script src="Arina.js"></script>
     <h3 style="text-align:center">內容頁(Contents Page)</h3>
-    <div id="tp">        
+    <div id="tp">
         <div style="width:20%; text-align:left; float:left"><a id="previous_page" href="#">←</a></div>
         <div style="width:60%; float:left"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
         <div style="width:20%; text-align: right; float: left"><a id="next_page" href="#">→</a></div>
@@ -31,7 +31,7 @@
         </table>
     </div>
     <div style="text-align:center; margin:10px;">
-        <a href="javascript:window.close()">關閉視窗</a>
+        <a href="javascript:window.close()">關閉(Close)</a>
     </div>
     <script>
         function refresh_page() {
@@ -55,7 +55,7 @@
                 dt = await fetch(`AnnouncementType.json?v=${Math.random()}`).then(m => m.json());
             }
             else if (ulp.Parent == `UR`) {
-                data = await fetch(`UpdateRecords.json?v=${Math.random()}`).then(m => m.json());                
+                data = await fetch(`UpdateRecords.json?v=${Math.random()}`).then(m => m.json());
             }
             else
                 return;
@@ -94,13 +94,13 @@
                 table.appendChild(tr);
 
                 tr = document.createElement(`tr`);
-                td = document.createElement(`td`);                
+                td = document.createElement(`td`);
                 td.innerHTML = ChangeDateToArDate(data[ulp.index].Date);
                 tr.appendChild(td);
                 table.appendChild(tr);
 
                 tr = document.createElement(`tr`);
-                td = document.createElement(`td`);                
+                td = document.createElement(`td`);
                 for (let i = 0; i < dt.length; i++)
                     if (dt[i].Name == data[ulp.index].Type)
                         dtName = dt[i].Chinese;
@@ -139,7 +139,7 @@
 
                 tr = document.createElement(`tr`);
                 td = document.createElement(`td`);
-                td.innerText = data[ulp.index].Type;                                
+                td.innerText = data[ulp.index].Type;
                 tr.appendChild(td);
                 table.appendChild(tr);
 

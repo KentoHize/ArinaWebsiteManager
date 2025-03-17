@@ -22,6 +22,9 @@
     <h3 style="text-align:center">有奈教箴言(Arina's Quotes)</h3>
 
     <article style="margin:50px;" id="main"></article>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
     <script>
         var data;
         var article = document.getElementById("main");
@@ -38,7 +41,7 @@
                         p.innerHTML = ChangeDateToArDate(data[i].Date);
                     else
                         p.innerHTML = "-";
-                    
+
                     section.appendChild(p);
 
                     if (data[i].UpdateDate != null) {

@@ -25,6 +25,9 @@
     <h3 style="text-align:center">常見問答(Frequently Asked Questions)</h3>
     <div style="margin:50px;" id="main">
     </div>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
     <script>
         var data;
         var div = document.getElementById("main");
@@ -32,8 +35,8 @@
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 data = this.response;
-                var br, tr, td, table;                
-                
+                var br, tr, td, table;
+
                 for (var i = 0; i < data.length; i++) {
                     if (data[i].Hide)
                         continue;

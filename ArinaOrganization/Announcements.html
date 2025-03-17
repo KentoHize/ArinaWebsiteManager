@@ -39,7 +39,7 @@
                 <tr>
                     <td rowspan="2"><label>日期(Date)</label></td>
                     <td>自(From)</td>
-                    <td style=""><input id="dateFrom" type="date" name="DateFrom" /></td>                    
+                    <td style=""><input id="dateFrom" type="date" name="DateFrom" /></td>
                 </tr>
                 <tr>
                     <td>至(To)</td>
@@ -60,11 +60,14 @@
         </form>
     </div>
     <div id="dhr"></div>
-    <div style="text-align:center">        
+    <div style="text-align:center">
         <a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>
     </div>
     <div id="main">
 
+    </div>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
     </div>
     <script>
         function display_all() {
@@ -95,7 +98,7 @@
                 document.getElementsByName(`DateFrom`)[0].value = ulp.DateFrom;
                 document.getElementsByName(`DateTo`)[0].value = ulp.DateTo;
                 document.getElementsByName(`Type`)[0].value = ulp.Type;
-                document.getElementsByName(`Content`)[0].value = ulp.Content;                
+                document.getElementsByName(`Content`)[0].value = ulp.Content;
 
                 if (ulp.DateTo != `` && ulp.DateFrom != `` && ulp.DateTo < ulp.DateFrom) {
                     alert(`結束日期小於起始日期`);
@@ -107,7 +110,7 @@
                 dt = await fetch(`AnnouncementType.json?v=${Math.random()}`).then(m => m.json());
 
             fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-                var div = document.getElementById(`main`);                
+                var div = document.getElementById(`main`);
                 var table, th, tr, td, a;
 
                 document.getElementById(`dhr`).innerHTML = `<hr width=${window_size_width}/>`;
@@ -127,7 +130,7 @@
                 th = document.createElement(`th`);
                 th.width = `100px`;
                 th.innerText = `日期(Date)`;
-                tr.appendChild(th);                
+                tr.appendChild(th);
 
                 if (window_size == `l`) {
                     th = document.createElement(`th`);
@@ -193,7 +196,7 @@
                             if (dt[j].Name == data[i].Type) {
                                 td.innerText = dt[j].Chinese;
                                 break;
-                            }   
+                            }
                         }
                         tr.appendChild(td);
                     }
@@ -228,10 +231,10 @@
             document.getElementsByName(`Title`)[0].style = `width:${window_size_width - 188}px; margin:auto`;
             document.getElementsByName(`Type`)[0].style = `width:${window_size_width - 188}px; margin:auto`;
             document.getElementsByName(`Content`)[0].style = `width:${window_size_width - 188}px; margin:auto`;
-           
+
             if (display_all)
                 GetWindowSize(display_all);
-            if (window_size == `l` || window_size == 'm') {                
+            if (window_size == `l` || window_size == 'm') {
                 document.getElementById("display_all").style = "display:none;";
                 document.getElementById("main").style = "margin:20px; width:1100px";
             }

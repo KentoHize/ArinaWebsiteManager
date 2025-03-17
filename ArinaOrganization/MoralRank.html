@@ -29,9 +29,12 @@
     <div id="main" style="margin:20px">
 
     </div>
+    <div style="margin:50px"><p id="iLastUpdate" style="text-align-last:right; font-size:10px"></p></div>
     <div style="text-align:center"><a href="javascript:getDatatable(false)">下載資料表(Download)</a></div>
     <div style="text-align:center"><a href="javascript:getDatatable(true)">下載完整資料表(Download with detail)</a></div>
-    <div style="margin:50px"><p id="iLastUpdate" style="text-align-last:right; font-size:10px"></p></div>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
     <script>
 
         function display_all() {
@@ -214,8 +217,7 @@
             xhttp.send();
         }
 
-        function redraw(display_all = false)
-        {
+        function redraw(display_all = false) {
             GetWindowSize(display_all);
             if (display_all) {
                 document.getElementById("divTitle").style = `width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
@@ -234,7 +236,7 @@
             }
             draw_table();
         }
-        
+
         redraw();
 
         function getDatatable(withDetail) {

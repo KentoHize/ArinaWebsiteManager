@@ -24,6 +24,9 @@
         <div id="main">
         </div>
     </div>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
     <div style="text-align:center; margin:10px">
         聯絡我們─應徵(Apply to us): <a href="mailto:recruit@arinaorganization.org">recruit@arinaorganization.org</a><br />
         Line: <a href="https://lin.ee/ZJZ9vY0" target="_blank">https://lin.ee/ZJZ9vY0</a> @237izrgb<br />
@@ -68,8 +71,7 @@
                             h4.innerText = "普通職務(適合學生與非專業人士)";
                             divMain.appendChild(h4);
                         }
-                        else
-                        {
+                        else {
                             h4.innerText = "專業職務(適合專業人士)";
                             divMain.appendChild(h4);
                         }
@@ -77,13 +79,13 @@
                         for (var i = 0; i < data.length; i++) {
                             if (!data[i].Publish)
                                 continue;
-                            if (data[i].Category != category) 
-                                continue;                            
+                            if (data[i].Category != category)
+                                continue;
 
                             table = document.createElement("table");
                             table.border = 1;
-                            table.style = `padding:4px; margin-top:10px`;                            
-                            if(j == 0)
+                            table.style = `padding:4px; margin-top:10px`;
+                            if (j == 0)
                                 table.id = `J${i}`;
                             else
                                 table.id = `P${i}`;

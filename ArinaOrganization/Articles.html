@@ -22,6 +22,9 @@
     <h3 style="text-align:center">有奈教文章(Arina's Articles)</h3>
     <article style="margin:50px;" id="main">
     </article>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
     <script>
         var article = document.getElementById("main");
         fetch(`Articles.json?v=${Math.random()}`).then(m => m.json()).then(data => {
@@ -55,7 +58,7 @@
                 article.appendChild(section);
             }
 
-        });       
+        });
     </script>
 </body>
 </html>
