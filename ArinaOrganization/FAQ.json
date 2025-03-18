@@ -3,7 +3,7 @@
     "No": 5,
     "Question": "有奈教的念法？",
     "EQuestion": null,
-    "Answer": "可以視作中文或日文，分別念為有奈教或ありなぎょう，「有奈」更常念為日文ありな，使用中文時，ありな(音同Arina)教是最常見念法之一。",
+    "Answer": "可以視作中文或日文，分別念為有奈教或ありなぎょう，「有奈」更常念為日文ありな，使用中文時，ありな(音接近Arina)教是最常見念法之一。",
     "EAnswer": null,
     "Hide": false
   },
@@ -40,6 +40,14 @@
     "Hide": false
   },
   {
+    "No": 10,
+    "Question": "有奈教與有奈有限公司的差別？",
+    "EQuestion": null,
+    "Answer": "有奈教是信仰中心，也是美好世界的本體，具有類似國家與聯合國的功能，需經過層層檢核，才能進入。\n有奈有限公司，主要負責現實世界的招募工作，適度配合當地規則，適當繳稅繁榮當地發展，找尋適合的人選。",
+    "EAnswer": null,
+    "Hide": false
+  },
+  {
     "No": 6,
     "Question": "有奈教教主是否曾經強暴過女性？",
     "EQuestion": "Has the Master of the Arina Organization ever raped women?",
@@ -67,7 +75,7 @@
     "No": 9,
     "Question": "有奈教教主有沒有任期限制？",
     "EQuestion": "Is there a term limit for the Master of the Arina Organization?",
-    "Answer": "教主無任期限制。",
+    "Answer": "有奈教教主無任期限制。",
     "EAnswer": "Master of the Arina Organization has no term limit.",
     "Hide": false
   }

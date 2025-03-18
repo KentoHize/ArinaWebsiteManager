@@ -21,7 +21,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Title",
@@ -39,7 +40,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Type",
@@ -57,7 +59,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "Normal"
         },
         {
           "Name": "Date",
@@ -75,7 +78,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "{NOW()}"
         },
         {
           "Name": "Chinese",
@@ -93,7 +97,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "OtherLanguage",
@@ -111,7 +116,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Author",
@@ -129,7 +135,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "日瀬健人"
         },
         {
           "Name": "Hide",
@@ -147,9 +154,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": true
     },
     {
       "Name": "AnnouncementType",
@@ -170,7 +179,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Chinese",
@@ -188,7 +198,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Instruction",
@@ -206,9 +217,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Articles",
@@ -229,7 +242,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Date",
@@ -247,7 +261,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "UpdateDate",
@@ -265,7 +280,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Chinese",
@@ -283,7 +299,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "English",
@@ -301,7 +318,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Japanese",
@@ -319,9 +337,11 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "BestowRecords",
@@ -342,7 +362,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "PersonID",
@@ -360,7 +381,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "BestowerID",
@@ -378,7 +400,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "MoralRank",
@@ -396,7 +419,8 @@
           "MaxValue": "6",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "BestowDateTime",
@@ -409,12 +433,13 @@
           "NumberOfRows": 1,
           "Display": true,
           "RegularExpression": "",
-          "Description": null,
-          "MinValue": null,
-          "MaxValue": null,
+          "Description": "",
+          "MinValue": "",
+          "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "{NOW()}"
         },
         {
           "Name": "Reason",
@@ -432,7 +457,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Memo",
@@ -450,9 +476,11 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Choices",
@@ -473,7 +501,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "QuestionsID",
@@ -491,7 +520,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "GoNext",
@@ -512,7 +542,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Type",
@@ -533,7 +564,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Default",
@@ -551,7 +583,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "English",
@@ -569,7 +602,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Japanese",
@@ -587,9 +621,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "FAQ",
@@ -610,7 +646,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Question",
@@ -628,7 +665,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EQuestion",
@@ -646,7 +684,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Answer",
@@ -664,7 +703,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EAnswer",
@@ -682,7 +722,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Hide",
@@ -700,9 +741,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Forms",
@@ -723,7 +766,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Name",
@@ -741,7 +785,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "DefaultTitle",
@@ -759,7 +804,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EnglishTitle",
@@ -777,7 +823,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "JapaneseTitle",
@@ -795,7 +842,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Version",
@@ -813,7 +861,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "BackColor",
@@ -831,7 +880,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "BackgroundImage",
@@ -849,9 +899,11 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Jobs",
@@ -872,7 +924,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Name",
@@ -890,7 +943,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Publish",
@@ -908,7 +962,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Category",
@@ -929,7 +984,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Salary",
@@ -947,7 +1003,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Type",
@@ -965,7 +1022,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Location",
@@ -983,7 +1041,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "WorkTime",
@@ -1001,7 +1060,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "StartAt",
@@ -1019,7 +1079,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Requirement",
@@ -1037,7 +1098,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Description",
@@ -1055,9 +1117,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Languages",
@@ -1078,7 +1142,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EName",
@@ -1096,7 +1161,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "CName",
@@ -1114,9 +1180,11 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "LastUpdate",
@@ -1137,9 +1205,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Note",
@@ -1160,7 +1230,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Name",
@@ -1178,7 +1249,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "DateTime",
@@ -1196,7 +1268,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Content",
@@ -1214,9 +1287,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Organizations",
@@ -1237,7 +1312,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Name",
@@ -1255,7 +1331,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "TempRank",
@@ -1273,7 +1350,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Memo",
@@ -1291,9 +1369,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Persons",
@@ -1314,7 +1394,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Surname",
@@ -1332,7 +1413,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Name",
@@ -1350,7 +1432,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "OtherName",
@@ -1368,7 +1451,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "SurnameFirst",
@@ -1389,7 +1473,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Yomikata",
@@ -1407,7 +1492,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Gender",
@@ -1429,7 +1515,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Fiction",
@@ -1450,7 +1537,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Wanted",
@@ -1471,7 +1559,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Protected",
@@ -1492,7 +1581,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "TwitterAccount",
@@ -1510,7 +1600,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "FacebookAccount",
@@ -1528,7 +1619,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "InstagramAccount",
@@ -1546,7 +1638,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "From",
@@ -1564,7 +1657,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Group",
@@ -1585,7 +1679,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "IsAOMember",
@@ -1606,7 +1701,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "IsCelebrity",
@@ -1627,7 +1723,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "MoralRank",
@@ -1645,7 +1742,8 @@
           "MaxValue": "6",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Description",
@@ -1663,7 +1761,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "LastBestowDate",
@@ -1681,7 +1780,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "PicturePath",
@@ -1699,9 +1799,11 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Questions",
@@ -1722,7 +1824,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "FormID",
@@ -1740,7 +1843,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Type",
@@ -1767,7 +1871,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Title",
@@ -1785,7 +1890,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EnglishTitle",
@@ -1803,7 +1909,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "JapaneseTitle",
@@ -1821,7 +1928,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Default",
@@ -1839,7 +1947,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "English",
@@ -1857,7 +1966,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Japanese",
@@ -1875,9 +1985,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Quotes",
@@ -1898,7 +2010,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Date",
@@ -1916,7 +2029,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "UpdateDate",
@@ -1934,7 +2048,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Chinese",
@@ -1952,7 +2067,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "English",
@@ -1970,7 +2086,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Japanese",
@@ -1988,9 +2105,11 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Resources",
@@ -2011,7 +2130,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "CName",
@@ -2029,7 +2149,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EName",
@@ -2047,7 +2168,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Picture",
@@ -2065,7 +2187,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Link",
@@ -2083,7 +2206,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Instruction",
@@ -2101,7 +2225,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Hide",
@@ -2119,7 +2244,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "CName2",
@@ -2137,7 +2263,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EName2",
@@ -2155,7 +2282,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Link2",
@@ -2173,9 +2301,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "Terms",
@@ -2196,7 +2326,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Chinese",
@@ -2214,7 +2345,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "English",
@@ -2232,7 +2364,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Hide",
@@ -2250,7 +2383,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Meaning",
@@ -2268,7 +2402,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Explanation",
@@ -2286,7 +2421,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "EExplanation",
@@ -2304,7 +2440,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "CreatedDate",
@@ -2322,7 +2459,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "ModifiedDate",
@@ -2340,9 +2478,11 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         }
-      ]
+      ],
+      "InsertFirst": false
     },
     {
       "Name": "UpdateRecords",
@@ -2363,7 +2503,8 @@
           "MaxValue": null,
           "MaxLength": 0,
           "AutoGenerateKey": true,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Title",
@@ -2375,13 +2516,14 @@
           "FKColumn": null,
           "NumberOfRows": 1,
           "Display": true,
-          "RegularExpression": null,
-          "Description": null,
-          "MinValue": null,
-          "MaxValue": null,
+          "RegularExpression": "",
+          "Description": "",
+          "MinValue": "",
+          "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "網站更新"
         },
         {
           "Name": "Type",
@@ -2403,7 +2545,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "網站"
         },
         {
           "Name": "DateTime",
@@ -2421,7 +2564,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "{NOW()}"
         },
         {
           "Name": "Content",
@@ -2439,7 +2583,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "English",
@@ -2457,7 +2602,8 @@
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": null
         },
         {
           "Name": "Maintainer",
@@ -2469,15 +2615,17 @@
           "FKColumn": null,
           "NumberOfRows": 1,
           "Display": false,
-          "RegularExpression": null,
-          "Description": null,
-          "MinValue": null,
-          "MaxValue": null,
+          "RegularExpression": "",
+          "Description": "",
+          "MinValue": "",
+          "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
-          "IsUnique": false
+          "IsUnique": false,
+          "DefaultValue": "日瀬健人"
         }
-      ]
+      ],
+      "InsertFirst": true
     }
   ]
 }
