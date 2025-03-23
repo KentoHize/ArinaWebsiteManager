@@ -1,10 +1,274 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="zh-tw">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYWG0V3R6H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LYWG0V3R6H');
+    </script>
     <meta charset="utf-8" />
-    <title></title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width">
+    <title>有奈物資點(Arina Supply Points)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
 </head>
 <body>
+    <script src="Arina.js"></script>
+    <h3 style="text-align:center">有奈物資點(Arina Supply Points)</h3>
+    <div style="text-align:center"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
+    <article style="margin-top:30px; margin-left:50px; margin-right:50px; margin-bottom:20px">
+        <section>
+            <p>
+                人們的生存倚賴糧食，糧食是最基本的資源。<br />
+                有奈物資點以米作為基本單位，1有奈物資點即2公克白米，500有奈物資點即1公斤白米。<br />
+                出發點以東亞地區為基準，包含適當的包裝與運費，根據市場情況換算對應各式通用貨幣的價格。<br />
+            </p>
+        </section>
+        <br />
+        <section>
+            <p>
+                目前兌換匯率：1 美元(1 USD) = <span id="lblASPtoUSD"></span> 有奈物資點(Arina Supply Points)
+            </p>
+        </section>
+        <br />
+        <section>
+            <form id="mainForm" action="ArinaSupplyPoints.html" target="_self">
+                <table id="EF">
+                    <tr>
+                        <td>
+                            轉換(Convert)                 
+                            <input type="text" name="ASP" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>有奈物資點(Arina Supply Points) 至(to)</label>
+                     
+                            <select name="ASPFC"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            轉換(Convert)                     
+                            <input type="text" name="FC" />
+                        </td>
+                     </tr>
+                    <tr>
+                        <td>
+                            <select name="FCFC"></select>
+                            <label>至(to) 有奈物資點(Arina Supply Points)</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center"><input type="reset" id="btnClear" value="清空(Clear)" /> <input type="submit" value="換算(Exchange)" /></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </article>
+    <div id="er"></div>
+    <div style="text-align:center; margin:10px"><b>歷史匯率(History of Exchange Rate)</b></div>
+    <div id="dhr"></div>
+    <div id="main">
 
+    </div>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
+    <script>
+
+        var FCType;
+
+        function display_all() {
+            redraw(true);
+        }
+
+        function refresh_page() {
+            localStorage.clear();
+            location.reload(true);
+        }
+
+        function pureNumberFormat(s) {
+            return s.replace(`USD`, ``).trim();
+        }
+
+        function getHTMLStringOfExchangeResult(aspfc, rate, typeIndex, reverse = false) {
+            var result = ``, equal;
+            var formatter = Intl.NumberFormat(FCType[typeIndex].Culture, { style: `currency`, currency: `USD`, currencyDisplay: `code`, maximumFractionDigits: 4, minimumFractionDigits: 0 });
+            if (!reverse) {
+                equal = pureNumberFormat(formatter.format(aspfc * rate));
+                result = `${aspfc} 有奈物資點 等於 <b>${equal}</b > ${FCType[typeIndex].Value.Chinese} <br /> ${aspfc} Arina Supply Points = <b>${equal}</b> ${FCType[typeIndex].Value.English}`;
+            }
+            else {
+                equal = pureNumberFormat(formatter.format(aspfc / rate));
+                result = `${aspfc} ${FCType[typeIndex].Value.Chinese} 等於 <b>${equal}</b> 有奈物資點<br /> ${aspfc} ${FCType[typeIndex].Value.English} = <b>${equal}</b> Arina Supply Points`;
+            }
+            return result;
+        }
+
+        async function draw() {
+            var ulp = GetURLParameter();
+            var div;
+            var table, th, tr, td;
+            document.getElementById(`er`).innerHTML = ``;
+
+            //Draw Form
+            div = document.getElementById(`mainForm`).innerHTML;
+            div.innerHTML = ``;
+            div.
+
+            document.getElementById(`EF`).style = `text-align:center;margin:auto;width:${window_size_width}px`;
+            document.getElementById(`er`).style = `text-align:center;margin:auto;width:${window_size_width}px`;
+
+            //Draw Table
+            fetch(`ExchangeRate.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+                div = document.getElementById(`main`);
+                var text, h3;
+
+                document.getElementById(`dhr`).innerHTML = `<hr width=${window_size_width}/>`;
+                div.innerHTML = ``;
+                div.style = `width:${window_size_width}px; margin:auto`;
+
+                table = document.createElement(`table`);
+                table.style = `margin-left:auto; margin-right:auto; width:${window_size_width}px`;
+                table.border = 1;
+                tr = document.createElement(`tr`);
+
+                th = document.createElement(`th`);
+                th.width = `100px`;
+                th.innerText = `日期(Date)`;
+                tr.appendChild(th);
+
+                th = document.createElement(`th`);
+                th.width = `80px`;
+                th.innerText = `兌美元(to USD)`;
+                tr.appendChild(th);
+
+                th = document.createElement(`th`);
+                th.width = `80px`;
+                th.innerText = `兌新台幣(to TWD)`;
+                tr.appendChild(th);
+
+                th = document.createElement(`th`);
+                th.width = `80px`;
+                th.innerText = `兌日圓(to JPY)`;
+                tr.appendChild(th);
+
+                table.appendChild(tr);
+                div.appendChild(table);
+
+                for (let i = 0; i < data.length; i++) {
+                    tr = document.createElement(`tr`);
+                    td = document.createElement(`td`);
+                    td.style = `text-align:center`;
+                    td.innerHTML = ChangeDateToArDate(data[i].Date);
+                    tr.appendChild(td);
+
+                    td = document.createElement(`td`);
+                    td.style = `text-align:center`;
+                    td.innerText = data[i].ToUSD;
+                    tr.appendChild(td);
+
+                    td = document.createElement(`td`);
+                    td.style = `text-align:center`;
+                    td.innerText = data[i].ToTWD;
+                    tr.appendChild(td);
+
+                    td = document.createElement(`td`);
+                    td.style = `text-align:center`;
+                    td.innerText = data[i].ToJPY;
+                    tr.appendChild(td);
+                    table.appendChild(tr);
+
+                    //用第一行紀錄換算 - Draw Output
+                    if (i == 0) {
+                        document.getElementById(`lblASPtoUSD`).innerText = `${roundToNDecimal(1 / data[i].ToUSD, 2)}`;
+
+                        if (ulp != null) {
+                            let r, div;
+
+                            if (ulp.ASP == null || ulp.ASP == ``)
+                                document.getElementsByName(`ASP`)[0].value = ``;
+                            else if (isNaN(parseFloat(ulp.ASP)))
+                                alert(`錯誤的值(Input Invalid)`);
+                            else {
+                                document.getElementsByName(`ASP`)[0].value = ulp.ASP;
+                                if (ulp.ASPFC == `USD`)
+                                    r = getHTMLStringOfExchangeResult(ulp.ASP, data[i].ToUSD, 0);
+                                else if (ulp.ASPFC == `TWD`)
+                                    r = getHTMLStringOfExchangeResult(ulp.ASP, data[i].ToTWD, 1);
+                                else if (ulp.ASPFC == `JPY`)
+                                    r = getHTMLStringOfExchangeResult(ulp.ASP, data[i].ToJPY, 2);
+                                else
+                                    alert(`錯誤的值(Input Invalid)`);
+                                div = document.createElement(`div`);
+                                div.innerHTML = r;
+                                document.getElementById(`er`).appendChild(div);
+                            }
+                            document.getElementById(`er`).appendChild(document.createElement(`br`));
+                            if (ulp.FC == null || ulp.FC == ``)
+                                document.getElementsByName(`FC`)[0].value = ``;
+                            else if (isNaN(parseFloat(ulp.FC)))
+                                alert(`錯誤的值(Input Invalid)`);
+                            else {
+                                document.getElementsByName(`FC`)[0].value = ulp.FC;
+                                if (ulp.FCFC == `USD`)
+                                    r = getHTMLStringOfExchangeResult(ulp.FC, data[i].ToUSD, 0, true);
+                                else if (ulp.FCFC == `TWD`)
+                                    r = getHTMLStringOfExchangeResult(ulp.FC, data[i].ToTWD, 1, true);
+                                else if (ulp.FCFC == `JPY`)
+                                    r = getHTMLStringOfExchangeResult(ulp.FC, data[i].ToJPY, 2, true);
+                                else
+                                    alert(`錯誤的值(Input Invalid)`);
+                                div = document.createElement(`div`);
+                                div.innerHTML = r;
+                                document.getElementById(`er`).appendChild(div);
+                            }
+                            
+
+                            if (ulp.FCFC != null)
+                                document.getElementsByName(`FCFC`)[0].value = ulp.FCFC;
+                            if (ulp.ASPFC != null)
+                                document.getElementsByName(`ASPFC`)[0].value = ulp.ASPFC;
+                        }
+                    }
+                }
+            });
+        }
+
+        function main() {
+            //建立Select項目
+            FCType = [
+                { Key: `USD`, Value: { Culture: `en-US`, Chinese: `美元`, English: `USD` } },
+                { Key: `TWD`, Value: { Culture: `zh-TW`, Chinese: `新台幣`, English: `TWD` } },
+                { Key: `JPY`, Value: { Culture: `ja-JP`, Chinese: `日圓`, English: `JPY` } },
+            ];
+
+            var option;
+            for (let i = 0; i < FCType.length; i++) {
+                option = document.createElement(`option`);
+                option.value = FCType[i].Key;
+                option.innerText = `${FCType[i].Value.Chinese}(${FCType[i].Value.English})`;
+                document.getElementsByName(`ASPFC`)[0].appendChild(option);
+                document.getElementsByName(`FCFC`)[0].appendChild(option.cloneNode(true));
+            }
+
+
+            redraw();
+        }
+
+        function redraw(display_all = false) {
+            GetWindowSize(false);
+           
+            draw();
+        }
+
+        main();
+    </script>
 </body>
 </html>

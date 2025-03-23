@@ -1,4 +1,8 @@
-﻿function ChangeDateTimeToArDate(datetime) {
+﻿function roundToNDecimal(num, n = 0) {
+    return +(Math.round(num + `e+${n}`) + `e-${n}`);
+}
+
+function ChangeDateTimeToArDate(datetime) {
 
     var y = parseInt(datetime.substr(0, 4));
     var data = datetime.split("/");
