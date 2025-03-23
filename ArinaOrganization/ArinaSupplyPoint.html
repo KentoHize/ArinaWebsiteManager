@@ -14,12 +14,12 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
-    <title>有奈物資點(Arina Supply Points)</title>
+    <title>有奈物資點(Arina Supply Point)</title>
     <link rel="stylesheet" href="ArinaPage.css">
 </head>
 <body>
     <script src="Arina.js"></script>
-    <h3 style="text-align:center">有奈物資點(Arina Supply Points)</h3>
+    <h3 style="text-align:center">有奈物資點(Arina Supply Point)</h3>
     <div style="text-align:center"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
     <article style="margin-top:30px; margin-left:50px; margin-right:50px; margin-bottom:20px">
         <section>
@@ -32,36 +32,36 @@
         <br />
         <section>
             <p>
-                目前兌換匯率：1 美元(1 USD) = <span id="lblASPtoUSD"></span> 有奈物資點(Arina Supply Points)
+                目前匯率(Exchange Rate)：<b>1 美元(1 USD) = <span id="lblASPtoUSD"></span> 有奈物資點(Arina Supply Point)</b>
             </p>
         </section>
         <br />
         <section>
-            <form id="mainForm" action="ArinaSupplyPoints.html" target="_self">
+            <form id="mainForm" action="ArinaSupplyPoint.html" target="_self">
                 <table id="EF">
                     <tr>
                         <td>
-                            轉換(Convert)                 
+                            轉換(Convert)
                             <input type="text" name="ASP" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label>有奈物資點(Arina Supply Points) 至(to)</label>
-                     
+                            <label>有奈物資點(Arina Supply Point) 至(to)</label>
+
                             <select name="ASPFC"></select>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            轉換(Convert)                     
+                            轉換(Convert)
                             <input type="text" name="FC" />
                         </td>
-                     </tr>
+                    </tr>
                     <tr>
                         <td>
                             <select name="FCFC"></select>
-                            <label>至(to) 有奈物資點(Arina Supply Points)</label>
+                            <label>至(to) 有奈物資點(Arina Supply Point)</label>
                         </td>
                     </tr>
                     <tr>
@@ -102,11 +102,11 @@
             var formatter = Intl.NumberFormat(FCType[typeIndex].Culture, { style: `currency`, currency: `USD`, currencyDisplay: `code`, maximumFractionDigits: 4, minimumFractionDigits: 0 });
             if (!reverse) {
                 equal = pureNumberFormat(formatter.format(aspfc * rate));
-                result = `${aspfc} 有奈物資點 等於 <b>${equal}</b > ${FCType[typeIndex].Value.Chinese} <br /> ${aspfc} Arina Supply Points = <b>${equal}</b> ${FCType[typeIndex].Value.English}`;
+                result = `${pureNumberFormat(formatter.format(aspfc))} 有奈物資點 等於 <b>${equal}</b > ${FCType[typeIndex].Value.Chinese} <br /> ${pureNumberFormat(formatter.format(aspfc))} Arina Supply Point(s) = <b>${equal}</b> ${ FCType[typeIndex].Value.English }`;
             }
             else {
                 equal = pureNumberFormat(formatter.format(aspfc / rate));
-                result = `${aspfc} ${FCType[typeIndex].Value.Chinese} 等於 <b>${equal}</b> 有奈物資點<br /> ${aspfc} ${FCType[typeIndex].Value.English} = <b>${equal}</b> Arina Supply Points`;
+                result = `${pureNumberFormat(formatter.format(aspfc))} ${FCType[typeIndex].Value.Chinese} 等於 <b>${equal}</b> 有奈物資點<br /> ${pureNumberFormat(formatter.format(aspfc)) } ${FCType[typeIndex].Value.English} = <b>${equal}</b> Arina Supply Point(s)`;
             }
             return result;
         }
@@ -114,17 +114,126 @@
         async function draw() {
             var ulp = GetURLParameter();
             var div;
-            var table, th, tr, td;
+            var table, th, tr, td, label, input;
             document.getElementById(`er`).innerHTML = ``;
 
             //Draw Form
-            div = document.getElementById(`mainForm`).innerHTML;
+            div = document.getElementById(`mainForm`);
             div.innerHTML = ``;
-            div.
 
-            document.getElementById(`EF`).style = `text-align:center;margin:auto;width:${window_size_width}px`;
-            document.getElementById(`er`).style = `text-align:center;margin:auto;width:${window_size_width}px`;
+            table = document.createElement(`table`);
 
+            if (window_size == `s` || window_size == `mi`)
+                table.style = `text-align:left;margin:auto;width:${window_size_width}px`;
+            else
+                table.style = `text-align:center;margin:auto;width:${window_size_width}px`;
+
+            tr = document.createElement(`tr`);
+            td = document.createElement(`td`);
+
+            label = document.createElement(`label`);
+            label.innerText = `轉換(Convert)`;
+            td.appendChild(label);
+
+            td.appendChild(document.createTextNode(` `));
+
+            input = document.createElement(`input`);
+            input.type = `text`;
+            input.name = `ASP`;
+            td.appendChild(input);
+
+            if (window_size == `s` || window_size == `mi`) {
+                tr.appendChild(td);
+                table.appendChild(tr);
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+            }
+            else {
+                td.appendChild(document.createTextNode(` `));
+            }
+
+            label = document.createElement(`label`);
+            label.innerText = `有奈物資點(Arina Supply Point) 至(to)`;
+            td.appendChild(label);
+
+            td.appendChild(document.createTextNode(` `));
+
+            select = document.createElement(`select`);
+            select.name = `ASPFC`;
+            td.appendChild(select);
+
+            tr.appendChild(td);
+            table.appendChild(tr);
+
+            tr = document.createElement(`tr`);
+            td = document.createElement(`td`);
+
+            label = document.createElement(`label`);
+            label.innerText = `轉換(Convert)`;
+            td.appendChild(label);
+
+            td.appendChild(document.createTextNode(` `));
+
+            input = document.createElement(`input`);
+            input.type = `text`;
+            input.name = `FC`;
+            td.appendChild(input);
+
+            td.appendChild(document.createTextNode(` `));
+
+            select = document.createElement(`select`);
+            select.name = `FCFC`;
+            td.appendChild(select);
+
+            if (window_size == `s` || window_size == `mi`) {
+                tr.appendChild(td);
+                table.appendChild(tr);
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+            }
+            else {
+                td.appendChild(document.createTextNode(` `));
+            }
+
+            label = document.createElement(`label`);
+            label.innerText = `至(to) 有奈物資點(Arina Supply Point)`;
+            td.appendChild(label);
+
+            tr.appendChild(td);
+            table.appendChild(tr);
+
+            tr = document.createElement(`tr`);
+            tr.style = "text-align:center";
+            td = document.createElement(`td`);
+            
+            input = document.createElement(`input`);
+            input.type = `reset`;
+            input.value = `清空(Clear)`;
+            td.appendChild(input);
+
+            td.appendChild(document.createTextNode(` `));
+
+            input = document.createElement(`input`);
+            input.type = `submit`;
+            input.value = `換算(Exchange)`;
+            td.appendChild(input);
+
+            tr.appendChild(td);
+            table.appendChild(tr);
+            div.appendChild(table);
+
+
+            var option;
+            for (let i = 0; i < FCType.length; i++) {
+                option = document.createElement(`option`);
+                option.value = FCType[i].Key;
+                option.innerText = `${FCType[i].Value.Chinese}(${FCType[i].Value.English})`;
+                document.getElementsByName(`ASPFC`)[0].appendChild(option);
+                document.getElementsByName(`FCFC`)[0].appendChild(option.cloneNode(true));
+            }
+
+            document.getElementById(`mainForm`).style = `text-align:center;margin:auto;width:${window_size_width}px`;
+            div.appendChild(table);
             //Draw Table
             fetch(`ExchangeRate.json?v=${Math.random()}`).then(m => m.json()).then(data => {
                 div = document.getElementById(`main`);
@@ -146,17 +255,17 @@
 
                 th = document.createElement(`th`);
                 th.width = `80px`;
-                th.innerText = `兌美元(to USD)`;
+                th.innerText = `同美元(to USD)`;
                 tr.appendChild(th);
 
                 th = document.createElement(`th`);
                 th.width = `80px`;
-                th.innerText = `兌新台幣(to TWD)`;
+                th.innerText = `同新台幣(to TWD)`;
                 tr.appendChild(th);
 
                 th = document.createElement(`th`);
                 th.width = `80px`;
-                th.innerText = `兌日圓(to JPY)`;
+                th.innerText = `同日圓(to JPY)`;
                 tr.appendChild(th);
 
                 table.appendChild(tr);
@@ -229,7 +338,7 @@
                                 div.innerHTML = r;
                                 document.getElementById(`er`).appendChild(div);
                             }
-                            
+
 
                             if (ulp.FCFC != null)
                                 document.getElementsByName(`FCFC`)[0].value = ulp.FCFC;
@@ -249,22 +358,12 @@
                 { Key: `JPY`, Value: { Culture: `ja-JP`, Chinese: `日圓`, English: `JPY` } },
             ];
 
-            var option;
-            for (let i = 0; i < FCType.length; i++) {
-                option = document.createElement(`option`);
-                option.value = FCType[i].Key;
-                option.innerText = `${FCType[i].Value.Chinese}(${FCType[i].Value.English})`;
-                document.getElementsByName(`ASPFC`)[0].appendChild(option);
-                document.getElementsByName(`FCFC`)[0].appendChild(option.cloneNode(true));
-            }
-
-
             redraw();
         }
 
         function redraw(display_all = false) {
             GetWindowSize(false);
-           
+            document.getElementById(`er`).style = `text-align:center;margin:auto;width:${window_size_width}px`;
             draw();
         }
 
