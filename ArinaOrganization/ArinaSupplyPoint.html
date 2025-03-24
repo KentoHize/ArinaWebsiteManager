@@ -128,7 +128,21 @@
             }
 
             label = document.createElement(`label`);
-            label.innerText = `有奈物資點(Arina Supply Point) 至(to)`;
+            label.innerText = `有奈物資點(Arina Supply Point)`            
+            td.appendChild(label);
+
+            if (window_size == `mi`) {
+                tr.appendChild(td);
+                table.appendChild(tr);
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+            }
+            else {
+                td.appendChild(document.createTextNode(` `));
+            }
+
+            label = document.createElement(`label`);
+            label.innerText = `至(to)`
             td.appendChild(label);
 
             td.appendChild(document.createTextNode(` `));
@@ -156,10 +170,6 @@
 
             td.appendChild(document.createTextNode(` `));
 
-            select = document.createElement(`select`);
-            select.name = `FCFC`;
-            td.appendChild(select);
-
             if (window_size == `s` || window_size == `mi`) {
                 tr.appendChild(td);
                 table.appendChild(tr);
@@ -170,8 +180,28 @@
                 td.appendChild(document.createTextNode(` `));
             }
 
+            select = document.createElement(`select`);
+            select.name = `FCFC`;
+            td.appendChild(select);
+
+            td.appendChild(document.createTextNode(` `));
+
             label = document.createElement(`label`);
-            label.innerText = `至(to) 有奈物資點(Arina Supply Point)`;
+            label.innerText = `至(to)`;
+            td.appendChild(label);
+
+            if (window_size == `mi`) {
+                tr.appendChild(td);
+                table.appendChild(tr);
+                tr = document.createElement(`tr`);
+                td = document.createElement(`td`);
+            }
+            else {
+                td.appendChild(document.createTextNode(` `));
+            }
+
+            label = document.createElement(`label`);
+            label.innerText = `有奈物資點(Arina Supply Point)`;
             td.appendChild(label);
 
             tr.appendChild(td);
@@ -293,13 +323,17 @@
                                 div = document.createElement(`div`);
                                 div.innerHTML = r;
                                 document.getElementById(`er`).appendChild(div);
+                                
+                                
                             }
-                            document.getElementById(`er`).appendChild(document.createElement(`br`));
+                            
                             if (ulp.FC == null || ulp.FC == ``)
                                 document.getElementsByName(`FC`)[0].value = ``;
                             else if (isNaN(parseFloat(ulp.FC)))
                                 alert(`錯誤的值(Input Invalid)`);
                             else {
+                                if (document.getElementById(`er`).innerHTML != ``)
+                                    document.getElementById(`er`).appendChild(document.createElement(`br`));
                                 document.getElementsByName(`FC`)[0].value = ulp.FC;
                                 if (ulp.FCFC == `USD`)
                                     r = getHTMLStringOfExchangeResult(ulp.FC, data[i].ToUSD, 0, true);
@@ -308,12 +342,11 @@
                                 else if (ulp.FCFC == `JPY`)
                                     r = getHTMLStringOfExchangeResult(ulp.FC, data[i].ToJPY, 2, true);
                                 else
-                                    alert(`錯誤的值(Input Invalid)`);
+                                    alert(`錯誤的值(Input Invalid)`);                                    
                                 div = document.createElement(`div`);
                                 div.innerHTML = r;
                                 document.getElementById(`er`).appendChild(div);
                             }
-
 
                             if (ulp.FCFC != null)
                                 document.getElementsByName(`FCFC`)[0].value = ulp.FCFC;
