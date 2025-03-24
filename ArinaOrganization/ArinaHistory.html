@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYWG0V3R6H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LYWG0V3R6H');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width">
+    <title>有奈教歷史(Arina's History)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+</head>
+<body>
+    <script src="Arina.js"></script>
+    <h3 style="text-align:center">有奈教歷史(Arina's History)</h3>
+    <article style="margin:50px;" id="main">
+    </article>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
+    <script>
+        var article = document.getElementById("main");
+        fetch(`ArinaHistory.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+            var section, p;
+            for (var i = 0; i < data.length; i++) {
+                if (data[i].Hide)
+                    continue;
+                section = document.createElement("section");
+
+                p = document.createElement("p");
+                p.innerText = data[i].Title;
+                section.appendChild(p);
+
+                p = document.createElement("p");
+                if (data[i].Date != null)
+                    p.innerHTML = ChangeDateToArDate(data[i].Date);
+                else
+                    p.innerHTML = "-";
+                section.appendChild(p);
+
+                //if (data[i].UpdateDate != null) {
+                //    p = document.createElement("p")
+                //    p.innerHTML += `(${ChangeDateToArDate(data[i].UpdateDate)})`;
+                //    section.appendChild(p);
+                //}
+
+                p = document.createElement("p");
+                p.innerText = data[i].Chinese;
+                section.appendChild(p);
+
+                p = document.createElement("p");
+                p.innerText = data[i].English;
+                section.appendChild(p);
+
+                br = document.createElement("br");
+                section.appendChild(br);
+                article.appendChild(section);
+            }
+
+        });
+    </script>
+</body>
+</html>

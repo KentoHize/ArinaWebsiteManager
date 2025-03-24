@@ -1,0 +1,106 @@
+[
+  {
+    "ID": 1,
+    "Title": "有奈教成立",
+    "Date": null,
+    "Hide": false,
+    "Chinese": "有奈教成立於西元2017年5月11日，該年亦為有奈0年。\n為了拯救即將到來的末日以及擊敗邪惡，有奈教正式成立。",
+    "English": null
+  },
+  {
+    "ID": 3,
+    "Title": "有奈教元年",
+    "Date": "0001/01/01",
+    "Hide": false,
+    "Chinese": "有奈教1年，教主從程式設計師，正式轉職成老師與軍師，為了推翻美帝/邪惡勢力的統治，不遺餘力地建設新世界。",
+    "English": null
+  },
+  {
+    "ID": 10,
+    "Title": "苗博雅事件",
+    "Date": null,
+    "Hide": true,
+    "Chinese": "苗博雅事件",
+    "English": null
+  },
+  {
+    "ID": 4,
+    "Title": "建立箴言",
+    "Date": "0002/01/01",
+    "Hide": false,
+    "Chinese": "在2年時間內我們建立了初始網站和初步真理的內容。\n設置捐款帳戶。",
+    "English": null
+  },
+  {
+    "ID": 5,
+    "Title": "品格階級的建立",
+    "Date": "0003/01/01",
+    "Hide": false,
+    "Chinese": "有奈3年開始頒發品格階級，將教主所熟知的虛擬角色或是真實人物，定位品格階級。",
+    "English": null
+  },
+  {
+    "ID": 7,
+    "Title": "有奈教已獲勝",
+    "Date": "0005/01/01",
+    "Hide": false,
+    "Chinese": "有奈5~6年，確認歷史已經被有奈教改變，積極持續地打敗 邪惡勢力。",
+    "English": null
+  },
+  {
+    "ID": 11,
+    "Title": "俄烏戰爭開打",
+    "Date": "0005/02/24",
+    "Hide": true,
+    "Chinese": "俄烏戰爭開打",
+    "English": null
+  },
+  {
+    "ID": 8,
+    "Title": "持續擴張網站與文章內容",
+    "Date": "0007/01/01",
+    "Hide": false,
+    "Chinese": "有奈7年，戰爭白熱化，美國已進入完全無法抵擋有奈教的情勢，全力打敗無止盡的駭客攻擊與邪靈攻擊。",
+    "English": null
+  },
+  {
+    "ID": 12,
+    "Title": "中華民國滅亡",
+    "Date": "0007/10/15",
+    "Hide": true,
+    "Chinese": "中華民國滅亡",
+    "English": null
+  },
+  {
+    "ID": 9,
+    "Title": "曹興誠事件",
+    "Date": "0008/02/20",
+    "Hide": true,
+    "Chinese": "曹興誠事件發生",
+    "English": null
+  },
+  {
+    "ID": 6,
+    "Title": "嚴懲罪惡",
+    "Date": "0008/03/25",
+    "Hide": false,
+    "Chinese": "有奈4年時，我們公開確認強暴女子的罪已經解消。",
+    "English": null
+  },
+  {
+    "ID": 2,
+    "Title": "至今",
+    "Date": "0008/03/25",
+    "Hide": false,
+    "Chinese": "持續對抗邪惡。",
+    "English": null
+  },
+  {
+    "ID": 13,
+    "Title": "有奈物資點",
+    "Date": "0007/10/01",
+    "Hide": true,
+    "Chinese": "有奈物資點正式出現",
+    "English": null
+  }
+]
