@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYWG0V3R6H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LYWG0V3R6H');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>測試頁面(Test Page)</title>
+    <link rel="stylesheet" href="ArinaPage.css">
+</head>
+<body>
+    <script src="Arina.js"></script>
+    <h3 style="text-align:center">測試頁面(Test Page)</h3>
+    <article style="margin:50px;">
+        <form>
+            <input id="dd" type="date" />
+        </form>
+    </article>
+    <script>
+        //document.getElementById(`dd`).addEventListener(`focus`, m => { alert(m.target.value == ``); });
+        //document.getElementById(`dd`).addEventListener(`focus`, m => { m.target.value = `0008-01-01`; });
+        //document.getElementById(`dd`).addEventListener(`blur`, m => { m.target.value = `0008-01-01`; });
+        //document.getElementById(`dd`).addEventListener(`input`, m => { m.target.value = `0008-01-01`; });
+        //如果是iOS
+        if (isIOSDevice()) {
+            document.getElementById(`dd`).addEventListener(`mouseover`, m => {
+                /*document.getElementById(`dd`).value = `0009-01-01`;*/
+                if (m.target.value == ``)
+                    m.target.value = `0008-01-01`;
+            });
+        }
+        
+
+
+        //document.getElementById(`dd`)
+
+        //document.getElementById(`dd`).addEventListener(`focus`, m => { m.target.value = `0008-01-01`; });
+    </script>
+</body>
+</html>

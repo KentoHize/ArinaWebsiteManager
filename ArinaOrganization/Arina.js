@@ -1,4 +1,16 @@
-﻿function roundToNDecimal(num, n = 0) {
+﻿function isIOSDevice(nv) {
+    return [
+        'iPad Simulator',
+        'iPhone Simulator',
+        'iPod Simulator',
+        'iPad',
+        'iPhone',
+        'iPod'
+    ].includes(nv.platform)
+        || (nv.userAgent.includes("Mac") && "ontouchend" in document);
+}
+
+function roundToNDecimal(num, n = 0) {
     return +(Math.round(num + `e+${n}`) + `e-${n}`);
 }
 
