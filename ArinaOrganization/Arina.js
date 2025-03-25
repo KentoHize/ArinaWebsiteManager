@@ -14,7 +14,7 @@ function roundToNDecimal(num, n = 0) {
     return +(Math.round(num + `e+${n}`) + `e-${n}`);
 }
 
-function ChangeDateTimeToArDate(datetime) {
+function ChangeDateTimeToArDateTime(datetime) {
 
     var y = parseInt(datetime.substr(0, 4));
     var data = datetime.split("/");
@@ -24,7 +24,11 @@ function ChangeDateTimeToArDate(datetime) {
     data[1] = data[1].length == 1 ? `&nbsp;${data[1]}` : data[1]; //Month
     data[2] = data[2].length == 1 ? `&nbsp;${data[2]}` : data[2];
     data[0] = "&nbsp;".repeat(3 - y.toString().length) + y; // Year
-    return `${data[1]},&nbsp;${data[2]},&nbsp;Ar.${data[0]}(${y + 2017})&nbsp;&nbsp;${data[3]}`;
+    return `${data[1]},&nbsp;${data[2]},&nbsp;Ar.${data[0]}&nbsp;${data[3]}`;
+}
+
+function ChangeDateTimeToArDate(datetime) {
+    return ChangeDateToArDate(datetime.split(` `)[0]);
 }
 
 function ChangeDateToArDate(date)
