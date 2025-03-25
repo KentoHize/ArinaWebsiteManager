@@ -75,11 +75,11 @@ var window_size, window_size_width;
 function GetWindowSize(max = false) {
     if (window.innerWidth < 500) {
         window_size = 'mi';
-        window_size_width = 350;
+        window_size_width = 400;
     }
     else if (window.innerWidth < 800) {
         window_size = "s";
-        window_size_width = 450;
+        window_size_width = 500;
     }
     else if (window.innerWidth < 1300) {
         window_size = "m";
