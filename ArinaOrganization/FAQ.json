@@ -18,9 +18,9 @@
   {
     "No": 1,
     "Question": "有奈教是否是宗教組織？",
-    "EQuestion": null,
+    "EQuestion": "Is the Arina Organization a religious organization?",
     "Answer": "有奈教不是宗教組織，而是歸類在宗教類別的無神論組織。\n如果加入別的宗教，則不能加入有奈教。\n有奈教也提供類似其他宗教的庇護與驅邪效果。",
-    "EAnswer": null,
+    "EAnswer": "Arina Organization is not a religious organization but an atheist organization classified as a religion.\nIf you join another religion, you cannot join the Arina Organization.\nArina Organization also provides protection and exorcism similar to other religions.",
     "Hide": false
   },
   {
