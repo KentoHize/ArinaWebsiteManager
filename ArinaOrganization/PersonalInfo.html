@@ -11,6 +11,9 @@
         gtag('config', 'G-LYWG0V3R6H');
     </script>
     <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>人物明細(Personal Information)</title>
     <link rel="stylesheet" href="ArinaPage.css">
 </head>
@@ -33,8 +36,9 @@
     <br />
     <div style="text-align:center">
         <a href="MoralRank.html">回一覽表</a>
+        <span id="v" style="display:none" ></span>
     </div>
-
+    
     <script>
         function refresh_page() {
             localStorage.clear();
@@ -69,6 +73,9 @@
                             var ulp = GetURLParameter();
                             var div, a, tr, td, th, img;
 
+                            if (ulp.v != null)
+                                document.getElementById(`v`).innerHTML = ulp.v;
+
                             if (ulp.index != 0)
                                 document.getElementById("previous_page").href = `PersonalInfo.html?index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
                             else
@@ -79,8 +86,7 @@
                                 document.getElementById("next_page").parentNode.innerText = "　";
 
                             var pTable = document.getElementById("personTable");
-                            pTable.innerHTML = ``;
-                            //pTable.style = `width:${window_size == `mi` ? window_size + 100 : window_size_width}px; margin: auto`;
+                            pTable.innerHTML = ``;                            
                             pTable.style = `width:${window_size_width}px; margin: auto`;
 
                             tr = document.createElement(`tr`);
@@ -133,7 +139,7 @@
                             else if (window_size == `m`)
                                 td.style = `width:270px`;
                             else
-                                td.style = `width:400px`;
+                                td.style = `width:340px`;
                             td.innerHTML = `品階(Moral Rank)`;
                             tr.appendChild(td);
 

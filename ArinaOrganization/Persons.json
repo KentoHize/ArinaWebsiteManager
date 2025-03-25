@@ -87,7 +87,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 5,
-    "Description": "魔法少女まどか☆マギカに登場する 、「魔法少女」とされている主人公",
+    "Description": "魔法少女小圓中登場的魔法少女主角\n\n魔法少女まどか☆マギカに登場する 、「魔法少女」とされている主人公",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Madoka.png"
   },
@@ -108,9 +108,9 @@
     "From": "永遠のアセリア",
     "Group": "i",
     "IsAOMember": "n",
-    "IsCelebrity": "y",
+    "IsCelebrity": "n",
     "MoralRank": 5,
-    "Description": "ラキオスに属するスピリット、純真無垢な存在",
+    "Description": "ラキオス所屬靈、純真無垢的存在\n\nラキオスに属するスピリット、純真無垢な存在",
     "LastBestowDate": "0003/11/18",
     "PicturePath": "Aseria.jpg"
   },
@@ -133,7 +133,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 5,
-    "Description": "Angel Beats!のヒロイン。死後の世界にある学校の生徒会長",
+    "Description": "Angel Beats!的女主角。死後世界某所學校的學生會會長\n\nAngel Beats!のヒロイン。死後の世界にある学校の生徒会長",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Tachibana_Kanade.png"
   },
@@ -179,7 +179,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "織田信長 日本の戦国時代から安土桃山時代にかけての武将、戦国大名",
+    "Description": "日本戰國時代到安土桃山時代活躍的武將、戰國大名\n\n日本の戦国時代から安土桃山時代にかけての武将、戦国大名",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Oda_Nobunaga.jpg"
   },
@@ -202,7 +202,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "戦女神シリーズ 「神殺し」とよばれた主人公",
+    "Description": "戰女神系列被稱為「殺神者」的主角\n\n戦女神シリーズ 「神殺し」とよばれた主人公",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Serika.jpg"
   },
@@ -225,7 +225,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "魔王を討伐した勇者パーティーの魔法使い。長命なエルフ。",
+    "Description": "討伐魔王的勇者隊伍中的魔法使。長命的精靈\n\n魔王を討伐した勇者パーティーの魔法使い。長命なエルフ。",
     "LastBestowDate": "0007/05/17",
     "PicturePath": "Furiiren.png"
   },
@@ -248,7 +248,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "咲-Saki-の主人公、清澄高校1年生",
+    "Description": "天才麻將少女的主人公、清澄高校清澄一年級學生\n\n咲-Saki-の主人公、清澄高校1年生",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Miyanaga_saki.png"
   },
@@ -271,7 +271,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "殺し屋、黒い死神",
+    "Description": "刺客、黑色死神\n\n殺し屋、黒い死神",
     "LastBestowDate": "0007/07/18",
     "PicturePath": "Hatsuki.jpg"
   },
@@ -294,7 +294,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "アリシゼーション編のヒロイン、ボトムアップ型の人工知能",
+    "Description": "Alicization篇的女主角，底到頂型的人工智慧\n\nアリシゼーション編のヒロイン、ボトムアップ型の人工知能",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Alice_Zuberg.png"
   },
@@ -317,7 +317,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "PSYCHO-PASS ヒロイン、主人公。公安局刑事課一係の監視官",
+    "Description": "PSYCHO-PASS主角/女主角。公安局刑事課一係的監視官\n\nPSYCHO-PASS ヒロイン、主人公。公安局刑事課一係の監視官",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Tsunemori_Akane.jpg"
   },
@@ -329,7 +329,7 @@
     "SurnameFirst": "y",
     "Yomikata": "",
     "Gender": "f",
-    "Fiction": "y",
+    "Fiction": "n",
     "Wanted": "n",
     "Protected": "n",
     "TwitterAccount": "",
@@ -340,7 +340,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "セイバー（Saber）、Fate/Stay Nightのメインヒロイン。士郎と契約した剣士のサーヴァント",
+    "Description": "Fate/Stay Night的女主角。和士郎契約的劍士從者\n\nFate/Stay Nightのメインヒロイン。士郎と契約した剣士のサーヴァント",
     "LastBestowDate": "0006/04/16",
     "PicturePath": "Seibaa.jpg"
   },
@@ -363,7 +363,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "忍者集団の一派である霧幻天神流の18代目頭首となるはずだったハヤテの妹。主人公。",
+    "Description": "忍者集團「霧幻天神流」的18代頭目，Hayate的妹妹，主角\n\n忍者集団の一派である霧幻天神流の18代目頭首となるはずだったハヤテの妹。主人公。",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Kasumi.jpg"
   },
@@ -386,7 +386,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "本作の主人公。中学2年生の平凡な少女だが、魔法少女になった",
+    "Description": "中學2年級生，平凡少女，但是成為魔法少女\n\n中学2年生の平凡な少女だが、魔法少女になった",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Miki_Sayaka.png"
   },
@@ -409,7 +409,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "メインヒロイ、上弦衆の閃忍。",
+    "Description": "女主角、上弦眾的閃忍\n\nメインヒロイ、上弦衆の閃忍",
     "LastBestowDate": "0005/12/26",
     "PicturePath": "Takamori_Haruka.png"
   },
@@ -432,7 +432,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "ヒロイン。正義のくﾉ一",
+    "Description": "女主角，正義的女忍者\n\nヒロイン。正義のくﾉ一",
     "LastBestowDate": "0004/11/19",
     "PicturePath": "Igawa_Asagi.jpg"
   },
@@ -455,7 +455,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "メインヒロイン、格好いい美少女",
+    "Description": "女主角，姿態好看的美少女\n\nメインヒロイン、格好いい美少女",
     "LastBestowDate": "0003/12/20",
     "PicturePath": "Sento_Isuzu.jpg"
   },
@@ -478,7 +478,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "頼津学園3年A組、主人公の幼馴染",
+    "Description": "賴津學園3年A班，主角的兒時好友\n\n頼津学園3年A組、主人公の幼馴染",
     "LastBestowDate": "0004/04/06",
     "PicturePath": "Saimon_Tamaki.jpg"
   },
@@ -501,7 +501,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "頼津学園3年C組、学生自治会執行部の副会長",
+    "Description": "賴津學園3年C班、學生自治會執行部副會長\n\n頼津学園3年C組、学生自治会執行部の副会長",
     "LastBestowDate": "0004/04/06",
     "PicturePath": "Takatou_Nanaze.png"
   },
@@ -524,7 +524,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "リーザス女王リアに仕える忍者、ランスの恋人",
+    "Description": "侍奉Leazas 女王Lia的女忍者，Rance的戀人\n\nリーザス女王リアに仕える忍者、ランスの恋人",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Kentou_Kanami.png"
   },
@@ -547,7 +547,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "ファントム・バレット編のヒロイン、女子高生",
+    "Description": "幻影子彈篇的女主角，女高中生\n\nファントム・バレット編のヒロイン、女子高生",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Asada_Sinon.jpg"
   },
@@ -570,7 +570,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "マザーズ・ロザリオ編「絶剣（ぜっけん）」と呼ばれたヒロイン",
+    "Description": "聖母聖詠篇，被稱為「絕劍」的女主角\n\nマザーズ・ロザリオ編「絶剣（ぜっけん）」と呼ばれたヒロイン",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Yuki.jpg"
   },
@@ -593,7 +593,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "フェアリィ・ダンス編のヒロイン。和人の1歳下の義妹",
+    "Description": "妖精之舞篇的女英雄。比和人小1歳的義妹\n\nフェアリィ・ダンス編のヒロイン。和人の1歳下の義妹",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Kirigaya_Sukuha.jpg"
   },
@@ -616,7 +616,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "ドイツ人と日本人の父母を持つハーフ、学生兼空手師範",
+    "Description": "德國人和日本人的混血兒，學生兼空手道老師\n\nドイツ人と日本人の父母を持つハーフ、学生兼空手師範",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Hitomi.jpg"
   },
@@ -639,7 +639,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "抜け忍となったかすみを追う刺客、くノ一",
+    "Description": "追擊成為逃忍的霞的刺客，女忍者\n\n抜け忍となったかすみを追う刺客、くノ一",
     "LastBestowDate": "0005/03/01",
     "PicturePath": "Ayane.jpg"
   },
