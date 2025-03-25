@@ -662,7 +662,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "こみっくパーティーのメインヒロインで、和樹や大志と同じ大学に通う大学生",
+    "Description": "Comic Party的女主角，和和樹與大志同所大學的大學生\n\nこみっくパーティーのメインヒロインで、和樹や大志と同じ大学に通う大学生",
     "LastBestowDate": "0004/04/06",
     "PicturePath": "Takaze_Mizuki.jpg"
   },
@@ -685,7 +685,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "ヒロインのひとり。スポーツ特待生",
+    "Description": "主要女角之一。體育資優生\n\nヒロインのひとり。スポーツ特待生",
     "LastBestowDate": "0006/01/16",
     "PicturePath": "Nagisa_Chinatsu.png"
   },
@@ -708,7 +708,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "ヒロインのひとり。甲の部下。少尉",
+    "Description": "主要女角之一。甲的部下。少尉\n\nヒロインのひとり。甲の部下。少尉",
     "LastBestowDate": "0006/01/16",
     "PicturePath": "Kirisima_Rein.png"
   },
@@ -731,7 +731,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "エヴァンゲリオンの主人公、EVA初号機専属操縦者",
+    "Description": "Evangelion的主角，EVA初號機專屬駕駛員\n\nエヴァンゲリオンの主人公、EVA初号機専属操縦者",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "ikari_shinji.jpg"
   },
@@ -754,7 +754,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "Fate/StayNightの主人公、穂群原学園2年生、「正義の味方」を目指し魔術師",
+    "Description": "Fate/StayNight的主角、穗群原學園2年級生、目標成為「正義的我方」的魔法師\n\nFate/StayNightの主人公、穂群原学園2年生、「正義の味方」を目指し魔術師",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Emiya_Sirou.jpg"
   },
@@ -777,7 +777,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "SOS団団員、元文芸部員、宇宙人",
+    "Description": "SOS團團員，原文藝社社員，外星人\n\nSOS団団員、元文芸部員、宇宙人",
     "LastBestowDate": "0003/12/11",
     "PicturePath": "nagato_yuki.jpg"
   },
@@ -800,7 +800,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "高校3年生で、陽太の幼馴染み",
+    "Description": "高中三年級生，陽太的兒時好友\n\n高校3年生で、陽太の幼馴染み",
     "LastBestowDate": "0004/01/05",
     "PicturePath": "Izanami_Kyouko.png"
   },
@@ -823,7 +823,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "修道服を着た少女。自らを“全知の神”と名乗る",
+    "Description": "穿著修道服的少女。自稱「全知之神」。\n\n修道服を着た少女。自らを“全知の神”と名乗る",
     "LastBestowDate": "0004/01/05",
     "PicturePath": "Hina.png"
   },
@@ -846,7 +846,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "14歳の少女。EVA 弐号機の操縦者、新劇場版は式波.アスカ.ラングレーです",
+    "Description": "14歲少女。EVA二號機的駕駛員。新劇場版名為式波‧アスカ‧ラングレ\n\n14歳の少女。EVA 弐号機の操縦者、新劇場版は式波.アスカ.ラングレーです",
     "LastBestowDate": "0003/12/22",
     "PicturePath": "Asuka_Rangurei.jpg"
   },
@@ -869,7 +869,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "SAOプレイヤー、メイスの使い手、愛称は「リズ」",
+    "Description": "SAO玩家プ、鎚子使用者，愛稱為Rizu\n\nSAOプレイヤー、メイスの使い手、愛称は「リズ」",
     "LastBestowDate": "0003/12/30",
     "PicturePath": "Rizubetto.jpg"
   },
@@ -892,7 +892,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "主人公が最初に出会った、笑っている明るくて素直な少女。「がお…」と言う口癖がある。",
+    "Description": "和主角最早相會，笑容明朗、率直的少女。有「Gao…」的口頭禪\n\n主人公が最初に出会った、笑っている明るくて素直な少女。「がお…」と言う口癖がある。",
     "LastBestowDate": "0004/08/01",
     "PicturePath": "Kamio_Misuzu.png"
   },
@@ -915,7 +915,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 1,
-    "Description": "主人公であり、受験を控えた高校3年生",
+    "Description": "主角，接受了入學考試的高中3年級生\n\n主人公であり、受験を控えた高校3年生",
     "LastBestowDate": "0004/01/05",
     "PicturePath": "Narukami_Youta.png"
   },
@@ -938,7 +938,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 1,
-    "Description": "SAOの主人公、VRMMOプレイヤーとして高い仮想世界適性を持ってる",
+    "Description": "SAO的主角，具備VRMMO玩家的假想世界高適應性\n\nSAOの主人公、VRMMOプレイヤーとして高い仮想世界適性を持ってる",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Kirigaya_Kazuto.jpg"
   },
@@ -961,7 +961,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 1,
-    "Description": "ヒロイン、高校生、SOS団団長",
+    "Description": "女主角、高中生、SOS團團長\n\nヒロイン、高校生、SOS団団長",
     "LastBestowDate": "0003/12/11",
     "PicturePath": "Suzumiya_Haruhi.png"
   },
@@ -984,7 +984,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 1,
-    "Description": "SOS団団員、未来人",
+    "Description": "SOS團團員，未來人\n\nSOS団団員、未来人",
     "LastBestowDate": "0003/12/11",
     "PicturePath": "Asahina_Mikuru.jpg"
   },
@@ -1007,7 +1007,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 1,
-    "Description": "学園都市第3位の超能力者（レベル5）、能力名の「超電磁砲（レールガン）」。「とある科学の超電磁砲」の主人公",
+    "Description": "學員都市排名第三的等級5超能力者，能力名為「超電磁砲」，某科學的超電磁砲的主角\n\n学園都市第3位の超能力者（レベル5）、能力名の「超電磁砲（レールガン）」。「とある科学の超電磁砲」の主人公",
     "LastBestowDate": "0005/08/12",
     "PicturePath": "Misaka_Mikoto.png"
   },
@@ -1030,7 +1030,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 1,
-    "Description": "ヤマハが開発した音声合成システムVOCALOIDにより女声の歌声を合成することのできるソフトウェア音源。およびそのキャラクターである、年齢16歳、身長158cm、体重42kgの設定",
+    "Description": "Yamaha開發的聲音合成系統VOCALOID中，用為女聲歌聲合成的軟體音源，或說是角色，設定為年齡16歲，身長158公分，體重42公斤\n\nヤマハが開発した音声合成システムVOCALOIDにより女声の歌声を合成することのできるソフトウェア音源。およびそのキャラクターである、年齢16歳、身長158cm、体重42kgの設定",
     "LastBestowDate": "0004/03/09",
     "PicturePath": "Hatune_Miku.jpg"
   },
@@ -1053,7 +1053,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 0,
-    "Description": "鬼滅の刃の主人公、13 -> 15歳、嗅覚が良い少年",
+    "Description": "鬼滅之刃的主角，13~15歲，嗅覺很好的少年\n\n鬼滅の刃の主人公、13 -> 15歳、嗅覚が良い少年",
     "LastBestowDate": "0007/05/12",
     "PicturePath": "Kamado_Tanzirou.jpg"
   },
@@ -1076,7 +1076,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -1,
-    "Description": "戦国時代から安土桃山時代にかけての武将、大名。天下人、（初代）武家関白、太閤",
+    "Description": "戰國時代到安土桃山時代活躍的武將，大名，天下人，初代武家官白、太閣\n\n戦国時代から安土桃山時代にかけての武将、大名。天下人、（初代）武家関白、太閤",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Toyotomi_Hideyoshi.jpg"
   },
@@ -1099,7 +1099,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -1,
-    "Description": "日本の政治家。自由民主党所属の衆議院議員、内閣総理大臣",
+    "Description": "日本的政治家。自由民主黨所屬的眾議院議員，內閣總理大臣\n\n日本の政治家。自由民主党所属の衆議院議員、内閣総理大臣",
     "LastBestowDate": "0003/12/10",
     "PicturePath": "Shinzo_Abe.jpg"
   },
@@ -1122,7 +1122,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -1,
-    "Description": "日本の政治家。自由民主党所属の衆議院議員（8期）、内閣総理大臣（第99代）、自由民主党総裁（第26代）。",
+    "Description": "日本的政治家。自由民主黨所屬的眾議院議員(8期)，內閣總理大臣(第99代)，自由民主黨總裁(第26代)\n\n日本の政治家。自由民主党所属の衆議院議員（8期）、内閣総理大臣（第99代）、自由民主党総裁（第26代）。",
     "LastBestowDate": "0003/12/10",
     "PicturePath": "Suga_Yoshihide.jpg"
   },
@@ -1168,7 +1168,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -1,
-    "Description": "Fate/Stay Nightメインヒロインの一人、穂群原学園女生徒魔術師、アーチャーのマスター",
+    "Description": "Fate/Stay Night的女主角之一，穗群原學員的女學生魔法師，Archer的主人\n\nFate/Stay Nightメインヒロインの一人、穂群原学園女生徒魔術師、アーチャーのマスター",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Tousaka_Rin.jpg"
   },
@@ -1375,7 +1375,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "シリーズの主人公、鬼畜戦士の異名を持つ戦士",
+    "Description": "系列的主角，被稱為「鬼畜戰士」的戰士\n\nシリーズの主人公、鬼畜戦士の異名を持つ戦士",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Rance.png"
   },
@@ -1467,7 +1467,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "日本の女性声優、歌手",
+    "Description": "日本的女性聲優，歌手\n\n日本の女性声優、歌手",
     "LastBestowDate": "0004/08/05",
     "PicturePath": "Horie_Yui.jpg"
   },
@@ -1490,7 +1490,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "日本女優",
+    "Description": "日本女明星\n\n日本女優",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Hamabe_minami.jpg"
   },
@@ -1559,7 +1559,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "日本女優",
+    "Description": "日本女明星\n\n日本女優",
     "LastBestowDate": "0003/10/29",
     "PicturePath": "Hashimoto_Kanna.jpg"
   },
@@ -1582,7 +1582,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "日本のコスプレイヤー、グラビアアイドル",
+    "Description": "日本的角色扮演者，平面寫真偶像\n\n日本のコスプレイヤー、グラビアアイドル",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Iori_Moe.jpg"
   },
@@ -1605,7 +1605,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "台灣Cosplayer、模特兒",
+    "Description": "台灣角色扮演者、模特兒",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Simo.jpg"
   },
@@ -1697,7 +1697,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "日本の女性声優、歌手",
+    "Description": "日本的女性聲優，歌手\n\n日本の女性声優、歌手",
     "LastBestowDate": "0004/03/29",
     "PicturePath": "Takedachi_Ayana.png"
   },
@@ -1720,7 +1720,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "日本AV女優、偶像、SKE48 Team S前成員",
+    "Description": "日本成人影片女星、偶像、SKE48的前成員\n\n日本AV女優、偶像、SKE48 Team S前成員",
     "LastBestowDate": "0004/08/19",
     "PicturePath": "Mikami_Yua.png"
   },
@@ -1743,7 +1743,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "English actress, model, and activist.",
+    "Description": "英國女演員，模特，活動家\n\nEnglish actress, model, and activist.",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Emma_watson.jpg"
   },
@@ -1766,7 +1766,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "American businesswoman, the daughter and second child of President Trump.",
+    "Description": "美國女商人，Donald Trump的第二個小孩以及女兒\n\nAmerican businesswoman, the daughter and second child of Donald Trump.",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Ivanka_Trump.jpg"
   },
@@ -1835,7 +1835,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "SAOのメインヒロイン、血盟騎士団の副団長、細剣使い",
+    "Description": "SAO的女主角，血盟騎士團的副團長，細劍使用者\n\nSAOのメインヒロイン、血盟騎士団の副団長、細剣使い",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Yuuki_Asuna.jpg"
   },
@@ -2088,7 +2088,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -4,
-    "Description": "44th merican politician and attorney, president of the United States.",
+    "Description": "-\n\n44th merican politician and attorney, president of the United States.",
     "LastBestowDate": "0003/11/26",
     "PicturePath": "Barack_Obama.jpg"
   },
@@ -2111,7 +2111,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -4,
-    "Description": "American business magnate, software developer, co-founder of Microsoft Corporation.",
+    "Description": "-\n\nAmerican business magnate, software developer, co-founder of Microsoft Corporation.",
     "LastBestowDate": "0004/01/01",
     "PicturePath": "Bill_Gates.jpg"
   },
