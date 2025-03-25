@@ -64,7 +64,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 5,
-    "Description": "字孔明，三國時代的蜀軍軍師、蜀國丞相",
+    "Description": "字孔明，三國時代的蜀軍軍師，蜀國丞相",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Zhuge_Liang.jpg"
   },
@@ -87,7 +87,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 5,
-    "Description": "魔法少女小圓中登場的魔法少女主角\n\n魔法少女まどか☆マギカに登場する 、「魔法少女」とされている主人公",
+    "Description": "魔法少女小圓中登場，被稱為魔法少的女主角\n\n魔法少女まどか☆マギカに登場する 、「魔法少女」とされている主人公",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Madoka.png"
   },
@@ -110,7 +110,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "n",
     "MoralRank": 5,
-    "Description": "ラキオス所屬靈、純真無垢的存在\n\nラキオスに属するスピリット、純真無垢な存在",
+    "Description": "ラキオス所屬靈，純真無垢的存在\n\nラキオスに属するスピリット、純真無垢な存在",
     "LastBestowDate": "0003/11/18",
     "PicturePath": "Aseria.jpg"
   },
@@ -179,7 +179,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "日本戰國時代到安土桃山時代活躍的武將、戰國大名\n\n日本の戦国時代から安土桃山時代にかけての武将、戦国大名",
+    "Description": "日本戰國時代到安土桃山時代活躍的武將，戰國大名\r\n\r\n日本の戦国時代から安土桃山時代にかけての武将、戦国大名",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Oda_Nobunaga.jpg"
   },
@@ -205,6 +205,29 @@
     "Description": "戰女神系列被稱為「殺神者」的主角\n\n戦女神シリーズ 「神殺し」とよばれた主人公",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Serika.jpg"
+  },
+  {
+    "ID": "511f3c50-437a-4a6f-be04-360beba60218",
+    "Surname": "",
+    "Name": "セイバー",
+    "OtherName": "",
+    "SurnameFirst": "y",
+    "Yomikata": "",
+    "Gender": "f",
+    "Fiction": "n",
+    "Wanted": "n",
+    "Protected": "n",
+    "TwitterAccount": "",
+    "FacebookAccount": "",
+    "InstagramAccount": "",
+    "From": "Fate/Stay Night",
+    "Group": "i",
+    "IsAOMember": "n",
+    "IsCelebrity": "y",
+    "MoralRank": 4,
+    "Description": "Fate/Stay Night的女主角。和士郎契約的劍士從者\n\nFate/Stay Nightのメインヒロイン。士郎と契約した剣士のサーヴァント",
+    "LastBestowDate": "0006/04/16",
+    "PicturePath": "Seibaa.jpg"
   },
   {
     "ID": "4e31bc81-065b-4496-98e0-d82a7cefa5f6",
@@ -248,7 +271,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "天才麻將少女的主人公、清澄高校清澄一年級學生\n\n咲-Saki-の主人公、清澄高校1年生",
+    "Description": "天才麻將少女的主人公，清澄高校清澄一年級學生\n\n咲-Saki-の主人公、清澄高校1年生",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Miyanaga_saki.png"
   },
@@ -271,7 +294,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 4,
-    "Description": "刺客、黑色死神\n\n殺し屋、黒い死神",
+    "Description": "刺客，黑色死神\n\n殺し屋、黒い死神",
     "LastBestowDate": "0007/07/18",
     "PicturePath": "Hatsuki.jpg"
   },
@@ -320,29 +343,6 @@
     "Description": "PSYCHO-PASS主角/女主角。公安局刑事課一係的監視官\n\nPSYCHO-PASS ヒロイン、主人公。公安局刑事課一係の監視官",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Tsunemori_Akane.jpg"
-  },
-  {
-    "ID": "511f3c50-437a-4a6f-be04-360beba60218",
-    "Surname": "",
-    "Name": "セイバー",
-    "OtherName": "",
-    "SurnameFirst": "y",
-    "Yomikata": "",
-    "Gender": "f",
-    "Fiction": "n",
-    "Wanted": "n",
-    "Protected": "n",
-    "TwitterAccount": "",
-    "FacebookAccount": "",
-    "InstagramAccount": "",
-    "From": "Fate/Stay Night",
-    "Group": "i",
-    "IsAOMember": "n",
-    "IsCelebrity": "y",
-    "MoralRank": 4,
-    "Description": "Fate/Stay Night的女主角。和士郎契約的劍士從者\n\nFate/Stay Nightのメインヒロイン。士郎と契約した剣士のサーヴァント",
-    "LastBestowDate": "0006/04/16",
-    "PicturePath": "Seibaa.jpg"
   },
   {
     "ID": "1c49d10e-922f-4526-a833-14adc17170cf",
@@ -409,7 +409,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "女主角、上弦眾的閃忍\n\nメインヒロイ、上弦衆の閃忍",
+    "Description": "女主角，上弦眾的閃忍\n\nメインヒロイ、上弦衆の閃忍",
     "LastBestowDate": "0005/12/26",
     "PicturePath": "Takamori_Haruka.png"
   },
@@ -455,7 +455,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "女主角，姿態好看的美少女\n\nメインヒロイン、格好いい美少女",
+    "Description": "女主角，動作姿態好看的美少女\n\nメインヒロイン、格好いい美少女",
     "LastBestowDate": "0003/12/20",
     "PicturePath": "Sento_Isuzu.jpg"
   },
@@ -501,7 +501,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "賴津學園3年C班、學生自治會執行部副會長\n\n頼津学園3年C組、学生自治会執行部の副会長",
+    "Description": "賴津學園3年C班，學生自治會執行部副會長\n\n頼津学園3年C組、学生自治会執行部の副会長",
     "LastBestowDate": "0004/04/06",
     "PicturePath": "Takatou_Nanaze.png"
   },
@@ -662,7 +662,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "Comic Party的女主角，和和樹與大志同所大學的大學生\n\nこみっくパーティーのメインヒロインで、和樹や大志と同じ大学に通う大学生",
+    "Description": "漫畫派對(Comic Party)的女主角，和和樹與大志同所大學的大學生\n\nこみっくパーティーのメインヒロインで、和樹や大志と同じ大学に通う大学生",
     "LastBestowDate": "0004/04/06",
     "PicturePath": "Takaze_Mizuki.jpg"
   },
@@ -708,7 +708,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 3,
-    "Description": "主要女角之一。甲的部下。少尉\n\nヒロインのひとり。甲の部下。少尉",
+    "Description": "主要女角之一，甲的部下，少尉\n\nヒロインのひとり。甲の部下。少尉",
     "LastBestowDate": "0006/01/16",
     "PicturePath": "Kirisima_Rein.png"
   },
@@ -754,7 +754,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "Fate/StayNight的主角、穗群原學園2年級生、目標成為「正義的我方」的魔法師\n\nFate/StayNightの主人公、穂群原学園2年生、「正義の味方」を目指し魔術師",
+    "Description": "Fate/StayNight的主角，穗群原學園2年級生、目標成為「正義的我方」的魔法師\n\nFate/StayNightの主人公、穂群原学園2年生、「正義の味方」を目指し魔術師",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Emiya_Sirou.jpg"
   },
@@ -869,7 +869,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "SAO玩家プ、鎚子使用者，愛稱為Rizu\n\nSAOプレイヤー、メイスの使い手、愛称は「リズ」",
+    "Description": "SAO玩家，鎚子使用者，愛稱為Rizu\n\nSAOプレイヤー、メイスの使い手、愛称は「リズ」",
     "LastBestowDate": "0003/12/30",
     "PicturePath": "Rizubetto.jpg"
   },
@@ -892,7 +892,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 2,
-    "Description": "和主角最早相會，笑容明朗、率直的少女。有「Gao…」的口頭禪\n\n主人公が最初に出会った、笑っている明るくて素直な少女。「がお…」と言う口癖がある。",
+    "Description": "和主角最早相會，笑容明朗，率直的少女。有「Gao…」的口頭禪\n\n主人公が最初に出会った、笑っている明るくて素直な少女。「がお…」と言う口癖がある。",
     "LastBestowDate": "0004/08/01",
     "PicturePath": "Kamio_Misuzu.png"
   },
@@ -961,7 +961,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": 1,
-    "Description": "女主角、高中生、SOS團團長\n\nヒロイン、高校生、SOS団団長",
+    "Description": "女主角，高中生，SOS團團長\n\nヒロイン、高校生、SOS団団長",
     "LastBestowDate": "0003/12/11",
     "PicturePath": "Suzumiya_Haruhi.png"
   },
@@ -1214,7 +1214,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "台灣男藝人、主持人、歌手、唱片製作人、演員、商人",
+    "Description": "台灣男藝人，主持人，歌手，唱片製作人，演員，商人",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Jacky-Wu.jpg"
   },
@@ -1237,7 +1237,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "中華民國民主進步黨籍政治人物 第15任 中華民國副總統",
+    "Description": "中華民國民主進步黨籍政治人物，第15任中華民國副總統，第16任中華民國總統",
     "LastBestowDate": "0004/11/06",
     "PicturePath": "Lai-ching-te.jpg"
   },
@@ -1260,7 +1260,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "中華民國外科醫師、政治人物，臺北市市長、台灣民眾黨創始人兼黨主席",
+    "Description": "中華民國外科醫師，政治人物，臺北市市長、台灣民眾黨創始人兼黨主席",
     "LastBestowDate": "0003/12/27",
     "PicturePath": "Ko-wen-je.jpg"
   },
@@ -1375,7 +1375,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "系列的主角，被稱為「鬼畜戰士」的戰士\n\nシリーズの主人公、鬼畜戦士の異名を持つ戦士",
+    "Description": "系列的主角，被稱為「鬼畜戰士」的戰士\n\nシリーズの主人公，鬼畜戦士の異名を持つ戦士",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Rance.png"
   },
@@ -1421,7 +1421,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "台灣華語流行音樂女歌手、演員",
+    "Description": "台灣華語流行音樂女歌手，演員",
     "LastBestowDate": "0003/10/30",
     "PicturePath": "Jolin_Tsai.jpg"
   },
@@ -1444,7 +1444,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "台灣女明星、演員、歌手",
+    "Description": "台灣女明星，演員，歌手",
     "LastBestowDate": "0003/11/14",
     "PicturePath": "Ariel_Lin.jpg"
   },
@@ -1513,7 +1513,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "台灣女明星、藝人、演員、模特兒，原名鄭佳甄，本名鄭采勻",
+    "Description": "台灣女明星，藝人，演員，模特兒，原名鄭佳甄，本名鄭采勻",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Ili_Cheng.jpg"
   },
@@ -1574,7 +1574,7 @@
     "Fiction": "n",
     "Wanted": "y",
     "Protected": "n",
-    "TwitterAccount": "moe_five",
+    "TwitterAccount": "iorimoe_five",
     "FacebookAccount": "rinriniorin",
     "InstagramAccount": "moe_five",
     "From": "",
@@ -1605,7 +1605,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "台灣角色扮演者、模特兒",
+    "Description": "台灣角色扮演者，模特兒",
     "LastBestowDate": "0003/10/25",
     "PicturePath": "Simo.jpg"
   },
@@ -1720,7 +1720,7 @@
     "IsAOMember": "n",
     "IsCelebrity": "y",
     "MoralRank": -3,
-    "Description": "日本成人影片女星、偶像、SKE48的前成員\n\n日本AV女優、偶像、SKE48 Team S前成員",
+    "Description": "日本成人影片女星，偶像，SKE48的前成員\n\n日本AV女優、偶像、SKE48 Team S前成員",
     "LastBestowDate": "0004/08/19",
     "PicturePath": "Mikami_Yua.png"
   },

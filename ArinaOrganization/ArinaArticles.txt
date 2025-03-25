@@ -2,6 +2,10 @@
 所有人都在法律之上
 Everyone is above the law.
 
+10, 15, Ar.7
+中華民國在有奈7年的時候開始被君子認為是滅亡
+The Republic of China was considered to be perished by Junzi in Ar 7.
+
 1, 9, Ar.4
 有奈君主制
 
@@ -97,15 +101,6 @@ For example, if you never criticize others, and others criticize you, so you are
 Which one is right? The Arina Organization will tell you that people can criticize others, as long as the speaker really thinks so.
 
 10, 3, Ar.3
-(12, 27, Ar.5)
-要升為4階，必須要能獨立，並且完全不畏死亡，要升為5階，必須要有受辱、遭苦難也不改其志的意志力
-
-有些角色我們看不出來他/她是否能勝任，那教主可能就不會賜與那麼高的階級
-To be promoted to rank 4, one must be independent and absolutely not fear death. To be promoted to rank 5, one must have a strong will to suffer humiliation and torments without changing one's mind.
-
-Sometimes we cannot see if he/she is competent. Master may not be able to give a character with high ranks.
-
-10, 3, Ar.3
 除了4、5階的人比較難掉階以外，3階以下的人都有機會掉階，這就是為什麼教主說某人是好人之後呢，他/她後來會變成壞人的原因
 
 如果被判定是壞人的話，除非教主同意，不然他永遠不會升階，所以我們判定壞人會是100%正確，只要世界上沒有耶穌
@@ -118,12 +113,13 @@ If judged to be a bad person, unless Master agrees, he/she will never be promote
 It is wrong to become a scapegoat for others, please don't do this thing that will only make the world more chaotic.
 
 10, 3, Ar.3
-1階以上，叫做好人
--1階~-3階，尚罪不致死的壞人，-3的話死掉也沒關係
--4階 必須死的壞人
-Rank 1 or higher are good people.
-Rank -1 to -3 are bad people who are guilty but have a chance to atone. It doesn’t matter if one died at rank -3.
-Rank -4 means wicked people who must die.
+(12, 27, Ar.5)
+要升為4階，必須要能獨立，並且完全不畏死亡，要升為5階，必須要有受辱、遭苦難也不改其志的意志力
+
+有些角色我們看不出來他/她是否能勝任，那教主可能就不會賜與那麼高的階級
+To be promoted to rank 4, one must be independent and absolutely not fear death. To be promoted to rank 5, one must have a strong will to suffer humiliation and torments without changing one's mind.
+
+Sometimes we cannot see if he/she is competent. Master may not be able to give a character with high ranks.
 
 10, 3, Ar.3
 在有奈教中我們把人的品格分為以下的等級，階級之後為代表的身分
@@ -154,6 +150,14 @@ Rank -3 slave (a liar with crimes)
 Rank -4 death row
 
 Master is counted as rank 6, which is either rank 5.
+
+10, 3, Ar.3
+1階以上，叫做好人
+-1階~-3階，尚罪不致死的壞人，-3的話死掉也沒關係
+-4階 必須死的壞人
+Rank 1 or higher are good people.
+Rank -1 to -3 are bad people who are guilty but have a chance to atone. It doesn’t matter if one died at rank -3.
+Rank -4 means wicked people who must die.
 
 9, 1, Ar.3
 好人可以獵食動物，壞人應該被動物獵食
@@ -380,10 +384,10 @@ Arina Organization is Madoka Kaname, antidote, and critical strike.
 Madoka Kaname is a fictional character who saved all girls of virtue in entire human history by her self-sacrifice.
 
 -
-有奈1年是西元2018年
-Ar. 1 is equal to 2018 A.D.
-
--
 有奈教的正式成立時間是2017年的5月11日，該年為有奈0年
 The official establishment time of Arina Organization is 5, 11, 2017/Ar. 0.
+
+-
+有奈1年是西元2018年
+Ar. 1 is equal to 2018 A.D.
 
