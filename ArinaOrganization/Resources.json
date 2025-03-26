@@ -12,6 +12,18 @@
     "Link2": "https://github.com/Arina-Organization/ArinaOrganization/blob/main/Product/Flag/Flag%202.png"
   },
   {
+    "ID": 3,
+    "CName": "有奈教T-Shirt(A1)",
+    "EName": "T-Shirt(A1) of Arina Organization",
+    "Picture": "",
+    "Link": "",
+    "Instruction": "To Do",
+    "Hide": true,
+    "CName2": "原始檔",
+    "EName2": "Source File",
+    "Link2": "https://github.com/Arina-Organization/ArinaOrganization/blob/main/Product/Flag/Flag%202.png"
+  },
+  {
     "ID": 2,
     "CName": "Json資料檔案編輯器",
     "EName": "Json Files Editor",

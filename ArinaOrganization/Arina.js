@@ -75,23 +75,23 @@ var window_size, window_size_width;
 function GetWindowSize(max = false) {
     if (window.innerWidth < 500) {
         window_size = 'mi';
-        window_size_width = 400;
+        window_size_width = 330;
     }
     else if (window.innerWidth < 800) {
         window_size = "s";
-        window_size_width = 500;
+        window_size_width = 450;
     }
-    else if (window.innerWidth < 1300) {
+    else if (window.innerWidth < 1200) {
         window_size = "m";
         window_size_width = 750;
     }
     else {
         window_size = "l";
-        window_size_width = 1250;
+        window_size_width = 1100;
     }
     if (max) {
         window_size = "l";
-        window_size_width = 1250;
+        window_size_width = 1100;
     }
 }
 

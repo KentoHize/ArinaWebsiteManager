@@ -29,7 +29,7 @@
         <section><p>4.成就(Achievements)</p></section>
     </article>
     <br />
-    <h3 style="text-align:center">有奈教的五項原則(美德)(Arina's 5 Principles of Virtue)</h3>
+    <h3 style="text-align:center">有奈教的五項原則(美德)<br id="br1" />(Arina's 5 Principles of Virtue)</h3>
     <article style="margin:50px;">
         <section>
             <p>有奈教有五項原則(美德)要遵循</p>
@@ -45,7 +45,10 @@
         <a href="javascript:window.close()">關閉(Close)</a>
     </div>
     <script>
-
+        GetWindowSize();
+        if (window_size != `mi` && window_size != `s`) {
+            document.getElementById(`br1`).style = "display:none";
+        }
     </script>
 </body>
 </html>

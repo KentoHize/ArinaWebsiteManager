@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="ArinaPage.css">
 </head>
 <body>
-    <h3 style="text-align:center">國家/跨國公司/跨國團體登記(Registration for Country/International Companies/International Group)</h3>
+    <h3 style="text-align:center">國家/跨國公司/跨國團體登記<br id="br1" />(Registration for Country/International Companies/International Group)</h3>
     <article style="margin:50px;">
         <section>
             <p>我們目前正接受國家、跨國公司以及跨國團體的登記作業。</p>
@@ -64,5 +64,11 @@
     <div style="text-align:center; margin:10px;">
         <a href="javascript:window.close()">關閉(Close)</a>
     </div>
+    <script>
+        GetWindowSize();
+        if (window_size != `mi` && window_size != `s`) {
+            document.getElementById(`br1`).style = "display:none";
+        }
+    </script>
 </body>
 </html>

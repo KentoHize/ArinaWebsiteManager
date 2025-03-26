@@ -202,16 +202,15 @@
         function redraw(display_all = false) {
 
             GetWindowSize();
-
             if (display_all) {
                 window_size = "l";
                 document.getElementById("main").style = `margin:auto; width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
                 document.getElementsByTagName('meta')['viewport'].content = "";
             }
 
-            if (window_size == "s")
+            if (window_size == `s` || window_size == `mi`)
                 document.getElementById("main").style = `margin:auto; width:360px;`;
-            else if (window_size == "m" || window_size == "l")
+            else if (window_size == `m` || window_size == `l`)
                 document.getElementById("main").style = `margin:auto; width:800px;`;
 
             draw_table();

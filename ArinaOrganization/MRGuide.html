@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
-    <h3 style="text-align:center">品階說明頁(Guide Page of Moral Ranking)</h3>
+    <h3 style="text-align:center">品階說明頁<br id="br1" />(Guide Page of Moral Ranking)</h3>
     <div style="text-align:left; margin:50px">
         <article>
             <section>
@@ -91,13 +91,15 @@
                 </p>
             </section>
         </article>
-
-        
-
-        
     </div>
     <div style="text-align:center; margin:10px;">
         <a href="javascript:window.close()">關閉(Close)</a>
     </div>
+    <script>
+        GetWindowSize();
+        if (window_size != `mi`) {
+            document.getElementById(`br1`).style = "display:none";
+        }
+    </script>
 </body>
 </html>

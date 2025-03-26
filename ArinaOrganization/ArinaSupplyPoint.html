@@ -21,7 +21,7 @@
     <script src="Arina.js"></script>
     <h3 style="text-align:center">有奈物資點(Arina Supply Point)</h3>
     <div style="text-align:center"><a href="javascript:refresh_page()">更新(Refresh)</a></div>
-    <article style="margin-top:30px; margin-left:50px; margin-right:50px; margin-bottom:20px">
+    <article id ="ar">
         <section>
             <p>
                 人們的生存倚賴糧食，糧食是最基本的資源，有奈選擇以米作為基本單位。
@@ -372,6 +372,10 @@
         function redraw(display_all = false) {
             GetWindowSize(false);
             document.getElementById(`er`).style = `text-align:center;margin:auto;width:${window_size_width}px`;
+            if (window_size == `l` || window_size == `m`)
+                document.getElementById(`ar`).style = `margin-top:30px; margin-left:50px; margin-right:50px; margin-bottom:20px`;
+            else
+                document.getElementById(`ar`).style = `margin-top:30px; margin-left:30px; margin-right:30px; margin-bottom:20px`;
             draw();
         }
 

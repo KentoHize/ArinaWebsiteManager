@@ -22,7 +22,7 @@
 </head>
 <body>
     <script src="Arina.js"></script>
-    <h3 style="text-align:center">常見問答(Frequently Asked Questions)</h3>
+    <h3 style="text-align:center">常見問答<br id="br1" />(Frequently Asked Questions)</h3>
     <div style="margin:50px;" id="main">
     </div>
     <div style="text-align:center; margin:10px;">
@@ -95,6 +95,11 @@
         xhttp.responseType = 'json';
         xhttp.open("GET", "FAQ.json?v=" + Math.random(), true);
         xhttp.send();
+
+        GetWindowSize();
+        if (window_size != `mi`) {
+            document.getElementById(`br1`).style = "display:none";
+        }
     </script>
 </body>
 
