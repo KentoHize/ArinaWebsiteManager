@@ -1,0 +1,57 @@
+[
+  {
+    "ID": 2,
+    "Title": "Visual Studio",
+    "ETitle": null,
+    "Type": "Tool",
+    "Hide": false,
+    "Link": "https://visualstudio.microsoft.com/",
+    "Instruction": "開發程式利器，初期請使用社群版(免費)。",
+    "EInstruction": null,
+    "Date": "0008/03/27"
+  },
+  {
+    "ID": 4,
+    "Title": "Inkscape",
+    "ETitle": null,
+    "Type": "Tool",
+    "Hide": false,
+    "Link": "https://inkscape.org/",
+    "Instruction": "替代AI免費向量圖形設計軟體。",
+    "EInstruction": null,
+    "Date": "0008/03/27"
+  },
+  {
+    "ID": 5,
+    "Title": "Neocities",
+    "ETitle": null,
+    "Type": "Tool",
+    "Hide": false,
+    "Link": "https://neocities.org/",
+    "Instruction": "免費網頁空間。",
+    "EInstruction": null,
+    "Date": "0008/03/27"
+  },
+  {
+    "ID": 1,
+    "Title": "GTmetrix",
+    "ETitle": null,
+    "Type": "Tool",
+    "Hide": false,
+    "Link": "https://gtmetrix.com/",
+    "Instruction": "免費測速網站。\n付費也可以測試手機。",
+    "EInstruction": null,
+    "Date": "0008/03/27"
+  },
+  {
+    "ID": 3,
+    "Title": "Mobile Moxie",
+    "ETitle": null,
+    "Type": "Tool",
+    "Hide": false,
+    "Link": "https://mobilemoxie.com/",
+    "Instruction": "測試網站，每天有限次免費確認執行情形。\n另外可以測試各地網頁或APP的搜尋結果。",
+    "EInstruction": null,
+    "Date": "0008/03/27"
+  }
+]
