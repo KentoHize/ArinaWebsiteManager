@@ -27,7 +27,7 @@
     </div>
     <script>
         var article = document.getElementById("main");
-        fetch(`Articles.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+        fetch(`articles.json?v=${Math.random()}`).then(m => m.json()).then(data => {
             var section, p;
             for (var i = 0; i < data.length; i++) {
                 section = document.createElement("section");

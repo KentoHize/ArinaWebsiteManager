@@ -35,7 +35,7 @@
     </table>
     <br />
     <div style="text-align:center">
-        <a href="MoralRank.html">回一覽表</a>
+        <a href="moralrank.html">回一覽表</a>
         <span id="v" style="display:none" ></span>
     </div>
     
@@ -77,11 +77,11 @@
                                 document.getElementById(`v`).innerHTML = ulp.v;
 
                             if (ulp.index != 0)
-                                document.getElementById("previous_page").href = `personalInfo.html?index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
+                                document.getElementById("previous_page").href = `personalinfo.html?index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
                             else
                                 document.getElementById("previous_page").parentNode.innerText = "　";
                             if (ulp.index < PData.length - 1)
-                                document.getElementById("next_page").href = `personalInfo.html?index=${(parseInt(ulp.index) + 1)}&v=` + Math.random();
+                                document.getElementById("next_page").href = `personalinfo.html?index=${(parseInt(ulp.index) + 1)}&v=` + Math.random();
                             else
                                 document.getElementById("next_page").parentNode.innerText = "　";
 
@@ -358,7 +358,7 @@
                                     for (var j = 0; j < PData.length; j++) {
                                         if (PData[j].ID == BRData[i].BestowerID) {
                                             a.innerText = get_full_name(PData[j].Name, PData[j].Surname, PData[j].OtherName, PData[j].SurnameFirst, "", "");
-                                            a.href = `PersonalInfo.html?index=${j}&v=` + Math.random();
+                                            a.href = `personalinfo.html?index=${j}&v=` + Math.random();
                                             break;
                                         }
                                     }
@@ -375,7 +375,7 @@
                         }
                     }
                     xhttp.responseType = 'json';
-                    xhttp.open("GET", "bestowRecords.json?v=" + Math.random(), true);
+                    xhttp.open("GET", "bestowrecords.json?v=" + Math.random(), true);
                     xhttp.send();
                 }
 
