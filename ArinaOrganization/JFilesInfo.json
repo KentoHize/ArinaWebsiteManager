@@ -3,7 +3,7 @@
   "Description": "有奈官網資料",
   "TablesInfo": [
     {
-      "Name": "Announcements",
+      "Name": "announcements",
       "Columns": [
         {
           "Name": "ID",
@@ -49,7 +49,7 @@
           "IsNullable": false,
           "Type": "String",
           "Choices": [],
-          "FKTable": "AnnouncementType",
+          "FKTable": "announcementtype",
           "FKColumn": "Name",
           "NumberOfRows": 1,
           "Display": false,
@@ -161,7 +161,7 @@
       "InsertFirst": true
     },
     {
-      "Name": "AnnouncementType",
+      "Name": "announcementtype",
       "Columns": [
         {
           "Name": "Name",
@@ -224,7 +224,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "ArinaHistory",
+      "Name": "arinahistory",
       "Columns": [
         {
           "Name": "ID",
@@ -344,7 +344,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Articles",
+      "Name": "articles",
       "Columns": [
         {
           "Name": "No",
@@ -464,7 +464,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "BestowRecords",
+      "Name": "bestowrecords",
       "Columns": [
         {
           "Name": "ID",
@@ -491,7 +491,7 @@
           "IsNullable": false,
           "Type": "Guid",
           "Choices": [],
-          "FKTable": "Persons",
+          "FKTable": "persons",
           "FKColumn": "ID",
           "NumberOfRows": 1,
           "Display": false,
@@ -510,7 +510,7 @@
           "IsNullable": false,
           "Type": "Guid",
           "Choices": [],
-          "FKTable": "Persons",
+          "FKTable": "persons",
           "FKColumn": "ID",
           "NumberOfRows": 1,
           "Display": false,
@@ -603,7 +603,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Choices",
+      "Name": "choices",
       "Columns": [
         {
           "Name": "ID",
@@ -630,7 +630,7 @@
           "IsNullable": false,
           "Type": "Integer",
           "Choices": [],
-          "FKTable": "Questions",
+          "FKTable": "questions",
           "FKColumn": "ID",
           "NumberOfRows": 1,
           "Display": true,
@@ -748,7 +748,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "ExchangeRate",
+      "Name": "exchangerate",
       "Columns": [
         {
           "Name": "ID",
@@ -849,7 +849,7 @@
       "InsertFirst": true
     },
     {
-      "Name": "ExternalLinks",
+      "Name": "externallinks",
       "Columns": [
         {
           "Name": "ID",
@@ -1029,7 +1029,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "FAQ",
+      "Name": "faq",
       "Columns": [
         {
           "Name": "No",
@@ -1149,7 +1149,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Forms",
+      "Name": "forms",
       "Columns": [
         {
           "Name": "ID",
@@ -1307,7 +1307,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Jobs",
+      "Name": "jobs",
       "Columns": [
         {
           "Name": "ID",
@@ -1525,7 +1525,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Languages",
+      "Name": "languages",
       "Columns": [
         {
           "Name": "Name",
@@ -1588,7 +1588,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "LastUpdate",
+      "Name": "lastupdate",
       "Columns": [
         {
           "Name": "LastUpdate",
@@ -1613,7 +1613,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Note",
+      "Name": "note",
       "Columns": [
         {
           "Name": "ID",
@@ -1695,7 +1695,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Organizations",
+      "Name": "organizations",
       "Columns": [
         {
           "Name": "ID",
@@ -1777,7 +1777,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Persons",
+      "Name": "persons",
       "Columns": [
         {
           "Name": "ID",
@@ -2207,7 +2207,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Questions",
+      "Name": "questions",
       "Columns": [
         {
           "Name": "ID",
@@ -2234,7 +2234,7 @@
           "IsNullable": false,
           "Type": "Integer",
           "Choices": [],
-          "FKTable": "Forms",
+          "FKTable": "forms",
           "FKColumn": "ID",
           "NumberOfRows": 1,
           "Display": false,
@@ -2393,7 +2393,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Quotes",
+      "Name": "quotes",
       "Columns": [
         {
           "Name": "No",
@@ -2513,7 +2513,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Resources",
+      "Name": "resources",
       "Columns": [
         {
           "Name": "ID",
@@ -2709,7 +2709,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "Terms",
+      "Name": "terms",
       "Columns": [
         {
           "Name": "ID",
@@ -2886,7 +2886,7 @@
       "InsertFirst": false
     },
     {
-      "Name": "UpdateRecords",
+      "Name": "updaterecords",
       "Columns": [
         {
           "Name": "ID",

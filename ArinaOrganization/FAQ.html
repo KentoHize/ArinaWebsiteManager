@@ -13,7 +13,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <title>常見問答(Frequently Asked Questions)</title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
     <style>
         td {
             vertical-align: top;
@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-    <script src="Arina.js"></script>
+    <script src="arina.js"></script>
     <h3 style="text-align:center">常見問答<br id="br1" />(Frequently Asked Questions)</h3>
     <div style="margin:50px;" id="main">
     </div>
@@ -93,7 +93,7 @@
             }
         };
         xhttp.responseType = 'json';
-        xhttp.open("GET", "FAQ.json?v=" + Math.random(), true);
+        xhttp.open("GET", "faq.json?v=" + Math.random(), true);
         xhttp.send();
 
         GetWindowSize();

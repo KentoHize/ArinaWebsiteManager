@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width">
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
     <style>
         body {
             background-color: aquamarine;
@@ -78,13 +78,13 @@
                     }
                 }
                 xhttp2.responseType = 'json';
-                xhttp2.open("GET", "Choices.json?v=" + Math.random(), true);
+                xhttp2.open("GET", "choices.json?v=" + Math.random(), true);
                 xhttp2.send();
 
             }
         }
         xhttp.responseType = 'json';
-        xhttp.open("GET", "Questions.json?v=" + Math.random(), true);
+        xhttp.open("GET", "questions.json?v=" + Math.random(), true);
         xhttp.send();
 
 

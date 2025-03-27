@@ -15,10 +15,10 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
     <title>工具網站(Tool Websites)</title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
 </head>
 <body>
-    <script src="Arina.js"></script>
+    <script src="arina.js"></script>
     <h3 style="text-align:center">工具網站(Tool Websites)</h3>
     <div style="text-align:center">
         <a id="display_all" href="javascript:display_all()">顯示全部資料(Display All)</a>
@@ -44,7 +44,7 @@
     <script>
 
         function draw(display_all) {
-            fetch(`ExternalLinks.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+            fetch(`externallinks.json?v=${Math.random()}`).then(m => m.json()).then(data => {
                 var div;                
                 var table, tr, td, a;
 

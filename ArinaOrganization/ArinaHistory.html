@@ -15,10 +15,10 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
     <title>有奈教歷史(Arina's History)</title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
 </head>
 <body>
-    <script src="Arina.js"></script>
+    <script src="arina.js"></script>
     <h3 style="text-align:center">有奈教歷史(Arina's History)</h3>
     <article style="margin:50px;" id="main">
     </article>
@@ -27,7 +27,7 @@
     </div>
     <script>
         var article = document.getElementById("main");
-        fetch(`ArinaHistory.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+        fetch(`arinahistory.json?v=${Math.random()}`).then(m => m.json()).then(data => {
             var section, p;
             for (var i = 0; i < data.length; i++) {
                 if (data[i].Hide)

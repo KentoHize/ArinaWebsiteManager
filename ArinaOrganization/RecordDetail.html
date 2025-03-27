@@ -15,10 +15,10 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
     <title>內容頁(Contents Page)</title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
 </head>
 <body>
-    <script src="Arina.js"></script>
+    <script src="arina.js"></script>
     <h3 style="text-align:center">內容頁(Contents Page)</h3>
     <div id="tp">
         <div style="width:20%; text-align:left; float:left"><a id="previous_page" href="#">←</a></div>
@@ -51,21 +51,21 @@
             if (ulp == null)
                 return;
             if (ulp.Parent == `ACS`) {
-                data = await fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json());
-                dt = await fetch(`AnnouncementType.json?v=${Math.random()}`).then(m => m.json());
+                data = await fetch(`announcements.json?v=${Math.random()}`).then(m => m.json());
+                dt = await fetch(`announcementtype.json?v=${Math.random()}`).then(m => m.json());
             }
             else if (ulp.Parent == `UR`) {
-                data = await fetch(`UpdateRecords.json?v=${Math.random()}`).then(m => m.json());
+                data = await fetch(`updaterecords.json?v=${Math.random()}`).then(m => m.json());
             }
             else
                 return;
 
             if (ulp.index != 0)
-                document.getElementById("previous_page").href = `RecordDetail.html?Parent=${ulp.Parent}&index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
+                document.getElementById("previous_page").href = `recorddetail.html?Parent=${ulp.Parent}&index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
             else
                 document.getElementById("previous_page").parentNode.innerText = "　";
             if (ulp.index < data.length - 1)
-                document.getElementById("next_page").href = `RecordDetail.html?Parent=${ulp.Parent}&index=${(parseInt(ulp.index) + 1)}&v=` + Math.random();
+                document.getElementById("next_page").href = `recorddetail.html?Parent=${ulp.Parent}&index=${(parseInt(ulp.index) + 1)}&v=` + Math.random();
             else
                 document.getElementById("next_page").parentNode.innerText = "　";
 

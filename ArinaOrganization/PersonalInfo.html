@@ -15,10 +15,10 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>人物明細(Personal Information)</title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
 </head>
 <body>
-    <script src="Arina.js"></script>
+    <script src="arina.js"></script>
     <h3 style="text-align:center">人物明細(Personal Information)</h3>
     <div style="text-align:center; width:85%; height:30px; margin:auto">
         <div style="width:20%; text-align:left; float:left"><a id="previous_page" href="#">←</a></div>
@@ -77,11 +77,11 @@
                                 document.getElementById(`v`).innerHTML = ulp.v;
 
                             if (ulp.index != 0)
-                                document.getElementById("previous_page").href = `PersonalInfo.html?index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
+                                document.getElementById("previous_page").href = `personalInfo.html?index=${(parseInt(ulp.index) - 1)}&v=` + Math.random();
                             else
                                 document.getElementById("previous_page").parentNode.innerText = "　";
                             if (ulp.index < PData.length - 1)
-                                document.getElementById("next_page").href = `PersonalInfo.html?index=${(parseInt(ulp.index) + 1)}&v=` + Math.random();
+                                document.getElementById("next_page").href = `personalInfo.html?index=${(parseInt(ulp.index) + 1)}&v=` + Math.random();
                             else
                                 document.getElementById("next_page").parentNode.innerText = "　";
 
@@ -375,13 +375,13 @@
                         }
                     }
                     xhttp.responseType = 'json';
-                    xhttp.open("GET", "BestowRecords.json?v=" + Math.random(), true);
+                    xhttp.open("GET", "bestowRecords.json?v=" + Math.random(), true);
                     xhttp.send();
                 }
 
             }
             xhttp.responseType = 'json';
-            xhttp.open("GET", "Persons.json?v=" + Math.random(), true);
+            xhttp.open("GET", "persons.json?v=" + Math.random(), true);
             xhttp.send();
 
             localStorage.clear();

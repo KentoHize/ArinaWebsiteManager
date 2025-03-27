@@ -15,7 +15,7 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
     <title>公告(Announcements)</title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
     <style>
         .lf {
             margin-left: 5px;
@@ -26,7 +26,7 @@
     </style>
 </head>
 <body>
-    <script src="Arina.js"></script>
+    <script src="arina.js"></script>
     <h3 style="text-align:center">公告(Announcements)</h3>
     <div id="qf">
         <form action="Announcements.html" target="_self" method="get">
@@ -107,9 +107,9 @@
             }
 
             if (window_size == `l`)
-                dt = await fetch(`AnnouncementType.json?v=${Math.random()}`).then(m => m.json());
+                dt = await fetch(`announcementtype.json?v=${Math.random()}`).then(m => m.json());
 
-            fetch(`Announcements.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+            fetch(`announcements.json?v=${Math.random()}`).then(m => m.json()).then(data => {
                 var div = document.getElementById(`main`);
                 var table, th, tr, td, a;
 
@@ -178,7 +178,7 @@
                     tr = document.createElement(`tr`);
                     td = document.createElement(`td`);
                     a = document.createElement(`a`);
-                    a.href = `RecordDetail.html?Parent=ACS&index=${i}&v=${Math.random()}`;
+                    a.href = `recorddetail.html?Parent=ACS&index=${i}&v=${Math.random()}`;
                     a.target = "_blank";
                     a.innerText = getContentPart(data[i].Title, 20);
                     td.appendChild(a);

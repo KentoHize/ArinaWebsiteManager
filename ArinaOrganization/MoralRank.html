@@ -12,9 +12,9 @@
     </script>
     <meta charset="utf-8">
     <title>品階一覽表(Index of Moral Ranking)</title>
-    <link rel="stylesheet" href="ArinaPage.css">
+    <link rel="stylesheet" href="arinapage.css">
     <meta name="viewport" content="width=device-width">
-    <script src="Arina.js"></script>
+    <script src="arina.js"></script>
 </head>
 
 <body>
@@ -143,7 +143,7 @@
 
                         td = document.createElement("td");
                         a = document.createElement("a");
-                        a.href = `PersonalInfo.html?index=${i}&v=` + Math.random();
+                        a.href = `personalinfo.html?index=${i}&v=` + Math.random();
                         text = document.createTextNode(get_full_name(data[i].Name, data[i].Surname, data[i].OtherName, data[i].SurnameFirst, ""));
                         a.appendChild(text);
                         td.appendChild(a);
@@ -202,7 +202,7 @@
                 }
             };
             xhttp.responseType = 'json';
-            xhttp.open("GET", "Persons.json?v=" + Math.random(), true);
+            xhttp.open("GET", "persons.json?v=" + Math.random(), true);
             xhttp.send();
 
             xhttp = new XMLHttpRequest();
@@ -213,7 +213,7 @@
                     document.getElementById("iLastUpdate").innerText = `Last Update: ${data[0].LastUpdate}`;
                 }
             }
-            xhttp.open("GET", "LastUpdate.json?v=" + Math.random(), true);
+            xhttp.open("GET", "lastupdate.json?v=" + Math.random(), true);
             xhttp.send();
         }
 
@@ -266,7 +266,7 @@
 
             let xhttp2 = new XMLHttpRequest();
             xhttp2.responseType = 'json';
-            xhttp2.open("GET", "BestowRecords.json?v=" + Math.random(), true);
+            xhttp2.open("GET", "bestowrecords.json?v=" + Math.random(), true);
             xhttp2.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     bestowRecords = this.response;
