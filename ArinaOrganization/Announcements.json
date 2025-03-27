@@ -1,15 +1,5 @@
 [
   {
-    "ID": 7,
-    "Title": "主要網站故障中",
-    "Type": "None",
-    "Date": "0008/03/27",
-    "Chinese": "原因不明，請先使用備用站",
-    "OtherLanguage": null,
-    "Author": "日瀬健人",
-    "Hide": false
-  },
-  {
     "ID": 6,
     "Title": "網站重新設定中",
     "Type": "None",

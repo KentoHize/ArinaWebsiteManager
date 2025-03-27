@@ -45,8 +45,7 @@
 
         function draw(display_all) {
             fetch(`ExternalLinks.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-                var div;
-                //var mt = document.getElementById(`mt`);
+                var div;                
                 var table, tr, td, a;
 
                 div = document.getElementById(`main`);
@@ -64,8 +63,7 @@
                     table.style = `margin-top:8px; width:${window_size_width}px`;                   
 
                     tr = document.createElement(`tr`);
-                    th = document.createElement(`th`);
-                    //th.innerText = `名稱(Name)`;
+                    th = document.createElement(`th`);                    
                     a = document.createElement(`a`);
                     a.href = data[i].Link;
                     a.target = `_blank`;
