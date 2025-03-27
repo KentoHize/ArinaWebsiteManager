@@ -55,6 +55,17 @@
     "Date": "0008/03/27"
   },
   {
+    "ID": 7,
+    "Title": "MobileTest.Me",
+    "ETitle": null,
+    "Type": "Tool",
+    "Hide": false,
+    "Link": "https://mobiletest.me/",
+    "Instruction": "免費測試手機執行結果，可以稍微互動。",
+    "EInstruction": null,
+    "Date": "0008/03/27"
+  },
+  {
     "ID": 6,
     "Title": "Getchu.com",
     "ETitle": null,
