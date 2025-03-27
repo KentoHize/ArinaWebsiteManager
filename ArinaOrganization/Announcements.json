@@ -1,5 +1,15 @@
 [
   {
+    "ID": 6,
+    "Title": "網站重新設定中",
+    "Type": "None",
+    "Date": "0008/03/27",
+    "Chinese": "最近正在搬遷網站到新的伺服器，不確定會不會出現郵件遺漏的情況，如果發生可以直接在Twitter(X)上連絡教主。",
+    "OtherLanguage": "We are migrating our website to a new server.\n  \nIf something like an e-mail missing happens, you can connect to us via Twitter (X).",
+    "Author": "日瀬健人",
+    "Hide": false
+  },
+  {
     "ID": 5,
     "Title": "Taylor Swift",
     "Type": "Bestow",

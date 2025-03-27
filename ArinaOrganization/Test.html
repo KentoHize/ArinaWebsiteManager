@@ -21,7 +21,16 @@
     <article style="margin:50px;">
         <form>
             <input id="dd" type="date" />
+
+            
         </form>
+
+        <form id="sf" action="#">
+            <input type="file" />
+            <input type="submit" />
+        </form>
+
+        <a href="mailto:service@arinaorganization.org?attachment=C:\ArinaOrganization\Document\github-recovery-codes.txt">Test for Attachment</a>
     </article>
     <script>
         //document.getElementById(`dd`).addEventListener(`focus`, m => { alert(m.target.value == ``); });
@@ -29,14 +38,26 @@
         //document.getElementById(`dd`).addEventListener(`blur`, m => { m.target.value = `0008-01-01`; });
         //document.getElementById(`dd`).addEventListener(`input`, m => { m.target.value = `0008-01-01`; });
         //如果是iOS
-        if (isIOSDevice()) {
+        if (isIOSDevice(navigator)) {
             document.getElementById(`dd`).addEventListener(`mouseover`, m => {
                 /*document.getElementById(`dd`).value = `0009-01-01`;*/
                 if (m.target.value == ``)
                     m.target.value = `0008-01-01`;
             });
         }
-        
+
+        document.getElementById('sf').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            //location.href = `mailto:service@arinaorganization.org`;
+
+
+            //alert('Form submission prevented!');
+        });
+
+        //function Submit() {
+        //    //alert(`n`);
+        //}
 
 
         //document.getElementById(`dd`)

@@ -50,7 +50,18 @@
     "Type": "Tool",
     "Hide": false,
     "Link": "https://mobilemoxie.com/",
-    "Instruction": "測試網站，每天有限次免費確認執行情形。\n另外可以測試各地網頁或APP的搜尋結果。",
+    "Instruction": "測試網站，每天有限次免費確認執行情形，可稍微輸入互動。\n另外可以測試各地網頁或APP的搜尋結果。",
+    "EInstruction": null,
+    "Date": "0008/03/27"
+  },
+  {
+    "ID": 6,
+    "Title": "Getchu.com",
+    "ETitle": null,
+    "Type": "Game",
+    "Hide": false,
+    "Link": "https://www.getchu.com/top.html",
+    "Instruction": null,
     "EInstruction": null,
     "Date": "0008/03/27"
   }
