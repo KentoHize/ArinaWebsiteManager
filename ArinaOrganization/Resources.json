@@ -34,5 +34,17 @@
     "CName2": "原始檔",
     "EName2": "Source Code",
     "Link2": "https://github.com/KentoHize/JsonEditorV2"
+  },
+  {
+    "ID": 4,
+    "CName": "Aritiafel .Net函式庫",
+    "EName": "Aritiafel",
+    "Picture": "Downloads/Aritiafel.png",
+    "Link": "https://github.com/KentoHize/Aritiafel",
+    "Instruction": ".Net下開發的應用程式庫，有人認為有用。\n\n之後可能換位置。",
+    "Hide": false,
+    "CName2": "原始檔",
+    "EName2": "Source Code",
+    "Link2": "https://github.com/KentoHize/Aritiafel"
   }
 ]
