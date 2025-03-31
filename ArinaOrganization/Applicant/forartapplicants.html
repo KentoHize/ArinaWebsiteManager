@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width">
+    <title>為美術應徵者(For Art Applicants)</title>
+    <link rel="stylesheet" href="../arinapage.css">
+</head>
+<body>
+    <script src="../arina.js"></script>
+    <h3 style="text-align:center">為美術應徵者(For Art Applicants)</h3>
+    <div style="margin:50px;" id="main">
+        <table id="mt">
+            
+        </table>        
+    </div>
+    <article style="margin:50px;">
+        <section>
+            <p>我是有奈教教主，日瀬健人，下面是給予通過初次應徵的人的挑戰</p>            
+
+            <p>圖1是Leaf社的10,000,000次點擊慶祝圖，圖2是教主個人的接近圖。</p>
+            <p>1.證明自己的實力，試著畫出圖1(背景不用)，要上色。</p>
+            <p>2.畫出變形的圖(其他動作、其他服裝、類似特徵)。</p>
+            <p>3.標價，或許這才是最重要的一環，畢竟沒有辦法採用標價太貴的畫家。</p>
+        </section>
+        <section>
+            <p>
+                對於台灣地區以外的應徵者，我們還需要知道如何驗證是你所畫的作品。</p>
+            <p>
+                如果有方法驗證，拿出足夠好的作品並標價即可，圖中角色並不是我們工作的目標。
+            </p>
+        </section>
+    </article>
+    <script>
+
+        var mt = document.getElementById(`mt`);
+        var tr, td, img;
+        GetWindowSize()
+        mt.style = `text-align:center; margin:auto; width:${window_size_width}px`;
+
+        tr = document.createElement(`tr`);
+        td = document.createElement(`td`);
+        img = document.createElement(`img`);
+        img.src = `MizukiLeaf.jpg`;
+        img.style = `width:300px`;
+        td.appendChild(img);
+        tr.appendChild(td);
+
+        if (window_size == `s` || window_size == `mi`) {
+            mt.appendChild(tr);
+            tr = document.createElement(`tr`);
+            td = document.createElement(`td`);
+            td.innerText = `圖一(Sample 1)`;
+            tr.appendChild(td);
+            mt.appendChild(tr);
+        }
+
+        td = document.createElement(`td`);
+        img = document.createElement(`img`);
+        img.src = `Mizuki.jpg`;
+        img.style = `width:300px`;
+        td.appendChild(img);
+        tr.appendChild(td);        
+
+        if (window_size == `s` || window_size == `mi`) {
+            
+            tr = document.createElement(`tr`);
+            td = document.createElement(`td`);
+            td.innerText = `圖二(Sample 2)`;
+                    
+        }
+        else {
+            tr = document.createElement(`tr`);
+            td = document.createElement(`td`);
+            td.innerText = `圖一(Sample 1)`;
+            tr.appendChild(td);
+            mt.appendChild(tr);
+            tr = document.createElement(`tr`);
+            td = document.createElement(`td`);
+            td.innerText = `圖二(Sample 2)`;                      
+        }
+
+        tr.appendChild(td);    
+        mt.appendChild(tr);
+        
+    </script>
+</body>
+</html>

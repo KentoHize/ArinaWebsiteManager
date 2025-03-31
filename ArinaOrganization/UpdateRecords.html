@@ -152,6 +152,8 @@
                 for (let i = 0; i < data.length; i++) {
                     if (data[i].Hide)
                         continue;
+                    if (i > 20) //先不寫分頁
+                        break;
                     if (ulp != null) {
                         if (ulp.Title != null && ulp.Title != ``) {
                             if (!String(data[i].Title).includes(ulp.Title))
