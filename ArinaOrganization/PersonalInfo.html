@@ -120,7 +120,7 @@
                                 td = document.createElement(`td`);
                                 td.rowSpan = 13;
                                 td.style = `padding:4px; text-align:left; vertical-align:top`;
-                                td.innerText = PData[ulp.index].Description == "" ? "-" : PData[ulp.index].Description;;
+                                td.innerHTML = PData[ulp.index].Description == "" ? "-" : ChangeLFtoBRLabel(PData[ulp.index].Description);
                                 tr.appendChild(td);
                                 pTable.appendChild(tr);
                             }
@@ -293,8 +293,8 @@
 
                                 tr = document.createElement(`tr`);
                                 td = document.createElement(`td`);
-                                td.colSpan = 2;
-                                td.innerText = PData[ulp.index].Description == "" ? "-" : PData[ulp.index].Description;
+                                td.colSpan = 2;                                
+                                td.innerHTML = PData[ulp.index].Description == "" ? "-" : ChangeLFtoBRLabel(PData[ulp.index].Description);
                                 td.style = `height:2em; padding:4px;text-align:left`
                                 tr.appendChild(td);
                                 pTable.appendChild(tr);
