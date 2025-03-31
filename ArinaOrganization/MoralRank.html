@@ -100,7 +100,8 @@
                         td.appendChild(text);
                         tr.appendChild(td);
 
-                        if (window_size == "l") {
+                        if (window_size == "l") {                           
+
                             td = document.createElement("td");
                             text = document.createTextNode("應交付處罰對象(Should be punished by AO)");
                             td.width = "120px";
@@ -110,6 +111,12 @@
                             td = document.createElement("td");
                             text = document.createTextNode("保護中(Protected)");
                             td.width = "100px";
+                            td.appendChild(text);
+                            tr.appendChild(td);
+
+                            td = document.createElement("td");
+                            text = document.createTextNode("教籍(Membership)");
+                            td.width = "120px";
                             td.appendChild(text);
                             tr.appendChild(td);
 
@@ -183,6 +190,14 @@
                                 if (data[i].MoralRank > 0 || data[i].Fiction == "y")
                                     text = document.createTextNode("-");
                                 else if (data[i].Protected == "y")
+                                    text = document.createTextNode("○");
+                                else
+                                    text = document.createTextNode("╳");
+                                td.appendChild(text);
+                                tr.appendChild(td);
+
+                                td = document.createElement("td");
+                                if (data[i].IsAOMember == "y")
                                     text = document.createTextNode("○");
                                 else
                                     text = document.createTextNode("╳");
