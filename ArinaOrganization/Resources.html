@@ -62,11 +62,11 @@
 
                     if (window_size == "m" || window_size == "l") {
                         lw = "200px";
-                        lw2 = "600px";
+                        lw2 = `${window_size_width - 200}px`;
                     }
                     else {
                         lw = "130px";
-                        lw2 = "230px";
+                        lw2 = `${window_size_width - 130}px`;
                     }
 
                     for (var i = 0; i < data.length; i++) {
@@ -158,11 +158,7 @@
                 document.getElementsByTagName('meta')['viewport'].content = "";
             }
 
-            if (window_size == "s")
-                document.getElementById("main").style = `margin:auto; width:360px;`;
-            else if (window_size == "m" || window_size == "l")
-                document.getElementById("main").style = `margin:auto; width:800px;`;
-
+            document.getElementById("main").style = `margin:auto; width:${window_size_width}px`;
             draw_table();
         }
 

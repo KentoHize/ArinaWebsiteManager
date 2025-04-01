@@ -59,11 +59,11 @@
                     var category = "Normal";
                     if (window_size == "m" || window_size == "l") {
                         lw = "200px";
-                        lw2 = "600px";
+                        lw2 = `${window_size_width - 200}px`;
                     }
                     else {
                         lw = "130px";
-                        lw2 = "230px";
+                        lw2 = `${window_size_width - 130}px`;
                     }
                     for (var j = 0; j < 2; j++) {
                         var h4 = document.createElement("h4");
@@ -204,14 +204,18 @@
             GetWindowSize();
             if (display_all) {
                 window_size = "l";
-                document.getElementById("main").style = `margin:auto; width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
+                //document.getElementById("main").style = `margin:auto; width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
                 document.getElementsByTagName('meta')['viewport'].content = "";
             }
 
-            if (window_size == `s` || window_size == `mi`)
-                document.getElementById("main").style = `margin:auto; width:360px;`;
-            else if (window_size == `m` || window_size == `l`)
-                document.getElementById("main").style = `margin:auto; width:800px;`;
+            document.getElementById("main").style = `margin:auto; width:${window_size_width}px`;
+
+            //if (window_size == `mi`)
+            //    document.getElementById("main").style = `margin:auto; width:;`;
+            //if (window_size == `s` || window_size == `mi`)
+            //    document.getElementById("main").style = `margin:auto; width:360px;`;
+            //else if (window_size == `m` || window_size == `l`)
+            //    document.getElementById("main").style = `margin:auto; width:800px;`;
 
             draw_table();
         }
