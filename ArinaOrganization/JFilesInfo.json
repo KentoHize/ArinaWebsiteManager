@@ -156,6 +156,25 @@
           "AutoGenerateKey": false,
           "IsUnique": false,
           "DefaultValue": null
+        },
+        {
+          "Name": "Old",
+          "IsKey": false,
+          "IsNullable": false,
+          "Type": "Boolean",
+          "Choices": [],
+          "FKTable": null,
+          "FKColumn": null,
+          "NumberOfRows": 1,
+          "Display": false,
+          "RegularExpression": "",
+          "Description": "",
+          "MinValue": "",
+          "MaxValue": "",
+          "MaxLength": 0,
+          "AutoGenerateKey": false,
+          "IsUnique": false,
+          "DefaultValue": ""
         }
       ],
       "InsertFirst": true
@@ -2861,7 +2880,7 @@
           "MaxLength": 0,
           "AutoGenerateKey": false,
           "IsUnique": false,
-          "DefaultValue": null
+          "DefaultValue": "{NOW()}"
         },
         {
           "Name": "ModifiedDate",

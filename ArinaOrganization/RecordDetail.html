@@ -86,10 +86,13 @@
                     table.appendChild(tr);
                     return;
                 }
-
+                
                 tr = document.createElement(`tr`);
                 th = document.createElement(`th`);
-                th.innerHTML = ChangeLFtoBRLabel(data[ulp.index].Title)
+                if (data[ulp.index].Old)
+                    th.innerHTML = `${ChangeLFtoBRLabel(data[ulp.index].Title)}(舊文)`;
+                else
+                    th.innerHTML = ChangeLFtoBRLabel(data[ulp.index].Title)
                 tr.appendChild(th);
                 table.appendChild(tr);
 

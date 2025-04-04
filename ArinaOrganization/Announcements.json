@@ -1,5 +1,27 @@
 [
   {
+    "ID": 8,
+    "Title": "有奈教制度(對美國)",
+    "Type": "None",
+    "Date": "0008/04/04",
+    "Chinese": "有奈教制度對美國販賣價格目前為5000億美金。",
+    "OtherLanguage": null,
+    "Author": "日瀬健人",
+    "Hide": false,
+    "Old": false
+  },
+  {
+    "ID": 7,
+    "Title": "日本賠償",
+    "Type": "Compensation",
+    "Date": "0008/04/04",
+    "Chinese": "日本須賠償有奈教700億有奈物資點。\n並將橋本環奈、浜辺美波、伊織もえ等人交付有奈教處置。",
+    "OtherLanguage": null,
+    "Author": "日瀬健人",
+    "Hide": false,
+    "Old": false
+  },
+  {
     "ID": 6,
     "Title": "網站重新設定中",
     "Type": "None",
@@ -7,7 +29,8 @@
     "Chinese": "最近正在搬遷網站到新的伺服器，不確定會不會出現郵件遺漏的情況，如果發生可以直接在Twitter(X)上連絡教主。",
     "OtherLanguage": "We are migrating our website to a new server.\n  \nIf something like an e-mail missing happens, you can connect to us via Twitter (X).",
     "Author": "日瀬健人",
-    "Hide": false
+    "Hide": false,
+    "Old": true
   },
   {
     "ID": 5,
@@ -17,7 +40,8 @@
     "Chinese": "Taylor Swift -3階",
     "OtherLanguage": null,
     "Author": "日瀬健人",
-    "Hide": false
+    "Hide": false,
+    "Old": false
   },
   {
     "ID": 1,
@@ -27,7 +51,8 @@
     "Chinese": "有奈教制度對美國販賣價格特價3000億美金至3月底止。\n之後漲價為5000億美金。",
     "OtherLanguage": null,
     "Author": "日瀬健人",
-    "Hide": false
+    "Hide": false,
+    "Old": true
   },
   {
     "ID": 2,
@@ -37,7 +62,8 @@
     "Chinese": "日本須賠償有奈教550億有奈物資點。\n並將橋本環奈、浜辺美波、伊織もえ等人交付有奈教處置。",
     "OtherLanguage": null,
     "Author": "日瀬健人",
-    "Hide": false
+    "Hide": false,
+    "Old": true
   },
   {
     "ID": 3,
@@ -47,7 +73,8 @@
     "Chinese": "歡迎加入有奈教。詳見人才招募頁。",
     "OtherLanguage": null,
     "Author": "日瀬健人",
-    "Hide": false
+    "Hide": false,
+    "Old": false
   },
   {
     "ID": 4,
@@ -57,6 +84,7 @@
     "Chinese": "天天天天天天天天天一天天天天天天天天天二天天天天天天天天天三天天天天天天天天天四天天天天天天天天天五天天天天天天天天天六天天天天天天天天天七\n",
     "OtherLanguage": null,
     "Author": "日瀬健人",
-    "Hide": true
+    "Hide": true,
+    "Old": false
   }
 ]

@@ -149,7 +149,7 @@
                 div.appendChild(table);
 
                 for (let i = 0; i < data.length; i++) {
-                    if (data[i].Hide)
+                    if (data[i].Old ||data[i].Hide)
                         continue;
                     if (ulp != null) {
                         if (ulp.Title != null && ulp.Title != ``) {

@@ -537,5 +537,16 @@
     "EExplanation": "",
     "CreatedDate": "0008/03/11",
     "ModifiedDate": null
+  },
+  {
+    "ID": 50,
+    "Chinese": "聯合攻擊",
+    "English": "Joint Attack",
+    "Hide": false,
+    "Meaning": "[有奈教]指邪靈與駭客同時進行的攻擊，也可以是單純某邊發動的攻擊的簡略說法。",
+    "Explanation": "",
+    "EExplanation": "",
+    "CreatedDate": "0008/04/04",
+    "ModifiedDate": null
   }
 ]
