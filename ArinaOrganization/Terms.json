@@ -7,7 +7,7 @@
     "Meaning": "[有奈教]人的品格等級，簡稱品階，目前分為-4~+5共10階。",
     "Explanation": "用品格區分人的制度\n\n[有奈教]\n正階分為5階，負階分4階\n\n從-4~+5含0共有10個階級",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -18,7 +18,7 @@
     "Meaning": "一種階級，擁有無上品格的人(男性)，品階5。",
     "Explanation": "一種階級，一般指男性。\n\n指人有至高品格，總是保持正直與善良。\n\n同時具備聰明的才能。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -29,8 +29,8 @@
     "Meaning": "一種階級，指人有毫不畏死的良好品格，品階4。",
     "Explanation": "一種階級，一般指男生\n\n指人有毫不畏死的良好品格，\n低於君子",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
-    "ModifiedDate": " AR 00007/07/13"
+    "CreatedDate": " AR 00007/07/14",
+    "ModifiedDate": " AR 00007/07/14"
   },
   {
     "ID": 16,
@@ -40,7 +40,7 @@
     "Meaning": "一種階級，擁有至高品格的女子，品階5。",
     "Explanation": "一種階級，擁有至高品格的女子。\n\n相對於君子稍低。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -51,7 +51,7 @@
     "Meaning": "一種階級，擁有極高品格的女生，品階4。",
     "Explanation": "一種階級，擁有極高品格的女生，雖然低於巫女，但是高於侍女",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -62,7 +62,7 @@
     "Meaning": "一種階級，願意服侍君子的女生，品階3。",
     "Explanation": "一種階級，低於品女，願意服侍君子",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -73,7 +73,7 @@
     "Meaning": "可以代表巫女的人。",
     "Explanation": "可以代表巫女的人\n\n因巫女是女生的最高階級，巫女代一般指品女以下的女生",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -84,7 +84,7 @@
     "Meaning": "一種用來比喻靈魂的意識能產生多少超自然影響的數值。",
     "Explanation": "高靈魂能量能產生較高的魔力\n\n使靈產生超自然現象所消耗的虛擬數值，正靈指信用，邪靈常見是契約的約定",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -95,7 +95,7 @@
     "Meaning": "操控軀體，精神上的存在。",
     "Explanation": "除了物理存在的身體以外，寄宿在身體之內，真正感受到痛苦/快樂/悲傷/喜悅的存在。\n\n在有奈教信仰部分動物沒有靈魂，以及不會寄宿在嬰兒時期",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -106,7 +106,7 @@
     "Meaning": "靈魂有能量高低之分，高能量的靈魂具有較高魔力。",
     "Explanation": "[有奈教]\n靈魂可以被分割，也可以合併，當它們被移轉的時候，就是靈魂能量。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -117,7 +117,7 @@
     "Meaning": "一個人的靈魂能量和其影響靈的靈魂能量總和。",
     "Explanation": "一人的靈魂能量，加上其他任何幫助的靈魂所產生的等值的力量總和\n\n魔力上限",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -139,7 +139,7 @@
     "Meaning": "指人能夠擁有的靈魂能量上限，高靈魂等級的人有較高上限。",
     "Explanation": "關係到靈魂能量的儲存上限，隨著靈魂的歷練增加",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -150,7 +150,7 @@
     "Meaning": "",
     "Explanation": "除了物理世界，還有另外一個世界的存在，在那個地方靈魂可以交流，能量可以有所轉移",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -161,7 +161,7 @@
     "Meaning": "靈魂和靈魂之間會發生戰爭，互相搶奪能量即靈戰。",
     "Explanation": "靈魂與靈魂之間互相搶奪能量的情況\n\n一般難以看到，但是擁有靈魂的生物都能察覺",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -172,7 +172,7 @@
     "Meaning": "靈戰產生的攻擊，對人會產生精神上的影響。",
     "Explanation": "從靈界而來的攻擊\n\n有幾種不一樣的情況\n\n邪靈可以透過釋放邪惡來使人難以抵抗誘惑\n\n正靈可以透過闡釋真理，打擊他人的自信心\n\n只要是透過靈界來造成對受害者的影響，都可以叫作精神攻擊",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -183,7 +183,7 @@
     "Meaning": "[有奈教]靈戰的時候使用的防禦技巧。",
     "Explanation": "靈戰的時候使用的防禦技巧。\n\n阻擋有惡意的靈竊取自己的靈魂能量。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -194,7 +194,7 @@
     "Meaning": "崇尚正義的靈魂。",
     "Explanation": "崇尚正義的靈魂，帶來正義的力量。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -205,7 +205,7 @@
     "Meaning": "崇拜邪惡的靈魂。",
     "Explanation": "崇拜邪惡的靈魂，帶來為褻瀆的力量。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -216,8 +216,8 @@
     "Meaning": "高靈魂等級者，普通來說指支持正義一方的人。",
     "Explanation": "高靈魂等級者，不一定有正邪之分。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
-    "ModifiedDate": " AR 00007/07/13"
+    "CreatedDate": " AR 00007/07/14",
+    "ModifiedDate": " AR 00007/07/14"
   },
   {
     "ID": 15,
@@ -227,7 +227,7 @@
     "Meaning": "一出生即具備高品格的靈魂。",
     "Explanation": "一出生即具備高品格者。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -238,7 +238,7 @@
     "Meaning": "現代的手槍、步槍等等射擊武器。",
     "Explanation": "現代的手槍、步槍等等射擊武器\n\n銃是比較能和長槍的槍分別的說法",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -249,7 +249,7 @@
     "Meaning": "",
     "Explanation": "相對於身體物理的存在\n\n精神泛指靈魂上的意志",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -271,7 +271,7 @@
     "Meaning": "有奈教設置的理想君主制。",
     "Explanation": "有奈教設置的理想制度\n\n君子存在時定君子成為君主，行君主制\n\n君子不存在時，實行類似共和制",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -293,8 +293,8 @@
     "Meaning": "透過評估與計算，由國家統一制定事物價格的經濟制度。",
     "Explanation": "認為事物的價值可以被計算和認定\n\n由國家統一制定事物的價格的經濟制度",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
-    "ModifiedDate": " AR 00007/07/13"
+    "CreatedDate": " AR 00007/07/14",
+    "ModifiedDate": " AR 00007/07/14"
   },
   {
     "ID": 25,
@@ -304,8 +304,8 @@
     "Meaning": "[有奈教]能夠使用感知能力判斷善惡之人。",
     "Explanation": "本來是指人狼遊戲中擁有判斷狼能力之人\n\n[有奈教]\n指能夠使用感知能力判斷善惡能力之人",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
-    "ModifiedDate": " AR 00007/07/13"
+    "CreatedDate": " AR 00007/07/14",
+    "ModifiedDate": " AR 00007/07/14"
   },
   {
     "ID": 26,
@@ -315,7 +315,7 @@
     "Meaning": "利用靈的存在，產生超自然現象的一種統稱。",
     "Explanation": "利用靈的存在，產生超自然現象的一種統稱",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -326,7 +326,7 @@
     "Meaning": "專精使用魔法的人。",
     "Explanation": "專精使用魔法的人。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -337,7 +337,7 @@
     "Meaning": "女魔法師，但一般指邪惡受到汙染的人。",
     "Explanation": "女魔法師，但一般指邪惡受到汙染的人",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -348,7 +348,7 @@
     "Meaning": "年輕的女魔法師。\n[有奈教]專指受騙成為魔法師的女性，普通是小朋友個性。",
     "Explanation": "年輕的女魔法師，在有奈教指受騙成為魔法師的女性",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -359,7 +359,7 @@
     "Meaning": "模擬現實世界生存遊戲的一種社交遊戲，可用來說明每個人代表的角色。",
     "Explanation": "模擬現實世界生存遊戲的一種社交遊戲\n\n每個玩家被設置能力和陣營，互相廝殺",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -370,7 +370,7 @@
     "Meaning": "潛伏在這個世界中的魔法師，暗中組織統治世界的機構。",
     "Explanation": "潛伏在這個世界中的魔法師，暗中組織統治世界的機構",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -381,7 +381,7 @@
     "Meaning": "[有奈教]指具有憑空使他人受傷或死亡能力的人，俗稱鬼或神，受某種規則限制。",
     "Explanation": "[有奈教]\n本來指一種肉食動物\n\n我們指擁有狼襲能力的人，普通被認為是鬼/神等",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -392,8 +392,8 @@
     "Meaning": "[有奈教]不具備狼能力的人，受害者身分，同時也不會是魔法師。",
     "Explanation": "[有奈教]\n本來指一種溫馴的動物\n\n在這邊指沒有特殊能力的人",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
-    "ModifiedDate": " AR 00007/07/13"
+    "CreatedDate": " AR 00007/07/14",
+    "ModifiedDate": " AR 00007/07/14"
   },
   {
     "ID": 35,
@@ -403,7 +403,7 @@
     "Meaning": "[有奈教]不具備狼能力但是有興趣加入邪惡的一股勢力，常見女性。",
     "Explanation": "[有奈教]\n本來指一種肉食動物\n\n這邊指四處騙人但是不具備狼襲能力的族群\n\n主要為女生",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -414,7 +414,7 @@
     "Meaning": "輕微性虐待，可以產生快感。",
     "Explanation": "原字是Hentai，從日文變態的讀音而來，指輕微性虐待\n\n因為有很多事情可以聯想到性虐待的概念，相關的行動也可以被稱為變態\n\n另外進行性行為，也可以說是H",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -425,7 +425,7 @@
     "Meaning": "普通指帶有裸露、色情成分的美少女遊戲。",
     "Explanation": "普通指帶有裸露、色情成分的美少女遊戲。\n\n廣泛地來說，女性向的男同性戀小說遊戲也算在內。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -436,7 +436,7 @@
     "Meaning": "[有奈教]對基督教的簡稱。",
     "Explanation": "有惡意的宗教組織\n\n[有奈教]\n基督教的簡稱",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -447,7 +447,7 @@
     "Meaning": "[有奈教]即基督教的聖經。",
     "Explanation": "來自於基督教，原翻聖經。\n\n因為散播邪惡，在有奈教以邪經代替。",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -458,7 +458,7 @@
     "Meaning": "[有奈教]信猶太教的人。",
     "Explanation": "[有奈教]\n信猶太教的人",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": " AR 00008/02/06"
   },
   {
@@ -469,7 +469,7 @@
     "Meaning": "[有奈教]一種能夠使人具有特殊力量的生物，喜愛作惡，在美國多數存在。",
     "Explanation": "[有奈教]\n一種能夠使人具有力量的生物\n\n喜愛作惡",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -480,7 +480,7 @@
     "Meaning": "",
     "Explanation": "",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -491,7 +491,7 @@
     "Meaning": "",
     "Explanation": "",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -502,7 +502,7 @@
     "Meaning": "",
     "Explanation": "沒有狼能力但是假裝是狼的人",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {
@@ -513,7 +513,7 @@
     "Meaning": "根據真理，由君子統一世界的世界。",
     "Explanation": "根據真理，由君子統一世界的世界",
     "EExplanation": "",
-    "CreatedDate": " AR 00007/07/13",
+    "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": null
   },
   {

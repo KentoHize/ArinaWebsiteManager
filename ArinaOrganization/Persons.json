@@ -42,7 +42,7 @@
     "IsCelebrity": "y",
     "MoralRank": 5,
     "Description": "字雲長，三國時代的蜀軍武將",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Guan_Yu.jpg"
   },
   {
@@ -65,7 +65,7 @@
     "IsCelebrity": "y",
     "MoralRank": 5,
     "Description": "字孔明，三國時代的蜀軍軍師，蜀國丞相",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Zhuge_Liang.jpg"
   },
   {
@@ -111,7 +111,7 @@
     "IsCelebrity": "y",
     "MoralRank": 5,
     "Description": "魔法少女小圓中登場，被稱為魔法少的女主角\n\n魔法少女まどか☆マギカに登場する 、「魔法少女」とされている主人公",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Madoka.png"
   },
   {
@@ -134,7 +134,7 @@
     "IsCelebrity": "n",
     "MoralRank": 5,
     "Description": "ラキオス所屬靈，純真無垢的存在\n\nラキオスに属するスピリット、純真無垢な存在",
-    "LastBestowDate": " AR 00003/11/17",
+    "LastBestowDate": " AR 00003/11/18",
     "PicturePath": "Aseria.jpg"
   },
   {
@@ -157,7 +157,7 @@
     "IsCelebrity": "y",
     "MoralRank": 5,
     "Description": "Angel Beats!的女主角。死後世界某所學校的學生會會長\n\nAngel Beats!のヒロイン。死後の世界にある学校の生徒会長",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Tachibana_Kanade.png"
   },
   {
@@ -180,7 +180,7 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "字子龍，三國時代的蜀軍武將",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Zhao_Yun.jpg"
   },
   {
@@ -203,7 +203,7 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "日本戰國時代到安土桃山時代活躍的武將，戰國大名\r\n\r\n日本の戦国時代から安土桃山時代にかけての武将、戦国大名",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Oda_Nobunaga.jpg"
   },
   {
@@ -226,8 +226,31 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "戰女神系列被稱為「殺神者」的主角\n\n戦女神シリーズ 「神殺し」とよばれた主人公",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Serika.jpg"
+  },
+  {
+    "ID": "511f3c50-437a-4a6f-be04-360beba60218",
+    "Surname": "",
+    "Name": "セイバー",
+    "OtherName": "",
+    "SurnameFirst": "y",
+    "Yomikata": "",
+    "Gender": "f",
+    "Fiction": "y",
+    "Wanted": "n",
+    "Protected": "n",
+    "TwitterAccount": "",
+    "FacebookAccount": "",
+    "InstagramAccount": "",
+    "From": "Fate/Stay Night",
+    "Group": "i",
+    "IsAOMember": "n",
+    "IsCelebrity": "y",
+    "MoralRank": 4,
+    "Description": "Fate/Stay Night的女主角。和士郎契約的劍士從者\n\nFate/Stay Nightのメインヒロイン。士郎と契約した剣士のサーヴァント",
+    "LastBestowDate": " AR 00006/04/16",
+    "PicturePath": "Seibaa.jpg"
   },
   {
     "ID": "4e31bc81-065b-4496-98e0-d82a7cefa5f6",
@@ -249,7 +272,7 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "討伐魔王的勇者隊伍中的魔法使。長命的精靈\n\n魔王を討伐した勇者パーティーの魔法使い。長命なエルフ。",
-    "LastBestowDate": " AR 00007/05/16",
+    "LastBestowDate": " AR 00007/05/17",
     "PicturePath": "Furiiren.png"
   },
   {
@@ -272,7 +295,7 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "天才麻將少女的主人公，清澄高校清澄一年級學生\n\n咲-Saki-の主人公、清澄高校1年生",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Miyanaga_saki.png"
   },
   {
@@ -295,7 +318,7 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "刺客，黑色死神\n\n殺し屋、黒い死神",
-    "LastBestowDate": " AR 00007/07/17",
+    "LastBestowDate": " AR 00007/07/18",
     "PicturePath": "Hatsuki.jpg"
   },
   {
@@ -318,7 +341,7 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "Alicization篇的女主角，底到頂型的人工智慧\n\nアリシゼーション編のヒロイン、ボトムアップ型の人工知能",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Alice_Zuberg.png"
   },
   {
@@ -341,31 +364,8 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "PSYCHO-PASS主角/女主角。公安局刑事課一係的監視官\n\nPSYCHO-PASS ヒロイン、主人公。公安局刑事課一係の監視官",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Tsunemori_Akane.jpg"
-  },
-  {
-    "ID": "511f3c50-437a-4a6f-be04-360beba60218",
-    "Surname": "",
-    "Name": "セイバー",
-    "OtherName": "",
-    "SurnameFirst": "y",
-    "Yomikata": "",
-    "Gender": "f",
-    "Fiction": "y",
-    "Wanted": "n",
-    "Protected": "n",
-    "TwitterAccount": "",
-    "FacebookAccount": "",
-    "InstagramAccount": "",
-    "From": "Fate/Stay Night",
-    "Group": "i",
-    "IsAOMember": "n",
-    "IsCelebrity": "y",
-    "MoralRank": 4,
-    "Description": "Fate/Stay Night的女主角。和士郎契約的劍士從者\n\nFate/Stay Nightのメインヒロイン。士郎と契約した剣士のサーヴァント",
-    "LastBestowDate": " AR 00006/04/17",
-    "PicturePath": "Seibaa.jpg"
   },
   {
     "ID": "1c49d10e-922f-4526-a833-14adc17170cf",
@@ -387,7 +387,7 @@
     "IsCelebrity": "y",
     "MoralRank": 4,
     "Description": "忍者集團「霧幻天神流」的18代頭目，Hayate的妹妹，主角\n\n忍者集団の一派である霧幻天神流の18代目頭首となるはずだったハヤテの妹。主人公。",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Kasumi.jpg"
   },
   {
@@ -410,7 +410,7 @@
     "IsCelebrity": "y",
     "MoralRank": 3,
     "Description": "中學2年級生，平凡少女，但是成為魔法少女\n\n中学2年生の平凡な少女だが、魔法少女になった",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Miki_Sayaka.png"
   },
   {
@@ -479,7 +479,7 @@
     "IsCelebrity": "y",
     "MoralRank": 3,
     "Description": "女主角，動作姿態好看的美少女\n\nメインヒロイン、格好いい美少女",
-    "LastBestowDate": " AR 00003/12/19",
+    "LastBestowDate": " AR 00003/12/20",
     "PicturePath": "Sento_Isuzu.jpg"
   },
   {
@@ -548,7 +548,7 @@
     "IsCelebrity": "y",
     "MoralRank": 3,
     "Description": "侍奉Leazas 女王Lia的女忍者，Rance的戀人\n\nリーザス女王リアに仕える忍者、ランスの恋人",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Kentou_Kanami.png"
   },
   {
@@ -571,7 +571,7 @@
     "IsCelebrity": "y",
     "MoralRank": 3,
     "Description": "幻影子彈篇的女主角，女高中生\n\nファントム・バレット編のヒロイン、女子高生",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Asada_Sinon.jpg"
   },
   {
@@ -594,7 +594,7 @@
     "IsCelebrity": "y",
     "MoralRank": 3,
     "Description": "聖母聖詠篇，被稱為「絕劍」的女主角\n\nマザーズ・ロザリオ編「絶剣（ぜっけん）」と呼ばれたヒロイン",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Yuki.jpg"
   },
   {
@@ -617,7 +617,7 @@
     "IsCelebrity": "y",
     "MoralRank": 3,
     "Description": "妖精之舞篇的女英雄。比和人小1歳的義妹\n\nフェアリィ・ダンス編のヒロイン。和人の1歳下の義妹",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Kirigaya_Sukuha.jpg"
   },
   {
@@ -640,7 +640,7 @@
     "IsCelebrity": "y",
     "MoralRank": 3,
     "Description": "德國人和日本人的混血兒，學生兼空手道老師\n\nドイツ人と日本人の父母を持つハーフ、学生兼空手師範",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Hitomi.jpg"
   },
   {
@@ -755,7 +755,7 @@
     "IsCelebrity": "y",
     "MoralRank": 2,
     "Description": "Evangelion的主角，EVA初號機專屬駕駛員\n\nエヴァンゲリオンの主人公、EVA初号機専属操縦者",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "ikari_shinji.jpg"
   },
   {
@@ -778,7 +778,7 @@
     "IsCelebrity": "y",
     "MoralRank": 2,
     "Description": "Fate/StayNight的主角，穗群原學園2年級生、目標成為「正義的我方」的魔法師\n\nFate/StayNightの主人公、穂群原学園2年生、「正義の味方」を目指し魔術師",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Emiya_Sirou.jpg"
   },
   {
@@ -801,7 +801,7 @@
     "IsCelebrity": "y",
     "MoralRank": 2,
     "Description": "SOS團團員，原文藝社社員，外星人\n\nSOS団団員、元文芸部員、宇宙人",
-    "LastBestowDate": " AR 00003/12/10",
+    "LastBestowDate": " AR 00003/12/11",
     "PicturePath": "nagato_yuki.jpg"
   },
   {
@@ -870,7 +870,7 @@
     "IsCelebrity": "y",
     "MoralRank": 2,
     "Description": "14歲少女。EVA二號機的駕駛員。新劇場版名為式波‧アスカ‧ラングレ\n\n14歳の少女。EVA 弐号機の操縦者、新劇場版は式波.アスカ.ラングレーです",
-    "LastBestowDate": " AR 00003/12/21",
+    "LastBestowDate": " AR 00003/12/22",
     "PicturePath": "Asuka_Rangurei.jpg"
   },
   {
@@ -893,7 +893,7 @@
     "IsCelebrity": "y",
     "MoralRank": 2,
     "Description": "SAO玩家，鎚子使用者，愛稱為Rizu\n\nSAOプレイヤー、メイスの使い手、愛称は「リズ」",
-    "LastBestowDate": " AR 00003/12/29",
+    "LastBestowDate": " AR 00003/12/30",
     "PicturePath": "Rizubetto.jpg"
   },
   {
@@ -962,7 +962,7 @@
     "IsCelebrity": "y",
     "MoralRank": 1,
     "Description": "SAO的主角，具備VRMMO玩家的假想世界高適應性\n\nSAOの主人公、VRMMOプレイヤーとして高い仮想世界適性を持ってる",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Kirigaya_Kazuto.jpg"
   },
   {
@@ -985,7 +985,7 @@
     "IsCelebrity": "y",
     "MoralRank": 1,
     "Description": "女主角，高中生，SOS團團長\n\nヒロイン、高校生、SOS団団長",
-    "LastBestowDate": " AR 00003/12/10",
+    "LastBestowDate": " AR 00003/12/11",
     "PicturePath": "Suzumiya_Haruhi.png"
   },
   {
@@ -1008,7 +1008,7 @@
     "IsCelebrity": "y",
     "MoralRank": 1,
     "Description": "SOS團團員，未來人\n\nSOS団団員、未来人",
-    "LastBestowDate": " AR 00003/12/10",
+    "LastBestowDate": " AR 00003/12/11",
     "PicturePath": "Asahina_Mikuru.jpg"
   },
   {
@@ -1077,7 +1077,7 @@
     "IsCelebrity": "y",
     "MoralRank": 0,
     "Description": "鬼滅之刃的主角，13~15歲，嗅覺很好的少年\n\n鬼滅の刃の主人公、13 -> 15歳、嗅覚が良い少年",
-    "LastBestowDate": " AR 00007/05/11",
+    "LastBestowDate": " AR 00007/05/12",
     "PicturePath": "Kamado_Tanzirou.jpg"
   },
   {
@@ -1100,7 +1100,7 @@
     "IsCelebrity": "y",
     "MoralRank": -1,
     "Description": "戰國時代到安土桃山時代活躍的武將，大名，天下人，初代武家官白、太閣\n\n戦国時代から安土桃山時代にかけての武将、大名。天下人、（初代）武家関白、太閤",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Toyotomi_Hideyoshi.jpg"
   },
   {
@@ -1123,7 +1123,7 @@
     "IsCelebrity": "y",
     "MoralRank": -1,
     "Description": "日本的政治家。自由民主黨所屬的眾議院議員，內閣總理大臣\n\n日本の政治家。自由民主党所属の衆議院議員、内閣総理大臣",
-    "LastBestowDate": " AR 00003/12/09",
+    "LastBestowDate": " AR 00003/12/10",
     "PicturePath": "Shinzo_Abe.jpg"
   },
   {
@@ -1146,7 +1146,7 @@
     "IsCelebrity": "y",
     "MoralRank": -1,
     "Description": "日本的政治家。自由民主黨所屬的眾議院議員(8期)，內閣總理大臣(第99代)，自由民主黨總裁(第26代)\n\n日本の政治家。自由民主党所属の衆議院議員（8期）、内閣総理大臣（第99代）、自由民主党総裁（第26代）。",
-    "LastBestowDate": " AR 00003/12/09",
+    "LastBestowDate": " AR 00003/12/10",
     "PicturePath": "Suga_Yoshihide.jpg"
   },
   {
@@ -1169,7 +1169,7 @@
     "IsCelebrity": "y",
     "MoralRank": -1,
     "Description": "日本棋院職業棋士",
-    "LastBestowDate": " AR 00003/12/20",
+    "LastBestowDate": " AR 00003/12/21",
     "PicturePath": "Xie_Yimin.jpg"
   },
   {
@@ -1192,7 +1192,7 @@
     "IsCelebrity": "y",
     "MoralRank": -1,
     "Description": "Fate/Stay Night的女主角之一，穗群原學員的女學生魔法師，Archer的主人\n\nFate/Stay Nightメインヒロインの一人、穂群原学園女生徒魔術師、アーチャーのマスター",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Tousaka_Rin.jpg"
   },
   {
@@ -1238,7 +1238,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣男藝人，主持人，歌手，唱片製作人，演員，商人",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Jacky-Wu.jpg"
   },
   {
@@ -1284,7 +1284,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "中華民國外科醫師，政治人物，臺北市市長、台灣民眾黨創始人兼黨主席",
-    "LastBestowDate": " AR 00003/12/26",
+    "LastBestowDate": " AR 00003/12/27",
     "PicturePath": "Ko-wen-je.jpg"
   },
   {
@@ -1330,7 +1330,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "中華民國民主進步黨籍政治人物，高雄市市長",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Cheng-chi-mai.jpg"
   },
   {
@@ -1353,7 +1353,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "第十、十一任中華民國總統 曾任民主進步黨主席、臺北市議會議員、立法委員、臺北市市長",
-    "LastBestowDate": " AR 00006/05/27",
+    "LastBestowDate": " AR 00006/05/26",
     "PicturePath": "A-bian.jpg"
   },
   {
@@ -1376,7 +1376,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "天主教會第266任教宗，本名Jorge Mario Bergoglio",
-    "LastBestowDate": " AR 00003/11/26",
+    "LastBestowDate": " AR 00003/11/27",
     "PicturePath": "Papa_Francesco.jpg"
   },
   {
@@ -1399,7 +1399,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "系列的主角，被稱為「鬼畜戰士」的戰士\n\nシリーズの主人公，鬼畜戦士の異名を持つ戦士",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Rance.png"
   },
   {
@@ -1422,7 +1422,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣女明星、藝人、演員",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Esther_wu.jpg"
   },
   {
@@ -1445,7 +1445,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣華語流行音樂女歌手，演員",
-    "LastBestowDate": " AR 00003/10/29",
+    "LastBestowDate": " AR 00003/10/30",
     "PicturePath": "Jolin_Tsai.jpg"
   },
   {
@@ -1468,7 +1468,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣女明星，演員，歌手",
-    "LastBestowDate": " AR 00003/11/13",
+    "LastBestowDate": " AR 00003/11/14",
     "PicturePath": "Ariel_Lin.jpg"
   },
   {
@@ -1514,7 +1514,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "日本女明星\n\n日本女優",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Hamabe_minami.jpg"
   },
   {
@@ -1537,7 +1537,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣女明星，藝人，演員，模特兒，原名鄭佳甄，本名鄭采勻",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Ili_Cheng.jpg"
   },
   {
@@ -1560,7 +1560,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣女網紅，模特兒",
-    "LastBestowDate": " AR 00007/07/17",
+    "LastBestowDate": " AR 00007/07/18",
     "PicturePath": "Cheng_Yi.png"
   },
   {
@@ -1583,7 +1583,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "日本女明星\n\n日本女優",
-    "LastBestowDate": " AR 00003/10/28",
+    "LastBestowDate": " AR 00003/10/29",
     "PicturePath": "Hashimoto_Kanna.jpg"
   },
   {
@@ -1606,7 +1606,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "日本的角色扮演者，平面寫真偶像\n\n日本のコスプレイヤー、グラビアアイドル",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Iori_Moe.jpg"
   },
   {
@@ -1629,7 +1629,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣角色扮演者，模特兒",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Simo.jpg"
   },
   {
@@ -1652,7 +1652,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "臺灣女子職業圍棋選手。台灣棋院職業七段棋士",
-    "LastBestowDate": " AR 00003/11/19",
+    "LastBestowDate": " AR 00003/11/20",
     "PicturePath": "Joanne_Missingham.jpg"
   },
   {
@@ -1675,7 +1675,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣女明星，藝人，女子演唱團體S.H.E的成員",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Selina.jpg"
   },
   {
@@ -1698,7 +1698,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "台灣女明星，歌手，音樂製作人，華語流行樂壇天后",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "A-Mei.jpg"
   },
   {
@@ -1767,7 +1767,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "英國女演員，模特，活動家\n\nEnglish actress, model, and activist.",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Emma_watson.jpg"
   },
   {
@@ -1790,7 +1790,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "美國女商人，Donald Trump的第二個小孩以及女兒\n\nAmerican businesswoman, the daughter and second child of Donald Trump.",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Ivanka_Trump.jpg"
   },
   {
@@ -1836,7 +1836,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "中國Cosplayer，模特兒",
-    "LastBestowDate": " AR 00003/11/12",
+    "LastBestowDate": " AR 00003/11/13",
     "PicturePath": "yami.jpg"
   },
   {
@@ -1859,7 +1859,7 @@
     "IsCelebrity": "y",
     "MoralRank": -3,
     "Description": "SAO的女主角，血盟騎士團的副團長，細劍使用者\n\nSAOのメインヒロイン、血盟騎士団の副団長、細剣使い",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": "Yuuki_Asuna.jpg"
   },
   {
@@ -1882,7 +1882,7 @@
     "IsCelebrity": "n",
     "MoralRank": -3,
     "Description": "-",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": ""
   },
   {
@@ -1905,7 +1905,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": ""
   },
   {
@@ -1951,7 +1951,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": ""
   },
   {
@@ -1974,7 +1974,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "中華民國民主進步黨籍政治人物、律師，行政院院長",
-    "LastBestowDate": " AR 00003/11/24",
+    "LastBestowDate": " AR 00003/11/25",
     "PicturePath": "Su-tseng-chang.jpg"
   },
   {
@@ -2020,7 +2020,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "",
-    "LastBestowDate": " AR 00007/07/30",
+    "LastBestowDate": " AR 00007/07/31",
     "PicturePath": ""
   },
   {
@@ -2066,7 +2066,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "",
-    "LastBestowDate": " AR 00006/05/25",
+    "LastBestowDate": " AR 00006/05/24",
     "PicturePath": ""
   },
   {
@@ -2089,7 +2089,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": ""
   },
   {
@@ -2112,7 +2112,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "-\n\n44th merican politician and attorney, president of the United States.",
-    "LastBestowDate": " AR 00003/11/25",
+    "LastBestowDate": " AR 00003/11/26",
     "PicturePath": "Barack_Obama.jpg"
   },
   {
@@ -2158,7 +2158,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": ""
   },
   {
@@ -2181,7 +2181,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/12/12",
+    "LastBestowDate": " AR 00003/12/13",
     "PicturePath": ""
   },
   {
@@ -2204,7 +2204,7 @@
     "IsCelebrity": "y",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/12/20",
+    "LastBestowDate": " AR 00003/12/21",
     "PicturePath": ""
   },
   {
@@ -2227,7 +2227,7 @@
     "IsCelebrity": "n",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/10/24",
+    "LastBestowDate": " AR 00003/10/25",
     "PicturePath": ""
   },
   {
@@ -2250,7 +2250,7 @@
     "IsCelebrity": "n",
     "MoralRank": -4,
     "Description": "-",
-    "LastBestowDate": " AR 00003/11/14",
+    "LastBestowDate": " AR 00003/11/15",
     "PicturePath": ""
   }
 ]
