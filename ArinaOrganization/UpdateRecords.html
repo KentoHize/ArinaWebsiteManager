@@ -129,23 +129,20 @@
                 tr.appendChild(th);
 
                 th = document.createElement(`th`);
-                th.width = `300px`;
+                th.width = `250px`;
                 th.innerText = `日期時間(DateTime)`;
                 tr.appendChild(th);
 
                 if (window_size == `l`) {
                     th = document.createElement(`th`);
-                    th.width = `150px`;
+                    th.width = `120px`;
                     th.innerText = `類型(Type)`;
                     tr.appendChild(th);
                 }
 
                 if (window_size != `s` && window_size != `mi`) {
                     th = document.createElement(`th`);
-                    if (window_size == 'm')
-                        th.width = `650px`;
-                    else
-                        th.width = `1000px`;
+                    th.width = `1000px`;
                     th.innerText = `內容(Content)`;
                     tr.appendChild(th);
                 }

@@ -123,7 +123,7 @@ namespace ArinaWebsiteManager
             {
                 using (StreamWriter sw = new StreamWriter(outputFile))
                 {
-                    sw.WriteLine($"[{{ \"LastUpdate\": \"{ArDateTime.Now.Date.ToStandardString(ArStandardDateTimeType.Date)}\" }}]");
+                    sw.WriteLine($"[{{ \"LastUpdate\": \"{ArDateTime.Now.Date.ToArString()}\" }}]");
                 }
             }
             tslMain.Text = "LastUpdate File Created.";

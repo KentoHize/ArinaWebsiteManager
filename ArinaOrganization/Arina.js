@@ -15,7 +15,7 @@ function roundToNDecimal(num, n = 0) {
 }
 
 function ChangeDateTimeToArDateTime(datetime) {
-    return `${parseInt(datetime.substr(10, 2))},&nbsp;${parseInt(datetime.substr(13, 2))},&nbsp;Ar.&nbsp;${parseInt(datetime.substr(3, 6))}&nbsp;${datetime.substr(15, 9)}`;
+    return `${datetime.substr(10, 2)},&nbsp;${datetime.substr(13, 2)},&nbsp;Ar.&nbsp;${parseInt(datetime.substr(3, 6))}&nbsp;${datetime.substr(15, 8)}`;
 }
 
 function ChangeDateTimeToArDate(datetime) {
@@ -26,7 +26,7 @@ function ChangeDateToArDate(date)
 {
     if (date == "-")
         return date;
-    return `${parseInt(date.substr(10, 2))},&nbsp;${parseInt(date.substr(13, 2))},&nbsp;Ar.&nbsp;${parseInt(date.substr(3, 6))}`;
+    return `${date.substr(10, 2)},&nbsp;${date.substr(13, 2)},&nbsp;Ar.&nbsp;${parseInt(date.substr(3, 6))}`;
 }
 
 function ChangeLFtoBRLabel(s) {    
