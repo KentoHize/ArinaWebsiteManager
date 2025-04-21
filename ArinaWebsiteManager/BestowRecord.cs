@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aritiafel.Organizations.RaeriharUniversity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace ArinaWebsiteManager
         public string PersonID { get; set; } = "";
         public string BestowerID { get; set; } = "";
         public int MoralRank { get; set; } = 0;
-        public string BestowDateTime { get; set; } = DateTime.Now.AddYears(-2017).ToString();
+        public string BestowDateTime { get; set; } = ArDateTime.Now.ToStandardString();
         public string Reason { get; set; } = "初評定";        
         public string Memo { get; set; } = "";
 

@@ -5,6 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
+using Aritiafel;
+using Aritiafel.Organizations.RaeriharUniversity;
+using Aritiafel.Organizations.ArinaOrganization;
 
 namespace ArinaWebsiteManager
 {
@@ -120,7 +123,7 @@ namespace ArinaWebsiteManager
             {
                 using (StreamWriter sw = new StreamWriter(outputFile))
                 {
-                    sw.WriteLine($"[{{ \"LastUpdate\": \"{DateTime.Now.Date.AddYears(-2017).ToString("M, d, Ar.y")}\" }}]");
+                    sw.WriteLine($"[{{ \"LastUpdate\": \"{ArDateTime.Now.Date.ToArString()}\" }}]");
                 }
             }
             tslMain.Text = "LastUpdate File Created.";
@@ -163,9 +166,9 @@ namespace ArinaWebsiteManager
                     return;
                 }
                 if (CurrentModule == typeof(Person).ToString())
-                    tb.Text = pi.GetValue(data[lbxInfo.SelectedIndex]).ToString();
+                    tb.Text = pi.GetValue(data[lbxInfo.SelectedIndex])?.ToString();
                 else
-                    tb.Text = pi.GetValue(records[lbxInfo.SelectedIndex]).ToString();
+                    tb.Text = pi.GetValue(records[lbxInfo.SelectedIndex])?.ToString();
             }
             if (lbxInfo.SelectedIndex != -1 && CurrentModule == typeof(Person).ToString())
                 btnAddRecord.Enabled = true;
@@ -320,7 +323,7 @@ namespace ArinaWebsiteManager
                         fullname = string.Concat(fullname, "/", p.OtherName);
                     if (p.From != "")
                         fullname = string.Concat(fullname, "(", p.From, ")");
-                    lbxInfo.Items.Add(string.Concat(DateTime.Parse(br.BestowDateTime).ToString("MM, dd, Ar.y hh:mm:ss"), "  ", fullname, "  ", br.MoralRank));
+                    lbxInfo.Items.Add(string.Concat(ArDateTime.Parse(br.BestowDateTime), "  ", fullname, "  ", br.MoralRank));
                 }
             }
 
@@ -423,7 +426,7 @@ namespace ArinaWebsiteManager
             }
             else
             {
-                p.LastBestowDate = DateTime.Parse(br.BestowDateTime).ToShortDateString();
+                p.LastBestowDate = ArDateTime.Parse(br.BestowDateTime).ToStandardString(ArStandardDateTimeType.Date);
                 p.MoralRank = br.MoralRank;
             }
         }
@@ -466,13 +469,13 @@ namespace ArinaWebsiteManager
                     {
                         currentID = item.ID;
                         if (item.SurnameFirst == "y")
-                            sw.WriteLine(string.Format("{0}{1}({2})", item.Surname, item.Name, DateTime.Parse(item.BestowDateTime).ToString("M, d, Ar.y")));
+                            sw.WriteLine(string.Format("{0}{1}({2})", item.Surname, item.Name, ArDateTime.Parse(item.BestowDateTime)));
                         else
-                            sw.WriteLine(string.Format("{0}.{1}({2})", item.Name, item.Surname, DateTime.Parse(item.BestowDateTime).ToString("M, d, Ar.y")));
+                            sw.WriteLine(string.Format("{0}.{1}({2})", item.Name, item.Surname, ArDateTime.Parse(item.BestowDateTime)));
                     }
                 }
                 sw.WriteLine("");
-                sw.WriteLine(string.Concat("Created at ", DateTime.Now.AddYears(-2017).ToString("M, d, Ar.y")));
+                sw.WriteLine(string.Concat("Created at ", ArDateTime.Now));
                 sw.Close();
             }
 
@@ -494,11 +497,11 @@ namespace ArinaWebsiteManager
                         {
                             
                             if (ar.Date != null)
-                                sw.WriteLine(DateTime.Parse(ar.Date).ToString("M, d, Ar.y"));
+                                sw.WriteLine(ArDateTime.Parse(ar.Date).ToStandardString(ArStandardDateTimeType.Date));
                             else
                                 sw.WriteLine("-");
                             if (ar.UpdateDate != null)
-                                sw.WriteLine(DateTime.Parse(ar.UpdateDate).ToString("(M, d, Ar.y)"));                            
+                                sw.WriteLine(ArDateTime.Parse(ar.UpdateDate).ToStandardString(ArStandardDateTimeType.Date));
                             sw.Write(ar.Chinese);
                             sw.WriteLine();
                             sw.Write(ar.English);

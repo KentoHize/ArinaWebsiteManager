@@ -15,28 +15,18 @@ function roundToNDecimal(num, n = 0) {
 }
 
 function ChangeDateTimeToArDateTime(datetime) {
-
-    var y = parseInt(datetime.substr(0, 4));
-    var data = datetime.split("/");
-    data[3] = data[2].split(" ")[1]; //Time
-    data[2] = data[2].split(" ")[0]; //Day
-
-    data[1] = data[1].length == 1 ? `&nbsp;${data[1]}` : data[1]; //Month
-    data[2] = data[2].length == 1 ? `&nbsp;${data[2]}` : data[2];
-    data[0] = "&nbsp;".repeat(3 - y.toString().length) + y; // Year
-    return `${data[1]},&nbsp;${data[2]},&nbsp;Ar.${data[0]}&nbsp;${data[3]}`;
+    return `${datetime.substr(10, 2)},&nbsp;${datetime.substr(13, 2)},&nbsp;Ar.&nbsp;${parseInt(datetime.substr(3, 6))}&nbsp;${datetime.substr(15, 8)}`;
 }
 
 function ChangeDateTimeToArDate(datetime) {
-    return ChangeDateToArDate(datetime.split(` `)[0]);
+    return ChangeDateToArDate(datetime.substr(0, 15));
 }
 
 function ChangeDateToArDate(date)
 {
     if (date == "-")
         return date;
-    var data = date.split("/");
-    return `${parseInt(data[1])},&nbsp;${parseInt(data[2])},&nbsp;Ar.${parseInt(data[0])}`;
+    return `${date.substr(10, 2)},&nbsp;${date.substr(13, 2)},&nbsp;Ar.&nbsp;${parseInt(date.substr(3, 6))}`;
 }
 
 function ChangeLFtoBRLabel(s) {    
