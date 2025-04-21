@@ -14,8 +14,13 @@ function roundToNDecimal(num, n = 0) {
     return +(Math.round(num + `e+${n}`) + `e-${n}`);
 }
 
-function ChangeDateTimeToArDateTime(datetime) {
-    return `${parseInt(datetime.substr(10, 2))},&nbsp;${parseInt(datetime.substr(13, 2))},&nbsp;Ar.&nbsp;${parseInt(datetime.substr(3, 6))}&nbsp;${datetime.substr(15, 9)}`;
+function ShowArDateTimeFromDateObject(date) {
+    return `${date.getUTCMonth() + 1},&nbsp;${date.getUTCDate() + 1},&nbsp;Ar.&nbsp;${date.getUTCFullYear() - 2017}&nbsp;
+    ${date.getUTCHours()}:${date.getUTCMinutes().toString().padStart(2, '0')}:${date.getUTCSeconds().toString().padStart(2, '0')}`;
+}
+
+function ChangeDateTimeToArDateTime(datetime) {    
+    return `${parseInt(datetime.substr(10, 2))},&nbsp;${parseInt(datetime.substr(13, 2))},&nbsp;Ar.&nbsp;${parseInt(datetime.substr(3, 6))}&nbsp;${parseInt(datetime.substr(16, 2))}${ datetime.substr(18, 7)}`;
 }
 
 function ChangeDateTimeToArDate(datetime) {
