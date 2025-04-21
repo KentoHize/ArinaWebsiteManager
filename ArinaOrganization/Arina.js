@@ -15,7 +15,7 @@ function roundToNDecimal(num, n = 0) {
 }
 
 function ShowArDateTimeFromDateObject(date) {
-    return `${date.getUTCMonth() + 1},&nbsp;${date.getUTCDate() + 1},&nbsp;Ar.&nbsp;${date.getUTCFullYear() - 2017}&nbsp;
+    return `${date.getUTCMonth() + 1},&nbsp;${date.getUTCDate()},&nbsp;Ar.&nbsp;${date.getUTCFullYear() - 2017}&nbsp;
     ${date.getUTCHours()}:${date.getUTCMinutes().toString().padStart(2, '0')}:${date.getUTCSeconds().toString().padStart(2, '0')}`;
 }
 
