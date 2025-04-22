@@ -27,94 +27,6 @@ namespace ArinaWebsiteManager
 
         private void btnRun_Click(object sender, EventArgs e)
         {
-
-            //foreach(Person p in data)
-            //{
-            //    p.SurnameFirst = "y";
-            //}
-
-
-            //records.Clear();
-            //foreach (Person p in data)
-            //{
-            //    //if(p.LastBestowDate == "10/25/03")
-            //    //    p.LastBestowDate = DateTime.Parse("2020/10/25").Date.AddYears(-2017).ToShortDateString();
-            //    //else                
-            //    BestowRecord br = new BestowRecord(p.ID);
-            //    br.BestowDateTime = DateTime.Now.AddYears(-2017).ToString();
-            //    br.MoralRank = p.MoralRank;
-            //    p.LastBestowDate = DateTime.Parse(br.BestowDateTime).ToShortDateString();
-            //    records.Add(br);
-            //}
-
-
-            //data.Add(new Person { Name = "陳其邁", ID = Guid.NewGuid().ToString(), Gender = "m" });
-
-            //foreach(Person p in data)
-            //{
-            //    if (p.From == "歴史人物")
-            //        p.From = "歷史人物";
-
-            //}
-
-            //using (FileStream dataFile = File.Open(string.Concat(WebsitePath, "ArinaQuotes.txt"), FileMode.Open))
-            //{
-            //    dataFile.Position = 0;
-            //    using (FileStream outputFile = File.Create(string.Concat(WebsitePath, "Quotes.json")))
-            //    {
-            //        StreamReader sr = new StreamReader(dataFile);
-            //        StreamWriter sw = new StreamWriter(outputFile);
-            //        string s = "";
-            //        string[] date;
-            //        int index = 1, peek;
-            //        sw.Write("[");
-            //        while (!sr.EndOfStream)
-            //        {
-            //            if (index != 1)
-            //                sw.Write(",");
-            //            sw.Write("{");
-            //            sw.Write("\"No\":" + index + ",");
-            //            s = sr.ReadLine();
-            //            while (s == "")
-            //                s = sr.ReadLine();
-            //            if (s != "-")
-            //            {
-            //                date = s.Split(',');
-            //                s = string.Format("{0:0000}/{1:00}/{2:00}", Convert.ToInt32(date[2].Trim().Substring(3)), Convert.ToInt32(date[0]), Convert.ToInt32(date[1]));
-            //            }
-            //            sw.Write("\"Date\":\"" + s + "\",");
-
-            //            s = "";
-            //            peek = sr.Peek();
-            //            while (peek < 'A' || peek > 'z' || peek == 13 || peek == 10)
-            //            {
-            //                s += sr.ReadLine();
-            //                peek = sr.Peek();
-            //            }
-            //            s = s.Replace("\"", "\\\"");
-            //            sw.Write("\"Chinese\":\"" + s + "\",");
-
-            //            s = "";
-            //            peek = sr.Peek();
-            //            while (peek >= 'A' && peek <= 'z' || peek == 13 || peek == 10 || peek == '\"')
-            //            {
-            //                s += sr.ReadLine();
-            //                peek = sr.Peek();
-            //            }
-            //            s = s.Replace("\"", "\\\"");
-            //            sw.Write("\"English\":\"" + s + "\",");
-
-            //            sw.Write("\"Japneses\":\"\"");
-
-            //            sw.Write("}");
-            //            index++;
-            //        }
-            //        sw.Write("]");
-            //        sr.Close();
-            //        sw.Close();
-            //    }
-            //}
-            //MessageBox.Show("Complete");
         }
 
         private void btnProduceJS_Click(object sender, EventArgs e)
@@ -123,7 +35,7 @@ namespace ArinaWebsiteManager
             {
                 using (StreamWriter sw = new StreamWriter(outputFile))
                 {
-                    sw.WriteLine($"[{{ \"LastUpdate\": \"{ArDateTime.Now.Date.ToArString()}\" }}]");
+                    sw.WriteLine($"[{{ \"LastUpdate\": \"{ArDateTime.Now.Date.ToStandardString(ArStandardDateTimeType.Date)}\" }}]");
                 }
             }
             tslMain.Text = "LastUpdate File Created.";
