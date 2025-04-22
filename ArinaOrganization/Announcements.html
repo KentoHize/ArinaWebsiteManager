@@ -157,11 +157,11 @@
                                 continue;
                         }
                         if (ulp.DateFrom != null && ulp.DateFrom != ``) {
-                            if (String(data[i].Date).replaceAll(`/`, `-`) < ulp.DateFrom)
+                            if (data[i].Date.substr(5, 11).replaceAll(`/`, `-`) < ulp.DateFrom)
                                 continue;
                         }
                         if (ulp.DateTo != null && ulp.DateTo != ``) {
-                            if (String(data[i].Date).replaceAll(`/`, `-`) > ulp.DateTo)
+                            if (data[i].Date.substr(5, 11).replaceAll(`/`, `-`) > ulp.DateTo)
                                 continue;
                         }
                         if (ulp.Type != null && ulp.Type != ``) {
