@@ -163,12 +163,13 @@
                                 continue;
                         }                        
                         if (ulp.DateFrom != null && ulp.DateFrom != ``) {
-                            if (data[i].DateTime.substr(5, 11).replaceAll(`/`, `-`) < ulp.DateFrom)
+                            if (data[i].DateTime.substr(5, 10).replaceAll(`/`, `-`) < ulp.DateFrom)
                                 continue;
                         }
                         if (ulp.DateTo != null && ulp.DateTo != ``) {
-                            if (data[i].DateTime.substr(5, 11).replaceAll(`/`, `-`) > ulp.DateTo)
-                                continue;                        }
+                            if (data[i].DateTime.substr(5, 10).replaceAll(`/`, `-`) > ulp.DateTo)
+                                continue;
+                        }
                         if (ulp.Type != null && ulp.Type != ``) {
                             if (!String(data[i].Type).includes(ulp.Type))
                                 continue;
