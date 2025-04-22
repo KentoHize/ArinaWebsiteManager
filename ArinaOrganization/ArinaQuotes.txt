@@ -1,63 +1,63 @@
-4, 6, Ar.3
-(5, 25, Ar.7)
+ AR 00003/04/06
+ AR 00007/05/25
 從君為上策，法律為下策
 Complying to Junzi is good policy, keeping the law is  bad policy.
 
-11, 30, Ar.1
+ AR 00001/11/30
 君子指的是人有至上美德
 Junzi means a man has supreme virtue.
 
-9, 7, Ar.2
+ AR 00002/09/07
 未經過君子的認同而處在君子之上的人即為惡者
 Anyone without Junzi's permission and trying to command or control Junzi is an evildoer.
 
-7, 6, Ar.2
+ AR 00002/07/06
 君主無戲言
 A proper king won't joke.
 
-6, 18, Ar.2
+ AR 00002/06/18
 面對謠言與威脅，君子不憂不懼
 Junzi has neither anxiety and nor fear when faces rumors and threats.
 
-6, 9, Ar.2
+ AR 00002/06/09
 好人在壞人的上位
 The rank of a good person is upper than a non-good one.
 
-10, 17, Ar.7
+ AR 00007/10/17
 邪不勝正
 Evil cannot prevail over good.
 
-5, 28, Ar.2
+ AR 00002/05/28
 唯有君子和品女是正途
 Junzi or a girl of virtue is the only and right way to go.
 
-1, 14, Ar.2
+ AR 00002/01/14
 玩H-Game不是判斷善惡的因子，H不是壞事
 Playing H-Game is not the factor for judging good or evil, H is not a bad thing.
 
-1, 14, Ar.2
+ AR 00002/01/14
 H指的是輕微性虐待
 H means light sex abuse.
 
-1, 13, Ar.2
+ AR 00002/01/13
 他人的謠言會使君子陷入危險時，君子會出來澄清，不會陷入危險時，可以選擇不用，此即為君子無所爭的實踐方法 
 When others' rumor will put Junzi in danger, he will clarify, if it won't, he can choose to do nothing. This is how to practice "Junzi doesn't compete".
 
-1, 13, Ar.2
-(3, 25, Ar.6)
+ AR 00002/01/13
+ AR 00006/03/25
 若人們尊重君子，君無虛言，並且一言九鼎
 If people respect Junzi, Junzi will not lie to people and worth what he said.
 
-12, 20, Ar.1
-(4, 18, Ar.7)
+ AR 00001/12/20
+ AR 00007/04/18
 女性服從君子
 Female humans obey Junzi.
 
-12, 20, Ar.1
+ AR 00001/12/20
 善惡判斷在親子關係之上
 Good or evil judgment is above the parent-child relationship.
 
-12, 11, Ar.1
+ AR 00001/12/11
 在階級制度中，上位的人強要下位的人發生性關係不能算有罪，反過來的話有罪
 In a class system, upper-class people may have sexual relations with lower class people as he/she wishes, it's not guilty. If the opposite, it's guilty.
 

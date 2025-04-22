@@ -1,12 +1,12 @@
-3, 17, Ar.8
+ AR 00008/03/17
 所有人都在法律之上
 Everyone is above the law.
 
-10, 15, Ar.7
+ AR 00007/10/15
 中華民國在有奈7年的時候開始被君子認為是滅亡
 The Republic of China was considered to be perished by Junzi in Ar 7.
 
-1, 9, Ar.4
+ AR 00004/01/09
 有奈君主制
 
 以有奈價值來對人評價，綜合最高者為君主，實行君主制
@@ -30,7 +30,7 @@ If the monarch agrees with the new candidate elected by most of his courtiers, h
 
 During this time, people and ministers process free debate, confirm the candidate adapts to the monarch through the time advances, or admit it's a failure and change back to the original monarch's successor.
 
-1, 1, Ar.4
+ AR 00004/01/01
 如果是-1階或被標記為「保護中」的處罰對象，你們不能處罰，只有加入有奈教且2階以上人員才能處罰他們
 
 -2階以下(未受保護)的人你們可以逕行處罰，不能對-2階的犯人造成身體的永久傷害及死亡
@@ -46,11 +46,11 @@ As long as a rank -3(not protected) person is not dead, the ownership of his lif
 
 Rank -4 can be disposed of at will.
 
-12, 26, Ar.3
+ AR 00003/12/26
 墮胎沒有問題
 Abortion has no problem.
 
-10, 20, Ar.3
+ AR 00003/10/20
 風林火山指的是孫子兵法的
 
 疾如風 徐如林 侵略如火 不動如山
@@ -76,7 +76,7 @@ Junzi fought back as fierce as fire.
 The enemy retreated and taunted Junzi.
 Junzi stayed still as unshakable as mountain.
 
-10, 15, Ar.3
+ AR 00003/10/15
 如果你希望他人如何待你，你就應該如何對待他人
 
 然後就可以開始去街上抱女生和親吻女生，順便摸對方的胸部(疑?)
@@ -100,7 +100,7 @@ For example, if you never criticize others, and others criticize you, so you are
 
 Which one is right? The Arina Organization will tell you that people can criticize others, as long as the speaker really thinks so.
 
-10, 3, Ar.3
+ AR 00003/10/03
 除了4、5階的人比較難掉階以外，3階以下的人都有機會掉階，這就是為什麼教主說某人是好人之後呢，他/她後來會變成壞人的原因
 
 如果被判定是壞人的話，除非教主同意，不然他永遠不會升階，所以我們判定壞人會是100%正確，只要世界上沒有耶穌
@@ -112,8 +112,8 @@ If judged to be a bad person, unless Master agrees, he/she will never be promote
 
 It is wrong to become a scapegoat for others, please don't do this thing that will only make the world more chaotic.
 
-10, 3, Ar.3
-(12, 27, Ar.5)
+ AR 00003/10/03
+ AR 00005/12/27
 要升為4階，必須要能獨立，並且完全不畏死亡，要升為5階，必須要有受辱、遭苦難也不改其志的意志力
 
 有些角色我們看不出來他/她是否能勝任，那教主可能就不會賜與那麼高的階級
@@ -121,7 +121,7 @@ To be promoted to rank 4, one must be independent and absolutely not fear death.
 
 Sometimes we cannot see if he/she is competent. Master may not be able to give a character with high ranks.
 
-10, 3, Ar.3
+ AR 00003/10/03
 在有奈教中我們把人的品格分為以下的等級，階級之後為代表的身分
 
 5階 巫女、君子
@@ -151,7 +151,7 @@ Rank -4 death row
 
 Master is counted as rank 6, which is either rank 5.
 
-10, 3, Ar.3
+ AR 00003/10/03
 1階以上，叫做好人
 -1階~-3階，尚罪不致死的壞人，-3的話死掉也沒關係
 -4階 必須死的壞人
@@ -159,16 +159,16 @@ Rank 1 or higher are good people.
 Rank -1 to -3 are bad people who are guilty but have a chance to atone. It doesn’t matter if one died at rank -3.
 Rank -4 means wicked people who must die.
 
-9, 1, Ar.3
+ AR 00003/09/01
 好人可以獵食動物，壞人應該被動物獵食
 Good people hunt animals, bad people should be hunted by animals.
 
-8, 31, Ar.3
+ AR 00003/08/31
 欺騙駭客是正確的作為
 Deceive hackers are the right thing.
 
-5, 25, Ar.3
-(4, 5, Ar.5)
+ AR 00003/05/25
+ AR 00005/04/05
 織田信長雖然是一名令教主尊敬的武士，但離君子還是有些差距 如果教主是信長的話就會懷疑秀吉的動機，從而解決不必要的問題，不過當時資訊如此不發達，要在沒人教習的情況下悟出君子學說也太困難
 
 所以信長是令人尊敬的武士，教主是知全部道理並去實踐的人 並不相同=v=
@@ -187,7 +187,7 @@ Another view is, it is also possible Nobunaga has progressed to be the Master, l
 
  Nobunaga is a smart and integrity one too.
 
-5, 30, Ar.2
+ AR 00002/05/30
 來講講女生不是禍水的原因，女生沒有辦法了解男生，或是說在大多數女生了解男生之後會普遍認為男生是相對比較差的品種
 
 特別是在槍枝已經被發明的現在，很多事男女之間是沒有那麼大的差別的，縱使是核彈、地震(?)按鈕由女生按也是一樣效果，女生也可以開坦克
@@ -231,7 +231,7 @@ Since people may do evil things, Junzi does not and does not change easily. The 
 
 "Who is a Junzi?", "What is the act of a Junzi?" will be changed by different times and different spaces. To confirm those differences is the meaning of the existence of the Arina Organization.
 
-5, 10, Ar.2
+ AR 00002/05/10
 決定來回答一個奇怪的問題
 
 就是有奈教教主是不是天使
@@ -244,7 +244,7 @@ Is Master an angel?
 A: Master is a Junzi. A Junzi is, of course, a human. If they said Master is an angel, it may represent the Master's soul is very clean.
 Innocent and flawless children are very much like angels, but children are easy to be polluted, Master's strength is not to be polluted.
 
-4, 20, Ar.2
+ AR 00002/04/20
 只要鼓吹男女平等的歪理(乍看之下正確)，就足以把中國鬥垮
 
 可以想見清朝的慈禧太后干政導至清朝的敗亡是被外國人算計的結果，對外國人來說，擁有廣大領土的中國自然發展怎麼可能會輸給歐洲列強，世界可不是只有歐洲人可以發明火槍
@@ -264,11 +264,11 @@ Suppose this is a civilization game, and you play French, British or Spanish. Yo
 
 Philosophy is generally not related to nationality. A man can be a Junzi with no restrictions on nationality or skin color. it's the same as a woman to be a girl of virtue. Junzi appears so a girl of virtue may survive. Or only the cunning women will live, and the evil things never end.
 
-2, 10, Ar.2
+ AR 00002/02/10
 把世界上美好的事物都保留下來
 Keep all the good things in this world.
 
-1, 21, Ar.2
+ AR 00002/01/21
 壞事做得多的人會害怕，就要找人撐腰，或是找耶穌替他贖罪，如此一來朋友多、勢大的人得利，因為錢多的人朋友多，最後就會陷入黑道的紛爭之中
 
 君子就可以直接拆穿說謊的人，從這方面來看，捨近利的君子才是長遠之道，然而能誠心稱讚你的人還是很少的
@@ -280,7 +280,7 @@ Junzi can directly dismantle the lies and lying person. From this point of view,
 
 Jesus will only create more wicked people, and Junzi is the only right way to manage the world.
 
-1, 20, Ar.2
+ AR 00002/01/20
 君子不會對死亡害怕的原因是因為從來不害人，對於別人說了什麼謊言不一定知道
 
 只要知道自己不害人的事實，對方暗示你曾經害過他就一定是謊言了，這樣就能馬上辨別出實際上是對方不懷好意
@@ -288,18 +288,18 @@ The reason why Junzi doesn't fear death is because Junzi never harms good people
 
 As long as you know the fact that you never harm good people, when a man/woman pretends that you have harmed him/her, you immediately know it is actually he/she is a non-good person.
 
-1, 19, Ar.2
+ AR 00002/01/19
 食物種類的選擇與致癌率無關(假定)
 Choice of food type is not related to carcinogenic rate. (assumed)
 
-1, 10, Ar.2
+ AR 00002/01/10
 有奈教可以防治無差別殺人犯罪，知道真理的話會知道為什麼有這些事情發生
 無差別殺人犯罪一般以男性為主，女性因為生存難易度沒那麼高，所以比較不會發生
 Arina Organization is a religion-related group that can prevent indiscriminate killing, the truth will tell you why these tragedies happen.
 
 Indiscriminate homicide is primarily generated by men because the women are easier to survive(earn money because of gender), they do not need to be guilty.
 
-1, 2, Ar.2
+ AR 00002/01/02
 資本主義使人認為賺到很多錢才是成功的，所有賺得到錢的事情都可以做，教不這麼認為0v0
 做好事，有信心才是成功的，也就是說成為君子或是品女才是成功的
 
@@ -323,48 +323,48 @@ American adults claim they are bad guys and cheer, their conduct can't be restra
 
 When you grow up it's up to you to decide what values are truths, since the power of justice is limited in the world.
 
-12, 16, Ar.1
+ AR 00001/12/16
 既得利益者宣傳男女平等來欺騙大眾
 
 Those who have already in an advantageous position promote gender equality to deceive people.
 
-12, 15, Ar.1
+ AR 00001/12/15
 教主無任期限制
 Master of the Arina Organization has no term limit.
 
-12, 13, Ar.1
+ AR 00001/12/13
 「士可殺不可辱」的真正意涵是士不可殺也不可辱
 The real implication of Chinese proverb "Shi can be killed but cannot be humiliated" is "Shi cannot be killed either humiliated".
 Shi means a person has some virtue and still learning to be Junzi.
 
-11, 27, Ar.1
+ AR 00001/11/27
 人人都說謊不包含教主
 Everyone lies and doesn't include Master.
 
-11, 25, Ar.1
+ AR 00001/11/25
 如果你加入有奈教可以選擇不要結婚
 If you join the Arina Organization, you can choose not to marry.
 
-11, 10, Ar.1
+ AR 00001/11/10
 如果你被惡靈纏身，加入有奈教以尋求解脫
 If your body is possessed by an evil soul, you should join the Arina Organization for redemption.
 
-11, 8, Ar.1
+ AR 00001/11/08
 教主不會主動告發別人人身攻擊或妨礙名譽
 Master will not sue other people "personal assault" or "defamation" initiatively.
 
-11, 5, Ar.1
+ AR 00001/11/05
 記者如果素行不良的話，問題將會擴大到全世界，應該即行開除，如果是媒體業者不正的話，應該儘快舉報
 Mass media have lots of power in democracy, especially in all kinds of elections. If a reporter is not a good person, it should be expelled immediately. If the particular media is corrupted, anyone may report it as soon as possible.
 
-11, 4, Ar.1
+ AR 00001/11/04
 是的，信有奈的人是不會說出Trick or Treat的對話的，這是不好的行為
 不過不合群的話你的美國人身分會被懷疑，所以或許知道一下就好
 未來有更多決定自我的機會時，再考慮吧
 Exactly, Arina's believer will not say "trick or treat" in Halloween festival, That's not good behavior.
 Even so, if you don't do the same things like others, your identity of American may be suspected, so just know it and consider your actions in the future.
 
-10, 31, Ar.1
+ AR 00001/10/31
 作惡的美國人一直製造他人痛苦，然後再說不准說仇恨言論，免得他們害怕，藉此打壓異己，他們欺壓別人的方式就是如此
 
 他們不一定是基督徒，但可以肯定基督徒一定作惡，另外我們注意到在美的穆斯林已經有受污染現象
@@ -372,12 +372,12 @@ Evil American always make others suffer and then tell the public they don't allo
 
 They are not necessarily Christians, but Christian is evil for sure. We notice that Muslims in the United States are already polluted.
 
-10, 22, Ar.1
+ AR 00001/10/22
 無論你的駭客技術再厲害，駭客也會擔憂頭痛，人們不是靠駭客技術在指使別人
 不如直接反抗上帝，而不是當駭客
 Whether your hacking skill is so powerful or not, the hacker will be afraid of a headache, people do not dominate others by hacking skill. Just think about it, why just defy god and don't hack(it makes everything wrong).
 
-9, 15, Ar.1
+ AR 00001/09/15
 有奈教是鹿目圓、解藥、必殺技
 Arina Organization is Madoka Kaname, antidote, and critical strike.
 

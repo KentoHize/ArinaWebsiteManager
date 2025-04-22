@@ -1619,14 +1619,14 @@
           "FKColumn": null,
           "NumberOfRows": 1,
           "Display": true,
-          "RegularExpression": "^\\d+, \\d+, Ar.\\d+$",
+          "RegularExpression": "^\\d+, \\d+, Ar. \\d+$",
           "Description": "",
           "MinValue": "",
           "MaxValue": "",
           "MaxLength": 0,
           "AutoGenerateKey": false,
           "IsUnique": false,
-          "DefaultValue": null
+          "DefaultValue": ""
         }
       ],
       "InsertFirst": false
