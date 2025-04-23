@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYWG0V3R6H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LYWG0V3R6H');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width">
+    <title>標準日期時間格式(Standard Date/Time Format)</title>
+    <link rel="stylesheet" href="arinapage.css">
+</head>
+<body>
+    <script src="arina.js"></script>
+    <h3 style="text-align:center">標準日期時間格式(Standard Date/Time Format)</h3>
+    <article style="margin:50px;" id="main">
+        <section>            
+            <p>
+                &emsp;&emsp;標準日期時間格式(在網站資料中常見格式)，是一種被定義為全世界通用、可排序、能夠快速讀取的格式，此處詳細定義標準日期時間的使用方式。
+            </p>
+            <p>
+                &emsp;&emsp;透過使用標準日期時間格式，各式系統能夠統一、有效和快速地進行日期時間的讀存、轉換和排序。
+            </p>
+            
+        </section>
+        <section>
+            <h4>標準日期時間格式(固定長度)</h4>
+            <ul>
+                <li><p>日期時間格式：ggg yyyyy/MM/dd HH:mm:ss.fffffff</p></li>
+                <li><p>短日期時間格式：ggg yyyyy/MM/dd HH:mm:ss</p></li>
+                <li><p>日期格式：ggg yyyyy/MM/dd</p></li>
+                <li><p>短日期格式：yyyyy/MM/dd，預設為有奈紀年</p></li>
+                <li><p>時間格式：HH:mm:ss.fffffff</p></li>
+                <li><p>短時間格式：HH:mm:ss</p></li>
+            </ul>
+            <h4>說明</h4>
+            <ul>
+                <li><p>ggg:以英文字母代表曆法與紀年，共3位，由有奈教發布可使用的名稱，例如目前為 AR(表示有奈紀年)、 CE(表示西元紀年)以及ZZZ(未定義曆法紀年)</p></li>
+                <li><p>yyyyy:5位整數年份，含負數，不足補0，普通來說數值範圍為-9999~99999，擴充情況下可擴增至6位數，數值範圍為-99999~999999(可不支援)</p></li>
+                <li><p>MM:2位整數月份，不足補0</p></li>
+                <li><p>dd:2位整數日數，不足補0</p></li>
+                <li><p>HH:2位整數小時，不足補0</p></li>
+                <li><p>mm:2位整數分鐘，不足補0</p></li>
+                <li><p>mm:2位整數秒數，不足補0</p></li>
+                <li><p>fffffff:7位整數表示小數秒數，不足往右補0</p></li>
+            </ul>
+            <h4>範例</h4>
+            <ul>
+                <li><p>&nbsp;AR 00008/01/01 06:30:00.0000000</p></li>
+                <li><p>&nbsp;AR 00008/01/01 06:30:00</p></li>
+                <li><p>&nbsp;AR 00008/01/01</p></li>
+                <li><p>00008/01/01</p></li>
+                <li><p>06:30:00.0000000</p></li>
+                <li><p>06:30:00</p></li>
+            </ul>
+            <ul>
+                <li><p>&nbsp;AR -0020/11/12 17:41:28.4453300</p></li>
+                <li><p>&nbsp;AR -0020/11/12 17:41:28</p></li>
+                <li><p>&nbsp;AR -0020/11/12</p></li>
+                <li><p>-0020/11/12</p></li>
+                <li><p>17:41:28.4453300</p></li>
+                <li><p>17:41:28</p></li>
+            </ul>
+            <h4>範例(擴充)</h4>
+            <ul>
+                <li><p>&nbsp;CE-10320/01/22 10:05:00.0000000</p></li>
+                <li><p>&nbsp;CE-10320/01/22 10:05:00</p></li>
+                <li><p>&nbsp;CE-10320/01/22</p></li>
+                <li><p>-12337/01/22</p></li>
+                <li><p>10:05:00.0000000</p></li>
+                <li><p>10:05:00</p></li>
+            </ul>
+        </section>
+    </article>
+    <div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
+</body>
+</html>
