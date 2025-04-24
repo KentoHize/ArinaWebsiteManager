@@ -58,9 +58,9 @@
   {
     "No": 11,
     "Question": "教主說明自己沒有強暴過女性是否是心虛導致？",
-    "EQuestion": "",
-    "Answer": "根據有奈教的原則，非有奈教成員，成年人，除非保護中或是擁有足夠品格階級，是可以被強暴的存在，可視為適當的處罰。\n\n因為沒有限制，我們適當回答有沒有發生過。",
-    "EAnswer": "",
+    "EQuestion": null,
+    "Answer": "根據有奈教的原則，非有奈教成員，成年人，除非保護中或是擁有足夠品格階級，是可以被強暴的存在，可視為適當的處罰。\n因為沒有限制，我們適當回答有沒有發生過。",
+    "EAnswer": null,
     "Hide": false
   },
   {
@@ -75,8 +75,8 @@
     "No": 7,
     "Question": "有奈教成立的時間？",
     "EQuestion": "When was Arina Organization established?",
-    "Answer": "有奈教的正式成立時間是2017年的5月11日，該年為有奈前1年。",
-    "EAnswer": "The official establishment time of Arina Organization is 5, 11, 2017/Ar. -1.",
+    "Answer": "有奈教的正式成立時間是西元2017年的5月11日，該年為有奈前1年。",
+    "EAnswer": "The official establishment time of Arina Organization is 5, 11, CE 2017/Ar. -1.",
     "Hide": false
   },
   {
