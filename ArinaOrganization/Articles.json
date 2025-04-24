@@ -283,8 +283,8 @@
     "No": 35,
     "Date": null,
     "UpdateDate": null,
-    "Chinese": "有奈教的正式成立時間是2017年的5月11日，該年為有奈前一年",
-    "English": "The official establishment time of Arina Organization is 5, 11, 2017/Ar. -1.",
+    "Chinese": "有奈教的正式成立時間是西元2017年的5月11日，該年為有奈前一年",
+    "English": "The official establishment time of Arina Organization is 5, 11, CE 2017/Ar. -1.",
     "Japanese": null
   },
   {
@@ -292,7 +292,7 @@
     "Date": null,
     "UpdateDate": null,
     "Chinese": "有奈1年是西元2018年",
-    "English": "Ar. 1 is equal to 2018 A.D.",
+    "English": "Ar. 1 is equal to CE 2018.",
     "Japanese": null
   }
 ]
