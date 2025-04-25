@@ -1,5 +1,14 @@
 [
   {
+    "ID": 25,
+    "Title": "網站更新",
+    "Type": "網站",
+    "DateTime": " AR 00008/04/25 04:31:23",
+    "Content": "更新JSON資料檔案編輯器。\n更新Aritiafel.dll。",
+    "English": null,
+    "Maintainer": "日瀬健人"
+  },
+  {
     "ID": 24,
     "Title": "網站更新",
     "Type": "網站",
