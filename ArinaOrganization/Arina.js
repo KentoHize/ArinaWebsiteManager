@@ -34,6 +34,10 @@ function ChangeDateToArDate(date)
     return `${parseInt(date.substr(10, 2))},&nbsp;${parseInt(date.substr(13, 2))},&nbsp;Ar.&nbsp;${parseInt(date.substr(3, 6))}`;
 }
 
+function ChangeDateTimeToCEDateTime(datetime) {
+    return `${parseInt(datetime.substr(3, 6)) + 2017}/${parseInt(datetime.substr(10, 2))}/${parseInt(datetime.substr(13, 2))} ${parseInt(datetime.substr(16, 2))}${datetime.substr(18, 7)}`;
+}
+
 function ChangeLFtoBRLabel(s) {    
     return s.replaceAll("\n", "<br />");
 }

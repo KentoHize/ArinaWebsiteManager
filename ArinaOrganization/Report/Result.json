@@ -1,0 +1,4916 @@
+[
+  {
+    "InvoiceNumber": "AL77510281",
+    "InvoiceDateTime": " AR 00007/06/30 23:55:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "96979997",
+    "SellerName": "中華電信股份有限公司資訊技術分公司",
+    "SellingPrice": 400,
+    "Tax": 20,
+    "InvoiceConfirmDateTime": " AR 00007/07/01 14:40:30",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "HiNet工商憑證費",
+        "Price": 400,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "DL14622702",
+    "InvoiceDateTime": " AR 00007/07/10 09:17:11",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "80262645",
+    "SellerName": "全方位商務中心有限公司",
+    "SellingPrice": 24130,
+    "Tax": 1206,
+    "InvoiceConfirmDateTime": " AR 00007/07/10 09:21:24",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "租金",
+        "Price": 24130,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": "113/05/30~114/05/31"
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "DG11111376",
+    "InvoiceDateTime": " AR 00007/07/16 14:57:32",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "79872704",
+    "SellerName": "北灣文創工作坊",
+    "SellingPrice": 362,
+    "Tax": 18,
+    "InvoiceConfirmDateTime": " AR 00007/07/16 15:23:31",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "印章一顆",
+        "Price": 380,
+        "Quantity": 1,
+        "Quantifier": "個",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "DH80934902",
+    "InvoiceDateTime": " AR 00007/08/05 14:38:22",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "89273685",
+    "SellerName": "新裕豐文化事業有限公司",
+    "SellingPrice": 7470,
+    "Tax": 374,
+    "InvoiceConfirmDateTime": " AR 00007/08/05 14:43:28",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "A4單層L夾-全白墨",
+        "Price": 24,
+        "Quantity": 300,
+        "Quantifier": "",
+        "Note": "113070162"
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "DF63393304",
+    "InvoiceDateTime": " AR 00007/08/30 14:59:59",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97081149",
+    "SellerName": "亞運實業有限公司",
+    "SellingPrice": 210,
+    "Tax": 11,
+    "InvoiceConfirmDateTime": " AR 00007/08/30 15:23:34",
+    "Note": "退換貨憑電子發票證明聯正本辦理TEL:(02)2735-1772",
+    "Products": [
+      {
+        "Name": "印刷品",
+        "Price": 210,
+        "Quantity": 1,
+        "Quantifier": "個",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FF42666889",
+    "InvoiceDateTime": " AR 00007/09/01 14:15:02",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "15820097",
+    "SellerName": "沈氏藝術印刷股份有限公司",
+    "SellingPrice": 369,
+    "Tax": 18,
+    "InvoiceConfirmDateTime": " AR 00007/09/02 13:10:02",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "DM",
+        "Price": 1,
+        "Quantity": 250,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "運費",
+        "Price": 88,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45340900",
+    "InvoiceDateTime": " AR 00007/09/09 14:55:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 291,
+    "Tax": 15,
+    "InvoiceConfirmDateTime": " AR 00007/09/09 19:23:47",
+    "Note": "8755",
+    "Products": [
+      {
+        "Name": "A01_大薯+$1多1",
+        "Price": 67,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A04_六塊雞+$1多1",
+        "Price": 67,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A04_六塊雞+$1多1",
+        "Price": 67,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A03_中可樂1送1",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FB23769211",
+    "InvoiceDateTime": " AR 00007/09/10 23:59:59",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "81231585",
+    "SellerName": "智冠科技股份有限公司",
+    "SellingPrice": 638,
+    "Tax": 32,
+    "InvoiceConfirmDateTime": " AR 00007/09/11 13:49:26",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "MyCard點數",
+        "Price": 1,
+        "Quantity": 670,
+        "Quantifier": "SET",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45344249",
+    "InvoiceDateTime": " AR 00007/09/11 21:44:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 291,
+    "Tax": 15,
+    "InvoiceConfirmDateTime": " AR 00007/09/12 05:53:55",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "A01_大薯+$1多1",
+        "Price": 67,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A04_六塊雞+$1多1",
+        "Price": 67,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A04_六塊雞+$1多1",
+        "Price": 67,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A03_中可樂1送1",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45344783",
+    "InvoiceDateTime": " AR 00007/09/13 16:04:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 291,
+    "Tax": 15,
+    "InvoiceConfirmDateTime": " AR 00007/09/13 19:56:56",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "A01_大薯+$1多1",
+        "Price": 67,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A04_六塊雞+$1多1",
+        "Price": 67,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A04_六塊雞+$1多1",
+        "Price": 67,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "A03_中可樂1送1",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "ET62593894",
+    "InvoiceDateTime": " AR 00007/09/15 18:46:24",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53654302",
+    "SellerName": "統一超商股份有限公司台北市第八三一分公司",
+    "SellingPrice": 279,
+    "Tax": 14,
+    "InvoiceConfirmDateTime": " AR 00007/09/15 19:57:31",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "iseLect經典烏龍茶PET550(四入)",
+        "Price": 80,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(區)科學麵香蔥雞汁風味五合一袋",
+        "Price": 50,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵原味五合一袋",
+        "Price": 50,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣(五合一)袋",
+        "Price": 50,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "iseLect多包裝優惠8折*1H9Z*",
+        "Price": -16,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45350071",
+    "InvoiceDateTime": " AR 00007/09/18 17:57:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 247,
+    "Tax": 12,
+    "InvoiceConfirmDateTime": " AR 00007/09/18 22:59:32",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 143,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FB23862180",
+    "InvoiceDateTime": " AR 00007/09/18 23:59:59",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "81231585",
+    "SellerName": "智冠科技股份有限公司",
+    "SellingPrice": 638,
+    "Tax": 32,
+    "InvoiceConfirmDateTime": " AR 00007/09/19 14:31:16",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "MyCard點數",
+        "Price": 1,
+        "Quantity": 670,
+        "Quantifier": "SET",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87836099",
+    "InvoiceDateTime": " AR 00007/09/19 20:08:48",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 244,
+    "Tax": 12,
+    "InvoiceConfirmDateTime": " AR 00007/09/19 21:18:28",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "歐姆蛋包飯",
+        "Price": 89,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "星宇航空-雙醬雞排咖哩飯",
+        "Price": 99,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EG77040079",
+    "InvoiceDateTime": " AR 00007/09/20 09:47:26",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "23224410",
+    "SellerName": "全家便利商店股份有限公司六張黎分公司",
+    "SellingPrice": 99,
+    "Tax": 5,
+    "InvoiceConfirmDateTime": " AR 00007/09/20 12:14:48",
+    "Note": "卡號:3774",
+    "Products": [
+      {
+        "Name": "光泉米漿",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "豬肉起司堡",
+        "Price": 35,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "鮮食促",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FD11700980",
+    "InvoiceDateTime": " AR 00007/09/24 10:31:22",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "28202771",
+    "SellerName": "鬍鬚張股份有限公司忠孝新生分公司",
+    "SellingPrice": 95,
+    "Tax": 5,
+    "InvoiceConfirmDateTime": " AR 00007/09/24 15:39:17",
+    "Note": "3774",
+    "Products": [
+      {
+        "Name": "魯肉飯便當加蛋",
+        "Price": 100,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FK61378820",
+    "InvoiceDateTime": " AR 00007/09/24 12:53:15",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "70776814",
+    "SellerName": "富利餐飲股份有限公司和東外送分公司",
+    "SellingPrice": 514,
+    "Tax": 26,
+    "InvoiceConfirmDateTime": " AR 00007/09/24 22:31:49",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "===以下為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "超值單點大比薩$199",
+        "Price": 199,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "大厚四小福",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "單點大比薩38折起",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "大厚鐵板雙牛",
+        "Price": 299,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "W1RJY0S",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(發票載具)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(訂購人同收貨人)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "付款:網LINEPAY",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(LINEPAY)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "[已結帳",
+        "Price": 0,
+        "Quantity": 0,
+        "Quantifier": "1.0",
+        "Note": "0"
+      },
+      {
+        "Name": "----PK雙饗卡----",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2024092467114348210",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "HD5240924001477",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "信用卡******3774",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "===以上為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "[已結帳",
+        "Price": 0,
+        "Quantity": 0,
+        "Quantifier": "1.0",
+        "Note": "0"
+      },
+      {
+        "Name": "週年慶滿額送好禮",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "QQ球巧克力8顆",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "加購飲品(購物車)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "1.25L百事可樂",
+        "Price": 42,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "ES64143349",
+    "InvoiceDateTime": " AR 00007/09/25 17:32:33",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "70799400",
+    "SellerName": "統一超商股份有限公司台北市第三四八分公司",
+    "SellingPrice": 66,
+    "Tax": 3,
+    "InvoiceConfirmDateTime": " AR 00007/09/25 18:24:50",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45352480",
+    "InvoiceDateTime": " AR 00007/09/26 16:09:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 212,
+    "Tax": 11,
+    "InvoiceConfirmDateTime": " AR 00007/09/26 19:43:25",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "餐-**甜辣雞腿堡",
+        "Price": 124,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "配-六塊豪吃",
+        "Price": 61,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FJ05323408",
+    "InvoiceDateTime": " AR 00007/09/27 21:15:45",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "76466978",
+    "SellerName": "旺康弘商行",
+    "SellingPrice": 95,
+    "Tax": 5,
+    "InvoiceConfirmDateTime": "-",
+    "Note": "信用卡:$100",
+    "Products": [
+      {
+        "Name": "麻辣乾拌",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "中辣",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "甜不辣(二個)",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "百頁豆腐",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "海帶串(一個)",
+        "Price": 10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "白蘿蔔",
+        "Price": 10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三角油豆腐(三個)",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "凍豆腐（2個）",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87851509",
+    "InvoiceDateTime": " AR 00007/09/28 04:02:21",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 86,
+    "Tax": 4,
+    "InvoiceConfirmDateTime": " AR 00007/09/28 05:05:15",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 3,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45356447",
+    "InvoiceDateTime": " AR 00007/10/01 10:11:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 114,
+    "Tax": 6,
+    "InvoiceConfirmDateTime": " AR 00007/10/01 13:44:15",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "餐-無敵豬蛋",
+        "Price": 62,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "配-薯餅",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87854430",
+    "InvoiceDateTime": " AR 00007/10/01 10:39:49",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 194,
+    "Tax": 10,
+    "InvoiceConfirmDateTime": " AR 00007/10/01 11:55:07",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 3,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FJ05323719",
+    "InvoiceDateTime": " AR 00007/10/01 15:35:22",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "76466978",
+    "SellerName": "旺康弘商行",
+    "SellingPrice": 162,
+    "Tax": 8,
+    "InvoiceConfirmDateTime": "-",
+    "Note": "信用卡:$170",
+    "Products": [
+      {
+        "Name": "3.三顧經典招牌套餐",
+        "Price": 165,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(套)特級牛肉",
+        "Price": 5,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(套)烏龍麵",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御品黃金烏梅",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "黃金麻辣湯(中辣)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45360150",
+    "InvoiceDateTime": " AR 00007/10/02 18:41:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 48,
+    "Tax": 2,
+    "InvoiceConfirmDateTime": " AR 00007/10/02 22:51:42",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "六塊雞中薯可樂",
+        "Price": 131,
+        "Quantity": 0,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87856485",
+    "InvoiceDateTime": " AR 00007/10/04 20:05:49",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 233,
+    "Tax": 12,
+    "InvoiceConfirmDateTime": " AR 00007/10/04 21:21:03",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "輕鬆小品咖啡牛奶400ml",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "紫艷-港式海陸雙拼烏龍麵",
+        "Price": 119,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "極饗-海鮮中華丼",
+        "Price": 99,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -77,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EP09887399",
+    "InvoiceDateTime": " AR 00007/10/05 13:49:29",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "24809186",
+    "SellerName": "爭鮮股份有限公司大安分公司",
+    "SellingPrice": 395,
+    "Tax": 20,
+    "InvoiceConfirmDateTime": " AR 00007/10/05 14:10:34",
+    "Note": "信用卡號:3774",
+    "Products": [
+      {
+        "Name": "30元盤",
+        "Price": 28,
+        "Quantity": 13,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "日式煎茶",
+        "Price": 23,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FB24051912",
+    "InvoiceDateTime": " AR 00007/10/05 23:59:59",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "81231585",
+    "SellerName": "智冠科技股份有限公司",
+    "SellingPrice": 162,
+    "Tax": 8,
+    "InvoiceConfirmDateTime": " AR 00007/10/06 14:31:13",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "MyCard點數",
+        "Price": 1,
+        "Quantity": 170,
+        "Quantifier": "SET",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87859403",
+    "InvoiceDateTime": " AR 00007/10/07 07:59:14",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 284,
+    "Tax": 14,
+    "InvoiceConfirmDateTime": " AR 00007/10/07 08:54:54",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "輕鬆小品咖啡牛奶400ml",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜白酒蛤蠣義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 3,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 3,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FF34166020",
+    "InvoiceDateTime": " AR 00007/10/08 17:36:46",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "90284963",
+    "SellerName": "富利餐飲股份有限公司台北復興南分公司",
+    "SellingPrice": 594,
+    "Tax": 30,
+    "InvoiceConfirmDateTime": " AR 00007/10/08 21:00:45",
+    "Note": "信用卡末四碼：3774",
+    "Products": [
+      {
+        "Name": "===以下為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2172024100800232",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "$624",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "共有飲料*4",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂(中)*4",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "===以上為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "40622-優惠券",
+        "Price": 238,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "卡啦脆雞k",
+        "Price": 0,
+        "Quantity": 12,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂(中)",
+        "Price": 37,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "付款:網路現金",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FC31971759",
+    "InvoiceDateTime": " AR 00007/10/08 17:41:11",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "88195389",
+    "SellerName": "八方雲集餐飲股份有限公司御廚大安復興南店",
+    "SellingPrice": 198,
+    "Tax": 10,
+    "InvoiceConfirmDateTime": " AR 00007/10/08 20:36:39",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "椒麻雞飯",
+        "Price": 138,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "白飯",
+        "Price": 15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "味噌湯",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "燙青菜",
+        "Price": 35,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EC28558840",
+    "InvoiceDateTime": " AR 00007/10/11 18:12:32",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53658052",
+    "SellerName": "全聯實業股份有限公司黎忠分公司",
+    "SellingPrice": 348,
+    "Tax": 17,
+    "InvoiceConfirmDateTime": " AR 00007/10/11 18:51:40",
+    "Note": "全支付365機台：020002　序號：000144",
+    "Products": [
+      {
+        "Name": "史大伯印花１張",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "虱目魚排便當",
+        "Price": 60,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "鹹酥雞便當",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "肉鬆三角飯糰",
+        "Price": 22,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "豬肉高麗菜水餃",
+        "Price": 129,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "火把聖代巧克力",
+        "Price": 19,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "麥香錫蘭奶茶",
+        "Price": 23,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "折讓",
+        "Price": -8,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FJ05324709",
+    "InvoiceDateTime": " AR 00007/10/12 14:28:07",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "76466978",
+    "SellerName": "旺康弘商行",
+    "SellingPrice": 133,
+    "Tax": 7,
+    "InvoiceConfirmDateTime": "-",
+    "Note": "信用卡:$140",
+    "Products": [
+      {
+        "Name": "沙茶麻辣湯",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "炸豆包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "小豆干(三個)",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "甜不辣(二個)",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "百頁豆腐",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "海帶串(一個)",
+        "Price": 10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "燕餃(二個)",
+        "Price": 15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "刀削麵",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87865356",
+    "InvoiceDateTime": " AR 00007/10/13 22:33:49",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 322,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/10/14 00:58:17",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 3,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 3,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "小龍蝦魚卵飯糰",
+        "Price": 39,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "鮪魚肉鬆雙手卷",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "Pentel針蕊中性筆-藍色0.3mm",
+        "Price": 40,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "紫艷-港式海陸雙拼烏龍麵",
+        "Price": 119,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(蔬)金沙烤豆腐義大利麵",
+        "Price": 89,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -108,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45367969",
+    "InvoiceDateTime": " AR 00007/10/15 12:02:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 247,
+    "Tax": 12,
+    "InvoiceConfirmDateTime": " AR 00007/10/15 17:02:32",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 143,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN45369537",
+    "InvoiceDateTime": " AR 00007/10/17 13:02:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 319,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/10/17 15:51:57",
+    "Note": "3774",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 143,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN63604887",
+    "InvoiceDateTime": " AR 00007/10/18 18:45:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 265,
+    "Tax": 13,
+    "InvoiceConfirmDateTime": " AR 00007/10/18 23:09:12",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥克雙牛_69",
+        "Price": 36,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 143,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87870434",
+    "InvoiceDateTime": " AR 00007/10/19 22:04:45",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 211,
+    "Tax": 11,
+    "InvoiceConfirmDateTime": " AR 00007/10/19 22:54:34",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "(區)極饗-林聰明-香辣豬肉燴飯",
+        "Price": 85,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(區)新極大-海陸卷壽司",
+        "Price": 89,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -31,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN63606922",
+    "InvoiceDateTime": " AR 00007/10/20 21:03:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 319,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/10/21 06:00:23",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 143,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87871342",
+    "InvoiceDateTime": " AR 00007/10/21 23:52:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 324,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/10/22 01:11:01",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 5,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "麻油雞飯糰",
+        "Price": 49,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雙蔬鮪魚飯糰",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御選肉鬆飯糰",
+        "Price": 28,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "櫸木燻雞飯糰",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "Ohlala義大利麵品項95折*1K35*",
+        "Price": -4,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "1016三角飯糰任選第二件79折*1K3",
+        "Price": -6,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -26,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EK29837919",
+    "InvoiceDateTime": " AR 00007/10/24 13:36:03",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "42324142",
+    "SellerName": "台灣善商股份有限公司信義安和門市",
+    "SellingPrice": 204,
+    "Tax": 10,
+    "InvoiceConfirmDateTime": " AR 00007/10/24 15:46:21",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "秋葵牛丼大",
+        "Price": 169,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "青菜套餐",
+        "Price": 45,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EN63609889",
+    "InvoiceDateTime": " AR 00007/10/25 08:52:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 118,
+    "Tax": 6,
+    "InvoiceConfirmDateTime": " AR 00007/10/25 13:16:37",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "吉事蛋堡",
+        "Price": 32,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "餐-火腿蛋堡",
+        "Price": 34,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "配-薯餅",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87875359",
+    "InvoiceDateTime": " AR 00007/10/26 00:11:05",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 328,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/10/26 01:26:09",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "輕鬆小品咖啡牛奶400ml",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜奶油雙拼義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雙蔬鮪魚飯糰",
+        "Price": 30,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "Ohlala義大利麵品項95折*1K35*",
+        "Price": -8,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "1016三角飯糰任選第二件79折*1K3",
+        "Price": -6,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EG93790506",
+    "InvoiceDateTime": " AR 00007/10/27 10:44:51",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "23932687",
+    "SellerName": "全家便利商店股份有限公司安居分公司",
+    "SellingPrice": 47,
+    "Tax": 2,
+    "InvoiceConfirmDateTime": " AR 00007/10/27 12:11:30",
+    "Note": "卡號:3774",
+    "Products": [
+      {
+        "Name": "咖啡牛奶綜合霜淇淋",
+        "Price": 49,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "咖啡牛奶綜合霜淇淋",
+        "Price": 49,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "康康五促",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EY58045828",
+    "InvoiceDateTime": " AR 00007/10/27 23:55:41",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "29039742",
+    "SellerName": "旺普電通股份有限公司",
+    "SellingPrice": 94,
+    "Tax": 5,
+    "InvoiceConfirmDateTime": " AR 00007/10/28 01:12:22",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "無廣告版方案30天",
+        "Price": 99,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "FC31988555",
+    "InvoiceDateTime": " AR 00007/10/29 11:05:40",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "88195389",
+    "SellerName": "八方雲集餐飲股份有限公司御廚大安復興南店",
+    "SellingPrice": 193,
+    "Tax": 10,
+    "InvoiceConfirmDateTime": " AR 00007/10/29 15:15:33",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "椒麻雞飯",
+        "Price": 138,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "白飯",
+        "Price": 15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "味噌湯",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "秋葵",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "EQ87877280",
+    "InvoiceDateTime": " AR 00007/10/30 03:55:40",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 450,
+    "Tax": 23,
+    "InvoiceConfirmDateTime": " AR 00007/10/30 05:04:06",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "茶葉蛋",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "輕鬆小品咖啡牛奶400ml",
+        "Price": 25,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(區)極饗-林聰明-香辣豬肉燴飯",
+        "Price": 85,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "1030輕鬆小品2件40元*1KP1*",
+        "Price": -10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵3包25元-10/30*1K4P*",
+        "Price": -10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HF73854713",
+    "InvoiceDateTime": " AR 00007/11/01 14:18:46",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "70776814",
+    "SellerName": "富利餐飲股份有限公司和東外送分公司",
+    "SellingPrice": 228,
+    "Tax": 11,
+    "InvoiceConfirmDateTime": " AR 00007/11/02 00:35:12",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "===以下為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "1.25L百事可樂",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "94199單點大P199",
+        "Price": 199,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "大厚日式照燒雞",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "預扣點數",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "00408845301",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "W1RJY0S",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(發票載具)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(訂購人同收貨人)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "付款:網LINEPAY",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(LINEPAY)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "----PK雙饗卡----",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "[已結帳",
+        "Price": 0,
+        "Quantity": 0,
+        "Quantifier": "1.0",
+        "Note": "0"
+      },
+      {
+        "Name": "2024110188308600910",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "HD5241101002634",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "信用卡******3774",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "===以上為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "[已結帳",
+        "Price": 0,
+        "Quantity": 0,
+        "Quantifier": "1.0",
+        "Note": "0"
+      },
+      {
+        "Name": "PK450點-大比薩歡聚",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "小厚咖哩海鮮",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "大厚雙拼四福嫩雞",
+        "Price": 40,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "BBQ烤雞-3腿3翅",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HB31970050",
+    "InvoiceDateTime": " AR 00007/11/05 12:07:39",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "88195389",
+    "SellerName": "八方雲集餐飲股份有限公司御廚大安復興南店",
+    "SellingPrice": 167,
+    "Tax": 8,
+    "InvoiceConfirmDateTime": " AR 00007/11/05 16:10:57",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "炸紅糟肉飯",
+        "Price": 105,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "白飯",
+        "Price": 15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "味噌湯",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "炸豆腐",
+        "Price": 35,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45421197",
+    "InvoiceDateTime": " AR 00007/11/06 13:10:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 205,
+    "Tax": 10,
+    "InvoiceConfirmDateTime": " AR 00007/11/06 16:03:45",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "餐-椒麻十塊雞",
+        "Price": 106,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "配-經典中薯",
+        "Price": 27,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "#加購椒麻6塊雞",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "優惠金額",
+        "Price": -15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45421680",
+    "InvoiceDateTime": " AR 00007/11/07 13:04:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 271,
+    "Tax": 14,
+    "InvoiceConfirmDateTime": " AR 00007/11/07 16:02:19",
+    "Note": "3774",
+    "Products": [
+      {
+        "Name": "#椒麻雞塊20分享盒",
+        "Price": 143,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88202144",
+    "InvoiceDateTime": " AR 00007/11/08 23:25:55",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 515,
+    "Tax": 26,
+    "InvoiceConfirmDateTime": " AR 00007/11/09 01:06:47",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜奶油雙拼義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "府城鹽水風味意麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "櫸木燻雞飯糰",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "茶葉蛋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵3包25元-10/30*1K4P*",
+        "Price": -10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -9,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HC41058588",
+    "InvoiceDateTime": " AR 00007/11/11 14:35:26",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "70787262",
+    "SellerName": "台灣吉野家股份有限公司忠孝東路分公司",
+    "SellingPrice": 156,
+    "Tax": 8,
+    "InvoiceConfirmDateTime": " AR 00007/11/11 16:16:05",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "牛丼中",
+        "Price": 125,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "韓風漬物套餐",
+        "Price": 39,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "韓式泡菜",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "海帶芽味噌湯",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45425602",
+    "InvoiceDateTime": " AR 00007/11/11 20:09:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 372,
+    "Tax": 19,
+    "InvoiceConfirmDateTime": " AR 00007/11/12 06:14:22",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "#椒麻雞塊(10)",
+        "Price": 106,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "#椒麻雞塊20分享盒",
+        "Price": 143,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中雪碧_1送1",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "薯條-中",
+        "Price": 50,
+        "Quantity": 0,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HF73855164",
+    "InvoiceDateTime": " AR 00007/11/13 16:03:05",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "70776814",
+    "SellerName": "富利餐飲股份有限公司和東外送分公司",
+    "SellingPrice": 445,
+    "Tax": 22,
+    "InvoiceConfirmDateTime": " AR 00007/11/13 22:31:43",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "===以下為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "大厚四小福",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "大厚日式照燒雞",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "W1RJY0S",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(發票載具)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(訂購人同收貨人)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "付款:網LINEPAY",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(LINEPAY)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "[已結帳",
+        "Price": 0,
+        "Quantity": 0,
+        "Quantifier": "1.0",
+        "Note": "0"
+      },
+      {
+        "Name": "2024111395194738610",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "HD5241113002310",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "----PK雙饗卡----",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "信用卡******3774",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "===以上為備註===",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "[已結帳",
+        "Price": 0,
+        "Quantity": 0,
+        "Quantifier": "1.0",
+        "Note": "0"
+      },
+      {
+        "Name": "加小金QQ(副食頁)",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "薯金幣小份",
+        "Price": 69,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "QQ球巧克力4個",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "94199單點大P199",
+        "Price": 199,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HJ12037155",
+    "InvoiceDateTime": " AR 00007/11/14 13:01:40",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "88135242",
+    "SellerName": "一品芳餐飲店",
+    "SellingPrice": 124,
+    "Tax": 6,
+    "InvoiceConfirmDateTime": " AR 00007/11/14 15:15:49",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "椒鹽雞塊麵",
+        "Price": 95,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "白飯",
+        "Price": 15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "味噌湯",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88196325",
+    "InvoiceDateTime": " AR 00007/11/16 18:03:48",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 283,
+    "Tax": 14,
+    "InvoiceConfirmDateTime": " AR 00007/11/16 18:56:44",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "(滷)科學麵",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "滷味百頁豆腐",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事海苔壽司味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事蒜香海老口味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御茶園麥萃無糖麥茶PET590",
+        "Price": 29,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2024零食歡樂購第2件5折1030*1KB",
+        "Price": -15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵3包25元-10/30*1K4P*",
+        "Price": -10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "麥萃無糖麥茶590第二件10元*1KRY",
+        "Price": -19,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45429505",
+    "InvoiceDateTime": " AR 00007/11/18 22:11:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 154,
+    "Tax": 8,
+    "InvoiceConfirmDateTime": " AR 00007/11/19 05:51:01",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "#椒麻雞塊(4)",
+        "Price": 46,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "薯條-大",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88198023",
+    "InvoiceDateTime": " AR 00007/11/20 22:37:10",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 559,
+    "Tax": 28,
+    "InvoiceConfirmDateTime": " AR 00007/11/21 00:57:17",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "濃韻日式綠茶PET600.",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "濃韻烏龍茶PET600.",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "焗烤奶油蝦仁通心粉",
+        "Price": 69,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜奶油雙拼義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "北海道秋鮭鮪魚雙手卷",
+        "Price": 59,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事雞汁味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)北海鱈魚香絲(大)",
+        "Price": 50,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "濃韻600任選第二件10元1030*1K7Z",
+        "Price": -15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2024零食歡樂購第2件5折1030*1KB",
+        "Price": -40,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -60,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45436220",
+    "InvoiceDateTime": " AR 00007/11/25 09:23:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 122,
+    "Tax": 6,
+    "InvoiceConfirmDateTime": " AR 00007/11/25 13:48:02",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "吉事蛋堡",
+        "Price": 34,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "餐-火腿蛋堡",
+        "Price": 36,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "配-薯餅",
+        "Price": 20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88208619",
+    "InvoiceDateTime": " AR 00007/11/26 04:51:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 650,
+    "Tax": 32,
+    "InvoiceConfirmDateTime": " AR 00007/11/26 05:53:52",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜白酒蛤蠣義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜奶油雙拼義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一杏仁茶450ml(盒)",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "品客濃厚絕品咖哩風味洋芋片",
+        "Price": 69,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "*麥香錫蘭奶茶PET600",
+        "Price": 28,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵3包25元-10/30*1K4P*",
+        "Price": -10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HK20236644",
+    "InvoiceDateTime": " AR 00007/11/27 11:04:46",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "88325448",
+    "SellerName": "雙月大市常股份有限公司森林公園營業所",
+    "SellingPrice": 162,
+    "Tax": 8,
+    "InvoiceConfirmDateTime": " AR 00007/11/27 12:47:25",
+    "Note": "3774",
+    "Products": [
+      {
+        "Name": "躺平豆皮",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "狠切豆干",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "甜不辣",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三角油豆腐",
+        "Price": 15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "百頁豆腐",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "吉運滷蛋",
+        "Price": 10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞汁拌飯",
+        "Price": 35,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45436505",
+    "InvoiceDateTime": " AR 00007/11/28 10:48:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 191,
+    "Tax": 10,
+    "InvoiceConfirmDateTime": " AR 00007/11/28 13:48:58",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "*勁辣香雞翅",
+        "Price": 49,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "四塊麥克雞塊",
+        "Price": 48,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "薯條-大",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HJ80874621",
+    "InvoiceDateTime": " AR 00007/11/30 10:19:04",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "90648248",
+    "SellerName": "永郁企業有限公司",
+    "SellingPrice": 142,
+    "Tax": 7,
+    "InvoiceConfirmDateTime": " AR 00007/11/30 10:25:50",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "D早餐套餐(花生奶霜)_",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "熱牛奶咖啡_",
+        "Price": 135,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "D早餐(花生奶霜)_",
+        "Price": 0,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "服務費",
+        "Price": 14,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "HF49351800",
+    "InvoiceDateTime": " AR 00007/11/30 12:44:58",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "25136736",
+    "SellerName": "三創數位股份有限公司",
+    "SellingPrice": 345,
+    "Tax": 17,
+    "InvoiceConfirmDateTime": " AR 00007/12/01 01:24:00",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "金大鋤及小蒙牛精緻鍋物-餐飲-餐飲",
+        "Price": 345,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45441256",
+    "InvoiceDateTime": " AR 00007/12/01 11:11:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 588,
+    "Tax": 29,
+    "InvoiceConfirmDateTime": " AR 00007/12/01 16:58:36",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "#椒麻雞塊辣腿分享盒",
+        "Price": 409,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GX58003950",
+    "InvoiceDateTime": " AR 00007/12/01 17:50:36",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "29039742",
+    "SellerName": "旺普電通股份有限公司",
+    "SellingPrice": 94,
+    "Tax": 5,
+    "InvoiceConfirmDateTime": " AR 00007/12/02 00:56:13",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "無廣告版方案30天",
+        "Price": 99,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88213766",
+    "InvoiceDateTime": " AR 00007/12/02 20:24:31",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 479,
+    "Tax": 24,
+    "InvoiceConfirmDateTime": " AR 00007/12/02 21:23:56",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "御茶園特撰日式綠茶PET550",
+        "Price": 25,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(吊)御料小館椒鹽花枝丸",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "頌丹樂-泰式打拋豬肉飯",
+        "Price": 89,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "溏心蛋紐奧良風味烤雞三明治",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "鮪魚肉鬆雙手卷",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "阜杭豆漿-經典飯糰",
+        "Price": 45,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "晶英府城肉燥米糕飯糰",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "蔥鹽燒肉飯糰",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御茶園日式綠茶第二件10元*1LBS*",
+        "Price": -15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -161,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88217005",
+    "InvoiceDateTime": " AR 00007/12/04 20:30:02",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 443,
+    "Tax": 22,
+    "InvoiceConfirmDateTime": " AR 00007/12/04 21:14:45",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "御茶園特撰日式綠茶PET550",
+        "Price": 25,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "青醬蛤蜊義大利麵",
+        "Price": 89,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "阜杭豆漿-經典飯糰",
+        "Price": 45,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "晶英府城肉燥米糕飯糰",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "韓式部隊鍋湯便當",
+        "Price": 99,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事雞汁味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "茶葉蛋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御茶園日式綠茶第二件10元*1LBS*",
+        "Price": -15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2024零食聯促2件8折3件77折*1L6B",
+        "Price": -12,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -72,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2024聖誕購物節抽獎券",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "滿250送聖誕抽獎券2024*00KQ*",
+        "Price": -25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45444303",
+    "InvoiceDateTime": " AR 00007/12/06 18:16:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 241,
+    "Tax": 12,
+    "InvoiceConfirmDateTime": " AR 00007/12/06 22:33:51",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 149,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二辣腿排中薯可樂",
+        "Price": 191,
+        "Quantity": 0,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45446289",
+    "InvoiceDateTime": " AR 00007/12/08 19:54:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 352,
+    "Tax": 18,
+    "InvoiceConfirmDateTime": " AR 00007/12/08 22:31:42",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 149,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "冰那堤",
+        "Price": 77,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "OREO冰炫風",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "優惠金額",
+        "Price": -57,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88218679",
+    "InvoiceDateTime": " AR 00007/12/09 10:22:42",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 290,
+    "Tax": 14,
+    "InvoiceConfirmDateTime": " AR 00007/12/09 11:27:11",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "黑松C＆C氣泡飲(檸檬)PET500",
+        "Price": 35,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "黑松C＆C氣泡飲(葡萄)PET500",
+        "Price": 35,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "日式佛蒙特咖哩雞肉飯",
+        "Price": 89,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "極饗-四川風味麻辣豆腐飯",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香蔥雞汁袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御選肉鬆飯糰",
+        "Price": 28,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "聖誕跨年聯促第二件5折1127*1LC9",
+        "Price": -18,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -69,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45447379",
+    "InvoiceDateTime": " AR 00007/12/12 20:29:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 520,
+    "Tax": 26,
+    "InvoiceConfirmDateTime": " AR 00007/12/13 05:34:47",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "分享盒_期間限定",
+        "Price": 150,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "選-明太子安格斯",
+        "Price": 127,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "選-**雙鮭堡",
+        "Price": 127,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88226152",
+    "InvoiceDateTime": " AR 00007/12/15 08:39:19",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 497,
+    "Tax": 25,
+    "InvoiceConfirmDateTime": " AR 00007/12/15 09:57:51",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "茶葉蛋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "極饗-嘉義風味雞肉飯",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜白酒蛤蠣義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事雞汁味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "輕鬆小品咖啡牛奶400ml",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 4,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2024零食聯促2件8折3件77折*1L6B",
+        "Price": -12,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45451786",
+    "InvoiceDateTime": " AR 00007/12/16 18:43:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 318,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/12/16 22:37:14",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "勁辣雞腿堡",
+        "Price": 78,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "*勁辣香雞翅",
+        "Price": 49,
+        "Quantity": 0,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "*勁辣香雞翅",
+        "Price": 49,
+        "Quantity": 0,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二辣腿排餐",
+        "Price": 126,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "可樂-中",
+        "Price": 38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "配-經典大薯",
+        "Price": 43,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "辣腿/排",
+        "Price": 69,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "優惠金額",
+        "Price": -20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM45452015",
+    "InvoiceDateTime": " AR 00007/12/19 10:20:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 72,
+    "Tax": 4,
+    "InvoiceConfirmDateTime": " AR 00007/12/19 12:58:47",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香魚(早)",
+        "Price": 52,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "馬鈴薯餅",
+        "Price": 37,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "優惠金額",
+        "Price": -13,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88228505",
+    "InvoiceDateTime": " AR 00007/12/20 10:53:48",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 547,
+    "Tax": 27,
+    "InvoiceConfirmDateTime": " AR 00007/12/20 11:56:46",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "中立麥穗蘇打",
+        "Price": 36,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)科學麵原味",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣風味袋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御選肉鬆飯糰",
+        "Price": 28,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事原味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事雞汁味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "泰山冰鎮葡萄鮮冰茶650ml",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "泰山冰鎮檸檬紅茶650ml",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "北海道秋鮭鮪魚雙手卷",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜奶油雙拼義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "茶葉蛋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "科學麵香辣第2件6折-12/20*1LF0*",
+        "Price": -4,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "2024零食聯促2件8折3件77折*1L6B",
+        "Price": -20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "聖誕跨年指定第二件6折*1LN9*",
+        "Price": -12,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -41,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GS64997353",
+    "InvoiceDateTime": " AR 00007/12/23 12:45:55",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53654302",
+    "SellerName": "統一超商股份有限公司台北市第八三一分公司",
+    "SellingPrice": 327,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/12/23 15:38:23",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御料小館沙茶豬肉蛋炒飯",
+        "Price": 49,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "御料小館番茄肉醬義大利麵(袋)",
+        "Price": 45,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "牛角-炙燒雙拼便當",
+        "Price": 99,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "*飲冰室茶集綠奶茶400ml(盒)",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "士力架杏仁巧克力",
+        "Price": 45,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "士力架花生巧克力",
+        "Price": 45,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "冷凍御料小館指定兩入95折*1LMR*",
+        "Price": -5,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "1127糖果二件55*1L8S*",
+        "Price": -35,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GJ29838307",
+    "InvoiceDateTime": " AR 00007/12/24 14:25:42",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "42324142",
+    "SellerName": "台灣善商股份有限公司信義安和門市",
+    "SellingPrice": 199,
+    "Tax": 10,
+    "InvoiceConfirmDateTime": " AR 00007/12/24 15:47:17",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麻辣牛肉鍋套餐飯大",
+        "Price": 209,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM63669531",
+    "InvoiceDateTime": " AR 00007/12/25 12:10:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 325,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/12/25 16:46:41",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 149,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88234851",
+    "InvoiceDateTime": " AR 00007/12/26 19:40:32",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 250,
+    "Tax": 12,
+    "InvoiceConfirmDateTime": " AR 00007/12/26 21:17:21",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "泰山冰鎮檸檬紅茶650ml",
+        "Price": 30,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "香蒜白酒蛤蠣義大利麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "麻油雞飯糰",
+        "Price": 49,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "晶英府城肉燥米糕飯糰",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "茶葉蛋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "聖誕跨年指定第二件6折*1LN9*",
+        "Price": -12,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "i珍食折扣",
+        "Price": -38,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM63672728",
+    "InvoiceDateTime": " AR 00007/12/27 21:25:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 166,
+    "Tax": 8,
+    "InvoiceConfirmDateTime": " AR 00007/12/30 11:27:36",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "大麥克",
+        "Price": 78,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "勁辣翅_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "薯條-大",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "OREO冰炫風",
+        "Price": 59,
+        "Quantity": 0,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "優惠金額",
+        "Price": -20,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM63672785",
+    "InvoiceDateTime": " AR 00007/12/28 14:40:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 48,
+    "Tax": 2,
+    "InvoiceConfirmDateTime": " AR 00007/12/30 13:45:21",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "麥香雞_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "OREO冰炫風",
+        "Price": 59,
+        "Quantity": 0,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GP88236047",
+    "InvoiceDateTime": " AR 00007/12/29 16:45:14",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "53016797",
+    "SellerName": "統一超商股份有限公司台北市第二四四分公司",
+    "SellingPrice": 492,
+    "Tax": 25,
+    "InvoiceConfirmDateTime": " AR 00007/12/29 17:58:44",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "(A)*統一麥香奶茶TP300",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事雞汁味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "樂事原味洋芋片意合包",
+        "Price": 29,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "青醬蛤蜊義大利麵",
+        "Price": 89,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "真飽涼麵-蒜辣麻醬",
+        "Price": 59,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "泰山冰鎮檸檬紅茶650ml",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "泰山冰鎮葡萄鮮冰茶650ml",
+        "Price": 30,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "及第豬肉熟水餃",
+        "Price": 55,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "極饗-嘉義風味雞肉飯",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "三起司燻培根焗麵",
+        "Price": 79,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "統一麵包奶酥麵包",
+        "Price": 25,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "茶葉蛋",
+        "Price": 10,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "春節聯促第2件5折-12/25*1M38*",
+        "Price": -15,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "聖誕跨年指定第二件6折*1LN9*",
+        "Price": -12,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  },
+  {
+    "InvoiceNumber": "GM63673014",
+    "InvoiceDateTime": " AR 00007/12/31 16:21:00",
+    "CustomerBusinessIDNumber": "96839103",
+    "CustomerName": "有奈有限公司",
+    "SellerBusinessIDNumber": "97170677",
+    "SellerName": "和德昌股份有限公司台北麟光分公司",
+    "SellingPrice": 325,
+    "Tax": 16,
+    "InvoiceConfirmDateTime": " AR 00007/12/31 19:34:29",
+    "Note": "",
+    "Products": [
+      {
+        "Name": "勁辣翅_50",
+        "Price": 17,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "C可樂_小",
+        "Price": 33,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "雞塊20分享盒",
+        "Price": 149,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "二中可樂_1送1",
+        "Price": 38,
+        "Quantity": 2,
+        "Quantifier": "",
+        "Note": ""
+      },
+      {
+        "Name": "分享配-大薯",
+        "Price": 66,
+        "Quantity": 1,
+        "Quantifier": "",
+        "Note": ""
+      }
+    ]
+  }
+]

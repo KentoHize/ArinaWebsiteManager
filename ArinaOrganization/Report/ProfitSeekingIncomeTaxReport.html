@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>    
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width">
+    <title>營利事業所得稅報告(Profit-Seeking Income Tax Report)</title>
+    <link rel="stylesheet" href="arinapage.css">
+</head>
+<body>
+    <script src="../arina.js"></script>
+    <h3 style="text-align:center">營利事業所得稅報告(Profit-Seeking Income Tax Report)</h3>
+    <h4 style="text-align:center">電子發票轉換之帳務資料(Accounting data converted from electronic invoices)</h4>
+    <div style="margin:50px;" id="main">
+    </div>
+    <div style="margin:30px;" id="total">
+        
+    </div>
+    <!--<div style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>-->
+    <script>
+        var main = document.getElementById("main");
+        var table, table2, th, tr, tr2, td, td2, a;
+
+        var taxTotal = 0, priceTotal = 0;
+
+        fetch(`Result.json?v=${Math.random()}`).then(m => m.json()).then(data => {
+            table = document.createElement(`table`);            
+            tr = document.createElement("tr");
+
+            th = document.createElement("th");
+            th.innerText = `發票號碼`
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `發票日期時間`
+            th.width = `165px`;
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `買方統一編號`
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `買方名稱`
+            th.width = `120px`;
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `賣方統一編號`
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `賣方名稱`
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `金額`
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `稅額`
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `總計`
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `開立日期時間`
+            th.width = `165px`;
+            tr.appendChild(th);
+
+            th = document.createElement("th");
+            th.innerText = `備註`
+            th.width = `200px`;
+            tr.appendChild(th);
+
+            table.appendChild(tr);
+
+            
+            for (var i = 0; i < data.length; i++) {
+                tr = document.createElement("tr");
+                
+                td = document.createElement("td");
+                td.innerText = data[i].InvoiceNumber;
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                if (data[i].InvoiceDateTime != "-")
+                    td.innerText = ChangeDateTimeToCEDateTime(data[i].InvoiceDateTime);
+                else
+                    td.innerText = "-";
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = data[i].CustomerBusinessIDNumber;
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = data[i].CustomerName;
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = data[i].SellerBusinessIDNumber;
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = data[i].SellerName;
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = data[i].SellingPrice;
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = data[i].Tax;
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = (parseInt(data[i].SellingPrice) + parseInt(data[i].Tax));
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                if (data[i].InvoiceConfirmDateTime != "-")
+                    td.innerText = ChangeDateTimeToCEDateTime(data[i].InvoiceConfirmDateTime);
+                else
+                    td.innerText = "-";
+                tr.appendChild(td);
+
+                td = document.createElement("td");
+                td.innerText = data[i].Note;
+                tr.appendChild(td);
+                table.appendChild(tr);
+
+                taxTotal += parseInt(data[i].Tax);
+                priceTotal += parseInt(data[i].SellingPrice);
+
+                tr = document.createElement("tr");
+                td = document.createElement("td");
+                td.colSpan = 10;
+                table2 = document.createElement("table");
+                for (var j = 0; j < data[i].Products.length; j++) {
+                    tr2 = document.createElement("tr");
+
+                    td2 = document.createElement("td");
+                    td2.width = `50px`;
+                    tr2.appendChild(td2);
+
+                    td2 = document.createElement("td");
+                    td2.width = `300px`;
+                    td2.innerText = `${data[i].Products[j].Name}`;
+                    tr2.appendChild(td2);
+
+                    td2 = document.createElement("td");
+                    td2.width = `100px`;
+                    td2.style = `text-align:right`;
+                    td2.innerText = `${data[i].Products[j].Quantity}${data[i].Products[j].Quantifier}`;
+                    tr2.appendChild(td2);
+
+                    td2 = document.createElement("td");
+                    td2.width = `100px`;
+                    td2.style = `text-align:right`;
+                    td2.innerText = `${data[i].Products[j].Price}`;
+                    tr2.appendChild(td2);
+
+                    td2 = document.createElement("td");                    
+                    td2.innerText = `${data[i].Products[j].Note}`;
+                    tr2.appendChild(td2);
+                    
+                    table2.appendChild(tr2);
+                }
+                td.appendChild(table2);
+                tr.appendChild(td);
+                table.appendChild(tr);
+            }
+            main.appendChild(table);
+
+            document.getElementById(`total`).innerHTML = `金額總計：${priceTotal} TWD<br />稅額總計：${taxTotal} TWD<br />全額總計：${priceTotal + taxTotal} TWD`;
+        });
+        
+    </script>
+</body>
+</html>
