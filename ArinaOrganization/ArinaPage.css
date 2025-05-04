@@ -151,3 +151,9 @@ li{
     .c10:active {
         background-color: #ff6666;
     }
+
+@media print{
+    .noPrint {
+        display: none !important;        
+    }
+}

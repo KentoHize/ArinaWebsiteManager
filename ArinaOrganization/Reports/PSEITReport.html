@@ -5,17 +5,20 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
-    <title>營利事業所得稅報告(Profit-Seeking Income Tax Report)</title>
-    <link rel="stylesheet" href="arinapage.css">
+    <title>營利事業所得稅報告(Profit-Seeking Enterprise Income Tax Report)</title>
+    <link rel="stylesheet" href="../arinapage.css">
 </head>
 <body>
     <script src="../arina.js"></script>
-    <h3 style="text-align:center">營利事業所得稅報告(Profit-Seeking Income Tax Report)</h3>
+    <h3 style="text-align:center">營利事業所得稅報告(Profit-Seeking Enterprise Income Tax Report)</h3>
     <h4 style="text-align:center">電子發票轉換之帳務資料(Accounting data converted from electronic invoices)</h4>
-    <div style="margin:50px;" id="main">
+    <div style="margin:30px;" id="main">
     </div>
-    <div style="margin:30px;" id="total">
-        
+    <div style="margin:30px; text-align:center" id="total">
+
+    </div>
+    <div class="noPrint" style="text-align:center; margin:10px;">
+        <a id="download" href="javascript:;">下載資料表(Download)</a>
     </div>
     <!--<div style="text-align:center; margin:10px;">
         <a href="javascript:window.close()">關閉(Close)</a>
@@ -25,9 +28,11 @@
         var table, table2, th, tr, tr2, td, td2, a;
 
         var taxTotal = 0, priceTotal = 0;
+        var fileName = `0007.json`;
 
-        fetch(`Result.json?v=${Math.random()}`).then(m => m.json()).then(data => {
-            table = document.createElement(`table`);            
+        fetch(`${fileName}?v=${Math.random()}`).then(m => m.json()).then(data => {
+            table = document.createElement(`table`);
+            table.style = `margin:auto;`;
             tr = document.createElement("tr");
 
             th = document.createElement("th");
@@ -36,7 +41,7 @@
 
             th = document.createElement("th");
             th.innerText = `發票日期時間`
-            th.width = `165px`;
+            th.width = `190px`;
             tr.appendChild(th);
 
             th = document.createElement("th");
@@ -68,22 +73,22 @@
             th.innerText = `總計`
             tr.appendChild(th);
 
-            th = document.createElement("th");
-            th.innerText = `開立日期時間`
-            th.width = `165px`;
-            tr.appendChild(th);
+            //th = document.createElement("th");
+            //th.innerText = `開立日期時間`
+            //th.width = `165px`;
+            //tr.appendChild(th);
 
-            th = document.createElement("th");
-            th.innerText = `備註`
-            th.width = `200px`;
-            tr.appendChild(th);
+            //th = document.createElement("th");
+            //th.innerText = `備註`
+            //th.width = `200px`;
+            //tr.appendChild(th);
 
             table.appendChild(tr);
 
-            
+
             for (var i = 0; i < data.length; i++) {
                 tr = document.createElement("tr");
-                
+
                 td = document.createElement("td");
                 td.innerText = data[i].InvoiceNumber;
                 tr.appendChild(td);
@@ -112,27 +117,30 @@
                 tr.appendChild(td);
 
                 td = document.createElement("td");
+                td.style = `text-align:right`;
                 td.innerText = data[i].SellingPrice;
                 tr.appendChild(td);
 
                 td = document.createElement("td");
+                td.style = `text-align:right`;
                 td.innerText = data[i].Tax;
                 tr.appendChild(td);
 
                 td = document.createElement("td");
+                td.style = `text-align:right`;
                 td.innerText = (parseInt(data[i].SellingPrice) + parseInt(data[i].Tax));
                 tr.appendChild(td);
 
-                td = document.createElement("td");
-                if (data[i].InvoiceConfirmDateTime != "-")
-                    td.innerText = ChangeDateTimeToCEDateTime(data[i].InvoiceConfirmDateTime);
-                else
-                    td.innerText = "-";
-                tr.appendChild(td);
+                //td = document.createElement("td");
+                //if (data[i].InvoiceConfirmDateTime != "-")
+                //    td.innerText = ChangeDateTimeToCEDateTime(data[i].InvoiceConfirmDateTime);
+                //else
+                //    td.innerText = "-";
+                //tr.appendChild(td);
 
-                td = document.createElement("td");
-                td.innerText = data[i].Note;
-                tr.appendChild(td);
+                //td = document.createElement("td");
+                //td.innerText = data[i].Note;
+                //tr.appendChild(td);
                 table.appendChild(tr);
 
                 taxTotal += parseInt(data[i].Tax);
@@ -166,10 +174,10 @@
                     td2.innerText = `${data[i].Products[j].Price}`;
                     tr2.appendChild(td2);
 
-                    td2 = document.createElement("td");                    
-                    td2.innerText = `${data[i].Products[j].Note}`;
-                    tr2.appendChild(td2);
-                    
+                    //td2 = document.createElement("td");
+                    //td2.innerText = `${data[i].Products[j].Note}`;
+                    //tr2.appendChild(td2);
+
                     table2.appendChild(tr2);
                 }
                 td.appendChild(table2);
@@ -180,7 +188,10 @@
 
             document.getElementById(`total`).innerHTML = `金額總計：${priceTotal} TWD<br />稅額總計：${taxTotal} TWD<br />全額總計：${priceTotal + taxTotal} TWD`;
         });
-        
+
+        document.getElementById(`download`).href = `${fileName}`;
+        document.getElementById(`download`).download = `${fileName}`;
+        document.getElementById(`download`).style = ``;
     </script>
 </body>
 </html>

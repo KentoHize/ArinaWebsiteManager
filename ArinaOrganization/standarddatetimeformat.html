@@ -14,80 +14,96 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width">
-    <title>標準日期時間格式(Standard Date/Time Format)</title>
+    <title>標準日期時間格式(Standard Date &amp; Time Format)</title>
     <link rel="stylesheet" href="arinapage.css">
 </head>
 <body>
     <script src="arina.js"></script>
-    <h3 style="text-align:center">標準日期時間格式(Standard Date/Time Format)</h3>
+    <h3 style="text-align:center">標準日期時間格式(Standard Date &amp; Time Format)</h3>
     <article style="margin:50px;" id="main">
         <section>            
             <p>
-                &emsp;&emsp;標準日期時間格式(在網站資料中常見格式)，是一種被定義為全世界通用、可排序、能夠快速讀取的格式，此處詳細定義標準日期時間的使用方式。
+                &emsp;&emsp;標準日期時間格式，是一種被定義為全世界通用、可排序、能夠快速讀取的格式，此處詳細定義標準日期時間的使用方式。
             </p>
             <p>
-                &emsp;&emsp;透過使用標準日期時間格式，各式系統能夠統一、有效和快速地進行日期時間的讀存、轉換和排序。
+                &emsp;&emsp;The standard date and time format is a format that is defined as a universal, sortable, and quickly readable format. Here is a detailed definition of how to use the standard date and time.
             </p>
-            
+            <br />
+            <p>
+                &emsp;&emsp;透過使用標準日期時間格式，各式系統能夠統一、有效和快速地進行日期時間的讀存、轉換和排序。
+            </p>            
+            <p>
+                &emsp;&emsp;By using the standard date and time format, various systems can read, store, convert and sort dates and times in a unified, efficient and fast manner.
+            </p>            
         </section>
         <section>
-            <h4>標準日期時間格式(固定長度)</h4>
+            <h4>標準日期時間格式(Standard Date &amp; Time Format) - 固定長度(Fixed Length)</h4>            
             <ul>
-                <li><p>日期時間格式：ggg yyyyy/MM/dd HH:mm:ss.fffffff</p></li>
-                <li><p>短日期時間格式：ggg yyyyy/MM/dd HH:mm:ss</p></li>
-                <li><p>日期格式：ggg yyyyy/MM/dd</p></li>
-                <li><p>短日期格式：yyyyy/MM/dd，預設為有奈紀年</p></li>
-                <li><p>時間格式：HH:mm:ss.fffffff</p></li>
-                <li><p>短時間格式：HH:mm:ss</p></li>
+                <li><p>日期時間格式(Standard Date Time)：ggg yyyyy/MM/dd HH:mm:ss.fffffff</p></li>
+                <li><p>短日期時間格式(Standard Short Date Time)：ggg yyyyy/MM/dd HH:mm:ss</p></li>
+                <li><p>日期格式(Standard Date)：ggg yyyyy/MM/dd</p></li>
+                <li><p>短日期格式(Standard Short Date)：yyyyy/MM/dd，預設為有奈紀年(Use Arina date as default)</p></li>
+                <li><p>時間格式(Standard Time)：HH:mm:ss.fffffff</p></li>
+                <li><p>短時間格式(Standard Short Time)：HH:mm:ss</p></li>
             </ul>
-            <h4>擴充格式(依照系統需要)</h4>
+            <h4>擴充格式(Extension Format) - 依照系統需要(According to System Needs)</h4>
             <ul>
-                <li><p>日期時間格式(擴充)：gggyyyyyy/MM/dd HH:mm:ss.fffffff</p></li>
-                <li><p>短日期時間格式(擴充)：gggyyyyyy/MM/dd HH:mm:ss</p></li>
-                <li><p>日期格式(擴充)：gggyyyyyy/MM/dd</p></li>
-                <li><p>短日期格式(擴充)：yyyyyy/MM/dd，預設為有奈紀年</p></li>
+                <li><p>日期時間格式-擴充(Standard Date Time EX)：gggyyyyyy/MM/dd HH:mm:ss.fffffff</p></li>
+                <li><p>短日期時間格式-擴充(Standard Short Date Time EX)：gggyyyyyy/MM/dd HH:mm:ss</p></li>
+                <li><p>日期格式-擴充(Standard Date EX)：gggyyyyyy/MM/dd</p></li>
+                <li><p>短日期格式-擴充(Standard Short Date EX)：yyyyyy/MM/dd，預設為有奈紀年(Use Arina date as default)</p></li>
             </ul>
-            <h4>說明</h4>
+            <h4>說明(Instruction)</h4>
             <ul>
-                <li><p>ggg:以英文字母代表曆法與紀年，共3位，由有奈教發布可使用的名稱，例如目前為 AR(表示有奈紀年)、 CE(表示西元紀年)以及ZZZ(未定義曆法紀年)</p></li>
+                <li><p>ggg:以英文字母代表曆法與紀年，共3位含空白，由有奈教發布可使用的名稱，例如目前為 AR(表示有奈紀年)、 CE(表示西元紀年)以及ZZZ(未定義曆法紀年)</p></li>
                 <li><p>yyyyy:5位整數年份，含負數，不足補0，數值範圍為-9999~99999</p></li>
                 <li><p>yyyyyy:6位數年份，含負數，不足補0，數值範圍為-99999~999999</p></li>
                 <li><p>MM:2位整數月份，不足補0</p></li>
                 <li><p>dd:2位整數日數，不足補0</p></li>
                 <li><p>HH:2位整數小時，不足補0</p></li>
                 <li><p>mm:2位整數分鐘，不足補0</p></li>
-                <li><p>mm:2位整數秒數，不足補0</p></li>
+                <li><p>ss:2位整數秒數，不足補0</p></li>
                 <li><p>fffffff:7位整數表示小數秒數，不足往右補0</p></li>
             </ul>
-            <h4>範例</h4>
+            <ul>
+                <li><p>ggg:The calendar and era are represented by English letters, a total of 3 chars that include whitespaces. The names that can be used are released by the Arina Organization. For example, " AR" (for the Arina era),  " CE" (for the Common era), and "ZZZ" (for the undefined calendar era).</p></li>
+                <li><p>yyyyy:The year as a five-digit number, from-9999 to 99999.</p></li>
+                <li><p>yyyyyy:The year as a six-digit number, from-99999 to 999999.</p></li>
+                <li><p>MM:The month, from 01 to 12.</p></li>
+                <li><p>dd:The day of the month, from 01 to 31.</p></li>
+                <li><p>HH:The hour, using a 24-hour clock from 00 to 23.</p></li>
+                <li><p>mm:The minute, from 00 to 59.</p></li>
+                <li><p>ss:The second, from 00 to 59.</p></li>
+                <li><p>fffffff:The ten millionths of a second, zeros are added to the right if digits are not enough.</p></li>
+            </ul>
+            <h4>範例(Example)</h4>
             <ul>
                 <li><p>&nbsp;AR 00008/01/01 06:30:00.0000000</p></li>
-                <li><p>&nbsp;AR 00008/01/01 06:30:00</p></li>
-                <li><p>&nbsp;AR 00008/01/01</p></li>
+                <li><p>ZZZ 00108/08/15 07:50:00.0000000</p></li>
+                <li><p>&nbsp;CE 02010/03/01 14:25:13</p></li>
+                <li><p>&nbsp;AR 00003/02/29</p></li>
                 <li><p>00008/01/01</p></li>
                 <li><p>06:30:00.0000000</p></li>
-                <li><p>06:30:00</p></li>
+                <li><p>14:25:13</p></li>
             </ul>
             <ul>
                 <li><p>&nbsp;AR -0020/11/12 17:41:28.4453300</p></li>
-                <li><p>&nbsp;AR -0020/11/12 17:41:28</p></li>
-                <li><p>&nbsp;AR -0020/11/12</p></li>
+                <li><p>&nbsp;AR -0220/04/01 10:00:00</p></li>
+                <li><p>&nbsp;CE -0011/03/05</p></li>
                 <li><p>-0020/11/12</p></li>
                 <li><p>17:41:28.4453300</p></li>
-                <li><p>17:41:28</p></li>
+                <li><p>10:00:00</p></li>
             </ul>
-            <h4>範例(擴充)</h4>
+            <h4>範例-擴充(Example EX)</h4>
             <ul>
                 <li><p>&nbsp;CE-10320/01/22 10:05:00.0000000</p></li>
                 <li><p>&nbsp;CE-10320/01/22 10:05:00</p></li>
                 <li><p>&nbsp;CE-10320/01/22</p></li>
                 <li><p>-12337/01/22</p></li>
-                <li><p>10:05:00.0000000</p></li>
-                <li><p>10:05:00</p></li>
             </ul>
         </section>
     </article>
-    <div style="text-align:center; margin:10px;">
+    <div class="noPrint" style="text-align:center; margin:10px;">
         <a href="javascript:window.close()">關閉(Close)</a>
     </div>
 </body>
