@@ -1620,7 +1620,7 @@
           "FKColumn": null,
           "NumberOfRows": 1,
           "Display": true,
-          "RegularExpression": "^\\d+, \\d+, Ar. \\d+$",
+          "RegularExpression": "",
           "Description": "",
           "MinValue": "",
           "MaxValue": "",

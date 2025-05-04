@@ -1,5 +1,14 @@
 [
   {
+    "ID": 26,
+    "Title": "網站更新",
+    "Type": "網站",
+    "DateTime": " AR 00008/05/04 12:26:48",
+    "Content": "新增標準日期時間格式頁面。\n更新品階表。\n網頁細微修正。\n更新JSON資料檔案編輯器。\n更新Aritiafel.dll。",
+    "English": null,
+    "Maintainer": "日瀬健人"
+  },
+  {
     "ID": 25,
     "Title": "網站更新",
     "Type": "網站",

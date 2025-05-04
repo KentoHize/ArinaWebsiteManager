@@ -29,7 +29,7 @@
     <div id="main" style="margin:20px">
 
     </div>
-    <div style="margin:50px"><p id="iLastUpdate" style="text-align-last:right; font-size:10px"></p></div>
+    <div style="margin:50px"><p id="iLastUpdate" style="text-align:right; font-size:10px"></p></div>
     <div class="noPrint" style="text-align:center"><a href="javascript:getDatatable(false)">下載資料表(Download)</a></div>
     <div class="noPrint" style="text-align:center"><a href="javascript:getDatatable(true)">下載完整資料表(Download with detail)</a></div>
     <div class="noPrint" style="text-align:center; margin:10px;">
@@ -225,7 +225,7 @@
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.response;
-                    document.getElementById("iLastUpdate").innerText = `Last Update: ${data[0].LastUpdate}`;
+                    document.getElementById("iLastUpdate").innerHTML = `Last Update: ${ChangeDateToArDate(data[0].LastUpdate)}`;
                 }
             }
             xhttp.open("GET", "lastupdate.json?v=" + Math.random(), true);
