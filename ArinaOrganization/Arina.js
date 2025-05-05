@@ -72,15 +72,16 @@ function GetURLParameter() {
 
 var window_size, window_size_width;
 function GetWindowSize(max = false) {
-    if (window.innerWidth < 500) {
+    var width = screen.width;
+    if (width  < 500) {
         window_size = 'mi';
         window_size_width = 330;
     }
-    else if (window.innerWidth < 800) {
+    else if (width < 800) {
         window_size = "s";
         window_size_width = 450;
     }
-    else if (window.innerWidth < 1200) {
+    else if (width < 1200) {
         window_size = "m";
         window_size_width = 750;
     }
