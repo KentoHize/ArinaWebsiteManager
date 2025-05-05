@@ -72,7 +72,8 @@ function GetURLParameter() {
 
 var window_size, window_size_width;
 function GetWindowSize(max = false) {
-    var width = screen.width;
+    //var width = screen.width;
+    var width = window.innerWidth;
     if (width  < 500) {
         window_size = 'mi';
         window_size_width = 330;
@@ -95,7 +96,6 @@ function GetWindowSize(max = false) {
     }
 }
 
-function Initialize() {  
-
+function Initialize() {
     GetWindowSize();
 }
