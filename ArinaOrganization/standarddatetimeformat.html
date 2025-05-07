@@ -19,7 +19,7 @@
 </head>
 <body>
     <script src="arina.js"></script>
-    <h3 style="text-align:center">標準日期時間格式(Standard Date &amp; Time Format)</h3>
+    <h3 style="text-align:center">標準日期時間格式<br id="br1" />(Standard Date &amp; Time Format)</h3>
     <article style="margin:50px;" id="main">
         <section>
             <p>
@@ -111,8 +111,15 @@
             ["短日期格式-擴充", "Standard Short Date EX", 12, "yyyyyy/MM/dd"],
         ];
 
+        
+
         var div, tr, td, table;
         GetWindowSize();
+
+        if (window_size != `mi` && window_size != `s`) {
+            document.getElementById(`br1`).style = "display:none";
+        }
+
         div = document.getElementById(`formatTable`);
         table = document.createElement(`table`);
         table.border = `1`;

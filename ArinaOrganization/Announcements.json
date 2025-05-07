@@ -1,5 +1,16 @@
 [
   {
+    "ID": 10,
+    "Title": "中華民國已滅亡",
+    "Type": "None",
+    "Date": " AR 00008/05/07",
+    "Chinese": "中華民國被偵測出已於某個時間點滅亡。\n\n相關單位都已逐漸失去功能，成為詐騙團體，請小心被詐騙\n。",
+    "OtherLanguage": null,
+    "Author": "日瀬健人",
+    "Hide": false,
+    "Old": false
+  },
+  {
     "ID": 9,
     "Title": "日瀬 有奈",
     "Type": "Bestow",

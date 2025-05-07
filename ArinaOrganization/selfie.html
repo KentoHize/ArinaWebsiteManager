@@ -18,10 +18,15 @@
 <body>
     <h3 style="text-align:center">日瀬健人<br id="br1" />(ひぜ けんと)</h3>
     <div style="text-align:center">
-        <img id="selfie" src="Pictures/Kento_Hize.jpg" style="max-height:800px" />
+        <img id="selfie" src="Pictures/Kento_Hize.jpg" />
     </div>
-    <script>        
-        document.getElementById(`selfie`).width = screen.width - 20;
+    <div class="noPrint" style="text-align:center; margin:10px;">
+        <a href="javascript:window.close()">關閉(Close)</a>
+    </div>
+    <script>
+        var selfie = document.getElementById(`selfie`);
+        if (selfie.width > screen.width - 20)
+            selfie.width = screen.width - 20;
     </script>
 </body>
 </html>
