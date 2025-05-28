@@ -30,8 +30,7 @@
     <div style="text-align:center; margin:10px">
         聯絡我們─應徵(Apply to us): <a href="mailto:recruit@arinaorganization.org">recruit@arinaorganization.org</a><br />
         Line: <a href="https://lin.ee/ZJZ9vY0" target="_blank">https://lin.ee/ZJZ9vY0</a> @237izrgb<br />
-        Twitter(X): <a href="https://twitter.com/KentoHize">https://twitter.com/KentoHize</a><br />
-        收信地址(Address for receiving mail): 106049 臺北市大安區義安里2鄰信義路四段210號11樓
+        Twitter(X): <a href="https://twitter.com/KentoHize">https://twitter.com/KentoHize</a><br />        
     </div>
     <script>
         function createSpecTrTd(isTr) {
@@ -203,20 +202,11 @@
 
             GetWindowSize();
             if (display_all) {
-                window_size = "l";
-                //document.getElementById("main").style = `margin:auto; width:${window.innerWidth > 1100 ? window.innerWidth : 1100}px`;
+                window_size = "l";                
                 document.getElementsByTagName('meta')['viewport'].content = "";
             }
 
             document.getElementById("main").style = `margin:auto; width:${window_size_width}px`;
-
-            //if (window_size == `mi`)
-            //    document.getElementById("main").style = `margin:auto; width:;`;
-            //if (window_size == `s` || window_size == `mi`)
-            //    document.getElementById("main").style = `margin:auto; width:360px;`;
-            //else if (window_size == `m` || window_size == `l`)
-            //    document.getElementById("main").style = `margin:auto; width:800px;`;
-
             draw_table();
         }
 

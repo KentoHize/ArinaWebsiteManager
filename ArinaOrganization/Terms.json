@@ -548,5 +548,16 @@
     "EExplanation": "",
     "CreatedDate": " AR 00008/04/04",
     "ModifiedDate": null
+  },
+  {
+    "ID": 51,
+    "Chinese": "超能力美少女集團",
+    "English": "Psychical Girls Group",
+    "Hide": false,
+    "Meaning": "世界隱藏組織，由會使用超能力的少女/成年女生組成。\n\n較魔法少女涵蓋較大範圍， 同時包含魔法少女和其他超能力者。",
+    "Explanation": "",
+    "EExplanation": "",
+    "CreatedDate": " AR 00008/05/28",
+    "ModifiedDate": null
   }
 ]

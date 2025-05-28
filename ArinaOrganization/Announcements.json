@@ -1,5 +1,27 @@
 [
   {
+    "ID": 12,
+    "Title": "日本賠償",
+    "Type": "Compensation",
+    "Date": " AR 00008/05/28",
+    "Chinese": "日本須賠償有奈教800億有奈物資點。\n並將橋本環奈、浜辺美波、伊織もえ等人交付有奈教處置。",
+    "OtherLanguage": null,
+    "Author": "日瀬健人",
+    "Hide": false,
+    "Old": false
+  },
+  {
+    "ID": 11,
+    "Title": "有奈教制度已下架(對美國)",
+    "Type": "None",
+    "Date": " AR 00008/05/28",
+    "Chinese": "如要購買請先聯絡。",
+    "OtherLanguage": null,
+    "Author": "日瀬健人",
+    "Hide": false,
+    "Old": false
+  },
+  {
     "ID": 10,
     "Title": "中華民國已滅亡",
     "Type": "None",
@@ -30,7 +52,7 @@
     "OtherLanguage": null,
     "Author": "日瀬健人",
     "Hide": false,
-    "Old": false
+    "Old": true
   },
   {
     "ID": 7,
@@ -41,7 +63,7 @@
     "OtherLanguage": null,
     "Author": "日瀬健人",
     "Hide": false,
-    "Old": false
+    "Old": true
   },
   {
     "ID": 6,
