@@ -2815,7 +2815,7 @@
           "Choices": [],
           "FKTable": null,
           "FKColumn": null,
-          "NumberOfRows": 3,
+          "NumberOfRows": 5,
           "Display": true,
           "RegularExpression": "",
           "Description": "",
@@ -2824,7 +2824,7 @@
           "MaxLength": 0,
           "AutoGenerateKey": false,
           "IsUnique": false,
-          "DefaultValue": null
+          "DefaultValue": ""
         },
         {
           "Name": "Explanation",

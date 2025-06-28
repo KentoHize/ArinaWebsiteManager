@@ -154,6 +154,17 @@
     "ModifiedDate": null
   },
   {
+    "ID": 52,
+    "Chinese": "靈力疆域",
+    "English": "Spiritual Power Territory",
+    "Hide": false,
+    "Meaning": "具備同類特定性質的靈在某片區域中活動，可以視為該意識形態的領土，在該處施用相關魔法會得到助力。",
+    "Explanation": "",
+    "EExplanation": "",
+    "CreatedDate": " AR 00008/06/28",
+    "ModifiedDate": null
+  },
+  {
     "ID": 9,
     "Chinese": "靈戰",
     "English": "Spiritual War",
@@ -163,6 +174,17 @@
     "EExplanation": "",
     "CreatedDate": " AR 00007/07/14",
     "ModifiedDate": " AR 00008/04/24"
+  },
+  {
+    "ID": 53,
+    "Chinese": "靈魂汙染/精神汙染",
+    "English": "Soul Pollution/Spiritual Pollution",
+    "Hide": false,
+    "Meaning": "指靈魂能量被奪取的情況，一般人會產生憎恨、破壞與殺人的衝動。",
+    "Explanation": "",
+    "EExplanation": "",
+    "CreatedDate": " AR 00008/06/28",
+    "ModifiedDate": null
   },
   {
     "ID": 33,
