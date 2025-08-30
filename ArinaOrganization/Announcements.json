@@ -1,5 +1,16 @@
 [
   {
+    "ID": 14,
+    "Title": "日本賠償",
+    "Type": "Compensation",
+    "Date": " AR 00008/08/30",
+    "Chinese": "日本須賠償有奈教900億有奈物資點。\n\n並將橋本環奈、浜辺美波、伊織もえ及至少2名16~24歲非黑道，容貌中等以上女子交付有奈教處置。",
+    "OtherLanguage": null,
+    "Author": "日瀬健人",
+    "Hide": false,
+    "Old": false
+  },
+  {
     "ID": 13,
     "Title": "日本賠償",
     "Type": "Compensation",
@@ -8,7 +19,7 @@
     "OtherLanguage": null,
     "Author": "日瀬健人",
     "Hide": false,
-    "Old": false
+    "Old": true
   },
   {
     "ID": 12,
