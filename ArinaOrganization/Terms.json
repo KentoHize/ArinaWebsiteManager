@@ -455,22 +455,22 @@
     "Chinese": "邪教",
     "English": "Christianity/Cult",
     "Hide": false,
-    "Meaning": "[有奈教]對基督教的簡稱。",
+    "Meaning": "會作惡的宗教組織。\n[有奈教]亦為對基督教的簡稱。",
     "Explanation": "有惡意的宗教組織\n\n[有奈教]\n基督教的簡稱",
     "EExplanation": "",
     "CreatedDate": " AR 00007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": " AR 00008/09/30"
   },
   {
     "ID": 2,
     "Chinese": "邪經",
     "English": "Bible",
     "Hide": false,
-    "Meaning": "[有奈教]即基督教的聖經。",
+    "Meaning": "會散播邪惡的經書。\n[有奈教]普通即指基督教的聖經。",
     "Explanation": "來自於基督教，原翻聖經。\n\n因為散播邪惡，在有奈教以邪經代替。",
     "EExplanation": "",
     "CreatedDate": " AR 00007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": " AR 00008/09/30"
   },
   {
     "ID": 37,
