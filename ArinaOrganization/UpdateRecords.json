@@ -1,10 +1,19 @@
 [
   {
+    "ID": 34,
+    "Title": "網站更新",
+    "Type": "網站",
+    "DateTime": " AR 00008/10/07 08:06:38",
+    "Content": "更新有奈教箴言的翻譯\nupper than -> higher than\nlower class -> lower-class",
+    "English": null,
+    "Maintainer": "日瀬健人"
+  },
+  {
     "ID": 33,
     "Title": "網站更新",
     "Type": "網站",
     "DateTime": " AR 00008/09/30 15:32:46",
-    "Content": "「邪教」、「邪經」說明修正",
+    "Content": "「邪教」、「邪經」用詞解釋說明修正",
     "English": null,
     "Maintainer": "日瀬健人"
   },
