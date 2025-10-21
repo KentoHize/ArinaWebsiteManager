@@ -70,11 +70,11 @@
     "Chinese": "巫女代",
     "English": "Acting Miko ",
     "Hide": false,
-    "Meaning": "可以代表巫女的人。",
+    "Meaning": "可以代替巫女的人，普通階級低於巫女。",
     "Explanation": "可以代表巫女的人\n\n因巫女是女生的最高階級，巫女代一般指品女以下的女生",
     "EExplanation": "",
     "CreatedDate": " AR 00007/07/14",
-    "ModifiedDate": null
+    "ModifiedDate": " AR 00008/10/21"
   },
   {
     "ID": 8,
@@ -301,11 +301,11 @@
     "Chinese": "有奈物資點",
     "English": "Arina Supply Point",
     "Hide": false,
-    "Meaning": "在有奈教用來兌換普通物資的點數。250點兌換1美元(Ar.8)",
+    "Meaning": "在有奈教用來兌換普通物資的點數。",
     "Explanation": "",
     "EExplanation": "",
     "CreatedDate": " AR 00008/01/15",
-    "ModifiedDate": null
+    "ModifiedDate": " AR 00008/10/21"
   },
   {
     "ID": 22,
@@ -543,11 +543,11 @@
     "Chinese": "詐騙集團/詐團",
     "English": "Scam Group",
     "Hide": false,
-    "Meaning": "行使詐騙來得益的團體、[有奈教]現在偽裝中的台灣政府。",
+    "Meaning": "行使詐騙來得益的團體。[有奈教]目前偽裝成政府的台灣黨團。",
     "Explanation": "",
     "EExplanation": "",
     "CreatedDate": " AR 00008/03/11",
-    "ModifiedDate": null
+    "ModifiedDate": " AR 00008/10/21"
   },
   {
     "ID": 49,

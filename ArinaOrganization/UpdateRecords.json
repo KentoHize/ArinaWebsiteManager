@@ -1,5 +1,14 @@
 [
   {
+    "ID": 35,
+    "Title": "網站更新",
+    "Type": "網站",
+    "DateTime": " AR 00008/10/21 06:08:45",
+    "Content": "更新「巫女代」、「詐騙集團」、「有奈物資點」的用語解釋。\n\n去除Francesco的失效連結。",
+    "English": null,
+    "Maintainer": "日瀬健人"
+  },
+  {
     "ID": 34,
     "Title": "網站更新",
     "Type": "網站",
