@@ -226,6 +226,7 @@
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.response;
                     document.getElementById("iLastUpdate").innerHTML = `Last Update: ${ChangeDateToArDate(data[0].LastUpdate)}`;
+                    //document.getElementById("iLastUpdate").innerHTML = `Last Update: ${data[0].LastUpdate}`;
                 }
             }
             xhttp.open("GET", "lastupdate.json?v=" + Math.random(), true);
