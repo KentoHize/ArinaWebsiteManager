@@ -1,5 +1,16 @@
 [
   {
+    "ID": 16,
+    "Title": "真崎 杏子",
+    "Type": "Bestow",
+    "Date": " AR 00009/03/30",
+    "Chinese": "真崎 杏子 2階",
+    "OtherLanguage": null,
+    "Author": "日瀬健人",
+    "Hide": false,
+    "Old": false
+  },
+  {
     "ID": 15,
     "Title": "日本賠償",
     "Type": "Compensation",
