@@ -1129,8 +1129,17 @@
     "PersonID": "2cff0583-ae5b-40c7-bd52-03a247e716d4",
     "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
     "MoralRank": 2,
-    "BestowDateTime": " AR 00009/03/30 08:27:35.6286915",
+    "BestowDateTime": " AR 00009/03/30 08:27:35",
     "Reason": "初評定",
+    "Memo": ""
+  },
+  {
+    "ID": 126,
+    "PersonID": "3424d194-0e45-4f8c-a2a1-ed854a1be992",
+    "BestowerID": "d5209122-71ca-46e2-956b-ab0b76d9476b",
+    "MoralRank": 4,
+    "BestowDateTime": " AR 00009/06/19 23:05:20",
+    "Reason": "信用度調整",
     "Memo": ""
   }
 ]
