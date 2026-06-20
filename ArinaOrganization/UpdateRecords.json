@@ -1,5 +1,14 @@
 [
   {
+    "ID": 40,
+    "Title": "網站更新",
+    "Type": "網站",
+    "DateTime": " AR 00009/06/20 18:27:22",
+    "Content": "修正公告的錯誤(Hitomi -> ヒトミ)",
+    "English": null,
+    "Maintainer": "日瀬健人"
+  },
+  {
     "ID": 39,
     "Title": "網站更新",
     "Type": "網站",
